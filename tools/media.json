@@ -198,13 +198,14 @@
   "semaine-08": {
    "image": {
     "search": [
-     "Jakub Schikaneder Prague Vltava",
-     "Antonín Slavíček Prague",
-     "Vltava Prague painting 19th century",
-     "Charles Bridge Prague painting"
+     "Prague Castle Vltava painting oil",
+     "Vincenc Morstadt Prague",
+     "Karlův most Praha obraz olej",
+     "Prague Charles Bridge oil painting 19th century",
+     "Hradčany painting Vltava"
     ],
-    "require": "prag|praha|prague|vltava|moldau|hradčan|hradcan|karlův|charles bridge",
-    "exclude": "murder|photo|map|plan|grave|stamp|coin|\\.svg"
+    "require": "prag|praha|prague|vltava|moldau|hradčan|hradcan|karlův|charles bridge|morstadt",
+    "exclude": "murder|photo|map|plan|grave|stamp|coin|letna|\\.svg|\\.tif"
    },
    "audio": {
     "smetana-moldau": [
