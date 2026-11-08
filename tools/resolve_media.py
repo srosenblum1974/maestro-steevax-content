@@ -68,15 +68,23 @@ def mp3_url(i):
 
 
 def pick(spec, kind, width=None):
-    titles = [f"File:{spec['file']}"] if "file" in spec else search(spec["search"], kind)
-    for t in titles:
+    if "file" in spec:
+        titles = [f"File:{spec['file']}"]
+    else:
+        queries = spec["search"] if isinstance(spec["search"], list) else [spec["search"]]
+        titles = [t for q in queries for t in search(q, kind)]
+    req_re = re.compile(spec["require"], re.I) if spec.get("require") else None
+    exc_re = re.compile(spec["exclude"], re.I) if spec.get("exclude") else None
+    for t in dict.fromkeys(titles):
+        if (req_re and not req_re.search(t)) or (exc_re and exc_re.search(t)):
+            continue
         i = info(t, width)
         if not i:
             continue
         if not FREE.search(i["license"]):
             report.append(f"  - skipped {t} (licence: {i['license'] or '?'})")
             continue
-        if kind == "audio" and not mp3_url(i):
+        if kind == "audio" and ("midi" in i["mime"] or not mp3_url(i)):
             report.append(f"  - skipped {t} (no MP3 version)")
             continue
         return i
