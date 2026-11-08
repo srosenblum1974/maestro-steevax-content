@@ -198,12 +198,13 @@
   "semaine-08": {
    "image": {
     "search": [
-     "Jakub Schikaneder Prague",
-     "Jakub Schikaneder evening",
-     "Jakub Schikaneder"
+     "Jakub Schikaneder Prague Vltava",
+     "Antonín Slavíček Prague",
+     "Vltava Prague painting 19th century",
+     "Charles Bridge Prague painting"
     ],
-    "require": "schikaneder",
-    "exclude": "photo|grave|portrait of"
+    "require": "prag|praha|prague|vltava|moldau|hradčan|hradcan|karlův|charles bridge",
+    "exclude": "murder|photo|map|plan|grave|stamp|coin|\\.svg"
    },
    "audio": {
     "smetana-moldau": [
