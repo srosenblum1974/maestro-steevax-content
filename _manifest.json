@@ -1,5 +1,5 @@
 {
- "version": 1794139424,
+ "version": 1794139528,
  "files": {
   "_index.json": "8ac35fa1f33464df",
   "_parcours.json": "4bcaf9e93e52d374",
@@ -11,6 +11,6 @@
   "semaines/semaine-05.json": "3c48341dfcabe2d3",
   "semaines/semaine-06.json": "7fb61e8645035b69",
   "semaines/semaine-07.json": "d813cd669793a71d",
-  "semaines/semaine-08.json": "66d3bbedb4a975d6"
+  "semaines/semaine-08.json": "cd07b884b58d2e11"
  }
 }
