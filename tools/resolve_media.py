@@ -45,7 +45,9 @@ def info(title, width=None):
     meta = ii.get("extmetadata", {})
     lic = strip_html(meta.get("LicenseShortName", {}).get("value", ""))
     artist = strip_html(meta.get("Artist", {}).get("value", ""))
-    date = strip_html(meta.get("DateTimeOriginal", {}).get("value", ""))
+    raw_date = strip_html(meta.get("DateTimeOriginal", {}).get("value", ""))
+    year = re.search(r"\b(1[0-9]{3})\b", raw_date)   # keep a clean year; Commons dates carry wiki markup
+    date = (("c. " if re.search(r"circa|ca\.|c\.", raw_date, re.I) else "") + year.group(1)) if year else ""
     derivs = (page.get("videoinfo") or [{}])[0].get("derivatives", [])
     return {"title": page["title"], "license": lic, "artist": artist, "date": date,
             "mime": ii.get("mime", ""), "url": ii.get("url"), "thumb": ii.get("thumburl"),
