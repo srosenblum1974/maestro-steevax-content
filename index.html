@@ -2,91 +2,135 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Maestro Steevax</title>
 <meta name="description" content="Un entrepreneur découvre la musique classique, semaine après semaine. Faites le chemin avec lui, à votre rythme.">
+<meta property="og:title" content="Maestro Steevax">
+<meta property="og:description" content="Apprendre à écouter la musique classique, une semaine à la fois.">
+<meta property="og:image" content="https://maestrosteevax.com/illus/accueil.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
-  --ink:#1b1714; --paper:#f6f1e7; --card:#fffdf8; --line:#e4dccb; --muted:#6f655a;
-  --accent:#7a1f2b; --accent-soft:#f1e3e1; --gold:#b08a3e;
+  --ink:#141110; --paper:#f6f1e7; --card:#fffdf8; --line:#e4dccb; --muted:#6f655a;
+  --accent:#8c2232; --accent-soft:#f1e3e1; --gold:#c49a4a;
   --serif:"Cormorant Garamond",Georgia,serif; --sans:Inter,system-ui,-apple-system,sans-serif;
 }
 *{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
-a{color:var(--accent)}
-.wrap{max-width:760px;margin:0 auto;padding:0 20px}
-header{padding:28px 0 8px;display:flex;justify-content:space-between;align-items:center;gap:12px}
-.brand{font-family:var(--serif);font-size:26px;font-weight:700;letter-spacing:.02em}
-.brand span{color:var(--accent);font-style:italic;font-weight:500}
-.lang button{border:1px solid var(--line);background:none;padding:4px 10px;border-radius:99px;font:500 13px var(--sans);color:var(--muted);cursor:pointer}
-.lang button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.hero{padding:28px 0 20px;border-bottom:1px solid var(--line)}
-.hero h1{font-family:var(--serif);font-size:clamp(34px,7vw,52px);line-height:1.05;margin:0 0 12px;font-weight:500}
-.hero p{color:var(--muted);margin:0;max-width:56ch}
-.progress{margin-top:18px;display:flex;align-items:center;gap:12px;font-size:14px;color:var(--muted)}
-.bar{flex:1;height:6px;background:var(--line);border-radius:99px;overflow:hidden}
-.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .4s}
-nav.tabs{display:flex;gap:6px;margin:22px 0 4px;flex-wrap:wrap}
-nav.tabs button{border:0;background:none;padding:8px 14px;border-radius:99px;font:500 14px var(--sans);color:var(--muted);cursor:pointer}
-nav.tabs button.on{background:var(--accent-soft);color:var(--accent)}
-section{display:none;padding:14px 0 40px}
-section.on{display:block}
-h2{font-family:var(--serif);font-weight:500;font-size:30px;margin:18px 0 6px}
-.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);font-weight:600}
-.ritual{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:14px 0}
-.ritual div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
-.ritual b{display:block;font-family:var(--serif);font-size:19px;font-weight:700;margin-bottom:2px}
-.ritual span{font-size:14px;color:var(--muted)}
-.week{background:var(--card);border:1px solid var(--line);border-radius:16px;margin:14px 0;overflow:hidden}
-.week>summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;gap:14px;align-items:center}
-.week>summary::-webkit-details-marker{display:none}
-.num{flex:none;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-family:var(--serif);font-size:20px;font-weight:700;border:1.5px solid var(--line)}
-.week.done .num{background:var(--accent);border-color:var(--accent);color:var(--paper)}
-.week.current .num{border-color:var(--accent);color:var(--accent)}
-.wt{flex:1}
-.wt b{display:block;font-family:var(--serif);font-size:21px;font-weight:700;line-height:1.2}
-.wt small{color:var(--muted);font-size:13px}
-.chev{color:var(--muted);transition:transform .2s}
-.week[open] .chev{transform:rotate(90deg)}
-.work{border-top:1px solid var(--line);padding:16px 18px}
-.work h3{margin:0;font-family:var(--serif);font-size:22px;font-weight:700}
-.work .meta{color:var(--muted);font-size:14px;margin:2px 0 10px}
-.field{margin:8px 0;font-size:15px}
-.field em{font-style:normal;font-weight:600;color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:.08em;display:block}
-.links{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
-.links a{font-size:13px;text-decoration:none;border:1px solid var(--line);padding:5px 11px;border-radius:99px;color:var(--ink);background:var(--paper)}
-.listens{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 8px}
-.listens label{display:flex;align-items:center;gap:6px;font-size:13px;border:1px solid var(--line);border-radius:99px;padding:5px 11px;cursor:pointer;user-select:none}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:var(--paper);font:16px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button{font:inherit;color:inherit}
+
+/* Top bar floating over the paintings */
+.top{position:fixed;inset:0 0 auto 0;z-index:20;display:flex;justify-content:space-between;align-items:center;
+  padding:calc(14px + env(safe-area-inset-top)) 20px 14px;background:linear-gradient(rgba(10,8,7,.55),transparent);pointer-events:none}
+.top>*{pointer-events:auto}
+.brand{font-family:var(--serif);font-size:22px;font-weight:700;letter-spacing:.03em;text-decoration:none;text-shadow:0 1px 12px rgba(0,0,0,.5)}
+.brand i{color:var(--gold);font-weight:500}
+.lang button{border:1px solid rgba(255,255,255,.35);background:rgba(0,0,0,.25);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  padding:4px 11px;border-radius:99px;font-size:12px;font-weight:600;cursor:pointer}
+.lang button.on{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+
+/* Full-bleed painting with text over it */
+.bleed{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
+.bleed img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transform:scale(1.02)}
+.bleed::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,8,7,.15) 0%,rgba(10,8,7,.05) 35%,rgba(10,8,7,.82) 78%,rgba(10,8,7,.96) 100%)}
+.bleed .inner{width:100%;max-width:860px;margin:0 auto;padding:0 22px calc(36px + env(safe-area-inset-bottom))}
+.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:var(--gold);font-weight:600}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(46px,11vw,96px);line-height:.95;margin:10px 0 14px;text-shadow:0 2px 24px rgba(0,0,0,.4)}
+h2{font-family:var(--serif);font-weight:500;font-size:clamp(34px,8vw,60px);line-height:1;margin:8px 0 10px}
+.lede{font-size:18px;max-width:34ch;color:rgba(246,241,231,.86)}
+.credit{position:absolute;right:12px;bottom:10px;font-size:10px;color:rgba(246,241,231,.55);max-width:60%;text-align:right;z-index:1}
+.credit a{text-decoration:none}
+.progress{display:flex;align-items:center;gap:12px;margin-top:22px;font-size:14px;color:rgba(246,241,231,.8)}
+.bar{flex:1;max-width:340px;height:4px;background:rgba(255,255,255,.2);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--gold);width:0;transition:width .5s}
+.cta{display:inline-flex;align-items:center;gap:10px;margin-top:22px;background:var(--paper);color:var(--ink);border:0;border-radius:99px;padding:13px 22px;font-weight:600;cursor:pointer;text-decoration:none}
+
+/* Tabs */
+nav.tabs{position:sticky;top:0;z-index:15;display:flex;justify-content:center;gap:4px;padding:12px 10px;background:rgba(20,17,16,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
+nav.tabs button{border:0;background:none;padding:8px 14px;border-radius:99px;font-size:14px;font-weight:500;color:rgba(246,241,231,.6);cursor:pointer}
+nav.tabs button.on{background:rgba(196,154,74,.18);color:var(--gold)}
+section.view{display:none}
+section.view.on{display:block}
+
+/* Week tiles: one full-bleed painting each */
+.tile{position:relative;display:flex;align-items:flex-end;min-height:72svh;text-decoration:none;overflow:hidden;isolation:isolate;border-bottom:1px solid rgba(0,0,0,.6)}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform 1.2s ease}
+.tile:hover img{transform:scale(1.04)}
+.tile::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,transparent 30%,rgba(10,8,7,.9) 100%)}
+.tile .inner{width:100%;max-width:860px;margin:0 auto;padding:0 22px 30px;display:flex;align-items:flex-end;gap:18px}
+.num{flex:none;font-family:var(--serif);font-size:64px;line-height:.8;font-weight:700;color:var(--gold);opacity:.95}
+.tile.done .num::after{content:" ✓";font-size:28px;color:var(--paper)}
+.tile .t b{display:block;font-family:var(--serif);font-size:clamp(28px,6vw,44px);font-weight:500;line-height:1.05}
+.tile .t small{font-size:13px;color:rgba(246,241,231,.75)}
+.tile.current .t small::before{content:"● ";color:var(--gold)}
+
+/* Week detail: content on paper below the painting */
+.paper{background:var(--paper);color:var(--ink)}
+.paper .wrap{max-width:760px;margin:0 auto;padding:28px 20px 60px}
+.work{padding:26px 0;border-bottom:1px solid var(--line)}
+.work:last-of-type{border-bottom:0}
+.work h3{font-family:var(--serif);font-size:32px;font-weight:700;margin:0;line-height:1.1}
+.meta{color:var(--muted);font-size:14px;margin:4px 0 16px}
+.field{margin:12px 0;font-size:16px}
+.field em{display:block;font-style:normal;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.track{display:flex;align-items:center;gap:14px;background:var(--ink);color:var(--paper);border-radius:16px;padding:12px 16px 12px 12px;margin:10px 0}
+.play{flex:none;width:48px;height:48px;border-radius:50%;border:0;background:var(--gold);color:var(--ink);font-size:18px;cursor:pointer;display:grid;place-items:center}
+.track .tt{flex:1;min-width:0}
+.track .tt b{display:block;font-weight:600;font-size:15px}
+.track .tt small{display:block;font-size:12px;color:rgba(246,241,231,.6);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.track .scrub{height:3px;background:rgba(255,255,255,.18);border-radius:99px;margin-top:8px;overflow:hidden;cursor:pointer}
+.track .scrub i{display:block;height:100%;width:0;background:var(--gold)}
+.ref{font-size:14px;color:var(--muted);margin-top:14px}
+.links{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.links a{font-size:13px;text-decoration:none;border:1px solid var(--line);padding:5px 12px;border-radius:99px;background:var(--card)}
+.listens{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 8px}
+.listens label{display:flex;align-items:center;gap:6px;font-size:13px;border:1px solid var(--line);border-radius:99px;padding:6px 12px;cursor:pointer;user-select:none;background:var(--card)}
 .listens input{accent-color:var(--accent)}
 .listens label.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
 .stars{display:flex;gap:2px;margin:6px 0}
-.stars button{border:0;background:none;font-size:22px;cursor:pointer;color:var(--line);padding:0 2px}
+.stars button{border:0;background:none;font-size:24px;cursor:pointer;color:var(--line);padding:0 2px}
 .stars button.on{color:var(--gold)}
-textarea{width:100%;min-height:56px;border:1px solid var(--line);border-radius:10px;padding:10px;font:15px var(--sans);background:var(--paper);resize:vertical}
-.review{margin:0 18px 16px;padding:12px 14px;background:var(--accent-soft);border-radius:10px;font-size:15px}
-.entry{border-left:3px solid var(--gold);padding:4px 0 4px 14px;margin:14px 0}
+textarea{width:100%;min-height:60px;border:1px solid var(--line);border-radius:12px;padding:12px;font:15px var(--sans);background:var(--card);resize:vertical;color:var(--ink)}
+.review{margin:24px 0 0;padding:16px 18px;background:var(--accent-soft);border-radius:14px;font-size:16px}
+.back{display:inline-block;margin-bottom:8px;font-size:14px;color:var(--accent);text-decoration:none;font-weight:600}
+.next{display:block;margin-top:30px;text-align:center}
+
+/* Notebook & method */
+.ritual{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:18px 0}
+.ritual div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.ritual b{display:block;font-family:var(--serif);font-size:22px;font-weight:700;margin-bottom:4px}
+.ritual span{font-size:14px;color:var(--muted)}
+.entry{border-left:3px solid var(--gold);padding:4px 0 4px 16px;margin:16px 0}
 .entry small{color:var(--muted)}
 .empty{color:var(--muted);font-style:italic}
 .tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
-.tools button,.tools label{border:1px solid var(--line);background:var(--card);padding:8px 14px;border-radius:10px;font:500 14px var(--sans);cursor:pointer}
-footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:13px}
+.tools button,.tools label{border:1px solid var(--line);background:var(--card);padding:10px 16px;border-radius:12px;font-size:14px;font-weight:500;cursor:pointer}
+.paper h2{color:var(--ink)}
+footer{padding:28px 20px calc(40px + env(safe-area-inset-bottom));text-align:center;color:rgba(246,241,231,.5);font-size:12px}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="brand">Maestro <span>Steevax</span></div>
-    <div class="lang"><button data-l="fr">FR</button> <button data-l="en">EN</button></div>
-  </header>
+<header class="top">
+  <a class="brand" href="#">Maestro <i>Steevax</i></a>
+  <div class="lang"><button data-l="fr">FR</button> <button data-l="en">EN</button></div>
+</header>
 
-  <div class="hero">
-    <h1 data-t="heroTitle"></h1>
-    <p id="tagline"></p>
-    <div class="progress"><div class="bar"><i id="bar"></i></div><span id="progressText"></span></div>
-  </div>
+<main id="home">
+  <section class="bleed" id="hero">
+    <img class="bg" id="heroImg" alt="">
+    <div class="inner">
+      <div class="kicker" data-t="heroKicker"></div>
+      <h1 data-t="heroTitle"></h1>
+      <p class="lede" id="tagline"></p>
+      <div class="progress"><div class="bar"><i id="bar"></i></div><span id="progressText"></span></div>
+      <a class="cta" id="cta" href="#"></a>
+    </div>
+    <div class="credit" id="heroCredit"></div>
+  </section>
 
   <nav class="tabs">
     <button data-tab="parcours" class="on" data-t="tabPath"></button>
@@ -94,19 +138,16 @@ footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);f
     <button data-tab="methode" data-t="tabMethod"></button>
   </nav>
 
-  <section id="parcours" class="on">
-    <div id="phase"></div>
-    <div id="weeks"></div>
-  </section>
+  <section class="view on" id="parcours"><div id="tiles"></div></section>
 
-  <section id="journal">
+  <section class="view paper" id="journal"><div class="wrap">
     <div class="kicker" data-t="journalKicker"></div>
     <h2 data-t="journalTitle"></h2>
     <p data-t="journalIntro"></p>
     <div id="entries"></div>
-  </section>
+  </div></section>
 
-  <section id="methode">
+  <section class="view paper" id="methode"><div class="wrap">
     <div class="kicker" data-t="methodKicker"></div>
     <h2 data-t="methodTitle"></h2>
     <div class="ritual" id="ritual"></div>
@@ -120,33 +161,40 @@ footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);f
       <button id="export" data-t="export"></button>
       <label><input type="file" id="import" accept="application/json" hidden><span data-t="import"></span></label>
     </div>
-  </section>
+    <p id="saveMsg" class="empty"></p>
+  </div></section>
+</main>
 
-  <footer data-t="footer"></footer>
-</div>
+<main id="week" hidden></main>
+
+<footer data-t="footer"></footer>
 
 <script>
 const UI = {
-  fr:{heroTitle:"Apprendre à écouter, une semaine à la fois.",tabPath:"Mon parcours",tabJournal:"Le carnet de Steevax",tabMethod:"La méthode",
-      week:"Semaine",of:"semaines terminées",start:"Commencer par",listen:"Quoi écouter",version:"Version",
-      l1:"Écoute 1",l2:"Écoute 2",l3:"Écoute 3",note:"Votre phrase : ce qui vous a pris, ce qui vous a ennuyé…",
+  fr:{heroKicker:"Un entrepreneur découvre la musique classique",heroTitle:"Apprendre à écouter",tabPath:"Le parcours",tabJournal:"Le carnet",tabMethod:"La méthode",
+      week:"Semaine",of:"semaines terminées",start:"Commencer par",listen:"Quoi écouter",reference:"Pour aller plus loin, la version de référence",
+      listenHere:"Écouter ici",l1:"Écoute 1",l2:"Écoute 2",l3:"Écoute 3",note:"Votre phrase : ce qui vous a pris, ce qui vous a ennuyé…",
+      noAudio:"Pas encore d'enregistrement libre de droits pour cette œuvre : écoutez-la avec les liens ci-dessous.",
+      begin:"Commencer la semaine",resume:"Reprendre : semaine",back:"← Le parcours",nextWeek:"Semaine suivante →",
       journalKicker:"Journal de bord",journalTitle:"Le chemin de Maestro Steevax",
       journalIntro:"Ce que Steve écoute, ce qui le prend, ce qui l'ennuie. Publié au fil de son propre parcours.",
       noEntries:"Le carnet s'ouvre avec la semaine 1. Premières notes très bientôt.",
       methodKicker:"Le rituel",methodTitle:"Trois écoutes, une note",phasesTitle:"Les quatre phases",
-      saveTitle:"Votre progression",saveIntro:"Elle est gardée dans ce navigateur. Exportez-la pour la sauvegarder ou la retrouver ailleurs. L'app iPhone la synchronisera par iCloud.",
+      saveTitle:"Votre progression",saveIntro:"Elle est gardée dans ce navigateur. Exportez-la pour la sauvegarder ou la retrouver dans l'app iPhone.",
       export:"Exporter ma progression",import:"Importer une progression",imported:"Progression importée.",
-      footer:"Maestro Steevax · un projet personnel de Steve Rosenblum"},
-  en:{heroTitle:"Learning to listen, one week at a time.",tabPath:"My path",tabJournal:"Steevax's notebook",tabMethod:"The method",
-      week:"Week",of:"weeks completed",start:"Start with",listen:"Listen for",version:"Recording",
-      l1:"Listen 1",l2:"Listen 2",l3:"Listen 3",note:"Your sentence: what gripped you, what bored you…",
+      painting:"Peinture",footer:"Maestro Steevax · un projet personnel de Steve Rosenblum · enregistrements et peintures libres de droits (Wikimedia Commons, Musopen)"},
+  en:{heroKicker:"An entrepreneur discovers classical music",heroTitle:"Learning to listen",tabPath:"The path",tabJournal:"The notebook",tabMethod:"The method",
+      week:"Week",of:"weeks completed",start:"Start with",listen:"Listen for",reference:"Going further: the reference recording",
+      listenHere:"Listen here",l1:"Listen 1",l2:"Listen 2",l3:"Listen 3",note:"Your sentence: what gripped you, what bored you…",
+      noAudio:"No free recording of this work yet: listen with the links below.",
+      begin:"Start the week",resume:"Resume: week",back:"← The path",nextWeek:"Next week →",
       journalKicker:"Logbook",journalTitle:"Maestro Steevax's path",
       journalIntro:"What Steve listens to, what grips him, what bores him. Published as he walks his own path.",
       noEntries:"The notebook opens with week 1. First notes coming soon.",
       methodKicker:"The ritual",methodTitle:"Three listens, one note",phasesTitle:"The four phases",
-      saveTitle:"Your progress",saveIntro:"It is kept in this browser. Export it to back it up or move it elsewhere. The iPhone app will sync it through iCloud.",
+      saveTitle:"Your progress",saveIntro:"It is kept in this browser. Export it to back it up or bring it into the iPhone app.",
       export:"Export my progress",import:"Import progress",imported:"Progress imported.",
-      footer:"Maestro Steevax · a personal project by Steve Rosenblum"}
+      painting:"Painting",footer:"Maestro Steevax · a personal project by Steve Rosenblum · free recordings and paintings (Wikimedia Commons, Musopen)"}
 };
 const KEY="maestro.progress.v1", LKEY="maestro.lang";
 const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},
@@ -156,83 +204,129 @@ let progress=store.get(KEY,{});
 let parcours,weeks=[],journal={entries:[]};
 const t=k=>UI[lang][k], L=o=>o?(o[lang]||o.fr):"";
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const $=id=>document.getElementById(id);
 
-function workState(id){return progress[id]||(progress[id]={listens:[false,false,false],rating:0,note:""})}
-function workDone(id){const s=progress[id];return s&&s.listens.every(Boolean)}
-function weekDone(w){return w.works.every(x=>workDone(x.id))}
+function ws(id){return progress[id]||(progress[id]={listens:[false,false,false],rating:0,note:""})}
+const workDone=id=>{const s=progress[id];return !!s&&s.listens.every(Boolean)};
+const weekDone=w=>w.works.every(x=>workDone(x.id));
+const current=()=>weeks.find(w=>!weekDone(w))||weeks[weeks.length-1];
 function save(){store.set(KEY,progress);renderProgress()}
+function credit(img){return img?`<a href="${esc(img.source)}" target="_blank" rel="noopener">${t("painting")} : ${esc(img.credit)} · ${esc(img.license)}</a>`:""}
 
 function renderProgress(){
   const done=weeks.filter(weekDone).length;
-  document.getElementById("bar").style.width=(weeks.length?done/weeks.length*100:0)+"%";
-  document.getElementById("progressText").textContent=`${done} / ${weeks.length} ${t("of")}`;
-  const cur=weeks.find(w=>!weekDone(w));
-  document.querySelectorAll(".week").forEach(el=>{
-    const w=weeks.find(x=>x.id===el.dataset.id);
-    el.classList.toggle("done",weekDone(w));
-    el.classList.toggle("current",w===cur);
-  });
+  $("bar").style.width=(weeks.length?done/weeks.length*100:0)+"%";
+  $("progressText").textContent=`${done} / ${weeks.length} ${t("of")}`;
+  const c=current();
+  if(c){$("cta").href="#"+c.id;$("cta").textContent=(done?`${t("resume")} ${c.n}`:t("begin"))+"  →"}
 }
 
-function renderWeeks(){
-  const cur=weeks.find(w=>!weekDone(w));
-  document.getElementById("phase").innerHTML=`<div class="kicker">Phase 1</div><h2>${esc(L(parcours.phases[0].title))}</h2>`;
-  document.getElementById("weeks").innerHTML=weeks.map(w=>`
-    <details class="week" data-id="${w.id}" ${w===cur?"open":""}>
-      <summary><div class="num">${w.n}</div>
-        <div class="wt"><b>${esc(L(w.title))}</b><small>${t("week")} ${w.n} · ${esc(L(parcours.periods[w.period]))}</small></div>
-        <div class="chev">›</div></summary>
-      ${w.works.map(x=>{const s=workState(x.id);const r=x.recording;return `
-      <div class="work" data-work="${x.id}">
-        <h3>${esc(L(x.title))}</h3>
-        <div class="meta">${esc(x.composer)} · ${esc(x.year)}</div>
-        <div class="field"><em>${t("version")}</em>${esc(r.performers)} (${esc(r.label)}${r.year?", "+r.year:""})</div>
-        <div class="field"><em>${t("start")}</em>${esc(L(x.startWith))}</div>
-        <div class="field"><em>${t("listen")}</em>${esc(L(x.listenFor))}</div>
-        <div class="links"><a href="${x.links.appleMusic}" target="_blank" rel="noopener">Apple Music</a><a href="${x.links.spotify}" target="_blank" rel="noopener">Spotify</a><a href="${x.links.youtube}" target="_blank" rel="noopener">YouTube</a></div>
-        <div class="listens">${[0,1,2].map(i=>`<label class="${s.listens[i]?"on":""}"><input type="checkbox" data-i="${i}" ${s.listens[i]?"checked":""}>${t("l"+(i+1))}</label>`).join("")}</div>
-        <div class="stars">${[1,2,3,4,5].map(n=>`<button data-r="${n}" class="${n<=s.rating?"on":""}" aria-label="${n}">★</button>`).join("")}</div>
-        <textarea placeholder="${esc(t("note"))}">${esc(s.note)}</textarea>
-      </div>`}).join("")}
-      ${w.review?`<div class="review">${esc(L(w.review))}</div>`:""}
-    </details>`).join("");
-  document.querySelectorAll(".work").forEach(el=>{
-    const s=workState(el.dataset.work);
+function renderHome(){
+  document.documentElement.lang=lang;
+  document.querySelectorAll("[data-t]").forEach(el=>el.textContent=t(el.dataset.t));
+  document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on",b.dataset.l===lang));
+  $("tagline").textContent=L(parcours.tagline);
+  if(parcours.heroImage){$("heroImg").src=parcours.heroImage.path;$("heroCredit").innerHTML=credit(parcours.heroImage)}
+  const c=current();
+  $("tiles").innerHTML=weeks.map(w=>`
+    <a class="tile ${weekDone(w)?"done":""} ${w===c?"current":""}" href="#${w.id}">
+      ${w.image?`<img src="${esc(w.image.path)}" alt="" loading="lazy">`:""}
+      <div class="inner"><div class="num">${w.n}</div>
+        <div class="t"><small>${t("week")} ${w.n} · ${esc(L(parcours.periods[w.period]))}</small><b>${esc(L(w.title))}</b></div></div>
+    </a>`).join("");
+  $("ritual").innerHTML=parcours.ritual.map(r=>`<div><b>${esc(L(r.title))}</b><span>${esc(L(r.text))}</span></div>`).join("");
+  $("notebook").textContent=L(parcours.notebook);
+  $("signal").textContent=L(parcours.signal);
+  $("phases").innerHTML=parcours.phases.map(p=>`<div class="entry"><b>Phase ${p.n} · ${esc(L(p.title))}</b><br><small>${t("week")} ${p.weeks}</small></div>`).join("");
+  const es=journal.entries.slice().sort((a,b)=>b.date.localeCompare(a.date));
+  $("entries").innerHTML=es.length?es.map(e=>`<div class="entry"><small>${esc(e.date)} · ${"★".repeat(e.rating||0)}</small><div>${esc(L(e.note))}</div></div>`).join(""):`<p class="empty">${t("noEntries")}</p>`;
+  renderProgress();
+}
+
+// ---- Audio: one player for the whole page; a full listen ticks the next listen of that work
+const audio=new Audio(); audio.preload="none";
+let playing=null; // {work, idx, el}
+function fmt(s){if(!isFinite(s))return"";s=Math.round(s);return Math.floor(s/60)+":"+String(s%60).padStart(2,"0")}
+audio.ontimeupdate=()=>{if(!playing)return;const p=audio.duration?audio.currentTime/audio.duration:0;
+  playing.el.querySelector(".scrub i").style.width=(p*100)+"%";playing.el.querySelector(".time").textContent=fmt(audio.currentTime)+" / "+fmt(audio.duration)};
+audio.onended=()=>{if(!playing)return;const s=ws(playing.work);const i=s.listens.indexOf(false);if(i>=0){s.listens[i]=true;save();renderWeek(location.hash.slice(1),true)}setBtn(false)};
+audio.onpause=()=>setBtn(false); audio.onplay=()=>setBtn(true);
+function setBtn(on){if(playing){const b=playing.el.querySelector(".play");if(b)b.textContent=on?"❚❚":"▶"}}
+function bindTrack(el){
+  const url=el.dataset.url;
+  el.querySelector(".play").onclick=()=>{
+    if(playing&&playing.el===el){audio.paused?audio.play():audio.pause();return}
+    if(playing)setBtn(false);
+    playing={work:el.dataset.work,el};audio.src=url;audio.play().catch(()=>{});
+    if("mediaSession" in navigator){navigator.mediaSession.metadata=new MediaMetadata({title:el.dataset.title,artist:el.dataset.composer,album:"Maestro Steevax",
+      artwork:el.dataset.art?[{src:el.dataset.art,sizes:"512x512",type:"image/jpeg"}]:[]})}
+  };
+  el.querySelector(".scrub").onclick=e=>{if(playing&&playing.el===el&&audio.duration){const r=e.currentTarget.getBoundingClientRect();audio.currentTime=(e.clientX-r.left)/r.width*audio.duration}};
+}
+
+function renderWeek(id,keepScroll){
+  const w=weeks.find(x=>x.id===id); if(!w){show("home");return}
+  const y=window.scrollY;
+  const next=weeks.find(x=>x.n===w.n+1);
+  $("week").innerHTML=`
+   <section class="bleed">
+     ${w.image?`<img class="bg" src="${esc(w.image.path)}" alt="">`:""}
+     <div class="inner"><div class="kicker">${t("week")} ${w.n} · ${esc(L(parcours.periods[w.period]))}</div><h2>${esc(L(w.title))}</h2></div>
+     <div class="credit">${credit(w.image)}</div>
+   </section>
+   <div class="paper"><div class="wrap">
+     <a class="back" href="#">${t("back")}</a>
+     ${w.works.map(x=>{const s=ws(x.id);const r=x.recording;const tracks=x.audio||[];return `
+     <div class="work" data-work="${x.id}">
+       <h3>${esc(L(x.title))}</h3>
+       <div class="meta">${esc(x.composer)} · ${esc(x.year)}</div>
+       <div class="field"><em>${t("start")}</em>${esc(L(x.startWith))}</div>
+       <div class="field"><em>${t("listen")}</em>${esc(L(x.listenFor))}</div>
+       <div class="field"><em>${t("listenHere")}</em></div>
+       ${tracks.length?tracks.map(a=>`
+         <div class="track" data-url="${esc(a.url)}" data-work="${x.id}" data-title="${esc(L(x.title))} — ${esc(L(a.label))}" data-composer="${esc(x.composer)}" data-art="${w.image?esc(w.image.path):""}">
+           <button class="play" aria-label="Play">▶</button>
+           <div class="tt"><b>${esc(L(a.label))}</b><small>${esc(a.performer)} · ${esc(a.license)} · <span class="time"></span></small><div class="scrub"><i></i></div></div>
+         </div>`).join(""):`<p class="ref">${t("noAudio")}</p>`}
+       <div class="listens">${[0,1,2].map(i=>`<label class="${s.listens[i]?"on":""}"><input type="checkbox" data-i="${i}" ${s.listens[i]?"checked":""}>${t("l"+(i+1))}</label>`).join("")}</div>
+       <div class="stars">${[1,2,3,4,5].map(n=>`<button data-r="${n}" class="${n<=s.rating?"on":""}" aria-label="${n}">★</button>`).join("")}</div>
+       <textarea placeholder="${esc(t("note"))}">${esc(s.note)}</textarea>
+       <p class="ref"><b>${t("reference")}</b> : ${esc(r.performers)} (${esc(r.label)}${r.year?", "+r.year:""})</p>
+       <div class="links"><a href="${x.links.appleMusic}" target="_blank" rel="noopener">Apple Music</a><a href="${x.links.spotify}" target="_blank" rel="noopener">Spotify</a><a href="${x.links.youtube}" target="_blank" rel="noopener">YouTube</a></div>
+     </div>`}).join("")}
+     ${w.review?`<div class="review">${esc(L(w.review))}</div>`:""}
+     ${next?`<a class="cta next" href="#${next.id}">${t("nextWeek")}</a>`:""}
+   </div></div>`;
+  document.querySelectorAll("#week .work").forEach(el=>{
+    const s=ws(el.dataset.work);
     el.querySelectorAll(".listens input").forEach(cb=>cb.onchange=()=>{s.listens[+cb.dataset.i]=cb.checked;cb.parentElement.classList.toggle("on",cb.checked);save()});
     el.querySelectorAll(".stars button").forEach(b=>b.onclick=()=>{s.rating=+b.dataset.r;el.querySelectorAll(".stars button").forEach(x=>x.classList.toggle("on",+x.dataset.r<=s.rating));save()});
     el.querySelector("textarea").oninput=e=>{s.note=e.target.value;save()};
   });
-  renderProgress();
+  document.querySelectorAll("#week .track").forEach(el=>{
+    bindTrack(el);
+    if(playing&&playing.el.dataset.url===el.dataset.url&&playing.work===el.dataset.work){playing.el=el;setBtn(!audio.paused)}
+  });
+  show("week"); window.scrollTo(0,keepScroll?y:0);
 }
 
-function renderStatic(){
-  document.documentElement.lang=lang;
-  document.querySelectorAll("[data-t]").forEach(el=>el.textContent=t(el.dataset.t));
-  document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on",b.dataset.l===lang));
-  document.getElementById("tagline").textContent=L(parcours.tagline);
-  document.getElementById("ritual").innerHTML=parcours.ritual.map(r=>`<div><b>${esc(L(r.title))}</b><span>${esc(L(r.text))}</span></div>`).join("");
-  document.getElementById("notebook").textContent=L(parcours.notebook);
-  document.getElementById("signal").textContent=L(parcours.signal);
-  document.getElementById("phases").innerHTML=parcours.phases.map(p=>`<div class="entry"><b>Phase ${p.n} · ${esc(L(p.title))}</b><br><small>${t("week")} ${p.weeks}</small></div>`).join("");
-  const es=journal.entries.slice().sort((a,b)=>b.date.localeCompare(a.date));
-  document.getElementById("entries").innerHTML=es.length?es.map(e=>`<div class="entry"><small>${esc(e.date)} · ${"★".repeat(e.rating||0)}</small><div>${esc(L(e.note))}</div></div>`).join(""):`<p class="empty">${t("noEntries")}</p>`;
-  renderWeeks();
-}
+function show(which){$("home").hidden=which!=="home";$("week").hidden=which!=="week"}
+function route(){const h=location.hash.slice(1);if(h.startsWith("semaine-"))renderWeek(h);else{show("home");renderHome()}}
+window.addEventListener("hashchange",route);
 
-document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>{lang=b.dataset.l;store.set(LKEY,lang);renderStatic()});
+document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>{lang=b.dataset.l;store.set(LKEY,lang);route()});
 document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>{
   document.querySelectorAll("nav.tabs button").forEach(x=>x.classList.toggle("on",x===b));
-  document.querySelectorAll("section").forEach(s=>s.classList.toggle("on",s.id===b.dataset.tab));
+  document.querySelectorAll("section.view").forEach(s=>s.classList.toggle("on",s.id===b.dataset.tab));
 });
-document.getElementById("export").onclick=()=>{
+$("export").onclick=()=>{
   const a=document.createElement("a");
   a.href=URL.createObjectURL(new Blob([JSON.stringify({app:"maestro-steevax",v:1,progress},null,1)],{type:"application/json"}));
   a.download="maestro-steevax-progression.json";a.click();
 };
-document.getElementById("import").onchange=async e=>{
-  try{const d=JSON.parse(await e.target.files[0].text());if(d.progress){progress=d.progress;save();renderWeeks();alertless(t("imported"))}}catch(err){}
+$("import").onchange=async e=>{
+  try{const d=JSON.parse(await e.target.files[0].text());if(d.app==="maestro-steevax"&&d.progress){progress=d.progress;save();renderHome();$("saveMsg").textContent=t("imported")}}catch(err){}
 };
-function alertless(msg){const p=document.getElementById("progressText");const o=p.textContent;p.textContent=msg;setTimeout(()=>renderProgress(),1800)}
 
 (async()=>{
   const D=window.MAESTRO_DATA; // inlined copy for previews; the site itself reads the JSON files
@@ -240,7 +334,7 @@ function alertless(msg){const p=document.getElementById("progressText");const o=
   const [pc,idx,jr]=await Promise.all([get("_parcours.json"),get("_index.json"),get("journal/_journal.json").catch(()=>({entries:[]}))]);
   parcours=pc;journal=jr;
   weeks=await Promise.all(idx.weeks.map(w=>get(`semaines/${w.id}.json`)));
-  renderStatic();
+  route();
 })();
 </script>
 </body>

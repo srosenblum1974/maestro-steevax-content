@@ -15,7 +15,8 @@
        "fr": "Suite n°1 — Prélude",
        "en": "Suite No. 1 — Prelude"
       },
-      "search": "John Michel Cello Bach Cello Suite 1 Prelude"
+      "search": "John Michel Cello Bach Cello Suite 1 Prelude",
+      "performer": "John Michel, violoncelle / cello"
      }
     ]
    }
@@ -37,14 +38,16 @@
        "Vivaldi L'estate Presto"
       ],
       "require": "summer|estate|été",
-      "exclude": "piano|guitar|midi"
+      "exclude": "piano|guitar|midi",
+      "performer": "John Harrison, violon / violin"
      },
      {
       "label": {
        "fr": "Le Printemps — 1er mouvement",
        "en": "Spring — 1st movement"
       },
-      "search": "Vivaldi Four Seasons 1 Spring mvt 1 Allegro John Harrison violin"
+      "search": "Vivaldi Four Seasons 1 Spring mvt 1 Allegro John Harrison violin",
+      "performer": "John Harrison, violon / violin"
      }
     ]
    }
@@ -60,14 +63,16 @@
        "fr": "1er mouvement — Molto allegro",
        "en": "1st movement — Molto allegro"
       },
-      "file": "Mozart - Symphony No. 40 in G minor, K550 - I. Molto allegro (Musopen Symphony).flac"
+      "file": "Mozart - Symphony No. 40 in G minor, K550 - I. Molto allegro (Musopen Symphony).flac",
+      "performer": "Musopen Symphony (Czech National Symphony Orchestra)"
      },
      {
       "label": {
        "fr": "2e mouvement — Andante",
        "en": "2nd movement — Andante"
       },
-      "file": "Mozart - Symphony No. 40 in G minor, K550 - II. Andante (Musopen Symphony).flac"
+      "file": "Mozart - Symphony No. 40 in G minor, K550 - II. Andante (Musopen Symphony).flac",
+      "performer": "Musopen Symphony (Czech National Symphony Orchestra)"
      }
     ],
     "mozart-requiem": [
@@ -82,7 +87,8 @@
        "Mozart Requiem"
       ],
       "require": "lacrimosa|lacrymosa",
-      "exclude": "piano|arrangement|organ|guitar|midi|thalberg"
+      "exclude": "piano|arrangement|organ|guitar|midi|thalberg",
+      "performer": "Josef Krips"
      }
     ]
    }
@@ -111,7 +117,8 @@
        "fr": "Symphonie n°5 — 1er mouvement",
        "en": "Symphony No. 5 — 1st movement"
       },
-      "search": "Beethoven symphony no. 5 in c minor op. 67 i. allegro con brio"
+      "search": "Beethoven symphony no. 5 in c minor op. 67 i. allegro con brio",
+      "performer": "Wikimedia Commons"
      }
     ]
    }
@@ -127,14 +134,16 @@
        "fr": "Nocturne op. 9 n°2",
        "en": "Nocturne Op. 9 No. 2"
       },
-      "search": "Chopin Nocturne E flat major Op. 9 No. 2"
+      "search": "Chopin Nocturne E flat major Op. 9 No. 2",
+      "performer": "Frank Lévy, piano"
      },
      {
       "label": {
        "fr": "Nocturne op. 48 n°1",
        "en": "Nocturne Op. 48 No. 1"
       },
-      "search": "Chopin Nocturne C minor Op. 48 No. 1"
+      "search": "Chopin Nocturne C minor Op. 48 No. 1",
+      "performer": "Luke Faulkner, piano"
      }
     ]
    }
@@ -150,7 +159,8 @@
        "fr": "2e mouvement — Largo",
        "en": "2nd movement — Largo"
       },
-      "search": "Dvorak symphony no. 9 from the new world ii. largo"
+      "search": "Dvorak symphony no. 9 from the new world ii. largo",
+      "performer": "Musopen"
      }
     ],
     "tchaikovski-concerto-piano-1": [
@@ -159,7 +169,8 @@
        "fr": "1er mouvement",
        "en": "1st movement"
       },
-      "search": "Tchaikovsky Concerto No.1 in B-flat minor Op.23 I. Allegro"
+      "search": "Tchaikovsky Concerto No.1 in B-flat minor Op.23 I. Allegro",
+      "performer": "Musopen"
      }
     ]
    }
@@ -190,7 +201,8 @@
        "fr": "1er mouvement — Moderato",
        "en": "1st movement — Moderato"
       },
-      "search": "Rachmaninoff piano concerto no. 2 in c minor op. 18 i. moderato"
+      "search": "Rachmaninoff piano concerto no. 2 in c minor op. 18 i. moderato",
+      "performer": "Musopen"
      }
     ]
    }
@@ -214,7 +226,8 @@
        "fr": "La Moldau (en entier)",
        "en": "The Moldau (complete)"
       },
-      "file": "Smetana - Má Vlast - Vltava (Musopen Symphony).flac"
+      "file": "Smetana - Má Vlast - Vltava (Musopen Symphony).flac",
+      "performer": "Musopen Symphony (Czech National Symphony Orchestra)"
      }
     ]
    }

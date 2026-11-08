@@ -140,7 +140,7 @@ def main():
                     failures.append(f"audio {wid}/{work['id']}: {t['label']['en']}")
                     continue
                 report.append(f"AUDIO {wid}/{work['id']}: {i['title']} — {i['artist']} — {i['license']}")
-                tracks.append({"label": t["label"], "url": mp3_url(i), "performer": i["artist"] or "?",
+                tracks.append({"label": t["label"], "url": mp3_url(i), "performer": t.get("performer") or i["artist"] or "?",
                                "license": i["license"], "source": i["page"]})
             if tracks:
                 work["audio"] = tracks
