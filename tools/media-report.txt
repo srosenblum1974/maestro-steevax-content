@@ -2,25 +2,27 @@ IMAGE accueil: File:Caspar David Friedrich - Wanderer above the sea of fog.jpg �
 IMAGE semaine-01: File:Johann Sebastian Bach.jpg — Elias Gottlob Haussmann — Public domain
 AUDIO semaine-01/bach-suites-violoncelle: File:JOHN MICHEL CELLO-J S BACH CELLO SUITE 1 in G Prelude.ogg — Johann Sebastian Bach — CC BY-SA 3.0
 IMAGE semaine-02: File:Il Ritorno del Bucintoro al molo nel giorno dell'Ascensione (c.1738) Canaletto - Wells-Next-The-Sea, The Earl of Leicester and Trustees of the Holkham Estate.jpg — Didier Descouens — CC BY-SA 4.0
-AUDIO semaine-02/vivaldi-quatre-saisons: File:Vivaldi - Four Seasons 3 Autumn mvt 3 Allegro - John Harrison violin.oga — Music by Antonio Vivaldi published in 1725; Recording copyright John Harrison (JohnHarrisonViolin.com) — CC BY-SA 4.0
+AUDIO semaine-02/vivaldi-quatre-saisons: File:Vivaldi - Four Seasons 2 Summer mvt 3 Presto - John Harrison violin.oga — Antonio Vivaldi — CC BY-SA 4.0
 AUDIO semaine-02/vivaldi-quatre-saisons: File:Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga — Antonio Vivaldi — CC BY-SA 4.0
 IMAGE semaine-03: File:Barbara Krafft - Porträt Wolfgang Amadeus Mozart (1819).jpg — Barbara Krafft — Public domain
 AUDIO semaine-03/mozart-symphonie-40: File:Mozart - Symphony No. 40 in G minor, K550 - I. Molto allegro (Musopen Symphony).flac — Wolfgang Amadeus Mozart — Public domain
 AUDIO semaine-03/mozart-symphonie-40: File:Mozart - Symphony No. 40 in G minor, K550 - II. Andante (Musopen Symphony).flac — Wolfgang Amadeus Mozart — Public domain
-AUDIO semaine-03/mozart-requiem: File:Mozart, Requiem in D minor, 'Lacrimosa' – piano arrangement.ogg — Wolfgang Amadeus Mozart / Sigismond Thalberg — CC BY-SA 4.0
+AUDIO semaine-03/mozart-requiem: File:Mozart - Requiem (Krips) - VIII. Lacrimosa.flac — Wolfgang Amadeus Mozart — Public domain
 IMAGE semaine-04: File:Joseph Karl Stieler's Beethoven mit dem Manuskript der Missa solemnis.jpg — Joseph Karl Stieler — Public domain
-AUDIO semaine-04/beethoven-symphonies-5-7: File:JOHN MICHEL CELLO-BEETHOVEN SYMPHONY 7 Allegretto.ogg — Ludwig van Beethoven — CC BY-SA 3.0
+AUDIO semaine-04/beethoven-symphonies-5-7: File:IMSLP365275-PMLP02279-Mazurka As- Dur Op 59 Nr 2.ogg — Christoph Zbinden — CC BY 4.0
 AUDIO semaine-04/beethoven-symphonies-5-7: File:Ludwig van Beethoven - Symphonie 5 c-moll - 1. Allegro con brio.ogg — user:OldakQuill — Public domain
-IMAGE semaine-05: File:Chopin polonaise Op. 53.jpg — Frédéric Chopin — Public domain
+IMAGE semaine-05: File:ChopinSandDelacroix.jpg — Eugène Delacroix — Public domain
 AUDIO semaine-05/chopin-nocturnes: File:Chopin - Nocturne No. 2 in E-flat major, Op. 9 No. 2 (Frank Levy).flac — Frédéric Chopin / Frank Lévy — Public domain
 AUDIO semaine-05/chopin-nocturnes: File:Chopin - Nocturne No. 13 in C minor, Op. 48 No. 1 (Luke Faulkner).flac — Frédéric Chopin / Luke Faulkner — Public domain
 IMAGE semaine-06: File:Albert Bierstadt - Among the Sierra Nevada, California - Google Art Project.jpg — Albert Bierstadt — Public domain
 AUDIO semaine-06/dvorak-nouveau-monde: File:Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - ii. largo.ogg — Antonín Dvořák — Public domain
 AUDIO semaine-06/tchaikovski-concerto-piano-1: File:Tchaikovsky, Concerto No.1 in B-flat minor Op.23, I. Allegro.ogg — Pyotr Ilyich Tchaikovsky — CC0
 IMAGE semaine-07: File:Monet - Impression, Sunrise.jpg — Claude Monet — Public domain
-AUDIO semaine-07/debussy-faune: File:Claude debussy faune.mid — LITTLEJAZZMAN — CC BY-SA 3.0
+  - skipped File:Claude debussy faune.mid (no MP3 version)
+  - skipped File:Prelude to the Afternoon of a Faun dominant thirteenth chord.mid (no MP3 version)
 AUDIO semaine-07/rachmaninov-concerto-2: File:Sergei Rachmaninoff - piano concerto no. 2 in c minor, op. 18 - i. moderato.ogg — Sergei Rachmaninoff — Public domain
-IMAGE semaine-08: File:Antonín Slavíček - Prague, from Letna.jpg — Antonín Slavíček — Public domain
+IMAGE semaine-08: File:Antonín Slavíček - Prague, A Rainy Day.jpg — Antonín Slavíček — Public domain
 AUDIO semaine-08/smetana-moldau: File:Smetana - Má Vlast - Vltava (Musopen Symphony).flac — Bedřich Smetana — Public domain
 
 NOT FOUND:
+audio semaine-07/debussy-faune: Prelude to the Afternoon of a Faun
