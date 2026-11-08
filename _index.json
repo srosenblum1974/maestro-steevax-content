@@ -168,18 +168,18 @@
    "id": "semaine-08",
    "n": 8,
    "phase": 1,
-   "period": "moderne",
+   "period": "romantique",
    "title": {
-    "fr": "Barber, et le bilan",
-    "en": "Barber, and taking stock"
+    "fr": "Smetana, la rivière qui raconte",
+    "en": "Smetana, the river that tells a story"
    },
    "works": [
     {
-     "id": "barber-adagio",
-     "composer": "Samuel Barber",
+     "id": "smetana-moldau",
+     "composer": "Bedřich Smetana",
      "title": {
-      "fr": "Adagio pour cordes",
-      "en": "Adagio for Strings"
+      "fr": "La Moldau (Vltava), extrait de Má vlast",
+      "en": "The Moldau (Vltava), from Má vlast"
      }
     }
    ]

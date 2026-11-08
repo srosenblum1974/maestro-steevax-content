@@ -1,0 +1,32 @@
+name: Resolve media
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["tools/media.json", "tools/resolve_media.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resolve-media
+  cancel-in-progress: false
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Find recordings and paintings on Wikimedia Commons
+        run: python3 tools/resolve_media.py
+      - name: Rebuild index and manifest
+        run: python3 tools/build.py
+      - name: Commit
+        run: |
+          git config user.name "Steve Rosenblum"
+          git config user.email "s.rosenblum@me.com"
+          git add -A
+          git diff --cached --quiet && echo "Nothing to commit" || git commit -m "Médias : enregistrements libres et peintures (Wikimedia Commons)"
+          git push

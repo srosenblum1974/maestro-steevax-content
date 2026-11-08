@@ -1,0 +1,33 @@
+{
+ "_doc": "Ce qu'il faut aller chercher sur Wikimedia Commons. 'file' = titre exact ; 'search' = recherche (le premier résultat libre de droits est retenu). tools/resolve_media.py écrit les URLs, interprètes et licences dans les JSON, et télécharge les images dans illus/.",
+ "hero": {"search": "Caspar David Friedrich Wanderer above the Sea of Fog"},
+ "weeks": {
+  "semaine-01": {"image": {"search": "Elias Gottlob Haussmann Johann Sebastian Bach 1748"},
+   "audio": {"bach-suites-violoncelle": [{"label": {"fr": "Suite n°1 — Prélude", "en": "Suite No. 1 — Prelude"}, "search": "John Michel Cello Bach Cello Suite 1 Prelude"}]}},
+  "semaine-02": {"image": {"search": "Canaletto Bucintoro Molo Ascension Day"},
+   "audio": {"vivaldi-quatre-saisons": [
+     {"label": {"fr": "L'Été — 3e mouvement (l'orage)", "en": "Summer — 3rd movement (the storm)"}, "search": "Vivaldi Four Seasons Summer mvt 3 John Harrison violin"},
+     {"label": {"fr": "Le Printemps — 1er mouvement", "en": "Spring — 1st movement"}, "search": "Vivaldi Four Seasons 1 Spring mvt 1 Allegro John Harrison violin"}]}},
+  "semaine-03": {"image": {"search": "Barbara Krafft Wolfgang Amadeus Mozart portrait"},
+   "audio": {"mozart-symphonie-40": [
+     {"label": {"fr": "1er mouvement — Molto allegro", "en": "1st movement — Molto allegro"}, "file": "Mozart - Symphony No. 40 in G minor, K550 - I. Molto allegro (Musopen Symphony).flac"},
+     {"label": {"fr": "2e mouvement — Andante", "en": "2nd movement — Andante"}, "file": "Mozart - Symphony No. 40 in G minor, K550 - II. Andante (Musopen Symphony).flac"}],
+    "mozart-requiem": [{"label": {"fr": "Lacrimosa", "en": "Lacrimosa"}, "search": "Mozart Requiem Lacrimosa"}]}},
+  "semaine-04": {"image": {"search": "Joseph Karl Stieler Beethoven Missa Solemnis portrait"},
+   "audio": {"beethoven-symphonies-5-7": [
+     {"label": {"fr": "Symphonie n°7 — Allegretto", "en": "Symphony No. 7 — Allegretto"}, "search": "Beethoven Symphony No. 7 Allegretto"},
+     {"label": {"fr": "Symphonie n°5 — 1er mouvement", "en": "Symphony No. 5 — 1st movement"}, "search": "Beethoven symphony no. 5 in c minor op. 67 i. allegro con brio"}]}},
+  "semaine-05": {"image": {"search": "Eugène Delacroix portrait of Frédéric Chopin Louvre"},
+   "audio": {"chopin-nocturnes": [
+     {"label": {"fr": "Nocturne op. 9 n°2", "en": "Nocturne Op. 9 No. 2"}, "search": "Chopin Nocturne E flat major Op. 9 No. 2"},
+     {"label": {"fr": "Nocturne op. 48 n°1", "en": "Nocturne Op. 48 No. 1"}, "search": "Chopin Nocturne C minor Op. 48 No. 1"}]}},
+  "semaine-06": {"image": {"search": "Albert Bierstadt Among the Sierra Nevada California"},
+   "audio": {"dvorak-nouveau-monde": [{"label": {"fr": "2e mouvement — Largo", "en": "2nd movement — Largo"}, "search": "Dvorak symphony no. 9 from the new world ii. largo"}],
+    "tchaikovski-concerto-piano-1": [{"label": {"fr": "1er mouvement", "en": "1st movement"}, "search": "Tchaikovsky Concerto No.1 in B-flat minor Op.23 I. Allegro"}]}},
+  "semaine-07": {"image": {"search": "Claude Monet Impression soleil levant"},
+   "audio": {"debussy-faune": [{"label": {"fr": "Prélude à l'après-midi d'un faune", "en": "Prelude to the Afternoon of a Faun"}, "search": "Debussy Prélude à l'après-midi d'un faune"}],
+    "rachmaninov-concerto-2": [{"label": {"fr": "1er mouvement — Moderato", "en": "1st movement — Moderato"}, "search": "Rachmaninoff piano concerto no. 2 in c minor op. 18 i. moderato"}]}},
+  "semaine-08": {"image": {"search": "Antonín Slavíček Prague painting"},
+   "audio": {"smetana-moldau": [{"label": {"fr": "La Moldau (en entier)", "en": "The Moldau (complete)"}, "file": "Smetana - Má Vlast - Vltava (Musopen Symphony).flac"}]}}
+ }
+}
