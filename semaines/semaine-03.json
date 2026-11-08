@@ -1,0 +1,70 @@
+{
+ "id": "semaine-03",
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "n": 3,
+ "period": "classique",
+ "title": {
+  "fr": "Mozart, la clarté et l'ombre",
+  "en": "Mozart, clarity and shadow"
+ },
+ "works": [
+  {
+   "id": "mozart-symphonie-40",
+   "composer": "Wolfgang Amadeus Mozart",
+   "title": {
+    "fr": "Symphonie n°40",
+    "en": "Symphony No. 40"
+   },
+   "year": "1788",
+   "recording": {
+    "performers": "Leonard Bernstein, Wiener Philharmoniker",
+    "label": "DG",
+    "year": null
+   },
+   "startWith": {
+    "fr": "1er mouvement",
+    "en": "1st movement"
+   },
+   "listenFor": {
+    "fr": "La clarté classique : un thème, son développement, son retour (la forme sonate).",
+    "en": "Classical clarity: a theme, its development, its return (sonata form)."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Mozart%20Symphony%2040%20Bernstein%20Wiener%20Philharmoniker",
+    "spotify": "https://open.spotify.com/search/Mozart%20Symphony%2040%20Bernstein%20Wiener%20Philharmoniker",
+    "youtube": "https://www.youtube.com/results?search_query=Mozart%20Symphony%2040%20Bernstein%20Wiener%20Philharmoniker"
+   }
+  },
+  {
+   "id": "mozart-requiem",
+   "composer": "Wolfgang Amadeus Mozart",
+   "title": {
+    "fr": "Requiem",
+    "en": "Requiem"
+   },
+   "year": "1791",
+   "recording": {
+    "performers": "John Eliot Gardiner",
+    "label": "Philips",
+    "year": null
+   },
+   "startWith": {
+    "fr": "« Lacrimosa »",
+    "en": "'Lacrimosa'"
+   },
+   "listenFor": {
+    "fr": "Inachevé à sa mort, le Requiem montre l'autre Mozart : sombre et dramatique.",
+    "en": "Unfinished at his death, the Requiem shows the other Mozart: dark and dramatic."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Mozart%20Requiem%20Gardiner",
+    "spotify": "https://open.spotify.com/search/Mozart%20Requiem%20Gardiner",
+    "youtube": "https://www.youtube.com/results?search_query=Mozart%20Requiem%20Gardiner"
+   }
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "semaine-06",
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "n": 6,
+ "period": "romantique",
+ "title": {
+  "fr": "Le dialogue et le voyage",
+  "en": "Dialogue and journey"
+ },
+ "works": [
+  {
+   "id": "dvorak-nouveau-monde",
+   "composer": "Antonín Dvořák",
+   "title": {
+    "fr": "Symphonie n°9 « du Nouveau Monde »",
+    "en": "Symphony No. 9 'From the New World'"
+   },
+   "year": "1893",
+   "recording": {
+    "performers": "István Kertész, London Symphony Orchestra",
+    "label": "Decca",
+    "year": null
+   },
+   "startWith": {
+    "fr": "2e mouvement (Largo, solo de cor anglais)",
+    "en": "2nd movement (Largo, cor anglais solo)"
+   },
+   "listenFor": {
+    "fr": "Un Européen écrit sa vision de l'Amérique : nostalgie et grands espaces.",
+    "en": "A European writes his vision of America: homesickness and wide open spaces."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Dvorak%20New%20World%20Symphony%20Kertesz%20London%20Symphony",
+    "spotify": "https://open.spotify.com/search/Dvorak%20New%20World%20Symphony%20Kertesz%20London%20Symphony",
+    "youtube": "https://www.youtube.com/results?search_query=Dvorak%20New%20World%20Symphony%20Kertesz%20London%20Symphony"
+   }
+  },
+  {
+   "id": "tchaikovski-concerto-piano-1",
+   "composer": "Piotr Ilitch Tchaïkovski",
+   "title": {
+    "fr": "Concerto pour piano n°1",
+    "en": "Piano Concerto No. 1"
+   },
+   "year": "1875",
+   "recording": {
+    "performers": "Martha Argerich, Kirill Kondrashin",
+    "label": "Philips",
+    "year": 1980
+   },
+   "startWith": {
+    "fr": "1er mouvement",
+    "en": "1st movement"
+   },
+   "listenFor": {
+    "fr": "Le concerto est un dialogue, parfois un combat, entre un soliste et l'orchestre.",
+    "en": "A concerto is a dialogue, sometimes a fight, between a soloist and the orchestra."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Tchaikovsky%20Piano%20Concerto%201%20Argerich%20Kondrashin",
+    "spotify": "https://open.spotify.com/search/Tchaikovsky%20Piano%20Concerto%201%20Argerich%20Kondrashin",
+    "youtube": "https://www.youtube.com/results?search_query=Tchaikovsky%20Piano%20Concerto%201%20Argerich%20Kondrashin"
+   }
+  }
+ ]
+}

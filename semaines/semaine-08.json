@@ -1,0 +1,47 @@
+{
+ "id": "semaine-08",
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "n": 8,
+ "period": "moderne",
+ "title": {
+  "fr": "Barber, et le bilan",
+  "en": "Barber, and taking stock"
+ },
+ "works": [
+  {
+   "id": "barber-adagio",
+   "composer": "Samuel Barber",
+   "title": {
+    "fr": "Adagio pour cordes",
+    "en": "Adagio for Strings"
+   },
+   "year": "1936",
+   "recording": {
+    "performers": "Leonard Bernstein, Los Angeles Philharmonic",
+    "label": "DG",
+    "year": null
+   },
+   "startWith": {
+    "fr": "En entier (8 min)",
+    "en": "The whole piece (8 min)"
+   },
+   "listenFor": {
+    "fr": "Une ligne qui monte lentement jusqu'à un sommet, puis le silence. Huit minutes de tension pure.",
+    "en": "One line rising slowly to a peak, then silence. Eight minutes of pure tension."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Barber%20Adagio%20for%20Strings%20Bernstein",
+    "spotify": "https://open.spotify.com/search/Barber%20Adagio%20for%20Strings%20Bernstein",
+    "youtube": "https://www.youtube.com/results?search_query=Barber%20Adagio%20for%20Strings%20Bernstein"
+   }
+  }
+ ],
+ "review": {
+  "fr": "Relisez votre carnet : quelles sont les 3 œuvres qui vous ont le plus pris ? Leur époque et leur forme orienteront la phase 2.",
+  "en": "Reread your notebook: which 3 works gripped you most? Their period and form will steer phase 2."
+ }
+}

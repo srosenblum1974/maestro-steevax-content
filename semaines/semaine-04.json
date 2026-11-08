@@ -1,0 +1,43 @@
+{
+ "id": "semaine-04",
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "n": 4,
+ "period": "classique",
+ "title": {
+  "fr": "Beethoven, tout à partir de rien",
+  "en": "Beethoven, everything from nothing"
+ },
+ "works": [
+  {
+   "id": "beethoven-symphonies-5-7",
+   "composer": "Ludwig van Beethoven",
+   "title": {
+    "fr": "Symphonies n°5 et n°7",
+    "en": "Symphonies Nos. 5 & 7"
+   },
+   "year": "1808 · 1812",
+   "recording": {
+    "performers": "Carlos Kleiber, Wiener Philharmoniker",
+    "label": "DG",
+    "year": 1976
+   },
+   "startWith": {
+    "fr": "Symphonie n°7, 2e mouvement (Allegretto)",
+    "en": "Symphony No. 7, 2nd movement (Allegretto)"
+   },
+   "listenFor": {
+    "fr": "Comment Beethoven bâtit une œuvre entière sur une cellule minuscule (les 4 notes de la 5e). L'Allegretto de la 7e : un rythme obsédant qui grossit, couche après couche.",
+    "en": "How Beethoven builds a whole work from a tiny cell (the four notes of the Fifth). The Seventh's Allegretto: an obsessive rhythm that grows, layer upon layer."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Beethoven%20Symphony%205%207%20Carlos%20Kleiber",
+    "spotify": "https://open.spotify.com/search/Beethoven%20Symphony%205%207%20Carlos%20Kleiber",
+    "youtube": "https://www.youtube.com/results?search_query=Beethoven%20Symphony%205%207%20Carlos%20Kleiber"
+   }
+  }
+ ]
+}

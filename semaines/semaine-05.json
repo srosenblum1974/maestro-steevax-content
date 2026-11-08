@@ -1,0 +1,43 @@
+{
+ "id": "semaine-05",
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "n": 5,
+ "period": "romantique",
+ "title": {
+  "fr": "Chopin, le piano qui chante",
+  "en": "Chopin, the singing piano"
+ },
+ "works": [
+  {
+   "id": "chopin-nocturnes",
+   "composer": "Frédéric Chopin",
+   "title": {
+    "fr": "Nocturnes",
+    "en": "Nocturnes"
+   },
+   "year": "1827–1846",
+   "recording": {
+    "performers": "Arthur Rubinstein",
+    "label": "RCA",
+    "year": null
+   },
+   "startWith": {
+    "fr": "Nocturne op. 9 n°2, puis op. 48 n°1",
+    "en": "Nocturne Op. 9 No. 2, then Op. 48 No. 1"
+   },
+   "listenFor": {
+    "fr": "La main droite chante comme une voix d'opéra, la gauche accompagne. Le rubato : le tempo respire, ralentit, accélère. Alternative plus intime : Maria João Pires (DG).",
+    "en": "The right hand sings like an opera voice while the left accompanies. Rubato: the tempo breathes, slows, surges. A more intimate alternative: Maria João Pires (DG)."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Chopin%20Nocturnes%20Rubinstein",
+    "spotify": "https://open.spotify.com/search/Chopin%20Nocturnes%20Rubinstein",
+    "youtube": "https://www.youtube.com/results?search_query=Chopin%20Nocturnes%20Rubinstein"
+   }
+  }
+ ]
+}

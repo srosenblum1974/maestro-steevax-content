@@ -1,0 +1,43 @@
+{
+ "id": "semaine-02",
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "n": 2,
+ "period": "baroque",
+ "title": {
+  "fr": "Vivaldi, la musique qui raconte",
+  "en": "Vivaldi, music that tells a story"
+ },
+ "works": [
+  {
+   "id": "vivaldi-quatre-saisons",
+   "composer": "Antonio Vivaldi",
+   "title": {
+    "fr": "Les Quatre Saisons",
+    "en": "The Four Seasons"
+   },
+   "year": "1725",
+   "recording": {
+    "performers": "Fabio Biondi, Europa Galante",
+    "label": "Opus 111",
+    "year": 1991
+   },
+   "startWith": {
+    "fr": "L'Été, 3e mouvement (l'orage)",
+    "en": "Summer, 3rd movement (the storm)"
+   },
+   "listenFor": {
+    "fr": "Musique à programme : chaque concerto illustre un sonnet (oiseaux, chien qui aboie, orage). Cherchez les images. Cette version vive et nerveuse est loin des versions « ascenseur ».",
+    "en": "Programme music: each concerto illustrates a sonnet (birds, a barking dog, a storm). Look for the pictures. This version is fierce and alive, far from 'elevator music'."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Vivaldi%20Four%20Seasons%20Biondi%20Europa%20Galante",
+    "spotify": "https://open.spotify.com/search/Vivaldi%20Four%20Seasons%20Biondi%20Europa%20Galante",
+    "youtube": "https://www.youtube.com/results?search_query=Vivaldi%20Four%20Seasons%20Biondi%20Europa%20Galante"
+   }
+  }
+ ]
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maestro Steevax</title>
+<meta name="description" content="Un entrepreneur découvre la musique classique, semaine après semaine. Faites le chemin avec lui, à votre rythme.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1b1714; --paper:#f6f1e7; --card:#fffdf8; --line:#e4dccb; --muted:#6f655a;
+  --accent:#7a1f2b; --accent-soft:#f1e3e1; --gold:#b08a3e;
+  --serif:"Cormorant Garamond",Georgia,serif; --sans:Inter,system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{padding:28px 0 8px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-family:var(--serif);font-size:26px;font-weight:700;letter-spacing:.02em}
+.brand span{color:var(--accent);font-style:italic;font-weight:500}
+.lang button{border:1px solid var(--line);background:none;padding:4px 10px;border-radius:99px;font:500 13px var(--sans);color:var(--muted);cursor:pointer}
+.lang button.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.hero{padding:28px 0 20px;border-bottom:1px solid var(--line)}
+.hero h1{font-family:var(--serif);font-size:clamp(34px,7vw,52px);line-height:1.05;margin:0 0 12px;font-weight:500}
+.hero p{color:var(--muted);margin:0;max-width:56ch}
+.progress{margin-top:18px;display:flex;align-items:center;gap:12px;font-size:14px;color:var(--muted)}
+.bar{flex:1;height:6px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .4s}
+nav.tabs{display:flex;gap:6px;margin:22px 0 4px;flex-wrap:wrap}
+nav.tabs button{border:0;background:none;padding:8px 14px;border-radius:99px;font:500 14px var(--sans);color:var(--muted);cursor:pointer}
+nav.tabs button.on{background:var(--accent-soft);color:var(--accent)}
+section{display:none;padding:14px 0 40px}
+section.on{display:block}
+h2{font-family:var(--serif);font-weight:500;font-size:30px;margin:18px 0 6px}
+.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);font-weight:600}
+.ritual{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:14px 0}
+.ritual div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.ritual b{display:block;font-family:var(--serif);font-size:19px;font-weight:700;margin-bottom:2px}
+.ritual span{font-size:14px;color:var(--muted)}
+.week{background:var(--card);border:1px solid var(--line);border-radius:16px;margin:14px 0;overflow:hidden}
+.week>summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;gap:14px;align-items:center}
+.week>summary::-webkit-details-marker{display:none}
+.num{flex:none;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-family:var(--serif);font-size:20px;font-weight:700;border:1.5px solid var(--line)}
+.week.done .num{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.week.current .num{border-color:var(--accent);color:var(--accent)}
+.wt{flex:1}
+.wt b{display:block;font-family:var(--serif);font-size:21px;font-weight:700;line-height:1.2}
+.wt small{color:var(--muted);font-size:13px}
+.chev{color:var(--muted);transition:transform .2s}
+.week[open] .chev{transform:rotate(90deg)}
+.work{border-top:1px solid var(--line);padding:16px 18px}
+.work h3{margin:0;font-family:var(--serif);font-size:22px;font-weight:700}
+.work .meta{color:var(--muted);font-size:14px;margin:2px 0 10px}
+.field{margin:8px 0;font-size:15px}
+.field em{font-style:normal;font-weight:600;color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:.08em;display:block}
+.links{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.links a{font-size:13px;text-decoration:none;border:1px solid var(--line);padding:5px 11px;border-radius:99px;color:var(--ink);background:var(--paper)}
+.listens{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 8px}
+.listens label{display:flex;align-items:center;gap:6px;font-size:13px;border:1px solid var(--line);border-radius:99px;padding:5px 11px;cursor:pointer;user-select:none}
+.listens input{accent-color:var(--accent)}
+.listens label.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.stars{display:flex;gap:2px;margin:6px 0}
+.stars button{border:0;background:none;font-size:22px;cursor:pointer;color:var(--line);padding:0 2px}
+.stars button.on{color:var(--gold)}
+textarea{width:100%;min-height:56px;border:1px solid var(--line);border-radius:10px;padding:10px;font:15px var(--sans);background:var(--paper);resize:vertical}
+.review{margin:0 18px 16px;padding:12px 14px;background:var(--accent-soft);border-radius:10px;font-size:15px}
+.entry{border-left:3px solid var(--gold);padding:4px 0 4px 14px;margin:14px 0}
+.entry small{color:var(--muted)}
+.empty{color:var(--muted);font-style:italic}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.tools button,.tools label{border:1px solid var(--line);background:var(--card);padding:8px 14px;border-radius:10px;font:500 14px var(--sans);cursor:pointer}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Maestro <span>Steevax</span></div>
+    <div class="lang"><button data-l="fr">FR</button> <button data-l="en">EN</button></div>
+  </header>
+
+  <div class="hero">
+    <h1 data-t="heroTitle"></h1>
+    <p id="tagline"></p>
+    <div class="progress"><div class="bar"><i id="bar"></i></div><span id="progressText"></span></div>
+  </div>
+
+  <nav class="tabs">
+    <button data-tab="parcours" class="on" data-t="tabPath"></button>
+    <button data-tab="journal" data-t="tabJournal"></button>
+    <button data-tab="methode" data-t="tabMethod"></button>
+  </nav>
+
+  <section id="parcours" class="on">
+    <div id="phase"></div>
+    <div id="weeks"></div>
+  </section>
+
+  <section id="journal">
+    <div class="kicker" data-t="journalKicker"></div>
+    <h2 data-t="journalTitle"></h2>
+    <p data-t="journalIntro"></p>
+    <div id="entries"></div>
+  </section>
+
+  <section id="methode">
+    <div class="kicker" data-t="methodKicker"></div>
+    <h2 data-t="methodTitle"></h2>
+    <div class="ritual" id="ritual"></div>
+    <p id="notebook"></p>
+    <p id="signal"></p>
+    <h2 data-t="phasesTitle"></h2>
+    <div id="phases"></div>
+    <h2 data-t="saveTitle"></h2>
+    <p data-t="saveIntro"></p>
+    <div class="tools">
+      <button id="export" data-t="export"></button>
+      <label><input type="file" id="import" accept="application/json" hidden><span data-t="import"></span></label>
+    </div>
+  </section>
+
+  <footer data-t="footer"></footer>
+</div>
+
+<script>
+const UI = {
+  fr:{heroTitle:"Apprendre à écouter, une semaine à la fois.",tabPath:"Mon parcours",tabJournal:"Le carnet de Steevax",tabMethod:"La méthode",
+      week:"Semaine",of:"semaines terminées",start:"Commencer par",listen:"Quoi écouter",version:"Version",
+      l1:"Écoute 1",l2:"Écoute 2",l3:"Écoute 3",note:"Votre phrase : ce qui vous a pris, ce qui vous a ennuyé…",
+      journalKicker:"Journal de bord",journalTitle:"Le chemin de Maestro Steevax",
+      journalIntro:"Ce que Steve écoute, ce qui le prend, ce qui l'ennuie. Publié au fil de son propre parcours.",
+      noEntries:"Le carnet s'ouvre avec la semaine 1. Premières notes très bientôt.",
+      methodKicker:"Le rituel",methodTitle:"Trois écoutes, une note",phasesTitle:"Les quatre phases",
+      saveTitle:"Votre progression",saveIntro:"Elle est gardée dans ce navigateur. Exportez-la pour la sauvegarder ou la retrouver ailleurs. L'app iPhone la synchronisera par iCloud.",
+      export:"Exporter ma progression",import:"Importer une progression",imported:"Progression importée.",
+      footer:"Maestro Steevax · un projet personnel de Steve Rosenblum"},
+  en:{heroTitle:"Learning to listen, one week at a time.",tabPath:"My path",tabJournal:"Steevax's notebook",tabMethod:"The method",
+      week:"Week",of:"weeks completed",start:"Start with",listen:"Listen for",version:"Recording",
+      l1:"Listen 1",l2:"Listen 2",l3:"Listen 3",note:"Your sentence: what gripped you, what bored you…",
+      journalKicker:"Logbook",journalTitle:"Maestro Steevax's path",
+      journalIntro:"What Steve listens to, what grips him, what bores him. Published as he walks his own path.",
+      noEntries:"The notebook opens with week 1. First notes coming soon.",
+      methodKicker:"The ritual",methodTitle:"Three listens, one note",phasesTitle:"The four phases",
+      saveTitle:"Your progress",saveIntro:"It is kept in this browser. Export it to back it up or move it elsewhere. The iPhone app will sync it through iCloud.",
+      export:"Export my progress",import:"Import progress",imported:"Progress imported.",
+      footer:"Maestro Steevax · a personal project by Steve Rosenblum"}
+};
+const KEY="maestro.progress.v1", LKEY="maestro.lang";
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},
+             set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let lang=store.get(LKEY,(navigator.language||"fr").startsWith("fr")?"fr":"en");
+let progress=store.get(KEY,{});
+let parcours,weeks=[],journal={entries:[]};
+const t=k=>UI[lang][k], L=o=>o?(o[lang]||o.fr):"";
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function workState(id){return progress[id]||(progress[id]={listens:[false,false,false],rating:0,note:""})}
+function workDone(id){const s=progress[id];return s&&s.listens.every(Boolean)}
+function weekDone(w){return w.works.every(x=>workDone(x.id))}
+function save(){store.set(KEY,progress);renderProgress()}
+
+function renderProgress(){
+  const done=weeks.filter(weekDone).length;
+  document.getElementById("bar").style.width=(weeks.length?done/weeks.length*100:0)+"%";
+  document.getElementById("progressText").textContent=`${done} / ${weeks.length} ${t("of")}`;
+  const cur=weeks.find(w=>!weekDone(w));
+  document.querySelectorAll(".week").forEach(el=>{
+    const w=weeks.find(x=>x.id===el.dataset.id);
+    el.classList.toggle("done",weekDone(w));
+    el.classList.toggle("current",w===cur);
+  });
+}
+
+function renderWeeks(){
+  const cur=weeks.find(w=>!weekDone(w));
+  document.getElementById("phase").innerHTML=`<div class="kicker">Phase 1</div><h2>${esc(L(parcours.phases[0].title))}</h2>`;
+  document.getElementById("weeks").innerHTML=weeks.map(w=>`
+    <details class="week" data-id="${w.id}" ${w===cur?"open":""}>
+      <summary><div class="num">${w.n}</div>
+        <div class="wt"><b>${esc(L(w.title))}</b><small>${t("week")} ${w.n} · ${esc(L(parcours.periods[w.period]))}</small></div>
+        <div class="chev">›</div></summary>
+      ${w.works.map(x=>{const s=workState(x.id);const r=x.recording;return `
+      <div class="work" data-work="${x.id}">
+        <h3>${esc(L(x.title))}</h3>
+        <div class="meta">${esc(x.composer)} · ${esc(x.year)}</div>
+        <div class="field"><em>${t("version")}</em>${esc(r.performers)} (${esc(r.label)}${r.year?", "+r.year:""})</div>
+        <div class="field"><em>${t("start")}</em>${esc(L(x.startWith))}</div>
+        <div class="field"><em>${t("listen")}</em>${esc(L(x.listenFor))}</div>
+        <div class="links"><a href="${x.links.appleMusic}" target="_blank" rel="noopener">Apple Music</a><a href="${x.links.spotify}" target="_blank" rel="noopener">Spotify</a><a href="${x.links.youtube}" target="_blank" rel="noopener">YouTube</a></div>
+        <div class="listens">${[0,1,2].map(i=>`<label class="${s.listens[i]?"on":""}"><input type="checkbox" data-i="${i}" ${s.listens[i]?"checked":""}>${t("l"+(i+1))}</label>`).join("")}</div>
+        <div class="stars">${[1,2,3,4,5].map(n=>`<button data-r="${n}" class="${n<=s.rating?"on":""}" aria-label="${n}">★</button>`).join("")}</div>
+        <textarea placeholder="${esc(t("note"))}">${esc(s.note)}</textarea>
+      </div>`}).join("")}
+      ${w.review?`<div class="review">${esc(L(w.review))}</div>`:""}
+    </details>`).join("");
+  document.querySelectorAll(".work").forEach(el=>{
+    const s=workState(el.dataset.work);
+    el.querySelectorAll(".listens input").forEach(cb=>cb.onchange=()=>{s.listens[+cb.dataset.i]=cb.checked;cb.parentElement.classList.toggle("on",cb.checked);save()});
+    el.querySelectorAll(".stars button").forEach(b=>b.onclick=()=>{s.rating=+b.dataset.r;el.querySelectorAll(".stars button").forEach(x=>x.classList.toggle("on",+x.dataset.r<=s.rating));save()});
+    el.querySelector("textarea").oninput=e=>{s.note=e.target.value;save()};
+  });
+  renderProgress();
+}
+
+function renderStatic(){
+  document.documentElement.lang=lang;
+  document.querySelectorAll("[data-t]").forEach(el=>el.textContent=t(el.dataset.t));
+  document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on",b.dataset.l===lang));
+  document.getElementById("tagline").textContent=L(parcours.tagline);
+  document.getElementById("ritual").innerHTML=parcours.ritual.map(r=>`<div><b>${esc(L(r.title))}</b><span>${esc(L(r.text))}</span></div>`).join("");
+  document.getElementById("notebook").textContent=L(parcours.notebook);
+  document.getElementById("signal").textContent=L(parcours.signal);
+  document.getElementById("phases").innerHTML=parcours.phases.map(p=>`<div class="entry"><b>Phase ${p.n} · ${esc(L(p.title))}</b><br><small>${t("week")} ${p.weeks}</small></div>`).join("");
+  const es=journal.entries.slice().sort((a,b)=>b.date.localeCompare(a.date));
+  document.getElementById("entries").innerHTML=es.length?es.map(e=>`<div class="entry"><small>${esc(e.date)} · ${"★".repeat(e.rating||0)}</small><div>${esc(L(e.note))}</div></div>`).join(""):`<p class="empty">${t("noEntries")}</p>`;
+  renderWeeks();
+}
+
+document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>{lang=b.dataset.l;store.set(LKEY,lang);renderStatic()});
+document.querySelectorAll("nav.tabs button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("nav.tabs button").forEach(x=>x.classList.toggle("on",x===b));
+  document.querySelectorAll("section").forEach(s=>s.classList.toggle("on",s.id===b.dataset.tab));
+});
+document.getElementById("export").onclick=()=>{
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([JSON.stringify({app:"maestro-steevax",v:1,progress},null,1)],{type:"application/json"}));
+  a.download="maestro-steevax-progression.json";a.click();
+};
+document.getElementById("import").onchange=async e=>{
+  try{const d=JSON.parse(await e.target.files[0].text());if(d.progress){progress=d.progress;save();renderWeeks();alertless(t("imported"))}}catch(err){}
+};
+function alertless(msg){const p=document.getElementById("progressText");const o=p.textContent;p.textContent=msg;setTimeout(()=>renderProgress(),1800)}
+
+(async()=>{
+  const get=p=>fetch(p,{cache:"no-cache"}).then(r=>r.json());
+  const [pc,idx,jr]=await Promise.all([get("_parcours.json"),get("_index.json"),get("journal/_journal.json").catch(()=>({entries:[]}))]);
+  parcours=pc;journal=jr;
+  weeks=await Promise.all(idx.weeks.map(w=>get(`semaines/${w.id}.json`)));
+  renderStatic();
+})();
+</script>
+</body>
+</html>

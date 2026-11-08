@@ -1,0 +1,43 @@
+{
+ "id": "semaine-01",
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "n": 1,
+ "period": "baroque",
+ "title": {
+  "fr": "Bach, la ligne seule",
+  "en": "Bach, the single line"
+ },
+ "works": [
+  {
+   "id": "bach-suites-violoncelle",
+   "composer": "Johann Sebastian Bach",
+   "title": {
+    "fr": "Suites pour violoncelle seul",
+    "en": "Cello Suites"
+   },
+   "year": "c. 1720",
+   "recording": {
+    "performers": "Mstislav Rostropovitch",
+    "label": "EMI",
+    "year": 1995
+   },
+   "startWith": {
+    "fr": "Suite n°1, Prélude (2 min 30)",
+    "en": "Suite No. 1, Prelude (2'30)"
+   },
+   "listenFor": {
+    "fr": "Un seul instrument, une seule ligne, et pourtant on entend des harmonies : Bach crée l'illusion de plusieurs voix en faisant sauter l'archet entre graves et aigus.",
+    "en": "One instrument, one line, and yet you hear harmony: Bach creates the illusion of several voices by leaping the bow between low and high."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Bach%20Cello%20Suite%201%20Rostropovich",
+    "spotify": "https://open.spotify.com/search/Bach%20Cello%20Suite%201%20Rostropovich",
+    "youtube": "https://www.youtube.com/results?search_query=Bach%20Cello%20Suite%201%20Rostropovich"
+   }
+  }
+ ]
+}

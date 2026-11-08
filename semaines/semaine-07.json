@@ -1,0 +1,70 @@
+{
+ "id": "semaine-07",
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "n": 7,
+ "period": "charniere-1900",
+ "title": {
+  "fr": "Deux sorties du romantisme",
+  "en": "Two ways out of Romanticism"
+ },
+ "works": [
+  {
+   "id": "debussy-faune",
+   "composer": "Claude Debussy",
+   "title": {
+    "fr": "Prélude à l'après-midi d'un faune",
+    "en": "Prelude to the Afternoon of a Faun"
+   },
+   "year": "1894",
+   "recording": {
+    "performers": "Pierre Boulez, Cleveland Orchestra",
+    "label": "DG",
+    "year": null
+   },
+   "startWith": {
+    "fr": "En entier (10 min)",
+    "en": "The whole piece (10 min)"
+   },
+   "listenFor": {
+    "fr": "Debussy dissout la mélodie en couleurs et en brume : écoutez la flûte d'ouverture.",
+    "en": "Debussy dissolves melody into colour and haze: listen to the opening flute."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland",
+    "spotify": "https://open.spotify.com/search/Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland",
+    "youtube": "https://www.youtube.com/results?search_query=Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland"
+   }
+  },
+  {
+   "id": "rachmaninov-concerto-2",
+   "composer": "Sergueï Rachmaninov",
+   "title": {
+    "fr": "Concerto pour piano n°2",
+    "en": "Piano Concerto No. 2"
+   },
+   "year": "1901",
+   "recording": {
+    "performers": "Sviatoslav Richter, Stanisław Wisłocki",
+    "label": "DG",
+    "year": 1959
+   },
+   "startWith": {
+    "fr": "1er mouvement",
+    "en": "1st movement"
+   },
+   "listenFor": {
+    "fr": "Rachmaninov pousse le romantisme jusqu'au bout, en grandes vagues lyriques.",
+    "en": "Rachmaninoff pushes Romanticism to its limit, in great lyrical waves."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Rachmaninoff%20Piano%20Concerto%202%20Richter%20Wislocki",
+    "spotify": "https://open.spotify.com/search/Rachmaninoff%20Piano%20Concerto%202%20Richter%20Wislocki",
+    "youtube": "https://www.youtube.com/results?search_query=Rachmaninoff%20Piano%20Concerto%202%20Richter%20Wislocki"
+   }
+  }
+ ]
+}

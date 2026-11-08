@@ -1,0 +1,188 @@
+{
+ "weeks": [
+  {
+   "id": "semaine-01",
+   "n": 1,
+   "phase": 1,
+   "period": "baroque",
+   "title": {
+    "fr": "Bach, la ligne seule",
+    "en": "Bach, the single line"
+   },
+   "works": [
+    {
+     "id": "bach-suites-violoncelle",
+     "composer": "Johann Sebastian Bach",
+     "title": {
+      "fr": "Suites pour violoncelle seul",
+      "en": "Cello Suites"
+     }
+    }
+   ]
+  },
+  {
+   "id": "semaine-02",
+   "n": 2,
+   "phase": 1,
+   "period": "baroque",
+   "title": {
+    "fr": "Vivaldi, la musique qui raconte",
+    "en": "Vivaldi, music that tells a story"
+   },
+   "works": [
+    {
+     "id": "vivaldi-quatre-saisons",
+     "composer": "Antonio Vivaldi",
+     "title": {
+      "fr": "Les Quatre Saisons",
+      "en": "The Four Seasons"
+     }
+    }
+   ]
+  },
+  {
+   "id": "semaine-03",
+   "n": 3,
+   "phase": 1,
+   "period": "classique",
+   "title": {
+    "fr": "Mozart, la clarté et l'ombre",
+    "en": "Mozart, clarity and shadow"
+   },
+   "works": [
+    {
+     "id": "mozart-symphonie-40",
+     "composer": "Wolfgang Amadeus Mozart",
+     "title": {
+      "fr": "Symphonie n°40",
+      "en": "Symphony No. 40"
+     }
+    },
+    {
+     "id": "mozart-requiem",
+     "composer": "Wolfgang Amadeus Mozart",
+     "title": {
+      "fr": "Requiem",
+      "en": "Requiem"
+     }
+    }
+   ]
+  },
+  {
+   "id": "semaine-04",
+   "n": 4,
+   "phase": 1,
+   "period": "classique",
+   "title": {
+    "fr": "Beethoven, tout à partir de rien",
+    "en": "Beethoven, everything from nothing"
+   },
+   "works": [
+    {
+     "id": "beethoven-symphonies-5-7",
+     "composer": "Ludwig van Beethoven",
+     "title": {
+      "fr": "Symphonies n°5 et n°7",
+      "en": "Symphonies Nos. 5 & 7"
+     }
+    }
+   ]
+  },
+  {
+   "id": "semaine-05",
+   "n": 5,
+   "phase": 1,
+   "period": "romantique",
+   "title": {
+    "fr": "Chopin, le piano qui chante",
+    "en": "Chopin, the singing piano"
+   },
+   "works": [
+    {
+     "id": "chopin-nocturnes",
+     "composer": "Frédéric Chopin",
+     "title": {
+      "fr": "Nocturnes",
+      "en": "Nocturnes"
+     }
+    }
+   ]
+  },
+  {
+   "id": "semaine-06",
+   "n": 6,
+   "phase": 1,
+   "period": "romantique",
+   "title": {
+    "fr": "Le dialogue et le voyage",
+    "en": "Dialogue and journey"
+   },
+   "works": [
+    {
+     "id": "dvorak-nouveau-monde",
+     "composer": "Antonín Dvořák",
+     "title": {
+      "fr": "Symphonie n°9 « du Nouveau Monde »",
+      "en": "Symphony No. 9 'From the New World'"
+     }
+    },
+    {
+     "id": "tchaikovski-concerto-piano-1",
+     "composer": "Piotr Ilitch Tchaïkovski",
+     "title": {
+      "fr": "Concerto pour piano n°1",
+      "en": "Piano Concerto No. 1"
+     }
+    }
+   ]
+  },
+  {
+   "id": "semaine-07",
+   "n": 7,
+   "phase": 1,
+   "period": "charniere-1900",
+   "title": {
+    "fr": "Deux sorties du romantisme",
+    "en": "Two ways out of Romanticism"
+   },
+   "works": [
+    {
+     "id": "debussy-faune",
+     "composer": "Claude Debussy",
+     "title": {
+      "fr": "Prélude à l'après-midi d'un faune",
+      "en": "Prelude to the Afternoon of a Faun"
+     }
+    },
+    {
+     "id": "rachmaninov-concerto-2",
+     "composer": "Sergueï Rachmaninov",
+     "title": {
+      "fr": "Concerto pour piano n°2",
+      "en": "Piano Concerto No. 2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "semaine-08",
+   "n": 8,
+   "phase": 1,
+   "period": "moderne",
+   "title": {
+    "fr": "Barber, et le bilan",
+    "en": "Barber, and taking stock"
+   },
+   "works": [
+    {
+     "id": "barber-adagio",
+     "composer": "Samuel Barber",
+     "title": {
+      "fr": "Adagio pour cordes",
+      "en": "Adagio for Strings"
+     }
+    }
+   ]
+  }
+ ]
+}
