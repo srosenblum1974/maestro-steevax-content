@@ -19,6 +19,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: pip install pillow
       - name: Find recordings and paintings on Wikimedia Commons
         run: python3 tools/resolve_media.py
       - name: Rebuild index and manifest

@@ -118,12 +118,7 @@
   },
   "semaine-05": {
    "image": {
-    "search": [
-     "Delacroix Chopin portrait",
-     "Eugène Delacroix Frédéric Chopin 1838"
-    ],
-    "require": "delacroix|chopin",
-    "exclude": "polonaise|manuscript|score|op\\."
+    "file": "Eugène Ferdinand Victor Delacroix 043.jpg"
    },
    "audio": {
     "chopin-nocturnes": [
@@ -202,7 +197,13 @@
   },
   "semaine-08": {
    "image": {
-    "search": "Antonín Slavíček Prague painting"
+    "search": [
+     "Jakub Schikaneder Prague",
+     "Jakub Schikaneder evening",
+     "Jakub Schikaneder"
+    ],
+    "require": "schikaneder",
+    "exclude": "photo|grave|portrait of"
    },
    "audio": {
     "smetana-moldau": [

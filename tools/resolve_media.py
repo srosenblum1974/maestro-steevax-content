@@ -103,7 +103,19 @@ def main():
         src = i["thumb"] or i["url"]
         req = urllib.request.Request(src, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=60) as r:
-            (ROOT / f"illus/{name}.jpg").write_bytes(r.read())
+            data = r.read()
+        try:  # keep paintings light for phones: 1800 px wide, JPEG 80
+            from PIL import Image
+            import io
+            im = Image.open(io.BytesIO(data)).convert("RGB")
+            if im.width > 1800:
+                im = im.resize((1800, round(im.height * 1800 / im.width)), Image.LANCZOS)
+            buf = io.BytesIO()
+            im.save(buf, "JPEG", quality=80, optimize=True, progressive=True)
+            data = buf.getvalue()
+        except ImportError:
+            pass
+        (ROOT / f"illus/{name}.jpg").write_bytes(data)
         report.append(f"IMAGE {name}: {i['title']} — {i['artist']} — {i['license']}")
         return {"path": f"illus/{name}.jpg", "credit": i["artist"] + (f", {i['date']}" if i["date"] else ""),
                 "license": i["license"], "source": i["page"]}
