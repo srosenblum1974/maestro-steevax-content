@@ -37,7 +37,35 @@
     "appleMusic": "https://music.apple.com/search?term=Beethoven%20Symphony%205%207%20Carlos%20Kleiber",
     "spotify": "https://open.spotify.com/search/Beethoven%20Symphony%205%207%20Carlos%20Kleiber",
     "youtube": "https://www.youtube.com/results?search_query=Beethoven%20Symphony%205%207%20Carlos%20Kleiber"
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Symphonie n°7 — Allegretto",
+      "en": "Symphony No. 7 — Allegretto"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg/JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg.mp3",
+     "performer": "Ludwig van Beethoven",
+     "license": "CC BY-SA 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg"
+    },
+    {
+     "label": {
+      "fr": "Symphonie n°5 — 1er mouvement",
+      "en": "Symphony No. 5 — 1st movement"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Ludwig_van_Beethoven_-_Symphonie_5_c-moll_-_1._Allegro_con_brio.ogg/Ludwig_van_Beethoven_-_Symphonie_5_c-moll_-_1._Allegro_con_brio.ogg.mp3",
+     "performer": "user:OldakQuill",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_Symphonie_5_c-moll_-_1._Allegro_con_brio.ogg"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/semaine-04.jpg",
+  "credit": "Joseph Karl Stieler, 1820date QS:P571,+1820-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
+ }
 }

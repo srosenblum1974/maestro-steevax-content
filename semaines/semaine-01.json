@@ -37,7 +37,25 @@
     "appleMusic": "https://music.apple.com/search?term=Bach%20Cello%20Suite%201%20Rostropovich",
     "spotify": "https://open.spotify.com/search/Bach%20Cello%20Suite%201%20Rostropovich",
     "youtube": "https://www.youtube.com/results?search_query=Bach%20Cello%20Suite%201%20Rostropovich"
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Suite n°1 — Prélude",
+      "en": "Suite No. 1 — Prelude"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg/JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg.mp3",
+     "performer": "Johann Sebastian Bach",
+     "license": "CC BY-SA 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/semaine-01.jpg",
+  "credit": "Elias Gottlob Haussmann, 1748date QS:P571,+1748-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg"
+ }
 }

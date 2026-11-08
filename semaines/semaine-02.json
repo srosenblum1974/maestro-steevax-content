@@ -37,7 +37,35 @@
     "appleMusic": "https://music.apple.com/search?term=Vivaldi%20Four%20Seasons%20Biondi%20Europa%20Galante",
     "spotify": "https://open.spotify.com/search/Vivaldi%20Four%20Seasons%20Biondi%20Europa%20Galante",
     "youtube": "https://www.youtube.com/results?search_query=Vivaldi%20Four%20Seasons%20Biondi%20Europa%20Galante"
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "L'Été — 3e mouvement (l'orage)",
+      "en": "Summer — 3rd movement (the storm)"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/Vivaldi_-_Four_Seasons_3_Autumn_mvt_3_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_3_Autumn_mvt_3_Allegro_-_John_Harrison_violin.oga.mp3",
+     "performer": "Music by Antonio Vivaldi published in 1725; Recording copyright John Harrison (JohnHarrisonViolin.com)",
+     "license": "CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_3_Autumn_mvt_3_Allegro_-_John_Harrison_violin.oga"
+    },
+    {
+     "label": {
+      "fr": "Le Printemps — 1er mouvement",
+      "en": "Spring — 1st movement"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3",
+     "performer": "Antonio Vivaldi",
+     "license": "CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/semaine-02.jpg",
+  "credit": "Didier Descouens, Taken on 4 May 2019",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Il_Ritorno_del_Bucintoro_al_molo_nel_giorno_dell%27Ascensione_(c.1738)_Canaletto_-_Wells-Next-The-Sea,_The_Earl_of_Leicester_and_Trustees_of_the_Holkham_Estate.jpg"
+ }
 }

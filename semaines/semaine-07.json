@@ -37,7 +37,19 @@
     "appleMusic": "https://music.apple.com/search?term=Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland",
     "spotify": "https://open.spotify.com/search/Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland",
     "youtube": "https://www.youtube.com/results?search_query=Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland"
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Prélude à l'après-midi d'un faune",
+      "en": "Prelude to the Afternoon of a Faun"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Claude_debussy_faune.mid/Claude_debussy_faune.mid.mp3",
+     "performer": "LITTLEJAZZMAN",
+     "license": "CC BY-SA 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Claude_debussy_faune.mid"
+    }
+   ]
   },
   {
    "id": "rachmaninov-concerto-2",
@@ -64,7 +76,25 @@
     "appleMusic": "https://music.apple.com/search?term=Rachmaninoff%20Piano%20Concerto%202%20Richter%20Wislocki",
     "spotify": "https://open.spotify.com/search/Rachmaninoff%20Piano%20Concerto%202%20Richter%20Wislocki",
     "youtube": "https://www.youtube.com/results?search_query=Rachmaninoff%20Piano%20Concerto%202%20Richter%20Wislocki"
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "1er mouvement — Moderato",
+      "en": "1st movement — Moderato"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_i._moderato.ogg/Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor%2C_op._18_-_i._moderato.ogg.mp3",
+     "performer": "Sergei Rachmaninoff",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor,_op._18_-_i._moderato.ogg"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/semaine-07.jpg",
+  "credit": "Claude Monet, 1872date QS:P571,+1872-00-00T00:00:00Z/9",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg"
+ }
 }

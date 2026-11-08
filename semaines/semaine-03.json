@@ -37,7 +37,29 @@
     "appleMusic": "https://music.apple.com/search?term=Mozart%20Symphony%2040%20Bernstein%20Wiener%20Philharmoniker",
     "spotify": "https://open.spotify.com/search/Mozart%20Symphony%2040%20Bernstein%20Wiener%20Philharmoniker",
     "youtube": "https://www.youtube.com/results?search_query=Mozart%20Symphony%2040%20Bernstein%20Wiener%20Philharmoniker"
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "1er mouvement — Molto allegro",
+      "en": "1st movement — Molto allegro"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_I._Molto_allegro_%28Musopen_Symphony%29.flac/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_I._Molto_allegro_%28Musopen_Symphony%29.flac.mp3",
+     "performer": "Wolfgang Amadeus Mozart",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_I._Molto_allegro_(Musopen_Symphony).flac"
+    },
+    {
+     "label": {
+      "fr": "2e mouvement — Andante",
+      "en": "2nd movement — Andante"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_II._Andante_%28Musopen_Symphony%29.flac/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_II._Andante_%28Musopen_Symphony%29.flac.mp3",
+     "performer": "Wolfgang Amadeus Mozart",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_II._Andante_(Musopen_Symphony).flac"
+    }
+   ]
   },
   {
    "id": "mozart-requiem",
@@ -64,7 +86,25 @@
     "appleMusic": "https://music.apple.com/search?term=Mozart%20Requiem%20Gardiner",
     "spotify": "https://open.spotify.com/search/Mozart%20Requiem%20Gardiner",
     "youtube": "https://www.youtube.com/results?search_query=Mozart%20Requiem%20Gardiner"
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Lacrimosa",
+      "en": "Lacrimosa"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Mozart%2C_Requiem_in_D_minor%2C_%27Lacrimosa%27_%E2%80%93_piano_arrangement.ogg/Mozart%2C_Requiem_in_D_minor%2C_%27Lacrimosa%27_%E2%80%93_piano_arrangement.ogg.mp3",
+     "performer": "Wolfgang Amadeus Mozart / Sigismond Thalberg",
+     "license": "CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Mozart,_Requiem_in_D_minor,_%27Lacrimosa%27_%E2%80%93_piano_arrangement.ogg"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/semaine-03.jpg",
+  "credit": "Barbara Krafft, 1819",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_(1819).jpg"
+ }
 }

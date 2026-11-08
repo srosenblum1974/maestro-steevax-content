@@ -37,11 +37,29 @@
     "appleMusic": "https://music.apple.com/search?term=Smetana%20Vltava%20Moldau%20Kubelik%20Czech%20Philharmonic",
     "spotify": "https://open.spotify.com/search/Smetana%20Vltava%20Moldau%20Kubelik%20Czech%20Philharmonic",
     "youtube": "https://www.youtube.com/results?search_query=Smetana%20Vltava%20Moldau%20Kubelik%20Czech%20Philharmonic"
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "La Moldau (en entier)",
+      "en": "The Moldau (complete)"
+     },
+     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Smetana_-_M%C3%A1_Vlast_-_Vltava_%28Musopen_Symphony%29.flac/Smetana_-_M%C3%A1_Vlast_-_Vltava_%28Musopen_Symphony%29.flac.mp3",
+     "performer": "Bedřich Smetana",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Smetana_-_M%C3%A1_Vlast_-_Vltava_(Musopen_Symphony).flac"
+    }
+   ]
   }
  ],
  "review": {
   "fr": "Relisez votre carnet : quelles sont les 3 œuvres qui vous ont le plus pris ? Leur époque et leur forme orienteront la phase 2.",
   "en": "Reread your notebook: which 3 works gripped you most? Their period and form will steer phase 2."
+ },
+ "image": {
+  "path": "illus/semaine-08.jpg",
+  "credit": "Antonín Slavíček, 1924",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Anton%C3%ADn_Slav%C3%AD%C4%8Dek_-_Prague,_from_Letna.jpg"
  }
 }

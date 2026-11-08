@@ -1,30 +1,115 @@
 {
- "title": {"fr": "Maestro Steevax", "en": "Maestro Steevax"},
+ "title": {
+  "fr": "Maestro Steevax",
+  "en": "Maestro Steevax"
+ },
  "tagline": {
   "fr": "Un entrepreneur découvre la musique classique, semaine après semaine. Faites le chemin avec lui, à votre rythme.",
   "en": "An entrepreneur discovers classical music, week by week. Walk the path with him, at your own pace."
  },
  "ritual": [
-  {"id": "passive", "title": {"fr": "Écoute 1 : passive", "en": "Listen 1: passive"},
-   "text": {"fr": "Laissez tourner sans rien analyser (trajet, cuisine, sport).", "en": "Let it play without analysing (commute, cooking, workout)."}},
-  {"id": "attentive", "title": {"fr": "Écoute 2 : attentive", "en": "Listen 2: focused"},
-   "text": {"fr": "Au casque, sans téléphone, avec la consigne « Quoi écouter ».", "en": "Headphones on, phone away, with the 'Listen for' cue."}},
-  {"id": "memoire", "title": {"fr": "Écoute 3 : de mémoire", "en": "Listen 3: from memory"},
-   "text": {"fr": "Quelques jours plus tard. Anticipez ce qui va arriver.", "en": "A few days later. Anticipate what comes next."}}
+  {
+   "id": "passive",
+   "title": {
+    "fr": "Écoute 1 : passive",
+    "en": "Listen 1: passive"
+   },
+   "text": {
+    "fr": "Laissez tourner sans rien analyser (trajet, cuisine, sport).",
+    "en": "Let it play without analysing (commute, cooking, workout)."
+   }
+  },
+  {
+   "id": "attentive",
+   "title": {
+    "fr": "Écoute 2 : attentive",
+    "en": "Listen 2: focused"
+   },
+   "text": {
+    "fr": "Au casque, sans téléphone, avec la consigne « Quoi écouter ».",
+    "en": "Headphones on, phone away, with the 'Listen for' cue."
+   }
+  },
+  {
+   "id": "memoire",
+   "title": {
+    "fr": "Écoute 3 : de mémoire",
+    "en": "Listen 3: from memory"
+   },
+   "text": {
+    "fr": "Quelques jours plus tard. Anticipez ce qui va arriver.",
+    "en": "A few days later. Anticipate what comes next."
+   }
+  }
  ],
- "notebook": {"fr": "Une note de 1 à 5 et une phrase : ce qui vous a pris, ce qui vous a ennuyé.", "en": "A 1-to-5 rating and one sentence: what gripped you, what bored you."},
- "signal": {"fr": "Le signal à surveiller : revenez-vous à une œuvre sans que le programme vous le demande ?", "en": "The signal to watch: do you go back to a work without being told to?"},
+ "notebook": {
+  "fr": "Une note de 1 à 5 et une phrase : ce qui vous a pris, ce qui vous a ennuyé.",
+  "en": "A 1-to-5 rating and one sentence: what gripped you, what bored you."
+ },
+ "signal": {
+  "fr": "Le signal à surveiller : revenez-vous à une œuvre sans que le programme vous le demande ?",
+  "en": "The signal to watch: do you go back to a work without being told to?"
+ },
  "phases": [
-  {"n": 1, "weeks": "1-8", "title": {"fr": "Accrocher l'oreille", "en": "Hooking the ear"}},
-  {"n": 2, "weeks": "9-26", "title": {"fr": "Suivre les fils", "en": "Following the threads"}},
-  {"n": 3, "weeks": "27-52", "title": {"fr": "Poser la carte", "en": "Drawing the map"}},
-  {"n": 4, "weeks": "53+", "title": {"fr": "Approfondir", "en": "Going deeper"}}
+  {
+   "n": 1,
+   "weeks": "1-8",
+   "title": {
+    "fr": "Accrocher l'oreille",
+    "en": "Hooking the ear"
+   }
+  },
+  {
+   "n": 2,
+   "weeks": "9-26",
+   "title": {
+    "fr": "Suivre les fils",
+    "en": "Following the threads"
+   }
+  },
+  {
+   "n": 3,
+   "weeks": "27-52",
+   "title": {
+    "fr": "Poser la carte",
+    "en": "Drawing the map"
+   }
+  },
+  {
+   "n": 4,
+   "weeks": "53+",
+   "title": {
+    "fr": "Approfondir",
+    "en": "Going deeper"
+   }
+  }
  ],
  "periods": {
-  "baroque": {"fr": "Baroque (1600–1750)", "en": "Baroque (1600–1750)"},
-  "classique": {"fr": "Classique (1750–1820)", "en": "Classical (1750–1820)"},
-  "romantique": {"fr": "Romantique (1820–1900)", "en": "Romantic (1820–1900)"},
-  "charniere-1900": {"fr": "Charnière 1900", "en": "Turn of the century"},
-  "moderne": {"fr": "Moderne (après 1900)", "en": "Modern (after 1900)"}
+  "baroque": {
+   "fr": "Baroque (1600–1750)",
+   "en": "Baroque (1600–1750)"
+  },
+  "classique": {
+   "fr": "Classique (1750–1820)",
+   "en": "Classical (1750–1820)"
+  },
+  "romantique": {
+   "fr": "Romantique (1820–1900)",
+   "en": "Romantic (1820–1900)"
+  },
+  "charniere-1900": {
+   "fr": "Charnière 1900",
+   "en": "Turn of the century"
+  },
+  "moderne": {
+   "fr": "Moderne (après 1900)",
+   "en": "Modern (after 1900)"
+  }
+ },
+ "heroImage": {
+  "path": "illus/accueil.jpg",
+  "credit": "Caspar David Friedrich, circa 1817date QS:P571,+1817-00-00T00:00:00Z/9,P1480,Q5727902",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg"
  }
 }
