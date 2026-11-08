@@ -103,7 +103,7 @@
        "Beethoven symphony 7 second movement",
        "Beethoven 7. Sinfonie Allegretto"
       ],
-      "require": "7|vii|seven|sieben",
+      "require": "beethoven.*(sym|sinf).*(7|vii|sieben)|(7|vii|sieben).*beethoven",
       "exclude": "cello|piano|guitar|arrangement|midi|organ"
      },
      {

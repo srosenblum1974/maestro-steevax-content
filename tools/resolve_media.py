@@ -132,6 +132,8 @@ def main():
                                "license": i["license"], "source": i["page"]})
             if tracks:
                 work["audio"] = tracks
+            else:
+                work.pop("audio", None)   # never keep a stale or wrong track
         path.write_text(json.dumps(week, ensure_ascii=False, indent=1) + "\n")
 
     print("\n".join(report))
