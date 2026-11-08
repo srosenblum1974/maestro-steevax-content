@@ -9,7 +9,6 @@ AUDIO semaine-03/mozart-symphonie-40: File:Mozart - Symphony No. 40 in G minor, 
 AUDIO semaine-03/mozart-symphonie-40: File:Mozart - Symphony No. 40 in G minor, K550 - II. Andante (Musopen Symphony).flac — Wolfgang Amadeus Mozart — Public domain
 AUDIO semaine-03/mozart-requiem: File:Mozart - Requiem (Krips) - VIII. Lacrimosa.flac — Wolfgang Amadeus Mozart — Public domain
 IMAGE semaine-04: File:Joseph Karl Stieler's Beethoven mit dem Manuskript der Missa solemnis.jpg — Joseph Karl Stieler — Public domain
-AUDIO semaine-04/beethoven-symphonies-5-7: File:IMSLP365275-PMLP02279-Mazurka As- Dur Op 59 Nr 2.ogg — Christoph Zbinden — CC BY 4.0
 AUDIO semaine-04/beethoven-symphonies-5-7: File:Ludwig van Beethoven - Symphonie 5 c-moll - 1. Allegro con brio.ogg — user:OldakQuill — Public domain
 IMAGE semaine-05: File:ChopinSandDelacroix.jpg — Eugène Delacroix — Public domain
 AUDIO semaine-05/chopin-nocturnes: File:Chopin - Nocturne No. 2 in E-flat major, Op. 9 No. 2 (Frank Levy).flac — Frédéric Chopin / Frank Lévy — Public domain
@@ -21,8 +20,9 @@ IMAGE semaine-07: File:Monet - Impression, Sunrise.jpg — Claude Monet — Publ
   - skipped File:Claude debussy faune.mid (no MP3 version)
   - skipped File:Prelude to the Afternoon of a Faun dominant thirteenth chord.mid (no MP3 version)
 AUDIO semaine-07/rachmaninov-concerto-2: File:Sergei Rachmaninoff - piano concerto no. 2 in c minor, op. 18 - i. moderato.ogg — Sergei Rachmaninoff — Public domain
-IMAGE semaine-08: File:Antonín Slavíček - Prague, A Rainy Day.jpg — Antonín Slavíček — Public domain
+IMAGE semaine-08: File:Antonín Slavíček - Prague, from Letna.jpg — Antonín Slavíček — Public domain
 AUDIO semaine-08/smetana-moldau: File:Smetana - Má Vlast - Vltava (Musopen Symphony).flac — Bedřich Smetana — Public domain
 
 NOT FOUND:
+audio semaine-04/beethoven-symphonies-5-7: Symphony No. 7 — Allegretto
 audio semaine-07/debussy-faune: Prelude to the Afternoon of a Faun

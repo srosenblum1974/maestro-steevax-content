@@ -37,19 +37,7 @@
     "appleMusic": "https://music.apple.com/search?term=Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland",
     "spotify": "https://open.spotify.com/search/Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland",
     "youtube": "https://www.youtube.com/results?search_query=Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland"
-   },
-   "audio": [
-    {
-     "label": {
-      "fr": "Prélude à l'après-midi d'un faune",
-      "en": "Prelude to the Afternoon of a Faun"
-     },
-     "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Claude_debussy_faune.mid/Claude_debussy_faune.mid.mp3",
-     "performer": "LITTLEJAZZMAN",
-     "license": "CC BY-SA 3.0",
-     "source": "https://commons.wikimedia.org/wiki/File:Claude_debussy_faune.mid"
-    }
-   ]
+   }
   },
   {
    "id": "rachmaninov-concerto-2",
