@@ -235,7 +235,8 @@ document.getElementById("import").onchange=async e=>{
 function alertless(msg){const p=document.getElementById("progressText");const o=p.textContent;p.textContent=msg;setTimeout(()=>renderProgress(),1800)}
 
 (async()=>{
-  const get=p=>fetch(p,{cache:"no-cache"}).then(r=>r.json());
+  const D=window.MAESTRO_DATA; // inlined copy for previews; the site itself reads the JSON files
+  const get=p=>D?Promise.resolve(D[p]):fetch(p,{cache:"no-cache"}).then(r=>r.json());
   const [pc,idx,jr]=await Promise.all([get("_parcours.json"),get("_index.json"),get("journal/_journal.json").catch(()=>({entries:[]}))]);
   parcours=pc;journal=jr;
   weeks=await Promise.all(idx.weeks.map(w=>get(`semaines/${w.id}.json`)));
