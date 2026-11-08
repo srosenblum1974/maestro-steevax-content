@@ -110,6 +110,7 @@
   "path": "illus/accueil.jpg",
   "credit": "Caspar David Friedrich, c. 1817",
   "license": "Public domain",
-  "source": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg"
+  "source": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+  "focus": "50% 35%"
  }
 }
