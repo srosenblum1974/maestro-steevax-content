@@ -20,7 +20,7 @@ IMAGE semaine-07: File:Monet - Impression, Sunrise.jpg — Claude Monet — Publ
   - skipped File:Claude debussy faune.mid (no MP3 version)
   - skipped File:Prelude to the Afternoon of a Faun dominant thirteenth chord.mid (no MP3 version)
 AUDIO semaine-07/rachmaninov-concerto-2: File:Sergei Rachmaninoff - piano concerto no. 2 in c minor, op. 18 - i. moderato.ogg — Sergei Rachmaninoff — Public domain
-IMAGE semaine-08: File:Antonín Slavíček - Prague, from Letna.jpg — Antonín Slavíček — Public domain
+IMAGE semaine-08: File:Adam August Müller - Udsigt over Prag med Karlsbroen krydser Moldau-floden.jpg — Adam August Müller — Public domain
 AUDIO semaine-08/smetana-moldau: File:Smetana - Má Vlast - Vltava (Musopen Symphony).flac — Bedřich Smetana — Public domain
 
 NOT FOUND:
