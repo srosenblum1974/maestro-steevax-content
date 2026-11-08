@@ -227,11 +227,11 @@ function renderHome(){
   document.querySelectorAll("[data-t]").forEach(el=>el.textContent=t(el.dataset.t));
   document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on",b.dataset.l===lang));
   $("tagline").textContent=L(parcours.tagline);
-  if(parcours.heroImage){$("heroImg").src=parcours.heroImage.path;$("heroCredit").innerHTML=credit(parcours.heroImage)}
+  if(parcours.heroImage){$("heroImg").src=parcours.heroImage.path;$("heroImg").style.objectPosition=parcours.heroImage.focus||"50% 40%";$("heroCredit").innerHTML=credit(parcours.heroImage)}
   const c=current();
   $("tiles").innerHTML=weeks.map(w=>`
     <a class="tile ${weekDone(w)?"done":""} ${w===c?"current":""}" href="#${w.id}">
-      ${w.image?`<img src="${esc(w.image.path)}" alt="" loading="lazy">`:""}
+      ${w.image?`<img src="${esc(w.image.path)}" alt="" loading="lazy" style="object-position:${esc(w.image.focus||"50% 40%")}">`:""}
       <div class="inner"><div class="num">${w.n}</div>
         <div class="t"><small>${t("week")} ${w.n} · ${esc(L(parcours.periods[w.period]))}</small><b>${esc(L(w.title))}</b></div></div>
     </a>`).join("");
@@ -271,7 +271,7 @@ function renderWeek(id,keepScroll){
   const next=weeks.find(x=>x.n===w.n+1);
   $("week").innerHTML=`
    <section class="bleed">
-     ${w.image?`<img class="bg" src="${esc(w.image.path)}" alt="">`:""}
+     ${w.image?`<img class="bg" src="${esc(w.image.path)}" alt="" style="object-position:${esc(w.image.focus||"50% 40%")}">`:""}
      <div class="inner"><div class="kicker">${t("week")} ${w.n} · ${esc(L(parcours.periods[w.period]))}</div><h2>${esc(L(w.title))}</h2></div>
      <div class="credit">${credit(w.image)}</div>
    </section>

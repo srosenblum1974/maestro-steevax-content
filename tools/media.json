@@ -1,12 +1,14 @@
 {
  "_doc": "Ce qu'il faut aller chercher sur Wikimedia Commons. 'file' = titre exact ; 'search' = recherche (le premier résultat libre de droits est retenu). tools/resolve_media.py écrit les URLs, interprètes et licences dans les JSON, et télécharge les images dans illus/.",
  "hero": {
-  "search": "Caspar David Friedrich Wanderer above the Sea of Fog"
+  "search": "Caspar David Friedrich Wanderer above the Sea of Fog",
+  "focus": "50% 35%"
  },
  "weeks": {
   "semaine-01": {
    "image": {
-    "search": "Elias Gottlob Haussmann Johann Sebastian Bach 1748"
+    "search": "Elias Gottlob Haussmann Johann Sebastian Bach 1748",
+    "focus": "50% 12%"
    },
    "audio": {
     "bach-suites-violoncelle": [
@@ -55,7 +57,8 @@
   },
   "semaine-03": {
    "image": {
-    "search": "Barbara Krafft Wolfgang Amadeus Mozart portrait"
+    "search": "Barbara Krafft Wolfgang Amadeus Mozart portrait",
+    "focus": "45% 22%"
    },
    "audio": {
     "mozart-symphonie-40": [
@@ -96,7 +99,8 @@
   },
   "semaine-04": {
    "image": {
-    "search": "Joseph Karl Stieler Beethoven Missa Solemnis portrait"
+    "search": "Joseph Karl Stieler Beethoven Missa Solemnis portrait",
+    "focus": "55% 18%"
    },
    "audio": {
     "beethoven-symphonies-5-7": [
@@ -126,7 +130,8 @@
   },
   "semaine-05": {
    "image": {
-    "file": "Eugène Ferdinand Victor Delacroix 043.jpg"
+    "file": "Eugène Ferdinand Victor Delacroix 043.jpg",
+    "focus": "50% 22%"
    },
    "audio": {
     "chopin-nocturnes": [

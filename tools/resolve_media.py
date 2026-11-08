@@ -120,7 +120,7 @@ def main():
         (ROOT / f"illus/{name}.jpg").write_bytes(data)
         report.append(f"IMAGE {name}: {i['title']} — {i['artist']} — {i['license']}")
         return {"path": f"illus/{name}.jpg", "credit": spec.get("credit") or (i["artist"] + (f", {i['date']}" if i["date"] else "")),
-                "license": i["license"], "source": i["page"]}
+                "license": i["license"], "source": i["page"], "focus": spec.get("focus", "50% 40%")}
 
     hero = image(media["hero"], "accueil")
     if hero:
