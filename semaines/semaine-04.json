@@ -26,12 +26,12 @@
     "year": 1976
    },
    "startWith": {
-    "fr": "Symphonie n°7, 2e mouvement (Allegretto)",
-    "en": "Symphony No. 7, 2nd movement (Allegretto)"
+    "fr": "Symphonie n°5, 1er mouvement (l'enregistrement libre disponible ici)",
+    "en": "Symphony No. 5, 1st movement (the free recording available here)"
    },
    "listenFor": {
-    "fr": "Comment Beethoven bâtit une œuvre entière sur une cellule minuscule (les 4 notes de la 5e). L'Allegretto de la 7e : un rythme obsédant qui grossit, couche après couche.",
-    "en": "How Beethoven builds a whole work from a tiny cell (the four notes of the Fifth). The Seventh's Allegretto: an obsessive rhythm that grows, layer upon layer."
+    "fr": "Comment Beethoven construit tout un mouvement à partir d'une cellule minuscule : les 4 notes du début.",
+    "en": "How Beethoven builds a whole movement from a tiny cell: the 4 opening notes."
    },
    "links": {
     "appleMusic": "https://music.apple.com/search?term=Beethoven%20Symphony%205%207%20Carlos%20Kleiber",
@@ -49,7 +49,159 @@
      "license": "Public domain",
      "source": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_Symphonie_5_c-moll_-_1._Allegro_con_brio.ogg"
     }
-   ]
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Quatre notes, et toute une symphonie en sort.",
+     "en": "Four notes, and a whole symphony grows from them."
+    },
+    "context": {
+     "fr": "Vienne, 22 décembre 1808. Beethoven est presque sourd. Sa 5e Symphonie est créée dans une salle glaciale, au cours d'un concert de quatre heures, avec un orchestre mal préparé. Elle s'impose pourtant comme l'une des œuvres les plus célèbres jamais écrites.",
+     "en": "Vienna, 22 December 1808. Beethoven is nearly deaf. His Fifth is premiered in a freezing hall, during a four-hour concert, with an under-rehearsed orchestra. It still becomes one of the most famous works ever written."
+    },
+    "why": {
+     "fr": "Beethoven change les règles : une œuvre n'est plus un beau divertissement mais un combat personnel. Tout le romantisme part de là. Ce mouvement a même été envoyé dans l'espace sur le disque d'or des sondes Voyager.",
+     "en": "Beethoven changes the rules: a work is no longer fine entertainment but a personal struggle. Romanticism starts here. This movement was even sent into space on the Voyager Golden Record."
+    },
+    "how": {
+     "fr": "Comptez : ta-ta-ta-TAM. Pendant tout le morceau, cherchez ce rythme. Il se cache partout, même sous les passages calmes.",
+     "en": "Count: da-da-da-DUM. Throughout the piece, hunt for that rhythm. It hides everywhere, even under the quiet passages."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Les premières secondes",
+       "en": "The first seconds"
+      },
+      "what": {
+       "fr": "Le ta-ta-ta-TAM, deux fois, avec un silence tendu après chaque coup.",
+       "en": "The da-da-da-DUM, twice, with a tense silence after each blow."
+      }
+     },
+     {
+      "when": {
+       "fr": "Peu après",
+       "en": "Soon after"
+      },
+      "what": {
+       "fr": "Les cors sonnent un appel, puis un thème plus tendre arrive. Écoutez sous lui : le rythme rôde dans les graves.",
+       "en": "The horns sound a call, then a gentler theme arrives. Listen underneath: the rhythm prowls in the bass."
+      }
+     },
+     {
+      "when": {
+       "fr": "Vers le deuxième tiers",
+       "en": "Around two-thirds through"
+      },
+      "what": {
+       "fr": "Le hautbois s'arrête seul un court instant, une plainte au milieu de la tempête.",
+       "en": "The oboe pauses alone for a moment, a lament in the middle of the storm."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "L'orchestre martèle le motif une dernière fois. Le combat n'est pas fini.",
+       "en": "The orchestra hammers out the motif one last time. The fight isn't over."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "violon",
+      "clarinette",
+      "hautbois",
+      "cor",
+      "timbales",
+      "harpe",
+      "piano"
+     ],
+     "answer": [
+      "violon",
+      "clarinette",
+      "hautbois",
+      "cor",
+      "timbales"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Combien de notes forment le motif célèbre ?",
+       "en": "How many notes make up the famous motif?"
+      },
+      "options": [
+       {
+        "fr": "Deux",
+        "en": "Two"
+       },
+       {
+        "fr": "Quatre",
+        "en": "Four"
+       },
+       {
+        "fr": "Huit",
+        "en": "Eight"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Trois brèves et une longue : tout le mouvement en découle.",
+       "en": "Three short and one long: the whole movement flows from it."
+      }
+     },
+     {
+      "q": {
+       "fr": "Dans quel état est Beethoven en 1808 ?",
+       "en": "What state is Beethoven in by 1808?"
+      },
+      "options": [
+       {
+        "fr": "Presque sourd",
+        "en": "Nearly deaf"
+       },
+       {
+        "fr": "Aveugle",
+        "en": "Blind"
+       },
+       {
+        "fr": "Tout jeune débutant",
+        "en": "A young beginner"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Il compose en grande partie sans plus entendre correctement.",
+       "en": "He is composing largely unable to hear properly."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Motif",
+       "en": "Motif"
+      },
+      "def": {
+       "fr": "Une toute petite idée musicale, reconnaissable, que l'on répète et transforme.",
+       "en": "A tiny, recognisable musical idea that is repeated and transformed."
+      }
+     },
+     {
+      "term": {
+       "fr": "Timbales",
+       "en": "Timpani"
+      },
+      "def": {
+       "fr": "De grands tambours accordés qui donnent une vraie note.",
+       "en": "Large tuned drums that sound a definite pitch."
+      }
+     }
+    ]
+   }
   }
  ],
  "image": {
@@ -58,5 +210,9 @@
   "license": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
   "focus": "55% 18%"
+ },
+ "world": {
+  "fr": "1808 : Napoléon domine l'Europe et occupera Vienne l'année suivante.",
+  "en": "1808: Napoleon dominates Europe and will occupy Vienna the following year."
  }
 }

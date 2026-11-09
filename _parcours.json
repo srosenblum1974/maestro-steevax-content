@@ -9,42 +9,42 @@
  },
  "ritual": [
   {
-   "id": "passive",
+   "id": "decouvrir",
    "title": {
-    "fr": "Écoute 1 : passive",
-    "en": "Listen 1: passive"
+    "fr": "Étape 1 : Découvrir",
+    "en": "Step 1: Discover"
    },
    "text": {
-    "fr": "Laissez tourner sans rien analyser (trajet, cuisine, sport).",
-    "en": "Let it play without analysing (commute, cooking, workout)."
+    "fr": "Vous écoutez sans rien chercher, puis vous dites ce que vous avez ressenti en touchant des icônes.",
+    "en": "You listen without looking for anything, then tap icons to say what you felt."
    }
   },
   {
-   "id": "attentive",
+   "id": "reperer",
    "title": {
-    "fr": "Écoute 2 : attentive",
-    "en": "Listen 2: focused"
+    "fr": "Étape 2 : Repérer",
+    "en": "Step 2: Spot"
    },
    "text": {
-    "fr": "Au casque, sans téléphone, avec la consigne « Quoi écouter ».",
-    "en": "Headphones on, phone away, with the 'Listen for' cue."
+    "fr": "Vous réécoutez avec une mission : reconnaître les moments clés et deviner les instruments.",
+    "en": "You listen again on a mission: recognise the key moments and guess the instruments."
    }
   },
   {
-   "id": "memoire",
+   "id": "retenir",
    "title": {
-    "fr": "Écoute 3 : de mémoire",
-    "en": "Listen 3: from memory"
+    "fr": "Étape 3 : Retenir",
+    "en": "Step 3: Remember"
    },
    "text": {
-    "fr": "Quelques jours plus tard. Anticipez ce qui va arriver.",
-    "en": "A few days later. Anticipate what comes next."
+    "fr": "Quelques jours plus tard, un mini-quiz et une dernière écoute. Vous gardez une note et un souvenir.",
+    "en": "A few days later, a mini-quiz and one last listen. You keep a rating and a memory."
    }
   }
  ],
  "notebook": {
-  "fr": "Une note de 1 à 5 et une phrase : ce qui vous a pris, ce qui vous a ennuyé.",
-  "en": "A 1-to-5 rating and one sentence: what gripped you, what bored you."
+  "fr": "À chaque œuvre, votre carnet se remplit tout seul : émotions, images, instruments, note. Tout apparaît dans l'onglet Carnet.",
+  "en": "For each work your notebook fills itself: emotions, images, instruments, rating. It all shows up in the Notebook tab."
  },
  "signal": {
   "fr": "Le signal à surveiller : revenez-vous à une œuvre sans que le programme vous le demande ?",
@@ -112,5 +112,556 @@
   "license": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
   "focus": "50% 35%"
+ },
+ "palette": {
+  "emotions": [
+   {
+    "id": "apaise",
+    "icon": "😌",
+    "label": {
+     "fr": "Apaisé",
+     "en": "Soothed"
+    }
+   },
+   {
+    "id": "emu",
+    "icon": "🥹",
+    "label": {
+     "fr": "Ému",
+     "en": "Moved"
+    }
+   },
+   {
+    "id": "triste",
+    "icon": "😢",
+    "label": {
+     "fr": "Triste",
+     "en": "Sad"
+    }
+   },
+   {
+    "id": "joyeux",
+    "icon": "😄",
+    "label": {
+     "fr": "Joyeux",
+     "en": "Joyful"
+    }
+   },
+   {
+    "id": "exalte",
+    "icon": "🤩",
+    "label": {
+     "fr": "Exalté",
+     "en": "Thrilled"
+    }
+   },
+   {
+    "id": "frissons",
+    "icon": "⚡️",
+    "label": {
+     "fr": "Frissons",
+     "en": "Chills"
+    }
+   },
+   {
+    "id": "inquiet",
+    "icon": "😟",
+    "label": {
+     "fr": "Inquiet",
+     "en": "Uneasy"
+    }
+   },
+   {
+    "id": "nostalgique",
+    "icon": "🌅",
+    "label": {
+     "fr": "Nostalgique",
+     "en": "Nostalgic"
+    }
+   },
+   {
+    "id": "ennuye",
+    "icon": "🥱",
+    "label": {
+     "fr": "Ennuyé",
+     "en": "Bored"
+    }
+   },
+   {
+    "id": "perdu",
+    "icon": "😵‍💫",
+    "label": {
+     "fr": "Perdu",
+     "en": "Lost"
+    }
+   }
+  ],
+  "images": [
+   {
+    "id": "vague",
+    "icon": "🌊",
+    "label": {
+     "fr": "Vagues",
+     "en": "Waves"
+    }
+   },
+   {
+    "id": "orage",
+    "icon": "⛈️",
+    "label": {
+     "fr": "Orage",
+     "en": "Storm"
+    }
+   },
+   {
+    "id": "oiseaux",
+    "icon": "🐦",
+    "label": {
+     "fr": "Oiseaux",
+     "en": "Birds"
+    }
+   },
+   {
+    "id": "foret",
+    "icon": "🌲",
+    "label": {
+     "fr": "Forêt",
+     "en": "Forest"
+    }
+   },
+   {
+    "id": "nuit",
+    "icon": "🌙",
+    "label": {
+     "fr": "Nuit",
+     "en": "Night"
+    }
+   },
+   {
+    "id": "soleil",
+    "icon": "☀️",
+    "label": {
+     "fr": "Soleil",
+     "en": "Sun"
+    }
+   },
+   {
+    "id": "danse",
+    "icon": "💃",
+    "label": {
+     "fr": "Danse",
+     "en": "Dance"
+    }
+   },
+   {
+    "id": "combat",
+    "icon": "⚔️",
+    "label": {
+     "fr": "Combat",
+     "en": "Battle"
+    }
+   },
+   {
+    "id": "priere",
+    "icon": "🕯️",
+    "label": {
+     "fr": "Prière",
+     "en": "Prayer"
+    }
+   },
+   {
+    "id": "voyage",
+    "icon": "🧭",
+    "label": {
+     "fr": "Voyage",
+     "en": "Journey"
+    }
+   },
+   {
+    "id": "reve",
+    "icon": "☁️",
+    "label": {
+     "fr": "Rêve",
+     "en": "Dream"
+    }
+   },
+   {
+    "id": "cinema",
+    "icon": "🎬",
+    "label": {
+     "fr": "Film",
+     "en": "Film"
+    }
+   }
+  ],
+  "instruments": [
+   {
+    "id": "violon",
+    "icon": "🎻",
+    "label": {
+     "fr": "Violons",
+     "en": "Violins"
+    }
+   },
+   {
+    "id": "violoncelle",
+    "icon": "🎻",
+    "label": {
+     "fr": "Violoncelle",
+     "en": "Cello"
+    }
+   },
+   {
+    "id": "piano",
+    "icon": "🎹",
+    "label": {
+     "fr": "Piano",
+     "en": "Piano"
+    }
+   },
+   {
+    "id": "clavecin",
+    "icon": "🎹",
+    "label": {
+     "fr": "Clavecin",
+     "en": "Harpsichord"
+    }
+   },
+   {
+    "id": "harpe",
+    "icon": "🎼",
+    "label": {
+     "fr": "Harpe",
+     "en": "Harp"
+    }
+   },
+   {
+    "id": "flute",
+    "icon": "🪈",
+    "label": {
+     "fr": "Flûte",
+     "en": "Flute"
+    }
+   },
+   {
+    "id": "hautbois",
+    "icon": "🌬️",
+    "label": {
+     "fr": "Hautbois",
+     "en": "Oboe"
+    }
+   },
+   {
+    "id": "coranglais",
+    "icon": "🌬️",
+    "label": {
+     "fr": "Cor anglais",
+     "en": "Cor anglais"
+    }
+   },
+   {
+    "id": "clarinette",
+    "icon": "🌬️",
+    "label": {
+     "fr": "Clarinette",
+     "en": "Clarinet"
+    }
+   },
+   {
+    "id": "basson",
+    "icon": "🌬️",
+    "label": {
+     "fr": "Basson",
+     "en": "Bassoon"
+    }
+   },
+   {
+    "id": "cor",
+    "icon": "📯",
+    "label": {
+     "fr": "Cor",
+     "en": "Horn"
+    }
+   },
+   {
+    "id": "trompette",
+    "icon": "🎺",
+    "label": {
+     "fr": "Trompette",
+     "en": "Trumpet"
+    }
+   },
+   {
+    "id": "timbales",
+    "icon": "🥁",
+    "label": {
+     "fr": "Timbales",
+     "en": "Timpani"
+    }
+   },
+   {
+    "id": "choeur",
+    "icon": "👥",
+    "label": {
+     "fr": "Chœur",
+     "en": "Choir"
+    }
+   }
+  ],
+  "ratings": [
+   {
+    "fr": "Pas pour moi",
+    "en": "Not for me"
+   },
+   {
+    "fr": "Bof",
+    "en": "Meh"
+   },
+   {
+    "fr": "Agréable",
+    "en": "Pleasant"
+   },
+   {
+    "fr": "J'aime beaucoup",
+    "en": "Love it"
+   },
+   {
+    "fr": "Coup de foudre",
+    "en": "Head over heels"
+   }
+  ],
+  "starters": [
+   {
+    "fr": "Ça m'a fait penser à…",
+    "en": "It reminded me of…"
+   },
+   {
+    "fr": "J'ai été surpris par…",
+    "en": "I was surprised by…"
+   },
+   {
+    "fr": "Je réécouterais pour…",
+    "en": "I'd listen again for…"
+   }
+  ]
+ },
+ "history": {
+  "intro": {
+   "fr": "Quatre cents ans de musique en quatre grands chapitres. Pas de dates à apprendre : retenez juste à quoi ressemble chaque époque.",
+   "en": "Four hundred years of music in four great chapters. No dates to learn: just remember what each era is like."
+  },
+  "before": {
+   "fr": "Avant 1600 : le chant d'église du Moyen Âge, puis les polyphonies de la Renaissance. La musique sert surtout Dieu et les cours. L'instrument roi, c'est la voix.",
+   "en": "Before 1600: medieval church chant, then Renaissance polyphony. Music mainly serves God and the courts. The voice is king."
+  },
+  "periods": [
+   {
+    "id": "baroque",
+    "title": {
+     "fr": "Baroque",
+     "en": "Baroque"
+    },
+    "dates": "1600–1750",
+    "oneLine": {
+     "fr": "La musique du décor et de la foi : tout est orné, tout est mouvement.",
+     "en": "Music of splendour and faith: everything ornate, everything in motion."
+    },
+    "world": {
+     "fr": "Rois absolus, Versailles, Venise, églises luthériennes. Les musiciens sont des employés, au service d'un prince ou d'une paroisse.",
+     "en": "Absolute kings, Versailles, Venice, Lutheran churches. Musicians are employees of a prince or a parish."
+    },
+    "sound": {
+     "fr": "Une pulsation régulière, comme un moteur. Le clavecin, les cordes, des lignes qui s'entrelacent.",
+     "en": "A steady pulse, like an engine. Harpsichord, strings, interlacing lines."
+    },
+    "people": [
+     "Bach",
+     "Vivaldi",
+     "Haendel"
+    ],
+    "weeks": [
+     1,
+     2
+    ],
+    "image": {
+     "path": "illus/semaine-02.jpg",
+     "credit": "Canaletto, c. 1738 (photo : Didier Descouens)",
+     "license": "CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Il_Ritorno_del_Bucintoro_al_molo_nel_giorno_dell%27Ascensione_(c.1738)_Canaletto_-_Wells-Next-The-Sea,_The_Earl_of_Leicester_and_Trustees_of_the_Holkham_Estate.jpg",
+     "focus": "50% 40%"
+    }
+   },
+   {
+    "id": "classique",
+    "title": {
+     "fr": "Classique",
+     "en": "Classical"
+    },
+    "dates": "1750–1820",
+    "oneLine": {
+     "fr": "La musique de la clarté : on comprend tout, comme une conversation bien menée.",
+     "en": "Music of clarity: everything makes sense, like a well-led conversation."
+    },
+    "world": {
+     "fr": "Les Lumières, la Révolution française, Vienne capitale musicale. Le concert public apparaît, le musicien commence à s'émanciper.",
+     "en": "The Enlightenment, the French Revolution, Vienna as music capital. Public concerts appear and musicians begin to break free."
+    },
+    "sound": {
+     "fr": "Des mélodies nettes, des formes équilibrées. Naissance de la symphonie et de l'orchestre moderne, le piano remplace le clavecin.",
+     "en": "Clean melodies, balanced forms. The symphony and modern orchestra are born, the piano replaces the harpsichord."
+    },
+    "people": [
+     "Haydn",
+     "Mozart",
+     "Beethoven"
+    ],
+    "weeks": [
+     3,
+     4
+    ],
+    "image": {
+     "path": "illus/semaine-03.jpg",
+     "credit": "Barbara Krafft, 1819",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_(1819).jpg",
+     "focus": "45% 22%"
+    }
+   },
+   {
+    "id": "romantique",
+    "title": {
+     "fr": "Romantique",
+     "en": "Romantic"
+    },
+    "dates": "1820–1900",
+    "oneLine": {
+     "fr": "La musique de l'émotion : un artiste seul exprime ce qu'il ressent.",
+     "en": "Music of emotion: a lone artist voices what he feels."
+    },
+    "world": {
+     "fr": "Révolutions, nations qui s'éveillent, chemin de fer. Le compositeur devient un héros, parfois maudit ; le pianiste, une star.",
+     "en": "Revolutions, awakening nations, railways. The composer becomes a hero, sometimes doomed; the pianist a star."
+    },
+    "sound": {
+     "fr": "Orchestres géants, tempos élastiques, grands contrastes, histoires et paysages en musique.",
+     "en": "Giant orchestras, elastic tempos, big contrasts, stories and landscapes in music."
+    },
+    "people": [
+     "Chopin",
+     "Tchaïkovski",
+     "Dvořák",
+     "Smetana"
+    ],
+    "weeks": [
+     5,
+     6,
+     8
+    ],
+    "image": {
+     "path": "illus/semaine-06.jpg",
+     "credit": "Albert Bierstadt, 1868",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Albert_Bierstadt_-_Among_the_Sierra_Nevada,_California_-_Google_Art_Project.jpg",
+     "focus": "50% 40%"
+    }
+   },
+   {
+    "id": "moderne",
+    "title": {
+     "fr": "Moderne",
+     "en": "Modern"
+    },
+    "dates": "1900 →",
+    "oneLine": {
+     "fr": "La musique qui casse le moule : couleurs nouvelles, nouveaux langages.",
+     "en": "Music that breaks the mould: new colours, new languages."
+    },
+    "world": {
+     "fr": "Impressionnisme, guerres mondiales, cinéma, disque. Pour la première fois on écoute la musique d'autrefois chez soi.",
+     "en": "Impressionism, world wars, cinema, records. For the first time people listen to the past at home."
+    },
+    "sound": {
+     "fr": "Des timbres inédits, des rythmes qui cognent. Certains, comme Rachmaninov, prolongent le romantisme.",
+     "en": "New timbres, pounding rhythms. Some, like Rachmaninov, extend Romanticism."
+    },
+    "people": [
+     "Debussy",
+     "Rachmaninov",
+     "Stravinsky"
+    ],
+    "weeks": [
+     7
+    ],
+    "image": {
+     "path": "illus/semaine-07.jpg",
+     "credit": "Claude Monet, 1872",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
+     "focus": "50% 40%"
+    }
+   }
+  ],
+  "words": [
+   {
+    "term": {
+     "fr": "Orchestre",
+     "en": "Orchestra"
+    },
+    "def": {
+     "fr": "Quatre familles : cordes, bois, cuivres, percussions.",
+     "en": "Four families: strings, woodwinds, brass, percussion."
+    }
+   },
+   {
+    "term": {
+     "fr": "Symphonie",
+     "en": "Symphony"
+    },
+    "def": {
+     "fr": "Une grande œuvre pour orchestre seul.",
+     "en": "A large work for orchestra alone."
+    }
+   },
+   {
+    "term": {
+     "fr": "Concerto",
+     "en": "Concerto"
+    },
+    "def": {
+     "fr": "Un soliste face à un orchestre.",
+     "en": "A soloist facing an orchestra."
+    }
+   },
+   {
+    "term": {
+     "fr": "Mouvement",
+     "en": "Movement"
+    },
+    "def": {
+     "fr": "Un chapitre d'une œuvre.",
+     "en": "A chapter of a work."
+    }
+   },
+   {
+    "term": {
+     "fr": "Tempo",
+     "en": "Tempo"
+    },
+    "def": {
+     "fr": "La vitesse de la musique.",
+     "en": "The speed of the music."
+    }
+   },
+   {
+    "term": {
+     "fr": "Thème",
+     "en": "Theme"
+    },
+    "def": {
+     "fr": "La mélodie qu'on reconnaît.",
+     "en": "The melody you recognise."
+    }
+   }
+  ]
  }
 }

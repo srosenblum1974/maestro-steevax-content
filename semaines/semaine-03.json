@@ -59,7 +59,159 @@
      "license": "Public domain",
      "source": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_II._Andante_(Musopen_Symphony).flac"
     }
-   ]
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une mélodie que vous connaissez déjà, et une inquiétude qui ne vous lâche plus.",
+     "en": "A tune you already know, and an unease that won't let go."
+    },
+    "context": {
+     "fr": "Été 1788 à Vienne. Mozart a 32 ans et de gros soucis d'argent. En quelques semaines, il écrit coup sur coup ses trois dernières symphonies. La 40e est l'une des deux seules qu'il ait composées en mode mineur, la couleur sombre.",
+     "en": "Summer 1788, Vienna. Mozart is 32 and in serious money trouble. Within weeks he writes his last three symphonies in a row. No. 40 is one of only two he composed in a minor key, the dark colour."
+    },
+    "why": {
+     "fr": "C'est le modèle de la clarté classique : on suit facilement qui parle et quand. Écouter ce mouvement, c'est apprendre la forme sonate, la structure qui domine la musique pendant plus d'un siècle.",
+     "en": "The model of Classical clarity: you can easily follow who speaks and when. Listening to this movement teaches sonata form, the structure that rules music for over a century."
+    },
+    "how": {
+     "fr": "Retenez le petit motif du début, comme un soupir répété. Votre seule mission : le reconnaître chaque fois qu'il revient.",
+     "en": "Memorise the little opening motif, like a repeated sigh. Your only mission: recognise it each time it returns."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Au tout début",
+       "en": "At the very start"
+      },
+      "what": {
+       "fr": "Les altos frémissent à peine, puis les violons lancent le thème qui soupire.",
+       "en": "The violas barely shiver, then the violins launch the sighing theme."
+      }
+     },
+     {
+      "when": {
+       "fr": "Un peu plus tard",
+       "en": "A little later"
+      },
+      "what": {
+       "fr": "Un second thème plus doux, partagé entre cordes et instruments à vent. C'est la respiration.",
+       "en": "A gentler second theme, shared between strings and winds. It's the breath of air."
+      }
+     },
+     {
+      "when": {
+       "fr": "Au milieu",
+       "en": "In the middle"
+      },
+      "what": {
+       "fr": "Le développement : le motif est découpé, jeté d'un groupe à l'autre, la musique se perd.",
+       "en": "The development: the motif is cut up and tossed between groups, the music loses its way."
+      }
+     },
+     {
+      "when": {
+       "fr": "Vers la fin",
+       "en": "Towards the end"
+      },
+      "what": {
+       "fr": "Le thème du début revient. Vous l'attendiez : c'est le plaisir de la forme sonate.",
+       "en": "The opening theme returns. You were waiting for it: that's the pleasure of sonata form."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "violon",
+      "flute",
+      "hautbois",
+      "basson",
+      "cor",
+      "trompette",
+      "timbales"
+     ],
+     "answer": [
+      "violon",
+      "flute",
+      "hautbois",
+      "basson",
+      "cor"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quelle est la structure de ce mouvement ?",
+       "en": "What is the structure of this movement?"
+      },
+      "options": [
+       {
+        "fr": "Un thème présenté, transformé, puis qui revient",
+        "en": "A theme stated, transformed, then returning"
+       },
+       {
+        "fr": "Une seule mélodie du début à la fin",
+        "en": "One melody from start to finish"
+       },
+       {
+        "fr": "Une suite de danses",
+        "en": "A series of dances"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "C'est la forme sonate : exposition, développement, réexposition.",
+       "en": "That's sonata form: exposition, development, recapitulation."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quels instruments sont absents ici ?",
+       "en": "Which instruments are absent here?"
+      },
+      "options": [
+       {
+        "fr": "Les flûtes",
+        "en": "The flutes"
+       },
+       {
+        "fr": "Les trompettes et timbales",
+        "en": "Trumpets and timpani"
+       },
+       {
+        "fr": "Les violons",
+        "en": "The violins"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Mozart s'en prive : d'où ce son intime, sans éclat militaire.",
+       "en": "Mozart does without them: hence this intimate sound, with no military brilliance."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Symphonie",
+       "en": "Symphony"
+      },
+      "def": {
+       "fr": "Une grande œuvre pour orchestre, souvent en quatre mouvements.",
+       "en": "A large work for orchestra, usually in four movements."
+      }
+     },
+     {
+      "term": {
+       "fr": "Mode mineur",
+       "en": "Minor key"
+      },
+      "def": {
+       "fr": "La couleur sombre ou mélancolique d'une musique ; le majeur sonne plus lumineux.",
+       "en": "A music's dark or melancholy colour; major sounds brighter."
+      }
+     }
+    ]
+   }
   },
   {
    "id": "mozart-requiem",
@@ -98,7 +250,154 @@
      "license": "Public domain",
      "source": "https://commons.wikimedia.org/wiki/File:Mozart_-_Requiem_(Krips)_-_VIII._Lacrimosa.flac"
     }
-   ]
+   ],
+   "guide": {
+    "hook": {
+     "fr": "La dernière musique de Mozart, interrompue par sa mort.",
+     "en": "Mozart's last music, cut short by his death."
+    },
+    "context": {
+     "fr": "En 1791, un commanditaire anonyme (on saura plus tard qu'il s'agit du comte Walsegg) demande une messe des morts à Mozart. Il meurt le 5 décembre sans l'avoir finie. Du « Lacrimosa », il n'a écrit que les huit premières mesures ; son élève Süssmayr termine l'œuvre.",
+     "en": "In 1791 an anonymous patron (later identified as Count Walsegg) commissions a mass for the dead. Mozart dies on 5 December with it unfinished. Of the “Lacrimosa” he wrote only the first eight bars; his pupil Süssmayr completes the work."
+    },
+    "why": {
+     "fr": "C'est l'autre visage de Mozart, loin de l'image du génie léger. On entend aussi la force d'un chœur, ces dizaines de voix qui montent ensemble.",
+     "en": "The other face of Mozart, far from the light-hearted genius. You also feel the power of a choir, dozens of voices rising together."
+    },
+    "how": {
+     "fr": "Pas besoin de comprendre le latin : « Lacrimosa » signifie « jour de larmes ». Écoutez comme un balancement lent, presque une berceuse, et sentez-le grossir.",
+     "en": "No Latin needed: “Lacrimosa” means “day of tears”. Listen for a slow rocking, almost a lullaby, and feel it swell."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Au début",
+       "en": "At the start"
+      },
+      "what": {
+       "fr": "Les violons se balancent en petits sanglots, puis le chœur entre doucement.",
+       "en": "The violins rock in little sobs, then the choir enters softly."
+      }
+     },
+     {
+      "when": {
+       "fr": "Peu après",
+       "en": "Soon after"
+      },
+      "what": {
+       "fr": "Les voix montent par paliers et l'intensité grandit brusquement.",
+       "en": "The voices climb in stages and intensity suddenly grows."
+      }
+     },
+     {
+      "when": {
+       "fr": "Au centre",
+       "en": "In the centre"
+      },
+      "what": {
+       "fr": "Alternance de murmures et d'éclats : la musique respire comme une plainte.",
+       "en": "Murmurs alternate with outbursts: the music breathes like a lament."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "Un « Amen » large et grave, qui referme tout.",
+       "en": "A broad, grave “Amen” that closes everything."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "choeur",
+      "violon",
+      "piano",
+      "harpe",
+      "flute"
+     ],
+     "answer": [
+      "choeur",
+      "violon"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Qui a terminé le Requiem ?",
+       "en": "Who finished the Requiem?"
+      },
+      "options": [
+       {
+        "fr": "Haydn",
+        "en": "Haydn"
+       },
+       {
+        "fr": "Süssmayr, son élève",
+        "en": "Süssmayr, his pupil"
+       },
+       {
+        "fr": "Salieri",
+        "en": "Salieri"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Mozart meurt avant la fin ; Süssmayr complète la partition.",
+       "en": "Mozart dies first; Süssmayr completes the score."
+      }
+     },
+     {
+      "q": {
+       "fr": "Que veut dire « Lacrimosa » ?",
+       "en": "What does “Lacrimosa” mean?"
+      },
+      "options": [
+       {
+        "fr": "Jour de larmes",
+        "en": "Day of tears"
+       },
+       {
+        "fr": "Lumière éternelle",
+        "en": "Eternal light"
+       },
+       {
+        "fr": "Grande joie",
+        "en": "Great joy"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le texte latin évoque ce jour de pleurs.",
+       "en": "The Latin text evokes that day of weeping."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Requiem",
+       "en": "Requiem"
+      },
+      "def": {
+       "fr": "Une messe chantée pour les morts.",
+       "en": "A mass sung for the dead."
+      }
+     },
+     {
+      "term": {
+       "fr": "Chœur",
+       "en": "Choir"
+      },
+      "def": {
+       "fr": "Un groupe de chanteurs répartis en plusieurs voix.",
+       "en": "A group of singers divided into several voice parts."
+      }
+     }
+    ]
+   }
   }
  ],
  "image": {
@@ -107,5 +406,9 @@
   "license": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Barbara_Krafft_-_Portr%C3%A4t_Wolfgang_Amadeus_Mozart_(1819).jpg",
   "focus": "45% 22%"
+ },
+ "world": {
+  "fr": "1788-1791 : la Révolution française éclate pendant que Mozart écrit ses dernières œuvres.",
+  "en": "1788–1791: the French Revolution breaks out while Mozart writes his last works."
  }
 }

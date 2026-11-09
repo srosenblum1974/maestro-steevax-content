@@ -49,7 +49,167 @@
      "license": "Public domain",
      "source": "https://commons.wikimedia.org/wiki/File:Smetana_-_M%C3%A1_Vlast_-_Vltava_(Musopen_Symphony).flac"
     }
-   ]
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Douze minutes pour suivre un fleuve, de sa source jusqu'à Prague.",
+     "en": "Twelve minutes following a river from its source to Prague."
+    },
+    "context": {
+     "fr": "Fin 1874, Smetana vient de perdre l'ouïe. Il écrit en quelques semaines ce portrait de la Vltava (Moldau en allemand), le fleuve de Prague, deuxième volet de Ma Patrie. La Bohême rêve alors d'indépendance : la musique devient un acte patriotique.",
+     "en": "In late 1874 Smetana has just lost his hearing. In a few weeks he writes this portrait of the Vltava (Moldau in German), Prague's river, the second part of My Country. Bohemia is dreaming of independence: music becomes a patriotic act."
+    },
+    "why": {
+     "fr": "C'est le modèle du poème symphonique : une histoire entière sans parole. Son thème appartient à une famille de mélodies qui a voyagé dans toute l'Europe ; la Hatikvah, l'hymne israélien, en est une cousine.",
+     "en": "The model of the symphonic poem: a whole story without words. Its theme belongs to a family of melodies that travelled across Europe; the Hatikvah, Israel's anthem, is a cousin."
+    },
+    "how": {
+     "fr": "Suivez la carte ci-dessous, étape par étape. Cochez chaque paysage quand vous le reconnaissez, et imaginez que vous êtes en barque.",
+     "en": "Follow the map below step by step. Tick each landscape as you recognise it, and imagine yourself in a boat."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "La source",
+       "en": "The source"
+      },
+      "what": {
+       "fr": "Deux flûtes qui s'entrelacent : deux petits ruisseaux qui se rejoignent.",
+       "en": "Two intertwining flutes: two small streams joining."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le fleuve",
+       "en": "The river"
+      },
+      "what": {
+       "fr": "Le grand thème aux cordes, ample : la rivière est née.",
+       "en": "The broad theme in the strings: the river is born."
+      }
+     },
+     {
+      "when": {
+       "fr": "La forêt puis la noce",
+       "en": "The forest, then the wedding"
+      },
+      "what": {
+       "fr": "Des cors de chasse, puis une danse paysanne qui sautille.",
+       "en": "Hunting horns, then a skipping peasant dance."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le clair de lune",
+       "en": "The moonlight"
+      },
+      "what": {
+       "fr": "Tout se calme, les nymphes dansent sur des flûtes et des cordes en sourdine.",
+       "en": "All grows calm, nymphs dance over flutes and muted strings."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les rapides, puis Prague",
+       "en": "The rapids, then Prague"
+      },
+      "what": {
+       "fr": "Cuivres et cymbales dans les rapides, puis le thème, majestueux, devant le château.",
+       "en": "Brass and cymbals in the rapids, then the theme, majestic, before the castle."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "flute",
+      "harpe",
+      "violon",
+      "cor",
+      "piano",
+      "clavecin"
+     ],
+     "answer": [
+      "flute",
+      "harpe",
+      "violon",
+      "cor"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Par quels instruments commence la rivière ?",
+       "en": "Which instruments begin the river?"
+      },
+      "options": [
+       {
+        "fr": "Des trompettes",
+        "en": "Trumpets"
+       },
+       {
+        "fr": "Deux flûtes",
+        "en": "Two flutes"
+       },
+       {
+        "fr": "Un piano",
+        "en": "A piano"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Les deux flûtes figurent les deux sources.",
+       "en": "The two flutes depict the two sources."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel malheur frappe Smetana en 1874 ?",
+       "en": "What misfortune strikes Smetana in 1874?"
+      },
+      "options": [
+       {
+        "fr": "Il devient sourd",
+        "en": "He goes deaf"
+       },
+       {
+        "fr": "Il est exilé",
+        "en": "He is exiled"
+       },
+       {
+        "fr": "Il perd sa maison",
+        "en": "He loses his house"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Comme Beethoven, il compose sans plus rien entendre.",
+       "en": "Like Beethoven, he composes unable to hear anything."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Poème symphonique",
+       "en": "Symphonic poem"
+      },
+      "def": {
+       "fr": "Une œuvre pour orchestre qui raconte une histoire ou un paysage.",
+       "en": "An orchestral work telling a story or depicting a landscape."
+      }
+     },
+     {
+      "term": {
+       "fr": "Musique à programme",
+       "en": "Programme music"
+      },
+      "def": {
+       "fr": "Une musique qui décrit quelque chose de précis.",
+       "en": "Music that describes something specific."
+      }
+     }
+    ]
+   }
   }
  ],
  "review": {
@@ -62,5 +222,9 @@
   "license": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Adam_August_M%C3%BCller_-_Udsigt_over_Prag_med_Karlsbroen_krydser_Moldau-floden.jpg",
   "focus": "50% 40%"
+ },
+ "world": {
+  "fr": "1874 : Prague appartient à l'Autriche-Hongrie ; la même année à Paris, la première exposition impressionniste.",
+  "en": "1874: Prague belongs to Austria-Hungary; that same year Paris sees the first Impressionist exhibition."
  }
 }

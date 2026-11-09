@@ -6,8 +6,8 @@ site est servi par GitHub Pages.
 
 | Fichier | Contenu |
 |---|---|
-| `_parcours.json` | Le rituel, les phases, les périodes (FR/EN) |
-| `semaines/semaine-NN.json` | Une semaine : œuvres, version de référence, par où commencer, quoi écouter, liens |
+| `_parcours.json` | Les 3 étapes, les phases, les périodes, les icônes du carnet (`palette`), l'histoire (`history`) (FR/EN) |
+| `semaines/semaine-NN.json` | Une semaine : œuvres, version de référence, par où commencer, quoi écouter, liens, guide débutant (`guide` : contexte, moments, défi d'oreille, quiz) |
 | `journal/_journal.json` | Le carnet public de Steve (son propre chemin) |
 | `_index.json`, `_manifest.json` | Générés par `python3 tools/build.py` (liste des semaines, empreintes des fichiers) |
 | `index.html` | Le site : parcours personnel (gardé dans le navigateur, exportable), carnet, méthode |

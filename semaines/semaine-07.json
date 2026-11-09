@@ -37,6 +37,157 @@
     "appleMusic": "https://music.apple.com/search?term=Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland",
     "spotify": "https://open.spotify.com/search/Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland",
     "youtube": "https://www.youtube.com/results?search_query=Debussy%20Prelude%20Afternoon%20of%20a%20Faun%20Boulez%20Cleveland"
+   },
+   "guide": {
+    "hook": {
+     "fr": "Une flûte seule, et la musique moderne commence.",
+     "en": "A lone flute, and modern music begins."
+    },
+    "context": {
+     "fr": "Debussy s'inspire d'un poème de Mallarmé : un faune, mi-homme mi-bouc, somnole dans la chaleur et se souvient de nymphes, sans savoir s'il a rêvé. L'œuvre est créée à Paris le 22 décembre 1894. Le public en redemande aussitôt.",
+     "en": "Debussy draws on a poem by Mallarmé: a faun, half man half goat, dozes in the heat and remembers nymphs, unsure if he dreamed them. The piece is premiered in Paris on 22 December 1894. The audience demands it again at once."
+    },
+    "why": {
+     "fr": "Pierre Boulez voyait dans cette flûte le réveil de la musique moderne. Debussy n'oppose plus des thèmes : il peint avec des timbres, comme Monet peint la lumière.",
+     "en": "Pierre Boulez heard in this flute the awakening of modern music. Debussy no longer pits themes against each other: he paints with timbres, as Monet paints light."
+    },
+    "how": {
+     "fr": "Ne cherchez pas de structure : il n'y a pas d'histoire à suivre. Fermez les yeux, et laissez venir la chaleur, la somnolence, les couleurs.",
+     "en": "Don't look for a structure: there's no story to follow. Close your eyes and let the heat, the drowsiness, the colours come."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Au début",
+       "en": "At the start"
+      },
+      "what": {
+       "fr": "La flûte seule, sans accompagnement, une ligne qui glisse et hésite.",
+       "en": "The flute alone, unaccompanied, a line that glides and hesitates."
+      }
+     },
+     {
+      "when": {
+       "fr": "Juste après",
+       "en": "Just after"
+      },
+      "what": {
+       "fr": "La harpe répond en cascade, les cors se posent comme une brume.",
+       "en": "The harp answers in a cascade, the horns settle like mist."
+      }
+     },
+     {
+      "when": {
+       "fr": "Au centre",
+       "en": "In the centre"
+      },
+      "what": {
+       "fr": "Une grande vague de cordes et de bois : le seul moment où l'on sort du rêve.",
+       "en": "A great wave of strings and winds: the only moment you leave the dream."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "Le thème revient, de petites cymbales tintent, tout s'évapore.",
+       "en": "The theme returns, tiny cymbals chime, everything evaporates."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "flute",
+      "harpe",
+      "hautbois",
+      "cor",
+      "trompette",
+      "timbales",
+      "piano"
+     ],
+     "answer": [
+      "flute",
+      "harpe",
+      "hautbois",
+      "cor"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel instrument ouvre l'œuvre ?",
+       "en": "Which instrument opens the piece?"
+      },
+      "options": [
+       {
+        "fr": "Le violon",
+        "en": "The violin"
+       },
+       {
+        "fr": "La flûte",
+        "en": "The flute"
+       },
+       {
+        "fr": "La harpe",
+        "en": "The harp"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Une flûte seule, geste radical pour l'époque.",
+       "en": "A lone flute, a radical gesture for the time."
+      }
+     },
+     {
+      "q": {
+       "fr": "De quoi s'inspire Debussy ?",
+       "en": "What inspires Debussy?"
+      },
+      "options": [
+       {
+        "fr": "D'un poème de Mallarmé",
+        "en": "A poem by Mallarmé"
+       },
+       {
+        "fr": "D'une bataille",
+        "en": "A battle"
+       },
+       {
+        "fr": "D'une messe",
+        "en": "A mass"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le poème L'Après-midi d'un faune.",
+       "en": "The poem The Afternoon of a Faun."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Timbre",
+       "en": "Timbre"
+      },
+      "def": {
+       "fr": "La couleur propre du son d'un instrument.",
+       "en": "The particular colour of an instrument's sound."
+      }
+     },
+     {
+      "term": {
+       "fr": "Impressionnisme",
+       "en": "Impressionism"
+      },
+      "def": {
+       "fr": "Courant qui cherche la sensation et la couleur plutôt que le dessin.",
+       "en": "A style seeking sensation and colour rather than outline."
+      }
+     }
+    ]
    }
   },
   {
@@ -76,7 +227,155 @@
      "license": "Public domain",
      "source": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_-_piano_concerto_no._2_in_c_minor,_op._18_-_i._moderato.ogg"
     }
-   ]
+   ],
+   "guide": {
+    "hook": {
+     "fr": "La musique d'un homme qui sort de la dépression.",
+     "en": "The music of a man coming out of depression."
+    },
+    "context": {
+     "fr": "En 1897, la création de la 1re Symphonie de Rachmaninov tourne au désastre. Il sombre et cesse de composer pendant près de trois ans. Grâce aux séances du docteur Nikolaï Dahl, il retrouve confiance et écrit ce concerto, créé à Moscou en 1901, qu'il lui dédie.",
+     "en": "In 1897 the premiere of Rachmaninov's First Symphony is a disaster. He collapses and stops composing for almost three years. Sessions with Dr Nikolai Dahl restore his confidence and he writes this concerto, premiered in Moscow in 1901, dedicated to Dahl."
+    },
+    "why": {
+     "fr": "Le romantisme à son sommet, en pleine époque moderne. Ces grandes vagues lyriques ont nourri des décennies de musique de film.",
+     "en": "Romanticism at its peak, in the midst of the modern era. Those great lyrical waves have fed decades of film music."
+    },
+    "how": {
+     "fr": "Laissez venir les vagues. Repérez un jeu de rôles inattendu : le piano accompagne souvent pendant que l'orchestre chante.",
+     "en": "Let the waves come. Notice the unexpected role-swap: the piano often accompanies while the orchestra sings."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Au tout début",
+       "en": "At the very start"
+      },
+      "what": {
+       "fr": "Le piano seul, huit accords comme une cloche qui approche.",
+       "en": "The piano alone, eight chords like an approaching bell."
+      }
+     },
+     {
+      "when": {
+       "fr": "Juste après",
+       "en": "Just after"
+      },
+      "what": {
+       "fr": "Les cordes chantent le thème sombre, le piano bouillonne en dessous.",
+       "en": "The strings sing the dark theme, the piano seethes beneath."
+      }
+     },
+     {
+      "when": {
+       "fr": "Un peu plus loin",
+       "en": "A little further on"
+      },
+      "what": {
+       "fr": "Le piano prend un second thème, tendre, et le déroule lentement.",
+       "en": "The piano takes a tender second theme and unwinds it slowly."
+      }
+     },
+     {
+      "when": {
+       "fr": "Vers la fin",
+       "en": "Towards the end"
+      },
+      "what": {
+       "fr": "La tension culmine en une marche puissante, puis une fin brève.",
+       "en": "Tension peaks in a powerful march, then a brief ending."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "piano",
+      "violon",
+      "clarinette",
+      "harpe",
+      "clavecin"
+     ],
+     "answer": [
+      "piano",
+      "violon",
+      "clarinette"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Comment commence ce concerto ?",
+       "en": "How does this concerto begin?"
+      },
+      "options": [
+       {
+        "fr": "Par le piano seul",
+        "en": "With the piano alone"
+       },
+       {
+        "fr": "Par les trompettes",
+        "en": "With trumpets"
+       },
+       {
+        "fr": "Par un chœur",
+        "en": "With a choir"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Des accords de plus en plus forts, comme une cloche.",
+       "en": "Chords growing louder, like a bell."
+      }
+     },
+     {
+      "q": {
+       "fr": "À qui est-il dédié ?",
+       "en": "To whom is it dedicated?"
+      },
+      "options": [
+       {
+        "fr": "Au tsar",
+        "en": "The Tsar"
+       },
+       {
+        "fr": "Au docteur Dahl",
+        "en": "Dr Dahl"
+       },
+       {
+        "fr": "À Tchaïkovski",
+        "en": "Tchaikovsky"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Le médecin qui l'a aidé à recomposer.",
+       "en": "The doctor who helped him compose again."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Lyrique",
+       "en": "Lyrical"
+      },
+      "def": {
+       "fr": "Qui chante, qui exprime directement l'émotion.",
+       "en": "Song-like, directly expressing emotion."
+      }
+     },
+     {
+      "term": {
+       "fr": "Thème",
+       "en": "Theme"
+      },
+      "def": {
+       "fr": "La mélodie principale qu'on reconnaît.",
+       "en": "The main, recognisable melody."
+      }
+     }
+    ]
+   }
   }
  ],
  "image": {
@@ -85,5 +384,9 @@
   "license": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
   "focus": "50% 40%"
+ },
+ "world": {
+  "fr": "1894-1901 : Monet peint ses séries, le cinéma naît à Paris en 1895.",
+  "en": "1894–1901: Monet paints his series, cinema is born in Paris in 1895."
  }
 }

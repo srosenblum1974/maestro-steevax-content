@@ -59,7 +59,152 @@
      "license": "Public domain",
      "source": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._13_in_C_minor,_Op._48_No._1_(Luke_Faulkner).flac"
     }
-   ]
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Un piano qui chante à voix basse, à la tombée de la nuit.",
+     "en": "A piano singing softly as night falls."
+    },
+    "context": {
+     "fr": "Né en Pologne, Chopin s'installe à Paris en 1831 et n'en repartira plus vraiment. Il déteste les grandes salles et joue surtout dans des salons, devant quelques dizaines d'amis. Le nocturne, inventé par l'Irlandais John Field, devient avec lui un petit théâtre intime.",
+     "en": "Born in Poland, Chopin settles in Paris in 1831 and rarely leaves. He hates large halls and plays mostly in salons, before a few dozen friends. The nocturne, invented by the Irishman John Field, becomes with him a small intimate theatre."
+    },
+    "why": {
+     "fr": "Chopin a appris au piano à chanter comme une voix d'opéra. C'est aussi la meilleure porte d'entrée pour sentir le rubato, ce tempo élastique qui fait l'âme du romantisme.",
+     "en": "Chopin taught the piano to sing like an opera voice. It's also the best way to feel rubato, the elastic tempo at the heart of Romanticism."
+    },
+    "how": {
+     "fr": "Écoutez les deux mains séparément : d'abord la gauche, qui berce, puis la droite, qui chante. Remarquez où la mélodie ralentit, comme quelqu'un qui hésite.",
+     "en": "Listen to each hand separately: first the left, rocking, then the right, singing. Notice where the melody slows, like someone hesitating."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Au début",
+       "en": "At the start"
+      },
+      "what": {
+       "fr": "La main gauche berce en régulier, la main droite pose une mélodie simple.",
+       "en": "The left hand rocks steadily, the right lays down a simple melody."
+      }
+     },
+     {
+      "when": {
+       "fr": "Quand la mélodie revient",
+       "en": "When the melody returns"
+      },
+      "what": {
+       "fr": "Même air, mais orné de petites notes rapides, comme de la dentelle.",
+       "en": "Same tune, but decorated with quick little notes, like lace."
+      }
+     },
+     {
+      "when": {
+       "fr": "Tout du long",
+       "en": "Throughout"
+      },
+      "what": {
+       "fr": "Le tempo respire : il retient, repart. C'est le rubato.",
+       "en": "The tempo breathes: it holds back, moves on. That's rubato."
+      }
+     },
+     {
+      "when": {
+       "fr": "Juste avant la fin",
+       "en": "Just before the end"
+      },
+      "what": {
+       "fr": "Un sursaut passionné, une cascade de notes, puis tout s'éteint.",
+       "en": "A passionate surge, a cascade of notes, then everything fades."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "piano",
+      "violon",
+      "harpe",
+      "clavecin"
+     ],
+     "answer": [
+      "piano"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Qu'est-ce que le rubato ?",
+       "en": "What is rubato?"
+      },
+      "options": [
+       {
+        "fr": "Un tempo souple, qui respire",
+        "en": "A flexible, breathing tempo"
+       },
+       {
+        "fr": "Une pièce pour piano",
+        "en": "A piano piece"
+       },
+       {
+        "fr": "Un instrument ancien",
+        "en": "An old instrument"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le pianiste étire et rattrape le temps.",
+       "en": "The pianist stretches and recovers the time."
+      }
+     },
+     {
+      "q": {
+       "fr": "Où Chopin préférait-il jouer ?",
+       "en": "Where did Chopin prefer to play?"
+      },
+      "options": [
+       {
+        "fr": "Dans les stades et grandes salles",
+        "en": "In huge halls"
+       },
+       {
+        "fr": "Dans les salons, devant peu de monde",
+        "en": "In salons, before a few people"
+       },
+       {
+        "fr": "À l'église",
+        "en": "In church"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Il fuyait les grandes salles : d'où cette musique confidentielle.",
+       "en": "He avoided large halls: hence this confiding music."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Nocturne",
+       "en": "Nocturne"
+      },
+      "def": {
+       "fr": "Une pièce rêveuse pour piano, évoquant la nuit.",
+       "en": "A dreamy piano piece evoking the night."
+      }
+     },
+     {
+      "term": {
+       "fr": "Rubato",
+       "en": "Rubato"
+      },
+      "def": {
+       "fr": "Le fait de ralentir et d'accélérer librement.",
+       "en": "Freely slowing down and speeding up."
+      }
+     }
+    ]
+   }
   }
  ],
  "image": {
@@ -68,5 +213,9 @@
   "license": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Ferdinand_Victor_Delacroix_043.jpg",
   "focus": "50% 22%"
+ },
+ "world": {
+  "fr": "1830 : les barricades à Paris, l'insurrection en Pologne que Chopin suit de loin.",
+  "en": "1830: barricades in Paris, an uprising in Poland that Chopin follows from afar."
  }
 }

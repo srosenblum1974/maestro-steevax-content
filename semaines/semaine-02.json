@@ -59,7 +59,154 @@
      "license": "CC BY-SA 4.0",
      "source": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga"
     }
-   ]
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Trois cents ans avant le cinéma, une musique qui fait voir l'orage.",
+     "en": "Three hundred years before cinema, music that makes you see the storm."
+    },
+    "context": {
+     "fr": "Vivaldi, prêtre surnommé « le Prêtre roux », enseigne la musique à Venise dans un orphelinat de jeunes filles, l'Ospedale della Pietà. Il publie Les Quatre Saisons en 1725 : quatre concertos, chacun accompagné d'un poème qui décrit ce que la musique raconte.",
+     "en": "Vivaldi, a priest nicknamed “the Red Priest”, teaches music at a girls' orphanage in Venice, the Ospedale della Pietà. He publishes The Four Seasons in 1725: four concertos, each with a poem describing what the music tells."
+    },
+    "why": {
+     "fr": "C'est l'un des premiers exemples célèbres de musique qui raconte une histoire précise. Pour un débutant, c'est un jeu de piste : les images sont vraiment dans les notes.",
+     "en": "One of the first famous examples of music telling a precise story. For a beginner it is a treasure hunt: the images really are in the notes."
+    },
+    "how": {
+     "fr": "Lisez l'histoire avant d'appuyer sur lecture : l'été écrase le berger, puis la grêle détruit les récoltes. Ensuite, cherchez le tonnerre et les éclairs.",
+     "en": "Read the story before pressing play: summer crushes the shepherd, then hail destroys the crops. Then look for the thunder and the lightning."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Dès la première seconde",
+       "en": "From the first second"
+      },
+      "what": {
+       "fr": "Tout l'orchestre attaque, très vite. Les notes répétées, c'est la pluie et le tonnerre.",
+       "en": "The whole orchestra attacks at speed. The repeated notes are rain and thunder."
+      }
+     },
+     {
+      "when": {
+       "fr": "Quand un violon sort du groupe",
+       "en": "When one violin breaks away"
+      },
+      "what": {
+       "fr": "Le soliste file en traits rapides : ce sont les éclairs.",
+       "en": "The soloist races in quick runs: those are the lightning bolts."
+      }
+     },
+     {
+      "when": {
+       "fr": "Tout au long",
+       "en": "Throughout"
+      },
+      "what": {
+       "fr": "Le groupe revient, puis le soliste repart. Cet aller-retour est le principe du concerto.",
+       "en": "The group returns, then the soloist breaks away again. This back-and-forth is how a concerto works."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "Pas d'apaisement : la tempête s'arrête net, tout est détruit.",
+       "en": "No calm: the storm stops dead, everything is destroyed."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "violon",
+      "violoncelle",
+      "trompette",
+      "flute",
+      "timbales"
+     ],
+     "answer": [
+      "violon",
+      "violoncelle"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Que raconte ce mouvement ?",
+       "en": "What does this movement depict?"
+      },
+      "options": [
+       {
+        "fr": "Une fête au village",
+        "en": "A village feast"
+       },
+       {
+        "fr": "Un orage d'été",
+        "en": "A summer storm"
+       },
+       {
+        "fr": "Une chasse",
+        "en": "A hunt"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Le poème décrit la grêle qui couche les blés.",
+       "en": "The poem describes hail flattening the wheat."
+      }
+     },
+     {
+      "q": {
+       "fr": "Dans un concerto, qu'est-ce qui s'oppose au groupe ?",
+       "en": "In a concerto, what stands against the group?"
+      },
+      "options": [
+       {
+        "fr": "Le chef d'orchestre",
+        "en": "The conductor"
+       },
+       {
+        "fr": "Un soliste",
+        "en": "A soloist"
+       },
+       {
+        "fr": "Le public",
+        "en": "The audience"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Le soliste dialogue, ou lutte, avec l'ensemble.",
+       "en": "The soloist converses, or fights, with the ensemble."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Concerto",
+       "en": "Concerto"
+      },
+      "def": {
+       "fr": "Une œuvre où un soliste dialogue avec un orchestre.",
+       "en": "A work where a soloist converses with an orchestra."
+      }
+     },
+     {
+      "term": {
+       "fr": "Mouvement",
+       "en": "Movement"
+      },
+      "def": {
+       "fr": "Une grande partie d'une œuvre, séparée des autres par un silence.",
+       "en": "A large section of a work, separated from the others by silence."
+      }
+     }
+    ]
+   }
   }
  ],
  "image": {
@@ -68,5 +215,9 @@
   "license": "CC BY-SA 4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Il_Ritorno_del_Bucintoro_al_molo_nel_giorno_dell%27Ascensione_(c.1738)_Canaletto_-_Wells-Next-The-Sea,_The_Earl_of_Leicester_and_Trustees_of_the_Holkham_Estate.jpg",
   "focus": "50% 40%"
+ },
+ "world": {
+  "fr": "1725 : à Venise, le carnaval dure des mois et attire l'Europe entière.",
+  "en": "1725: in Venice carnival lasts for months and draws all Europe."
  }
 }

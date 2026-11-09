@@ -49,7 +49,152 @@
      "license": "CC BY-SA 3.0",
      "source": "https://commons.wikimedia.org/wiki/File:JOHN_MICHEL_CELLO-J_S_BACH_CELLO_SUITE_1_in_G_Prelude.ogg"
     }
-   ]
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Un homme, un violoncelle, et l'impression d'entendre tout un orchestre.",
+     "en": "One player, one cello, and the feeling of hearing a whole ensemble."
+    },
+    "context": {
+     "fr": "Vers 1720, Bach est musicien à la cour de Köthen, en Allemagne. Il écrit six suites pour violoncelle seul. Elles tombent ensuite presque dans l'oubli : à 13 ans, le jeune Pablo Casals en trouve une édition dans une boutique de Barcelone, les travaille pendant des années, puis les enregistre dans les années 1930.",
+     "en": "Around 1720 Bach is court musician at Köthen, in Germany. He writes six suites for solo cello, which then nearly vanish from concerts. At 13, young Pablo Casals finds an edition in a Barcelona shop, works on them for years, and records them in the 1930s."
+    },
+    "why": {
+     "fr": "C'est le point de départ idéal : il n'y a qu'un instrument à suivre. Et ce Prélude montre le génie de Bach, faire entendre une harmonie complète avec des notes jouées une par une.",
+     "en": "The ideal starting point: there is only one instrument to follow. And this Prelude shows Bach's genius: full harmony from notes played one at a time."
+    },
+    "how": {
+     "fr": "Ne cherchez pas de mélodie à fredonner. Imaginez une vague qui monte et redescend, et laissez-vous porter par son mouvement.",
+     "en": "Don't look for a tune to hum. Picture a wave rising and falling, and ride its motion."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Au début",
+       "en": "At the start"
+      },
+      "what": {
+       "fr": "Des notes en vagues régulières, toujours le même geste. Écoutez la note grave qui revient comme un point d'appui.",
+       "en": "Notes in steady waves, the same gesture again and again. Listen for the low note returning like an anchor."
+      }
+     },
+     {
+      "when": {
+       "fr": "Vers le milieu",
+       "en": "Around the middle"
+      },
+      "what": {
+       "fr": "La vague se trouble : la musique semble chercher son chemin et la tension monte.",
+       "en": "The wave grows restless: the music seems to search for its way and tension builds."
+      }
+     },
+     {
+      "when": {
+       "fr": "Juste avant la fin",
+       "en": "Just before the end"
+      },
+      "what": {
+       "fr": "Les notes grimpent marche après marche jusqu'au sommet.",
+       "en": "The notes climb step by step to the summit."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "De grands accords larges : le calme revient, on est arrivé.",
+       "en": "Broad, wide chords: calm returns, you have arrived."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "violoncelle",
+      "violon",
+      "piano",
+      "flute"
+     ],
+     "answer": [
+      "violoncelle"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Combien de musiciens jouent ce Prélude ?",
+       "en": "How many musicians play this Prelude?"
+      },
+      "options": [
+       {
+        "fr": "Un seul",
+        "en": "Just one"
+       },
+       {
+        "fr": "Quatre",
+        "en": "Four"
+       },
+       {
+        "fr": "Un petit orchestre",
+        "en": "A small orchestra"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Un seul violoncelliste. Les « harmonies » viennent des notes qui sautent du grave à l'aigu.",
+       "en": "A single cellist. The “harmony” comes from notes leaping between low and high."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qui a remis ces suites en lumière ?",
+       "en": "Who brought these suites back to light?"
+      },
+      "options": [
+       {
+        "fr": "Mozart",
+        "en": "Mozart"
+       },
+       {
+        "fr": "Pablo Casals",
+        "en": "Pablo Casals"
+       },
+       {
+        "fr": "Beethoven",
+        "en": "Beethoven"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Casals les découvre adolescent à Barcelone et les fait connaître au monde entier.",
+       "en": "Casals found them as a teenager in Barcelona and made them known worldwide."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Suite",
+       "en": "Suite"
+      },
+      "def": {
+       "fr": "Une série de pièces courtes inspirées de danses.",
+       "en": "A series of short pieces inspired by dances."
+      }
+     },
+     {
+      "term": {
+       "fr": "Prélude",
+       "en": "Prelude"
+      },
+      "def": {
+       "fr": "Le morceau d'ouverture, comme une entrée en matière.",
+       "en": "The opening piece, a kind of introduction."
+      }
+     }
+    ]
+   }
   }
  ],
  "image": {
@@ -58,5 +203,9 @@
   "license": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg",
   "focus": "50% 12%"
+ },
+ "world": {
+  "fr": "Vers 1720 : Louis XV est un enfant roi, Venise brille encore, et Bach n'est connu que comme organiste.",
+  "en": "Around 1720: Louis XV is a boy king, Venice still shines, and Bach is known mainly as an organist."
  }
 }

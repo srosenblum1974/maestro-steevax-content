@@ -56,7 +56,7 @@ h2{font-family:var(--serif);font-weight:500;font-size:clamp(34px,8vw,60px);line-
 /* Tabs */
 .top.solid{background:rgba(20,17,16,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 nav.tabs{position:sticky;top:calc(56px + env(safe-area-inset-top));z-index:15;display:flex;justify-content:center;gap:4px;padding:12px 10px;background:rgba(20,17,16,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
-nav.tabs button{border:0;background:none;padding:8px 14px;border-radius:99px;font-size:14px;font-weight:500;color:rgba(246,241,231,.6);cursor:pointer}
+nav.tabs button{white-space:nowrap;border:0;background:none;padding:8px 11px;border-radius:99px;font-size:14px;font-weight:500;color:rgba(246,241,231,.6);cursor:pointer}
 nav.tabs button.on{background:rgba(196,154,74,.18);color:var(--gold)}
 section.view{display:none}
 section.view.on{display:block}
@@ -92,7 +92,6 @@ section.view.on{display:block}
 .ref{font-size:14px;color:var(--muted);margin-top:14px}
 .links{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
 .links a{font-size:13px;text-decoration:none;border:1px solid var(--line);padding:5px 12px;border-radius:99px;background:var(--card)}
-.listens{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 8px}
 .listens label{display:flex;align-items:center;gap:6px;font-size:13px;border:1px solid var(--line);border-radius:99px;padding:6px 12px;cursor:pointer;user-select:none;background:var(--card)}
 .listens input{accent-color:var(--accent)}
 .listens label.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
@@ -115,6 +114,56 @@ textarea{width:100%;min-height:60px;border:1px solid var(--line);border-radius:1
 .tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
 .tools button,.tools label{border:1px solid var(--line);background:var(--card);padding:10px 16px;border-radius:12px;font-size:14px;font-weight:500;cursor:pointer}
 .paper h2{color:var(--ink)}
+/* Guided work */
+.hook{font-family:var(--serif);font-size:25px;line-height:1.2;font-style:italic;margin:6px 0 16px}
+.story{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin:14px 0}
+.story p{margin:6px 0 14px}.story p:last-child{margin-bottom:0}
+.lab{display:block;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.world{font-size:15px;color:var(--muted);border-left:3px solid var(--gold);padding-left:12px;margin:0 0 6px}
+details.gl{margin-top:6px;font-size:14px}details.gl summary{cursor:pointer;display:inline-block;border-bottom:1px dotted var(--muted);margin-right:12px}
+.weekbar{display:flex;align-items:center;gap:12px;margin:14px 0 22px;font-size:14px;color:rgba(246,241,231,.85)}
+.stepper{display:flex;margin:22px 0 10px;position:relative}
+.stepper button{flex:1;border:0;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:5px;font-size:12px;font-weight:600;color:var(--muted);position:relative;padding:0}
+.stepper button:disabled{cursor:default;opacity:.55}
+.stepper i{font-style:normal;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--card);border:2px solid var(--line);font-size:15px;z-index:1}
+.stepper button:not(:first-child)::before{content:"";position:absolute;top:18px;right:50%;width:100%;height:2px;background:var(--line)}
+.stepper .done i{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.stepper .done:not(:first-child)::before,.stepper .cur:not(:first-child)::before{background:var(--gold)}
+.stepper .open{color:var(--accent)}.stepper .open i{border-color:var(--accent)}
+.step{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;margin:8px 0}
+.step h4{font-family:var(--serif);font-size:25px;margin:0 0 4px;line-height:1.1}
+.step .ask{font-weight:600;margin:18px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:#fff;border-radius:14px;padding:8px 12px;font-size:14px;cursor:pointer;display:inline-flex;gap:6px;align-items:center;transition:transform .12s}
+.chip:active{transform:scale(.94)}
+.chip b{font-size:20px;font-weight:400;line-height:1}
+.chip.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.chip.good{background:#e5f1dd;border-color:#4d7c35;color:#33591f}.chip.bad{background:#f8e2de;border-color:#b3412e;color:#8a2f20}.chip.miss{border-style:dashed;border-color:#4d7c35;color:#33591f}
+.moment{display:flex;gap:12px;width:100%;text-align:left;border:0;border-top:1px solid var(--line);background:none;padding:12px 0;cursor:pointer;color:inherit}
+.moment u{text-decoration:none;flex:none;width:26px;height:26px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-size:13px;color:#fff}
+.moment.on u{background:var(--gold);border-color:var(--gold)}
+.moment small{display:block;font-weight:600;color:var(--accent)}
+.quizq{margin:14px 0}.quizq p{font-weight:600;margin:0 0 8px}
+.feedback{font-size:14px;margin:8px 0 0}
+.go{display:block;width:100%;margin-top:20px;border:0;border-radius:14px;padding:15px;background:var(--accent);color:#fff;font-weight:600;cursor:pointer}
+.go:disabled{background:var(--line);color:var(--muted);cursor:default}
+.ghost{border:1px solid var(--line);background:none;border-radius:12px;padding:9px 13px;font-size:14px;cursor:pointer;margin-top:8px}
+.hint{font-size:13px;color:var(--muted);text-align:center;margin:8px 0 0}
+.souv{background:var(--ink);color:var(--paper);border-radius:18px;padding:20px;margin:8px 0}
+.souv h4{font-family:var(--serif);font-size:25px;margin:0 0 2px;color:var(--gold)}
+.souv .row{font-size:22px;margin:10px 0 2px}.souv q{display:block;font-family:var(--serif);font-size:20px;font-style:italic;margin-top:10px;quotes:none}
+.souv .ghost{color:var(--paper);border-color:rgba(255,255,255,.3)}
+#toast{position:fixed;left:50%;bottom:calc(26px + env(safe-area-inset-bottom));transform:translate(-50%,30px);opacity:0;transition:.3s;background:#2f5a1f;color:#fff;padding:12px 20px;border-radius:99px;font-weight:600;font-size:14px;z-index:50;pointer-events:none;white-space:nowrap}
+#toast.on{transform:translate(-50%,0);opacity:1}
+.tilebar{display:block;width:140px;height:3px;background:rgba(255,255,255,.25);border-radius:9px;margin-top:8px;overflow:hidden}.tilebar i{display:block;height:100%;background:var(--gold)}
+/* History */
+.frise{display:flex;gap:3px;margin:18px 0}.frise a{flex:1;min-width:0;background:var(--ink);color:var(--paper);text-decoration:none;font-size:12px;padding:12px 6px;text-align:center;border-radius:6px}
+.frise a b{display:block;font-family:var(--serif);font-size:15px;overflow:hidden;text-overflow:ellipsis}
+.era{min-height:64svh}
+.era-body{max-width:760px;margin:0 auto;padding:24px 20px 34px}
+.era-body p{margin:6px 0 16px}
+.weeklinks{display:flex;flex-wrap:wrap;gap:8px}.weeklinks a{font-size:13px;text-decoration:none;background:var(--accent-soft);color:var(--accent);padding:6px 12px;border-radius:99px;font-weight:600}
+.memo{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:10px 0}
 footer{padding:28px 20px calc(40px + env(safe-area-inset-bottom));text-align:center;color:rgba(246,241,231,.5);font-size:12px}
 </style>
 </head>
@@ -139,14 +188,20 @@ footer{padding:28px 20px calc(40px + env(safe-area-inset-bottom));text-align:cen
 
   <nav class="tabs">
     <button data-tab="parcours" class="on" data-t="tabPath"></button>
+    <button data-tab="histoire" data-t="tabHistory"></button>
     <button data-tab="journal" data-t="tabJournal"></button>
     <button data-tab="methode" data-t="tabMethod"></button>
   </nav>
 
   <section class="view on" id="parcours"><div id="tiles"></div></section>
 
+  <section class="view paper" id="histoire"><div id="historyBody"></div></section>
+
   <section class="view paper" id="journal"><div class="wrap">
-    <div class="kicker" data-t="journalKicker"></div>
+    <div class="kicker" data-t="mineKicker"></div>
+    <h2 data-t="mineTitle"></h2>
+    <div id="mine"></div>
+    <div class="kicker" style="margin-top:34px" data-t="journalKicker"></div>
     <h2 data-t="journalTitle"></h2>
     <p data-t="journalIntro"></p>
     <div id="entries"></div>
@@ -173,10 +228,19 @@ footer{padding:28px 20px calc(40px + env(safe-area-inset-bottom));text-align:cen
 <main id="week" hidden></main>
 
 <footer data-t="footer"></footer>
+<div id="toast" role="status"></div>
 
 <script>
 const UI = {
-  fr:{heroKicker:"Un entrepreneur découvre la musique classique",heroTitle:"Apprendre à écouter",tabPath:"Le parcours",tabJournal:"Le carnet",tabMethod:"La méthode",
+  fr:{heroKicker:"Un entrepreneur découvre la musique classique",heroTitle:"Apprendre à écouter",tabPath:"Parcours",tabJournal:"Carnet",tabMethod:"Méthode",
+      tabHistory:"Histoire",steps:"étapes",done:"accomplies",context:"L'histoire de cette œuvre",why:"Pourquoi c'est important",words:"Les mots à connaître",
+      world:"Pendant ce temps, dans le monde",piece:"Le morceau",s1:"Découvrir",s2:"Repérer",s3:"Retenir",
+      m1:"Écoutez une première fois, sans rien chercher. Trajet, cuisine, canapé : peu importe.",m2:"Réécoutez, au calme si possible. Touchez chaque moment quand vous le reconnaissez.",m3:"Attendez quelques jours, puis réécoutez. Votre mémoire a déjà retenu plus que vous ne croyez.",
+      howL:"Comment écouter",feel:"Qu'avez-vous ressenti ?",see:"Qu'avez-vous vu en écoutant ?",moments:"Les moments à attraper",earQ:"Défi d'oreille : quels instruments jouent ?",check:"Vérifier",earGood:"Parfait, vous avez tout entendu !",earMid:"Bien essayé. En vert les bonnes réponses, en pointillés celles qui vous ont échappé.",
+      quizT:"Ce que vous avez retenu",rate:"Votre note",sentence:"Un mot pour vous en souvenir (facultatif)",notePh:"Touchez une amorce ci-dessus, ou écrivez librement",
+      val1:"Valider l'étape 1",val2:"Valider l'étape 2",val3:"Terminer et garder ce souvenir",h1:"Touchez au moins une émotion pour continuer.",h2:"Vérifiez votre défi d'oreille pour continuer.",h3:"Répondez au quiz et donnez une note pour continuer.",saved:"✓ Enregistré",stepSaved:"✓ Étape enregistrée dans votre carnet",souv:"Votre souvenir",edit:"Modifier",locked:"Terminez l'étape précédente",
+      mineKicker:"Mon carnet",mineTitle:"Ce que j'ai écouté",noMine:"Votre carnet se remplira ici dès votre première étape validée.",stepOf:"Étape",
+      who:"Figures",soundL:"Le son",worldL:"Le monde autour",listenW:"À écouter",before:"Avant tout ça",hIntro:"Première couche d'histoire",hTitle:"La grande carte",basic:"Six mots pour tout comprendre",
       week:"Semaine",of:"semaines terminées",start:"Commencer par",listen:"Quoi écouter",reference:"Pour aller plus loin, la version de référence",
       listenHere:"Écouter ici",l1:"Écoute 1",l2:"Écoute 2",l3:"Écoute 3",note:"Votre phrase : ce qui vous a pris, ce qui vous a ennuyé…",
       noAudio:"Pas encore d'enregistrement libre de droits pour cette œuvre : écoutez-la avec les liens ci-dessous.",
@@ -184,11 +248,19 @@ const UI = {
       journalKicker:"Journal de bord",journalTitle:"Le chemin de Maestro Steevax",
       journalIntro:"Ce que Steve écoute, ce qui le prend, ce qui l'ennuie. Publié au fil de son propre parcours.",
       noEntries:"Le carnet s'ouvre avec la semaine 1. Premières notes très bientôt.",
-      methodKicker:"Le rituel",methodTitle:"Trois écoutes, une note",phasesTitle:"Les quatre phases",
+      methodKicker:"Le rituel",methodTitle:"Trois étapes pour chaque œuvre",phasesTitle:"Les quatre phases",
       saveTitle:"Votre progression",saveIntro:"Elle est gardée dans ce navigateur. Exportez-la pour la sauvegarder ou la retrouver dans l'app iPhone.",
       export:"Exporter ma progression",import:"Importer une progression",imported:"Progression importée.",
       painting:"Peinture",footer:"Maestro Steevax · un projet personnel de Steve Rosenblum · enregistrements et peintures libres de droits (Wikimedia Commons, Musopen)"},
-  en:{heroKicker:"An entrepreneur discovers classical music",heroTitle:"Learning to listen",tabPath:"The path",tabJournal:"The notebook",tabMethod:"The method",
+  en:{heroKicker:"An entrepreneur discovers classical music",heroTitle:"Learning to listen",tabPath:"Path",tabJournal:"Notebook",tabMethod:"Method",
+      tabHistory:"History",steps:"steps",done:"completed",context:"The story of this work",why:"Why it matters",words:"Words to know",
+      world:"Meanwhile, in the world",piece:"The piece",s1:"Discover",s2:"Spot",s3:"Remember",
+      m1:"Listen once without looking for anything. Commute, kitchen, sofa: anywhere.",m2:"Listen again, somewhere quiet if you can. Tap each moment as you recognise it.",m3:"Wait a few days, then listen again. Your memory has kept more than you think.",
+      howL:"How to listen",feel:"What did you feel?",see:"What did you see as you listened?",moments:"Moments to catch",earQ:"Ear challenge: which instruments are playing?",check:"Check",earGood:"Perfect, you heard them all!",earMid:"Nice try. Green marks the right answers, dashes the ones you missed.",
+      quizT:"What you remember",rate:"Your rating",sentence:"A few words to remember it by (optional)",notePh:"Tap a starter above, or write freely",
+      val1:"Complete step 1",val2:"Complete step 2",val3:"Finish and keep this memory",h1:"Tap at least one emotion to continue.",h2:"Check your ear challenge to continue.",h3:"Answer the quiz and give a rating to continue.",saved:"✓ Saved",stepSaved:"✓ Step saved in your notebook",souv:"Your memory",edit:"Edit",locked:"Finish the previous step first",
+      mineKicker:"My notebook",mineTitle:"What I've listened to",noMine:"Your notebook fills up here as soon as you complete a first step.",stepOf:"Step",
+      who:"Figures",soundL:"The sound",worldL:"The world around",listenW:"Listen to",before:"Before all that",hIntro:"A first layer of history",hTitle:"The big map",basic:"Six words to understand everything",
       week:"Week",of:"weeks completed",start:"Start with",listen:"Listen for",reference:"Going further: the reference recording",
       listenHere:"Listen here",l1:"Listen 1",l2:"Listen 2",l3:"Listen 3",note:"Your sentence: what gripped you, what bored you…",
       noAudio:"No free recording of this work yet: listen with the links below.",
@@ -196,7 +268,7 @@ const UI = {
       journalKicker:"Logbook",journalTitle:"Maestro Steevax's path",
       journalIntro:"What Steve listens to, what grips him, what bores him. Published as he walks his own path.",
       noEntries:"The notebook opens with week 1. First notes coming soon.",
-      methodKicker:"The ritual",methodTitle:"Three listens, one note",phasesTitle:"The four phases",
+      methodKicker:"The ritual",methodTitle:"Three steps for each work",phasesTitle:"The four phases",
       saveTitle:"Your progress",saveIntro:"It is kept in this browser. Export it to back it up or bring it into the iPhone app.",
       export:"Export my progress",import:"Import progress",imported:"Progress imported.",
       painting:"Painting",footer:"Maestro Steevax · a personal project by Steve Rosenblum · free recordings and paintings (Wikimedia Commons, Musopen)"}
@@ -211,7 +283,16 @@ const t=k=>UI[lang][k], L=o=>o?(o[lang]||o.fr):"";
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const $=id=>document.getElementById(id);
 
-function ws(id){return progress[id]||(progress[id]={listens:[false,false,false],rating:0,note:""})}
+function ws(id){const s=progress[id]||(progress[id]={listens:[false,false,false],rating:0,note:""});
+  for(const k of ["emotions","images","instruments","moments"])s[k]=s[k]||[];s.quiz=s.quiz||{};return s}
+const stepsOf=w=>w.works.reduce((n,x)=>n+(progress[x.id]?progress[x.id].listens.filter(Boolean).length:0),0);
+const allSteps=()=>weeks.reduce((n,w)=>n+w.works.length*3,0);
+const doneSteps=()=>weeks.reduce((n,w)=>n+stepsOf(w),0);
+let toastT;function toast(m){const e=$("toast");e.textContent=m;e.classList.add("on");clearTimeout(toastT);toastT=setTimeout(()=>e.classList.remove("on"),1900)}
+const pal=(k,id)=>(parcours.palette[k]||[]).find(x=>x.id===id);
+const toggle=(a,v)=>{const i=a.indexOf(v);i<0?a.push(v):a.splice(i,1)};
+const openStep={};
+const stepNow=s=>{const i=s.listens.indexOf(false);return i};
 const workDone=id=>{const s=progress[id];return !!s&&s.listens.every(Boolean)};
 const weekDone=w=>w.works.every(x=>workDone(x.id));
 const current=()=>weeks.find(w=>!weekDone(w))||weeks[weeks.length-1];
@@ -220,8 +301,9 @@ function credit(img){return img?`<a href="${esc(img.source)}" target="_blank" re
 
 function renderProgress(){
   const done=weeks.filter(weekDone).length;
-  $("bar").style.width=(weeks.length?done/weeks.length*100:0)+"%";
-  $("progressText").textContent=`${done} / ${weeks.length} ${t("of")}`;
+  const a=allSteps(),d=doneSteps();
+  $("bar").style.width=(a?d/a*100:0)+"%";
+  $("progressText").textContent=`${d} / ${a} ${t("steps")} · ${done} / ${weeks.length} ${t("of")}`;
   const c=current();
   if(c){$("cta").href="#"+c.id;$("cta").textContent=(done?`${t("resume")} ${c.n}`:t("begin"))+"  →"}
 }
@@ -237,7 +319,7 @@ function renderHome(){
     <a class="tile ${weekDone(w)?"done":""} ${w===c?"current":""}" href="#${w.id}">
       ${w.image?`<img src="${esc(w.image.path)}" alt="" loading="lazy" style="object-position:${esc(w.image.focus||"50% 40%")}">`:""}
       <div class="inner"><div class="num">${w.n}</div>
-        <div class="t"><small>${t("week")} ${w.n} · ${esc(L(parcours.periods[w.period]))}</small><b>${esc(L(w.title))}</b></div></div>
+        <div class="t"><small>${t("week")} ${w.n} · ${esc(L(parcours.periods[w.period]))}</small><b>${esc(L(w.title))}</b><span class="tilebar"><i style="width:${stepsOf(w)/(w.works.length*3)*100}%"></i></span></div></div>
     </a>`).join("");
   $("ritual").innerHTML=parcours.ritual.map(r=>`<div><b>${esc(L(r.title))}</b><span>${esc(L(r.text))}</span></div>`).join("");
   $("notebook").textContent=L(parcours.notebook);
@@ -245,16 +327,39 @@ function renderHome(){
   $("phases").innerHTML=parcours.phases.map(p=>`<div class="entry"><b>Phase ${p.n} · ${esc(L(p.title))}</b><br><small>${t("week")} ${p.weeks}</small></div>`).join("");
   const es=journal.entries.slice().sort((a,b)=>b.date.localeCompare(a.date));
   $("entries").innerHTML=es.length?es.map(e=>`<div class="entry"><small>${esc(e.date)} · ${"★".repeat(e.rating||0)}</small><div>${esc(L(e.note))}</div></div>`).join(""):`<p class="empty">${t("noEntries")}</p>`;
+  renderMine();renderHistory();
   renderProgress();
 }
 
-// ---- Audio: one player for the whole page; a full listen ticks the next listen of that work
+function chipsRO(k,ids){return ids.map(i=>{const p=pal(k,i);return p?p.icon:""}).join(" ")}
+function renderMine(){
+  const items=[];weeks.forEach(w=>w.works.forEach(x=>{const s=progress[x.id];if(s&&s.listens&&s.listens.some(Boolean))items.push({w,x,s})}));
+  $("mine").innerHTML=items.length?items.map(({w,x,s})=>`<a class="memo" style="display:block;text-decoration:none" href="#${w.id}">
+    <small>${t("week")} ${w.n} · ${t("stepOf")} ${s.listens.filter(Boolean).length}/3${s.savedAt?" · "+esc(s.savedAt):""}</small>
+    <div style="font-family:var(--serif);font-size:23px;font-weight:700">${esc(L(x.title))}</div>
+    <div style="font-size:21px">${chipsRO("emotions",s.emotions||[])} ${chipsRO("images",s.images||[])}</div>
+    ${s.rating?`<div style="color:var(--gold)">${"★".repeat(s.rating)}</div>`:""}${s.note?`<div><i>${esc(s.note)}</i></div>`:""}</a>`).join(""):`<p class="empty">${t("noMine")}</p>`;
+}
+function renderHistory(){
+  const h=parcours.history;if(!h)return;
+  $("historyBody").innerHTML=`<div class="wrap" style="padding-bottom:10px"><div class="kicker">${t("hIntro")}</div><h2>${t("hTitle")}</h2><p>${esc(L(h.intro))}</p>
+    <div class="frise">${h.periods.map(p=>`<a href="#" data-era="${p.id}" ><b>${esc(L(p.title))}</b>${esc(p.dates)}</a>`).join("")}</div>
+    <div class="memo"><span class="lab">${t("before")}</span>${esc(L(h.before))}</div></div>
+    ${h.periods.map(p=>`<div id="era-${p.id}"><section class="bleed era"><img class="bg" src="${esc(p.image.path)}" alt="" loading="lazy" style="object-position:${esc(p.image.focus||"50% 40%")}">
+      <div class="inner"><div class="kicker">${esc(p.dates)}</div><h2 style="color:var(--paper)">${esc(L(p.title))}</h2><p class="lede" style="max-width:none">${esc(L(p.oneLine))}</p></div><div class="credit">${credit(p.image)}</div></section>
+      <div class="era-body"><span class="lab">${t("worldL")}</span><p>${esc(L(p.world))}</p><span class="lab">${t("soundL")}</span><p>${esc(L(p.sound))}</p><span class="lab">${t("who")}</span><p>${p.people.map(esc).join(" · ")}</p>
+      <span class="lab">${t("listenW")}</span><div class="weeklinks" style="margin-top:6px">${p.weeks.map(n=>{const w=weeks.find(x=>x.n===n);return w?`<a href="#${w.id}">${t("week")} ${n} · ${esc(L(w.title))}</a>`:""}).join("")}</div></div></div>`).join("")}
+    <div class="wrap"><h2>${t("basic")}</h2>${h.words.map(g=>`<div class="memo"><b>${esc(L(g.term))}</b> : ${esc(L(g.def))}</div>`).join("")}</div>`;
+  document.querySelectorAll("[data-era]").forEach(a=>a.onclick=e=>{e.preventDefault();$("era-"+a.dataset.era).scrollIntoView({behavior:"smooth"})});
+}
+
+// ---- Audio: one player for the whole page
 const audio=new Audio(); audio.preload="none";
 let playing=null; // {work, idx, el}
 function fmt(s){if(!isFinite(s))return"";s=Math.round(s);return Math.floor(s/60)+":"+String(s%60).padStart(2,"0")}
 audio.ontimeupdate=()=>{if(!playing)return;const p=audio.duration?audio.currentTime/audio.duration:0;
   playing.el.querySelector(".scrub i").style.width=(p*100)+"%";playing.el.querySelector(".time").textContent=fmt(audio.currentTime)+" / "+fmt(audio.duration)};
-audio.onended=()=>{if(!playing)return;const s=ws(playing.work);const i=s.listens.indexOf(false);if(i>=0){s.listens[i]=true;save();renderWeek(location.hash.slice(1),true)}setBtn(false)};
+audio.onended=()=>setBtn(false);
 audio.onpause=()=>setBtn(false); audio.onplay=()=>setBtn(true);
 function setBtn(on){if(playing){const b=playing.el.querySelector(".play");if(b)b.textContent=on?"❚❚":"▶"}}
 function bindTrack(el){
@@ -269,6 +374,60 @@ function bindTrack(el){
   el.querySelector(".scrub").onclick=e=>{if(playing&&playing.el===el&&audio.duration){const r=e.currentTarget.getBoundingClientRect();audio.currentTime=(e.clientX-r.left)/r.width*audio.duration}};
 }
 
+function workHTML(x){
+  const s=ws(x.id),g=x.guide,r=x.recording,tracks=x.audio||[];
+  const now=stepNow(s),all=now<0,open=openStep[x.id]??(all?-1:now);
+  const names=[t("s1"),t("s2"),t("s3")];
+  const chip=(k,id,arr)=>{const p=pal(k,id);return p?`<button class="chip ${arr.includes(id)?"on":""}" data-k="${k}" data-id="${id}"><b>${p.icon}</b>${esc(L(p.label))}</button>`:""};
+  const earDone=!!s.earChecked;
+  const step=[
+   ()=>`<div class="step"><h4>${t("s1")}</h4><p>${t("m1")}</p>${g?`<span class="lab">${t("howL")}</span><p style="margin-top:4px">${esc(L(g.how))}</p>`:""}
+     <p class="ask">${t("feel")}</p><div class="chips">${parcours.palette.emotions.map(e=>chip("emotions",e.id,s.emotions)).join("")}</div>
+     <p class="ask">${t("see")}</p><div class="chips">${parcours.palette.images.map(e=>chip("images",e.id,s.images)).join("")}</div>
+     <button class="go" data-val="0" ${s.emotions.length?"":"disabled"}>${t("val1")}</button>${s.emotions.length?"":`<p class="hint">${t("h1")}</p>`}</div>`,
+   ()=>`<div class="step"><h4>${t("s2")}</h4><p>${t("m2")}</p><span class="lab">${t("listen")}</span><p style="margin-top:4px">${esc(L(x.listenFor))}</p>
+     ${g?`<p class="ask">${t("moments")}</p>${g.moments.map((m,i)=>`<button class="moment ${s.moments.includes(i)?"on":""}" data-m="${i}"><u>✓</u><span><small>${esc(L(m.when))}</small>${esc(L(m.what))}</span></button>`).join("")}
+     <p class="ask">${t("earQ")}</p><div class="chips" id="ear-${x.id}">${g.ear.options.map(id=>{const p=pal("instruments",id);const on=s.instruments.includes(id),ok=g.ear.answer.includes(id);
+        const c=earDone?(on&&ok?"good":on?"bad":ok?"miss":""):(on?"on":"");return `<button class="chip ${c}" data-ear="${id}" ${earDone?"disabled":""}><b>${p.icon}</b>${esc(L(p.label))}</button>`}).join("")}</div>
+     ${earDone?`<p class="feedback">${g.ear.answer.every(a=>s.instruments.includes(a))&&s.instruments.every(a=>g.ear.answer.includes(a))?t("earGood"):t("earMid")}</p>`:`<button class="ghost" data-check="1" ${s.instruments.length?"":"disabled"}>${t("check")}</button>`}`:""}
+     <button class="go" data-val="1" ${!g||earDone?"":"disabled"}>${t("val2")}</button>${!g||earDone?"":`<p class="hint">${t("h2")}</p>`}</div>`,
+   ()=>{const qs=g?g.quiz:[];const okQ=qs.every((q,i)=>s.quiz[i]!==undefined);const ready=okQ&&s.rating>0;return `<div class="step"><h4>${t("s3")}</h4><p>${t("m3")}</p>
+     ${qs.length?`<p class="ask">${t("quizT")}</p>`:""}${qs.map((q,i)=>{const a=s.quiz[i];return `<div class="quizq"><p>${esc(L(q.q))}</p><div class="chips">${q.options.map((o,j)=>{const c=a===undefined?"":j===q.answer?"good":j===a?"bad":"";return `<button class="chip ${c}" data-q="${i}" data-o="${j}" ${a!==undefined?"disabled":""}>${esc(L(o))}</button>`}).join("")}</div>${a!==undefined?`<p class="feedback">${esc(L(q.why))}</p>`:""}</div>`}).join("")}
+     <p class="ask">${t("rate")}</p><div class="stars">${[1,2,3,4,5].map(n=>`<button data-r="${n}" class="${n<=s.rating?"on":""}" aria-label="${n}">★</button>`).join("")}</div><p class="hint" style="text-align:left" id="rl-${x.id}">${s.rating?esc(L(parcours.palette.ratings[s.rating-1])):""}</p>
+     <p class="ask">${t("sentence")}</p><div class="chips" style="margin-bottom:8px">${parcours.palette.starters.map(o=>`<button class="chip" data-st="${esc(L(o))}">${esc(L(o))}</button>`).join("")}</div>
+     <textarea placeholder="${esc(t("notePh"))}">${esc(s.note)}</textarea><p class="hint" style="text-align:right;min-height:18px" data-saved></p>
+     <button class="go" data-val="2" ${ready?"":"disabled"}>${t("val3")}</button>${ready?"":`<p class="hint">${t("h3")}</p>`}</div>`}
+  ];
+  return `<div class="work" data-work="${x.id}">
+    <h3>${esc(L(x.title))}</h3><div class="meta">${esc(x.composer)} · ${esc(x.year)}</div>
+    ${g?`<p class="hook">${esc(L(g.hook))}</p><div class="story"><span class="lab">${t("context")}</span><p>${esc(L(g.context))}</p><span class="lab">${t("why")}</span><p>${esc(L(g.why))}</p>
+      <span class="lab">${t("words")}</span>${g.glossary.map(k=>`<details class="gl"><summary>${esc(L(k.term))}</summary> ${esc(L(k.def))}</details>`).join("")}</div>`:""}
+    <div class="field"><em>${t("piece")} · ${t("start")}</em>${esc(L(x.startWith))}</div>
+    ${tracks.length?tracks.map(a=>`<div class="track" data-url="${esc(a.url)}" data-work="${x.id}" data-title="${esc(L(x.title))} — ${esc(L(a.label))}" data-composer="${esc(x.composer)}" data-art="">
+       <button class="play" aria-label="Play">▶</button><div class="tt"><b>${esc(L(a.label))}</b><small>${esc(a.performer)} · ${esc(a.license)} · <span class="time"></span></small><div class="scrub"><i></i></div></div></div>`).join(""):`<p class="ref">${t("noAudio")}</p><div class="links"><a href="${x.links.youtube}" target="_blank" rel="noopener">YouTube</a><a href="${x.links.appleMusic}" target="_blank" rel="noopener">Apple Music</a><a href="${x.links.spotify}" target="_blank" rel="noopener">Spotify</a></div>`}
+    <div class="stepper">${names.map((n,i)=>{const d=s.listens[i],can=d||i===now;return `<button class="${d?"done":""} ${i===open?"open":""} ${i===now?"cur":""}" data-go="${i}" ${can?"":"disabled title=\""+t("locked")+"\""}><i>${d?"✓":can?i+1:"🔒"}</i>${n}</button>`}).join("")}</div>
+    ${open>=0?step[open]():""}
+    ${all&&open<0?`<div class="souv"><h4>${t("souv")}</h4><small>${esc(s.savedAt||"")}</small><div class="row">${chipsRO("emotions",s.emotions)} ${chipsRO("images",s.images)}</div><div style="color:var(--gold);font-size:20px">${"★".repeat(s.rating)}</div>${s.rating?`<small>${esc(L(parcours.palette.ratings[s.rating-1]))}</small>`:""}${s.note?`<q>${esc(s.note)}</q>`:""}<div><button class="ghost" data-go="2">${t("edit")}</button></div></div>`:""}
+    <p class="ref"><b>${t("reference")}</b> : ${esc(r.performers)} (${esc(r.label)}${r.year?", "+r.year:""})</p>
+    ${tracks.length?`<div class="links"><a href="${x.links.appleMusic}" target="_blank" rel="noopener">Apple Music</a><a href="${x.links.spotify}" target="_blank" rel="noopener">Spotify</a><a href="${x.links.youtube}" target="_blank" rel="noopener">YouTube</a></div>`:""}
+  </div>`;
+}
+function bindWork(el){
+  const id=el.dataset.work,s=ws(id);
+  const again=(scroll)=>{save();renderWeek(location.hash.slice(1),true);if(scroll){const n=document.querySelector(`[data-work="${id}"] .stepper`);if(n)n.scrollIntoView({behavior:"smooth",block:"start"})}};
+  el.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>{const i=+b.dataset.go;openStep[id]=openStep[id]===i?-1:i;renderWeek(location.hash.slice(1),true)});
+  el.querySelectorAll("[data-k]").forEach(b=>b.onclick=()=>{toggle(s[b.dataset.k],b.dataset.id);again()});
+  el.querySelectorAll("[data-m]").forEach(b=>b.onclick=()=>{toggle(s.moments,+b.dataset.m);again()});
+  el.querySelectorAll("[data-ear]").forEach(b=>b.onclick=()=>{toggle(s.instruments,b.dataset.ear);again()});
+  el.querySelectorAll("[data-check]").forEach(b=>b.onclick=()=>{s.earChecked=true;again()});
+  el.querySelectorAll("[data-q]").forEach(b=>b.onclick=()=>{s.quiz[+b.dataset.q]=+b.dataset.o;again()});
+  el.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>{s.rating=+b.dataset.r;again()});
+  const ta=el.querySelector("textarea");let tt;
+  if(ta)ta.oninput=()=>{s.note=ta.value;save();const m=el.querySelector("[data-saved]");m.textContent=t("saved");clearTimeout(tt);tt=setTimeout(()=>m.textContent="",1400)};
+  el.querySelectorAll("[data-st]").forEach(b=>b.onclick=()=>{ta.value=(ta.value?ta.value+" ":"")+b.dataset.st+" ";ta.dispatchEvent(new Event("input"));ta.focus()});
+  el.querySelectorAll("[data-val]").forEach(b=>b.onclick=()=>{const i=+b.dataset.val;s.listens[i]=true;if(i===2)s.savedAt=new Date().toLocaleDateString(lang==="fr"?"fr-FR":"en-GB");delete openStep[id];toast(t("stepSaved"));again(true)});
+}
+
 function renderWeek(id,keepScroll){
   const w=weeks.find(x=>x.id===id); if(!w){show("home");return}
   const y=window.scrollY;
@@ -276,38 +435,18 @@ function renderWeek(id,keepScroll){
   $("week").innerHTML=`
    <section class="bleed">
      ${w.image?`<img class="bg" src="${esc(w.image.path)}" alt="" style="object-position:${esc(w.image.focus||"50% 40%")}">`:""}
-     <div class="inner"><div class="kicker">${t("week")} ${w.n} · ${esc(L(parcours.periods[w.period]))}</div><h2>${esc(L(w.title))}</h2></div>
+     <div class="inner"><div class="kicker">${t("week")} ${w.n} · ${esc(L(parcours.periods[w.period]))}</div><h2>${esc(L(w.title))}</h2>
+       <div class="weekbar"><div class="bar"><i style="width:${stepsOf(w)/(w.works.length*3)*100}%"></i></div><span>${stepsOf(w)} / ${w.works.length*3} ${t("steps")}</span></div></div>
      <div class="credit">${credit(w.image)}</div>
    </section>
    <div class="paper"><div class="wrap">
      <a class="back" href="#">${t("back")}</a>
-     ${w.works.map(x=>{const s=ws(x.id);const r=x.recording;const tracks=x.audio||[];return `
-     <div class="work" data-work="${x.id}">
-       <h3>${esc(L(x.title))}</h3>
-       <div class="meta">${esc(x.composer)} · ${esc(x.year)}</div>
-       <div class="field"><em>${t("start")}</em>${esc(L(x.startWith))}</div>
-       <div class="field"><em>${t("listen")}</em>${esc(L(x.listenFor))}</div>
-       <div class="field"><em>${t("listenHere")}</em></div>
-       ${tracks.length?tracks.map(a=>`
-         <div class="track" data-url="${esc(a.url)}" data-work="${x.id}" data-title="${esc(L(x.title))} — ${esc(L(a.label))}" data-composer="${esc(x.composer)}" data-art="${w.image?esc(w.image.path):""}">
-           <button class="play" aria-label="Play">▶</button>
-           <div class="tt"><b>${esc(L(a.label))}</b><small>${esc(a.performer)} · ${esc(a.license)} · <span class="time"></span></small><div class="scrub"><i></i></div></div>
-         </div>`).join(""):`<p class="ref">${t("noAudio")}</p>`}
-       <div class="listens">${[0,1,2].map(i=>`<label class="${s.listens[i]?"on":""}"><input type="checkbox" data-i="${i}" ${s.listens[i]?"checked":""}>${t("l"+(i+1))}</label>`).join("")}</div>
-       <div class="stars">${[1,2,3,4,5].map(n=>`<button data-r="${n}" class="${n<=s.rating?"on":""}" aria-label="${n}">★</button>`).join("")}</div>
-       <textarea placeholder="${esc(t("note"))}">${esc(s.note)}</textarea>
-       <p class="ref"><b>${t("reference")}</b> : ${esc(r.performers)} (${esc(r.label)}${r.year?", "+r.year:""})</p>
-       <div class="links"><a href="${x.links.appleMusic}" target="_blank" rel="noopener">Apple Music</a><a href="${x.links.spotify}" target="_blank" rel="noopener">Spotify</a><a href="${x.links.youtube}" target="_blank" rel="noopener">YouTube</a></div>
-     </div>`}).join("")}
+     ${w.world?`<p class="world"><span class="lab">${t("world")}</span>${esc(L(w.world))}</p>`:""}
+     ${w.works.map(workHTML).join("")}
      ${w.review?`<div class="review">${esc(L(w.review))}</div>`:""}
      ${next?`<a class="cta next" href="#${next.id}">${t("nextWeek")}</a>`:""}
    </div></div>`;
-  document.querySelectorAll("#week .work").forEach(el=>{
-    const s=ws(el.dataset.work);
-    el.querySelectorAll(".listens input").forEach(cb=>cb.onchange=()=>{s.listens[+cb.dataset.i]=cb.checked;cb.parentElement.classList.toggle("on",cb.checked);save()});
-    el.querySelectorAll(".stars button").forEach(b=>b.onclick=()=>{s.rating=+b.dataset.r;el.querySelectorAll(".stars button").forEach(x=>x.classList.toggle("on",+x.dataset.r<=s.rating));save()});
-    el.querySelector("textarea").oninput=e=>{s.note=e.target.value;save()};
-  });
+  document.querySelectorAll("#week .work").forEach(bindWork);
   document.querySelectorAll("#week .track").forEach(el=>{
     bindTrack(el);
     if(playing&&playing.el.dataset.url===el.dataset.url&&playing.work===el.dataset.work){playing.el=el;setBtn(!audio.paused)}

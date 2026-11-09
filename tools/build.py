@@ -20,6 +20,11 @@ def check(week, path):
         assert not miss, f"{path.name}/{w.get('id')}: champs manquants {miss}"
         for k in ("title", "startWith", "listenFor"):
             assert w[k].get("fr") and w[k].get("en"), f"{path.name}/{w['id']}: {k} incomplet"
+        g = w.get("guide")
+        if g:
+            assert set(g["ear"]["answer"]) <= set(g["ear"]["options"]), f"{w['id']}: réponses hors options"
+            for q in g["quiz"]:
+                assert 0 <= q["answer"] < len(q["options"]), f"{w['id']}: réponse de quiz invalide"
 
 
 def main():

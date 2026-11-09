@@ -49,7 +49,155 @@
      "license": "Public domain",
      "source": "https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_ii._largo.ogg"
     }
-   ]
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Un Tchèque à New York, le mal du pays en musique.",
+     "en": "A Czech in New York, homesickness set to music."
+    },
+    "context": {
+     "fr": "En 1892, Dvořák quitte la Bohême pour diriger le Conservatoire national de New York. Fasciné par les chants afro-américains et amérindiens, il écrit cette symphonie, créée à Carnegie Hall en décembre 1893 avec un immense succès.",
+     "en": "In 1892 Dvořák leaves Bohemia to run New York's National Conservatory. Fascinated by African American and Native American songs, he writes this symphony, premiered at Carnegie Hall in December 1893 to huge acclaim."
+    },
+    "why": {
+     "fr": "Le thème du Largo est si proche d'un chant populaire qu'il a fini par en devenir un : en 1922, un élève y a ajouté des paroles, « Goin' Home », et beaucoup le croient ancien. C'est aussi l'un des plus beaux solos de l'orchestre.",
+     "en": "The Largo theme is so close to folk song that it became one: in 1922 a pupil set words to it, “Goin' Home”, and many believe it is old. It is also one of the orchestra's great solos."
+    },
+    "how": {
+     "fr": "Imaginez un homme seul, très loin de chez lui, un soir. Attendez la voix du cor anglais, une voix un peu voilée, plus grave que le hautbois.",
+     "en": "Imagine a man alone, far from home, one evening. Wait for the voice of the cor anglais, slightly veiled, lower than the oboe."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Au début",
+       "en": "At the start"
+      },
+      "what": {
+       "fr": "Quelques accords lents des cuivres, comme un rideau qui s'ouvre.",
+       "en": "A few slow brass chords, like a curtain opening."
+      }
+     },
+     {
+      "when": {
+       "fr": "Juste après",
+       "en": "Just after"
+      },
+      "what": {
+       "fr": "Le cor anglais chante le grand thème, sur un tapis de cordes.",
+       "en": "The cor anglais sings the great theme over a carpet of strings."
+      }
+     },
+     {
+      "when": {
+       "fr": "Au milieu",
+       "en": "In the middle"
+      },
+      "what": {
+       "fr": "La musique s'assombrit et s'agite, les flûtes et clarinettes pleurent.",
+       "en": "The music darkens and stirs, flutes and clarinets weep."
+      }
+     },
+     {
+      "when": {
+       "fr": "Avant la fin",
+       "en": "Before the end"
+      },
+      "what": {
+       "fr": "Le thème revient, se brise en silences, puis les cuivres referment le rideau.",
+       "en": "The theme returns, breaks into silences, then the brass close the curtain."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "coranglais",
+      "violon",
+      "cor",
+      "harpe",
+      "piano"
+     ],
+     "answer": [
+      "coranglais",
+      "violon",
+      "cor"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Où Dvořák écrit-il cette symphonie ?",
+       "en": "Where does Dvořák write this symphony?"
+      },
+      "options": [
+       {
+        "fr": "À Prague",
+        "en": "In Prague"
+       },
+       {
+        "fr": "À New York",
+        "en": "In New York"
+       },
+       {
+        "fr": "À Vienne",
+        "en": "In Vienna"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Il dirige alors le Conservatoire national de New York.",
+       "en": "He was then running New York's National Conservatory."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel instrument chante le thème du Largo ?",
+       "en": "Which instrument sings the Largo theme?"
+      },
+      "options": [
+       {
+        "fr": "La trompette",
+        "en": "The trumpet"
+       },
+       {
+        "fr": "Le cor anglais",
+        "en": "The cor anglais"
+       },
+       {
+        "fr": "Le violoncelle",
+        "en": "The cello"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Malgré son nom, c'est un cousin grave du hautbois.",
+       "en": "Despite its name, it's a lower cousin of the oboe."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Largo",
+       "en": "Largo"
+      },
+      "def": {
+       "fr": "Indication de tempo : très lent et large.",
+       "en": "A tempo marking: very slow and broad."
+      }
+     },
+     {
+      "term": {
+       "fr": "Cor anglais",
+       "en": "Cor anglais"
+      },
+      "def": {
+       "fr": "Un instrument à vent de la famille du hautbois, au son plus grave.",
+       "en": "A woodwind of the oboe family, lower in sound."
+      }
+     }
+    ]
+   }
   },
   {
    "id": "tchaikovski-concerto-piano-1",
@@ -88,7 +236,157 @@
      "license": "CC0",
      "source": "https://commons.wikimedia.org/wiki/File:Tchaikovsky,_Concerto_No.1_in_B-flat_minor_Op.23,_I._Allegro.ogg"
     }
-   ]
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Le début le plus spectaculaire du répertoire, et il a failli ne jamais être joué.",
+     "en": "The repertoire's most spectacular opening, and it was almost never played."
+    },
+    "context": {
+     "fr": "À Noël 1874, Tchaïkovski joue son concerto au pianiste Nikolaï Rubinstein. Le verdict est brutal : l'œuvre serait injouable et mauvaise. Vexé, il la confie à l'Allemand Hans von Bülow, qui la crée à Boston en octobre 1875. Triomphe.",
+     "en": "At Christmas 1874 Tchaikovsky plays his concerto to the pianist Nikolai Rubinstein. The verdict is brutal: unplayable and bad. Stung, he hands it to the German Hans von Bülow, who premieres it in Boston in October 1875. A triumph."
+    },
+    "why": {
+     "fr": "Il montre tout ce qu'un concerto romantique peut être : un soliste contre cent musiciens, du spectacle et de la confidence. Ironie : le thème grandiose du début ne revient jamais.",
+     "en": "It shows all a Romantic concerto can be: one soloist against a hundred players, spectacle and confession. The irony: the grandiose opening theme never returns."
+    },
+    "how": {
+     "fr": "Le morceau est long, écoutez-le comme un match : qui mène, le piano ou l'orchestre ? Si vous décrochez, revenez aux trois premières minutes.",
+     "en": "It's long, so follow it like a match: who's leading, the piano or the orchestra? If you drift, go back to the first three minutes."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Les premières secondes",
+       "en": "The first seconds"
+      },
+      "what": {
+       "fr": "Quatre notes de cors, puis le piano plaque d'énormes accords sous le thème des violons.",
+       "en": "Four horn notes, then the piano slams huge chords beneath the violins' theme."
+      }
+     },
+     {
+      "when": {
+       "fr": "Après l'introduction",
+       "en": "After the introduction"
+      },
+      "what": {
+       "fr": "Le grand thème disparaît pour de bon. Le piano part sur un air sautillant, plus léger.",
+       "en": "The great theme disappears for good. The piano sets off on a skipping, lighter tune."
+      }
+     },
+     {
+      "when": {
+       "fr": "Au cœur du mouvement",
+       "en": "At the heart of the movement"
+      },
+      "what": {
+       "fr": "Dialogue et affrontement : l'un lance une idée, l'autre la reprend plus fort.",
+       "en": "Dialogue and confrontation: one throws out an idea, the other returns it louder."
+      }
+     },
+     {
+      "when": {
+       "fr": "Vers la fin",
+       "en": "Towards the end"
+      },
+      "what": {
+       "fr": "Le piano reste seul pour sa cadence, puis l'orchestre revient pour le final.",
+       "en": "The piano is left alone for its cadenza, then the orchestra returns for the finish."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "piano",
+      "violon",
+      "cor",
+      "timbales",
+      "clavecin",
+      "harpe"
+     ],
+     "answer": [
+      "piano",
+      "violon",
+      "cor",
+      "timbales"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quelle fut la réaction de Rubinstein ?",
+       "en": "What was Rubinstein's reaction?"
+      },
+      "options": [
+       {
+        "fr": "Il l'a adoré",
+        "en": "He loved it"
+       },
+       {
+        "fr": "Il l'a jugé injouable",
+        "en": "He called it unplayable"
+       },
+       {
+        "fr": "Il a voulu le diriger",
+        "en": "He wanted to conduct it"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Il l'a descendu en flammes, avant de changer d'avis plus tard.",
+       "en": "He tore it apart, before changing his mind later."
+      }
+     },
+     {
+      "q": {
+       "fr": "Le grand thème du début revient-il ?",
+       "en": "Does the great opening theme return?"
+      },
+      "options": [
+       {
+        "fr": "Oui, à la fin",
+        "en": "Yes, at the end"
+       },
+       {
+        "fr": "Jamais",
+        "en": "Never"
+       },
+       {
+        "fr": "À chaque mouvement",
+        "en": "In every movement"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "C'est l'une des curiosités de cette œuvre.",
+       "en": "One of the curiosities of this work."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Cadence",
+       "en": "Cadenza"
+      },
+      "def": {
+       "fr": "Le passage où le soliste joue seul pour montrer sa virtuosité.",
+       "en": "The passage where the soloist plays alone to show off."
+      }
+     },
+     {
+      "term": {
+       "fr": "Soliste",
+       "en": "Soloist"
+      },
+      "def": {
+       "fr": "Le musicien mis en avant face à l'orchestre.",
+       "en": "The musician featured against the orchestra."
+      }
+     }
+    ]
+   }
   }
  ],
  "image": {
@@ -97,5 +395,9 @@
   "license": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Albert_Bierstadt_-_Among_the_Sierra_Nevada,_California_-_Google_Art_Project.jpg",
   "focus": "50% 40%"
+ },
+ "world": {
+  "fr": "1875-1893 : le chemin de fer relie l'Amérique, New York attire les immigrants d'Europe.",
+  "en": "1875–1893: railways span America, New York draws Europe's immigrants."
  }
 }
