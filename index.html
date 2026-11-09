@@ -278,6 +278,9 @@ const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v)
              set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 let lang=store.get(LKEY,(navigator.language||"fr").startsWith("fr")?"fr":"en");
 let progress=store.get(KEY,{});
+// Ticks left by the old "three listens" have no emotions: the guided steps start again from step 1.
+function dropLegacy(){for(const s of Object.values(progress))if(s.listens&&s.listens.some(Boolean)&&!(s.emotions&&s.emotions.length))s.listens=[false,false,false]}
+dropLegacy();
 let parcours,weeks=[],journal={entries:[]};
 const t=k=>UI[lang][k], L=o=>o?(o[lang]||o.fr):"";
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -470,7 +473,7 @@ $("export").onclick=()=>{
   a.download="maestro-steevax-progression.json";a.click();
 };
 $("import").onchange=async e=>{
-  try{const d=JSON.parse(await e.target.files[0].text());if(d.app==="maestro-steevax"&&d.progress){progress=d.progress;save();renderHome();$("saveMsg").textContent=t("imported")}}catch(err){}
+  try{const d=JSON.parse(await e.target.files[0].text());if(d.app==="maestro-steevax"&&d.progress){progress=d.progress;dropLegacy();save();renderHome();$("saveMsg").textContent=t("imported")}}catch(err){}
 };
 
 (async()=>{
