@@ -1,0 +1,15 @@
+{
+ "_doc": "Les univers musicaux de l'app. Chaque univers a son propre parcours (_parcours.json, _index.json, semaines/, journal/) sous 'root' (chemin depuis la racine du dépôt, vide pour le classique, historique). Les chemins d'images restent relatifs à la racine du dépôt. Les identifiants de semaines et de pièces doivent être uniques entre univers (préfixez-les, ex. 'jazz-...'). 'audio' liste les types de piste admis (champ 'kind' de chaque piste) : 'free' (enregistrement libre de droits, URL directe) ou 'appleMusic' (lecture via Apple Music, champ appleMusicId).",
+ "default": "classique",
+ "universes": [
+  {
+   "id": "classique",
+   "root": "",
+   "brand": {"lead": "Maestro", "accent": "Steevax"},
+   "name": {"fr": "Musique classique", "en": "Classical music"},
+   "kicker": {"fr": "Un entrepreneur découvre la musique classique", "en": "An entrepreneur discovers classical music"},
+   "heroTitle": {"fr": "Apprendre à écouter", "en": "Learning to listen"},
+   "audio": ["free"]
+  }
+ ]
+}

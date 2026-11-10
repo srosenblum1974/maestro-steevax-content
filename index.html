@@ -170,7 +170,7 @@ footer{padding:28px 20px calc(40px + env(safe-area-inset-bottom));text-align:cen
 </head>
 <body>
 <header class="top">
-  <a class="brand" href="#">Maestro <i>Steevax</i></a>
+  <a class="brand" href="#" id="brand">Maestro <i>Steevax</i></a>
   <div class="lang"><button data-l="fr">FR</button> <button data-l="en">EN</button></div>
 </header>
 
@@ -223,6 +223,7 @@ footer{padding:28px 20px calc(40px + env(safe-area-inset-bottom));text-align:cen
       <label><input type="file" id="import" accept="application/json" hidden><span data-t="import"></span></label>
     </div>
     <p id="saveMsg" class="empty"></p>
+    <div id="uniPick"></div>
   </div></section>
 </main>
 
@@ -246,13 +247,13 @@ const UI = {
       listenHere:"Écouter ici",l1:"Écoute 1",l2:"Écoute 2",l3:"Écoute 3",note:"Votre phrase : ce qui vous a pris, ce qui vous a ennuyé…",
       noAudio:"Pas encore d'enregistrement libre de droits pour cette œuvre : écoutez-la avec les liens ci-dessous.",
       begin:"Commencer la semaine",resume:"Reprendre : semaine",back:"← Le parcours",nextWeek:"Semaine suivante →",
-      journalKicker:"Journal de bord",journalTitle:"Le chemin de Maestro Steevax",
+      journalKicker:"Journal de bord",journalTitle:"Le chemin de {brand}",
       journalIntro:"Ce que Steve écoute, ce qui le prend, ce qui l'ennuie. Publié au fil de son propre parcours.",
       noEntries:"Le carnet s'ouvre avec la semaine 1. Premières notes très bientôt.",
       methodKicker:"Le rituel",methodTitle:"Trois étapes pour chaque œuvre",phasesTitle:"Les quatre phases",
-      saveTitle:"Votre progression",saveIntro:"Elle est gardée dans ce navigateur. Exportez-la pour la sauvegarder ou la retrouver dans l'app iPhone.",
+      uniTitle:"Les univers",saveTitle:"Votre progression",saveIntro:"Elle est gardée dans ce navigateur. Exportez-la pour la sauvegarder ou la retrouver dans l'app iPhone.",
       export:"Exporter ma progression",import:"Importer une progression",imported:"Progression importée.",
-      painting:"Peinture",footer:"Maestro Steevax · un projet personnel de Steve Rosenblum · enregistrements et peintures libres de droits (Wikimedia Commons, Musopen)"},
+      painting:"Peinture",footer:"{brand} · un projet personnel de Steve Rosenblum · enregistrements et peintures libres de droits (Wikimedia Commons, Musopen)"},
   en:{heroKicker:"An entrepreneur discovers classical music",heroTitle:"Learning to listen",tabPath:"Path",tabJournal:"Notebook",tabMethod:"Method",
       tabHistory:"History",steps:"steps",done:"completed",context:"The story of this work",why:"Why it matters",words:"Words to know",
       world:"Meanwhile, in the world",piece:"The piece",s1:"Discover",s2:"Spot",s3:"Remember",
@@ -266,15 +267,15 @@ const UI = {
       listenHere:"Listen here",l1:"Listen 1",l2:"Listen 2",l3:"Listen 3",note:"Your sentence: what gripped you, what bored you…",
       noAudio:"No free recording of this work yet: listen with the links below.",
       begin:"Start the week",resume:"Resume: week",back:"← The path",nextWeek:"Next week →",
-      journalKicker:"Logbook",journalTitle:"Maestro Steevax's path",
+      journalKicker:"Logbook",journalTitle:"{brand}'s path",
       journalIntro:"What Steve listens to, what grips him, what bores him. Published as he walks his own path.",
       noEntries:"The notebook opens with week 1. First notes coming soon.",
       methodKicker:"The ritual",methodTitle:"Three steps for each work",phasesTitle:"The four phases",
-      saveTitle:"Your progress",saveIntro:"It is kept in this browser. Export it to back it up or bring it into the iPhone app.",
+      uniTitle:"Universes",saveTitle:"Your progress",saveIntro:"It is kept in this browser. Export it to back it up or bring it into the iPhone app.",
       export:"Export my progress",import:"Import progress",imported:"Progress imported.",
-      painting:"Painting",footer:"Maestro Steevax · a personal project by Steve Rosenblum · free recordings and paintings (Wikimedia Commons, Musopen)"}
+      painting:"Painting",footer:"{brand} · a personal project by Steve Rosenblum · free recordings and paintings (Wikimedia Commons, Musopen)"}
 };
-const KEY="maestro.progress.v1", LKEY="maestro.lang";
+const KEY="maestro.progress.v1", LKEY="maestro.lang", UKEY="maestro.universe";
 const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},
              set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 let lang=store.get(LKEY,(navigator.language||"fr").startsWith("fr")?"fr":"en");
@@ -283,7 +284,13 @@ let progress=store.get(KEY,{});
 function dropLegacy(){for(const s of Object.values(progress))if(s.listens&&s.listens.some(Boolean)&&!(s.emotions&&s.emotions.length))s.listens=[false,false,false]}
 dropLegacy();
 let parcours,weeks=[],journal={entries:[]};
-const t=k=>UI[lang][k], L=o=>o?(o[lang]||o.fr):"";
+const L=o=>o?(o[lang]||o.fr):"";
+// The universe (classical, later jazz, rock…): its own path under root, its brand and texts.
+let universes=null,uni={id:"classique",root:"",brand:{lead:"Maestro",accent:"Steevax"}};
+const brandText=()=>uni.brand.lead+" "+uni.brand.accent;
+const t=k=>{const v=UI[lang][k];if(k==="heroKicker"&&uni.kicker)return L(uni.kicker);if(k==="heroTitle"&&uni.heroTitle)return L(uni.heroTitle);return typeof v==="string"?v.replace("{brand}",brandText()):v};
+// Who made it: the composer for classical, the people (band, performer, producer…) elsewhere.
+const artists=x=>x.people&&x.people.length?x.people.map(p=>p.name).join(", "):(x.composer||"");
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const $=id=>document.getElementById(id);
 
@@ -331,6 +338,9 @@ function renderHome(){
   $("phases").innerHTML=parcours.phases.map(p=>`<div class="entry"><b>Phase ${p.n} · ${esc(L(p.title))}</b><br><small>${t("week")} ${p.weeks}</small></div>`).join("");
   const es=journal.entries.slice().sort((a,b)=>b.date.localeCompare(a.date));
   $("entries").innerHTML=es.length?es.map(e=>`<div class="entry"><small>${esc(e.date)} · ${"★".repeat(e.rating||0)}</small><div>${esc(L(e.note))}</div></div>`).join(""):`<p class="empty">${t("noEntries")}</p>`;
+  $("brand").innerHTML=`${esc(uni.brand.lead)} <i>${esc(uni.brand.accent)}</i>`;document.title=brandText();
+  $("uniPick").innerHTML=universes&&universes.universes.length>1?`<h2>${t("uniTitle")}</h2><div class="tools">${universes.universes.map(u=>`<button data-uni="${u.id}" ${u.id===uni.id?'style="background:var(--accent-soft);border-color:var(--accent)"':""}>${esc(L(u.name))}</button>`).join("")}</div>`:"";
+  document.querySelectorAll("[data-uni]").forEach(b=>b.onclick=()=>{store.set(UKEY,b.dataset.uni);location.hash="";location.reload()});
   renderMine();renderHistory();
   renderProgress();
 }
@@ -372,7 +382,7 @@ function bindTrack(el){
     if(playing&&playing.el===el){audio.paused?audio.play():audio.pause();return}
     if(playing)setBtn(false);
     playing={work:el.dataset.work,el};audio.src=url;audio.play().catch(()=>{});
-    if("mediaSession" in navigator){navigator.mediaSession.metadata=new MediaMetadata({title:el.dataset.title,artist:el.dataset.composer,album:"Maestro Steevax",
+    if("mediaSession" in navigator){navigator.mediaSession.metadata=new MediaMetadata({title:el.dataset.title,artist:el.dataset.composer,album:brandText(),
       artwork:el.dataset.art?[{src:el.dataset.art,sizes:"512x512",type:"image/jpeg"}]:[]})}
   };
   el.querySelector(".scrub").onclick=e=>{if(playing&&playing.el===el&&audio.duration){const r=e.currentTarget.getBoundingClientRect();audio.currentTime=(e.clientX-r.left)/r.width*audio.duration}};
@@ -403,11 +413,11 @@ function workHTML(x){
      <button class="go" data-val="2" ${ready?"":"disabled"}>${t("val3")}</button>${ready?"":`<p class="hint">${t("h3")}</p>`}</div>`}
   ];
   return `<div class="work" data-work="${x.id}">
-    <h3>${esc(L(x.title))}</h3><div class="meta">${esc(x.composer)} · ${esc(x.year)}</div>
+    <h3>${esc(L(x.title))}</h3><div class="meta">${esc(artists(x))} · ${esc(x.year)}</div>
     ${g?`<p class="hook">${esc(L(g.hook))}</p><div class="story"><span class="lab">${t("context")}</span><p>${esc(L(g.context))}</p><span class="lab">${t("why")}</span><p>${esc(L(g.why))}</p>
       <span class="lab">${t("words")}</span>${g.glossary.map(k=>`<details class="gl"><summary>${esc(L(k.term))}</summary> ${esc(L(k.def))}</details>`).join("")}</div>`:""}
     <div class="field"><em>${t("piece")} · ${t("start")}</em>${esc(L(x.startWith))}</div>
-    ${tracks.length?tracks.map(a=>`<div class="track" data-url="${esc(a.url)}" data-work="${x.id}" data-title="${esc(L(x.title))} — ${esc(L(a.label))}" data-composer="${esc(x.composer)}" data-art="">
+    ${tracks.length?tracks.map(a=>(a.kind||"free")!=="free"?`<p class="ref">${esc(L(a.label))} : <a href="${esc(x.links.appleMusic)}" target="_blank" rel="noopener">Apple Music</a></p>`:`<div class="track" data-url="${esc(a.url)}" data-work="${x.id}" data-title="${esc(L(x.title))} — ${esc(L(a.label))}" data-composer="${esc(artists(x))}" data-art="">
        <button class="play" aria-label="Play">▶</button><div class="tt"><b>${esc(L(a.label))}</b><small>${esc(a.performer)} · ${esc(a.license)} · <span class="time"></span></small><div class="scrub"><i></i></div></div></div>`).join(""):`<p class="ref">${t("noAudio")}</p><div class="links"><a href="${x.links.youtube}" target="_blank" rel="noopener">YouTube</a><a href="${x.links.appleMusic}" target="_blank" rel="noopener">Apple Music</a><a href="${x.links.spotify}" target="_blank" rel="noopener">Spotify</a></div>`}
     <div class="stepper">${names.map((n,i)=>{const d=s.listens[i],can=d||i===now;return `<button class="${d?"done":""} ${i===open?"open":""} ${i===now?"cur":""}" data-go="${i}" ${can?"":"disabled title=\""+t("locked")+"\""}><i>${d?"✓":can?i+1:"🔒"}</i>${n}</button>`}).join("")}</div>
     ${open>=0?step[open]():""}
@@ -459,7 +469,7 @@ function renderWeek(id,keepScroll){
 }
 
 function show(which){$("home").hidden=which!=="home";$("week").hidden=which!=="week"}
-function route(){const h=location.hash.slice(1);if(h.startsWith("semaine-"))renderWeek(h);else{show("home");renderHome()}}
+function route(){const h=location.hash.slice(1);if(weeks.some(w=>w.id===h))renderWeek(h);else{show("home");renderHome()}}
 window.addEventListener("hashchange",route);
 window.addEventListener("scroll",()=>document.querySelector(".top").classList.toggle("solid",window.scrollY>window.innerHeight*0.6),{passive:true});
 
@@ -480,9 +490,12 @@ $("import").onchange=async e=>{
 (async()=>{
   const D=window.MAESTRO_DATA; // inlined copy for previews; the site itself reads the JSON files
   const get=p=>D?Promise.resolve(D[p]):fetch(p,{cache:"no-cache"}).then(r=>r.json());
-  const [pc,idx,jr]=await Promise.all([get("_parcours.json"),get("_index.json"),get("journal/_journal.json").catch(()=>({entries:[]}))]);
+  universes=await get("_univers.json").catch(()=>null);
+  if(universes){const want=store.get(UKEY,universes.default);uni=universes.universes.find(u=>u.id===want)||universes.universes.find(u=>u.id===universes.default)||universes.universes[0]}
+  const R=uni.root||"";
+  const [pc,idx,jr]=await Promise.all([get(R+"_parcours.json"),get(R+"_index.json"),get(R+"journal/_journal.json").catch(()=>({entries:[]}))]);
   parcours=pc;journal=jr;
-  weeks=await Promise.all(idx.weeks.map(w=>get(`semaines/${w.id}.json`)));
+  weeks=await Promise.all(idx.weeks.map(w=>get(`${R}semaines/${w.id}.json`)));
   route();
 })();
 </script>
