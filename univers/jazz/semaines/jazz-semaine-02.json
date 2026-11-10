@@ -43,7 +43,7 @@
     "en": "The dialogue between the double bass, asking a question, and the band, answering with two chords: “so what?”."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Miles%20Davis%20So%20What%20Kind%20of%20Blue",
+    "appleMusic": "https://music.apple.com/fr/album/so-what/300865074?i=300865220&uo=4",
     "spotify": "https://open.spotify.com/search/Miles%20Davis%20So%20What%20Kind%20of%20Blue",
     "youtube": "https://www.youtube.com/results?search_query=Miles%20Davis%20So%20What%20Kind%20of%20Blue"
    },
@@ -54,8 +54,11 @@
       "en": "So What (Kind of Blue, 1959)"
      },
      "kind": "appleMusic",
+     "appleMusicId": "300865220",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/5d/ad/5c5dade7-aecc-5ad4-2ad6-a79fdfba6343/mzaf_16767952458810152708.plus.aac.p.m4a",
      "performer": "Miles Davis",
-     "license": "Apple Music"
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/so-what/300865074?i=300865220&uo=4"
     }
    ],
    "threads": [
@@ -250,5 +253,12 @@
     ]
    }
   }
- ]
+ ],
+ "image": {
+  "path": "illus/jazz-semaine-02.jpg",
+  "credit": "William P. Gottlieb, c. 1947",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Miles_Davis_(Three_Deuces,_New_York,_N.Y._1947).jpg",
+  "focus": "50% 30%"
+ }
 }

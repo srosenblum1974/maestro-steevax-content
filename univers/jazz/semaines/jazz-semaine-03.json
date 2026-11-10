@@ -47,7 +47,7 @@
     "en": "The limping rhythm: count “one-two-three, one-two” over and over. It's five beats to the bar, almost unheard of in popular music at the time."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Dave%20Brubeck%20Take%20Five%20Time%20Out",
+    "appleMusic": "https://music.apple.com/fr/album/take-five/635125178?i=635125276&uo=4",
     "spotify": "https://open.spotify.com/search/Dave%20Brubeck%20Take%20Five%20Time%20Out",
     "youtube": "https://www.youtube.com/results?search_query=Dave%20Brubeck%20Take%20Five%20Time%20Out"
    },
@@ -58,8 +58,11 @@
       "en": "Take Five (Time Out, 1959)"
      },
      "kind": "appleMusic",
-     "performer": "The Dave Brubeck Quartet",
-     "license": "Apple Music"
+     "appleMusicId": "635125276",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/70/ca/7d70ca94-04da-e01e-c4d0-3523f5a6ee50/mzaf_13978525062129844467.plus.aac.p.m4a",
+     "performer": "Dave Brubeck",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/take-five/635125178?i=635125276&uo=4"
     }
    ],
    "threads": [
@@ -234,5 +237,12 @@
     ]
    }
   }
- ]
+ ],
+ "image": {
+  "path": "illus/jazz-semaine-03.jpg",
+  "credit": "Jack de Nijs for Anefo  / Anefo, 1964",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Dave_Brubeck_(1964).jpg",
+  "focus": "50% 30%"
+ }
 }

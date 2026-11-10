@@ -605,5 +605,12 @@
     }
    }
   ]
+ },
+ "heroImage": {
+  "path": "illus/accueil-jazz.jpg",
+  "credit": "William P. Gottlieb, 1948",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Ryan%E2%80%99s_(jazz_club)_Harry_the_Hipster_and_Tony%27s_in_1948_NYC,_from-_Joe_Marsala,_Adele_Girard,_and_Toots_Thielemans,_52nd_Street,_New_York,_N.Y.,_ca._1948_(William_P._Gottlieb_11411)_(cropped).jpg",
+  "focus": "50% 45%"
  }
 }

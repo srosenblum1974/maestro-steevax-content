@@ -43,7 +43,7 @@
     "en": "The trumpet's opening solo, alone and unaccompanied: one musician stepping out in front of everyone."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Louis%20Armstrong%20West%20End%20Blues%201928",
+    "appleMusic": "https://music.apple.com/fr/album/west-end-blues/293785410?i=293785633&uo=4",
     "spotify": "https://open.spotify.com/search/Louis%20Armstrong%20West%20End%20Blues%201928",
     "youtube": "https://www.youtube.com/results?search_query=Louis%20Armstrong%20West%20End%20Blues%201928"
    },
@@ -54,8 +54,11 @@
       "en": "West End Blues (1928)"
      },
      "kind": "appleMusic",
+     "appleMusicId": "293785633",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/0b/7f/9c0b7fb9-3a8a-3ea2-b3cc-0557443ffa94/mzaf_1171683180017258322.plus.aac.p.m4a",
      "performer": "Louis Armstrong and His Hot Five",
-     "license": "Apple Music"
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/west-end-blues/293785410?i=293785633&uo=4"
     }
    ],
    "threads": [
@@ -243,5 +246,12 @@
     ]
    }
   }
- ]
+ ],
+ "image": {
+  "path": "illus/jazz-semaine-01.jpg",
+  "credit": "William P. Gotlieb, 1946",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong,_Aquarium,_New_York,_N.Y.,_ca._July_1946_(William_P._Gottlieb_00231)_-_Cropped.jpg",
+  "focus": "50% 25%"
+ }
 }

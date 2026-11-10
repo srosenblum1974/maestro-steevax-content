@@ -1,4 +1,5 @@
 IMAGE accueil: File:Caspar David Friedrich - Wanderer above the sea of fog.jpg — Caspar David Friedrich — Public domain
+IMAGE accueil-jazz: File:Jimmy Ryan’s (jazz club) Harry the Hipster and Tony's in 1948 NYC, from- Joe Marsala, Adele Girard, and Toots Thielemans, 52nd Street, New York, N.Y., ca. 1948 (William P. Gottlieb 11411) (cropped).jpg — William P. Gottlieb — Public domain
 IMAGE semaine-01: File:Johann Sebastian Bach.jpg — Elias Gottlob Haussmann — Public domain
 AUDIO semaine-01/bach-suites-violoncelle: File:JOHN MICHEL CELLO-J S BACH CELLO SUITE 1 in G Prelude.ogg — Johann Sebastian Bach — CC BY-SA 3.0
 IMAGE semaine-02: File:Il Ritorno del Bucintoro al molo nel giorno dell'Ascensione (c.1738) Canaletto - Wells-Next-The-Sea, The Earl of Leicester and Trustees of the Holkham Estate.jpg — Didier Descouens — CC BY-SA 4.0
@@ -22,6 +23,12 @@ IMAGE semaine-07: File:Monet - Impression, Sunrise.jpg — Claude Monet — Publ
 AUDIO semaine-07/rachmaninov-concerto-2: File:Sergei Rachmaninoff - piano concerto no. 2 in c minor, op. 18 - i. moderato.ogg — Sergei Rachmaninoff — Public domain
 IMAGE semaine-08: File:Adam August Müller - Udsigt over Prag med Karlsbroen krydser Moldau-floden.jpg — Adam August Müller — Public domain
 AUDIO semaine-08/smetana-moldau: File:Smetana - Má Vlast - Vltava (Musopen Symphony).flac — Bedřich Smetana — Public domain
+IMAGE jazz-semaine-01: File:Louis Armstrong, Aquarium, New York, N.Y., ca. July 1946 (William P. Gottlieb 00231) - Cropped.jpg — William P. Gotlieb — Public domain
+APPLE MUSIC jazz-semaine-01/jazz-west-end-blues: West End Blues — Louis Armstrong and His Hot Five — The Complete Hot Five and Hot Seven Recordings, Vol. 3 (293785633)
+IMAGE jazz-semaine-02: File:Miles Davis (Three Deuces, New York, N.Y. 1947).jpg — William P. Gottlieb — Public domain
+APPLE MUSIC jazz-semaine-02/jazz-so-what: So What — Miles Davis — Kind of Blue (Legacy Edition) (300865220)
+IMAGE jazz-semaine-03: File:Dave Brubeck (1964).jpg — Jack de Nijs for Anefo  / Anefo — CC BY-SA 3.0
+APPLE MUSIC jazz-semaine-03/jazz-take-five: Take Five — Dave Brubeck — Time Out (635125276)
 
 NOT FOUND:
 audio semaine-04/beethoven-symphonies-5-7: Symphony No. 7 — Allegretto
