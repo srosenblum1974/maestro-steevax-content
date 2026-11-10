@@ -1,0 +1,609 @@
+{
+ "title": {
+  "fr": "Steevax Jazz Club",
+  "en": "Steevax Jazz Club"
+ },
+ "tagline": {
+  "fr": "Le même entrepreneur ouvre une deuxième porte : le jazz, morceau après morceau.",
+  "en": "The same entrepreneur opens a second door: jazz, one tune at a time."
+ },
+ "ritual": [
+  {
+   "id": "decouvrir",
+   "title": {
+    "fr": "Étape 1 : Découvrir",
+    "en": "Step 1: Discover"
+   },
+   "text": {
+    "fr": "Vous écoutez sans rien chercher, puis vous dites ce que vous avez ressenti en touchant des icônes.",
+    "en": "You listen without looking for anything, then tap icons to say what you felt."
+   }
+  },
+  {
+   "id": "reperer",
+   "title": {
+    "fr": "Étape 2 : Repérer",
+    "en": "Step 2: Spot"
+   },
+   "text": {
+    "fr": "Vous réécoutez avec une mission : reconnaître les moments clés et deviner les instruments.",
+    "en": "You listen again on a mission: recognise the key moments and guess the instruments."
+   }
+  },
+  {
+   "id": "retenir",
+   "title": {
+    "fr": "Étape 3 : Retenir",
+    "en": "Step 3: Remember"
+   },
+   "text": {
+    "fr": "Quelques jours plus tard, un mini-quiz et une dernière écoute. Vous gardez une note et un souvenir.",
+    "en": "A few days later, a mini-quiz and one last listen. You keep a rating and a memory."
+   }
+  }
+ ],
+ "notebook": {
+  "fr": "À chaque œuvre, votre carnet se remplit tout seul : émotions, images, instruments, note. Tout apparaît dans l'onglet Carnet.",
+  "en": "For each work your notebook fills itself: emotions, images, instruments, rating. It all shows up in the Notebook tab."
+ },
+ "signal": {
+  "fr": "Le signal à surveiller : fredonnez-vous un thème sans l'avoir prévu ?",
+  "en": "The signal to watch: do you catch yourself humming a tune?"
+ },
+ "phases": [
+  {
+   "n": 1,
+   "weeks": "1-3",
+   "title": {
+    "fr": "Accrocher l'oreille",
+    "en": "Hooking the ear"
+   }
+  },
+  {
+   "n": 2,
+   "weeks": "4+",
+   "title": {
+    "fr": "Suivre les fils",
+    "en": "Following the threads"
+   }
+  }
+ ],
+ "periods": {
+  "nouvelle-orleans": {
+   "fr": "Nouvelle-Orléans (1910–1930)",
+   "en": "New Orleans (1910–1930)"
+  },
+  "swing": {
+   "fr": "Swing (1930–1945)",
+   "en": "Swing (1930–1945)"
+  },
+  "bebop": {
+   "fr": "Bebop (1945–1955)",
+   "en": "Bebop (1945–1955)"
+  },
+  "cool-modal": {
+   "fr": "Cool, hard bop et modal (1950–1965)",
+   "en": "Cool, hard bop and modal (1950–1965)"
+  },
+  "free-fusion": {
+   "fr": "Free et fusion (1960 →)",
+   "en": "Free and fusion (1960 →)"
+  }
+ },
+ "palette": {
+  "emotions": [
+   {
+    "id": "apaise",
+    "icon": "😌",
+    "label": {
+     "fr": "Apaisé",
+     "en": "Soothed"
+    }
+   },
+   {
+    "id": "emu",
+    "icon": "🥹",
+    "label": {
+     "fr": "Ému",
+     "en": "Moved"
+    }
+   },
+   {
+    "id": "triste",
+    "icon": "😢",
+    "label": {
+     "fr": "Triste",
+     "en": "Sad"
+    }
+   },
+   {
+    "id": "joyeux",
+    "icon": "😄",
+    "label": {
+     "fr": "Joyeux",
+     "en": "Joyful"
+    }
+   },
+   {
+    "id": "exalte",
+    "icon": "🤩",
+    "label": {
+     "fr": "Exalté",
+     "en": "Thrilled"
+    }
+   },
+   {
+    "id": "frissons",
+    "icon": "⚡️",
+    "label": {
+     "fr": "Frissons",
+     "en": "Chills"
+    }
+   },
+   {
+    "id": "inquiet",
+    "icon": "😟",
+    "label": {
+     "fr": "Inquiet",
+     "en": "Uneasy"
+    }
+   },
+   {
+    "id": "nostalgique",
+    "icon": "🌅",
+    "label": {
+     "fr": "Nostalgique",
+     "en": "Nostalgic"
+    }
+   },
+   {
+    "id": "ennuye",
+    "icon": "🥱",
+    "label": {
+     "fr": "Ennuyé",
+     "en": "Bored"
+    }
+   },
+   {
+    "id": "perdu",
+    "icon": "😵‍💫",
+    "label": {
+     "fr": "Perdu",
+     "en": "Lost"
+    }
+   }
+  ],
+  "images": [
+   {
+    "id": "vague",
+    "icon": "🌊",
+    "label": {
+     "fr": "Vagues",
+     "en": "Waves"
+    }
+   },
+   {
+    "id": "orage",
+    "icon": "⛈️",
+    "label": {
+     "fr": "Orage",
+     "en": "Storm"
+    }
+   },
+   {
+    "id": "oiseaux",
+    "icon": "🐦",
+    "label": {
+     "fr": "Oiseaux",
+     "en": "Birds"
+    }
+   },
+   {
+    "id": "foret",
+    "icon": "🌲",
+    "label": {
+     "fr": "Forêt",
+     "en": "Forest"
+    }
+   },
+   {
+    "id": "nuit",
+    "icon": "🌙",
+    "label": {
+     "fr": "Nuit",
+     "en": "Night"
+    }
+   },
+   {
+    "id": "soleil",
+    "icon": "☀️",
+    "label": {
+     "fr": "Soleil",
+     "en": "Sun"
+    }
+   },
+   {
+    "id": "danse",
+    "icon": "💃",
+    "label": {
+     "fr": "Danse",
+     "en": "Dance"
+    }
+   },
+   {
+    "id": "combat",
+    "icon": "⚔️",
+    "label": {
+     "fr": "Combat",
+     "en": "Battle"
+    }
+   },
+   {
+    "id": "priere",
+    "icon": "🕯️",
+    "label": {
+     "fr": "Prière",
+     "en": "Prayer"
+    }
+   },
+   {
+    "id": "voyage",
+    "icon": "🧭",
+    "label": {
+     "fr": "Voyage",
+     "en": "Journey"
+    }
+   },
+   {
+    "id": "reve",
+    "icon": "☁️",
+    "label": {
+     "fr": "Rêve",
+     "en": "Dream"
+    }
+   },
+   {
+    "id": "cinema",
+    "icon": "🎬",
+    "label": {
+     "fr": "Film",
+     "en": "Film"
+    }
+   }
+  ],
+  "instruments": [
+   {
+    "id": "trompette",
+    "icon": "🎺",
+    "label": {
+     "fr": "Trompette",
+     "en": "Trumpet"
+    }
+   },
+   {
+    "id": "saxophone",
+    "icon": "🎷",
+    "label": {
+     "fr": "Saxophone",
+     "en": "Saxophone"
+    }
+   },
+   {
+    "id": "clarinette",
+    "icon": "🌬️",
+    "label": {
+     "fr": "Clarinette",
+     "en": "Clarinet"
+    }
+   },
+   {
+    "id": "trombone",
+    "icon": "📯",
+    "label": {
+     "fr": "Trombone",
+     "en": "Trombone"
+    }
+   },
+   {
+    "id": "piano",
+    "icon": "🎹",
+    "label": {
+     "fr": "Piano",
+     "en": "Piano"
+    }
+   },
+   {
+    "id": "contrebasse",
+    "icon": "🎻",
+    "label": {
+     "fr": "Contrebasse",
+     "en": "Double bass"
+    }
+   },
+   {
+    "id": "guitare",
+    "icon": "🎸",
+    "label": {
+     "fr": "Guitare",
+     "en": "Guitar"
+    }
+   },
+   {
+    "id": "banjo",
+    "icon": "🪕",
+    "label": {
+     "fr": "Banjo",
+     "en": "Banjo"
+    }
+   },
+   {
+    "id": "batterie",
+    "icon": "🥁",
+    "label": {
+     "fr": "Batterie",
+     "en": "Drums"
+    }
+   },
+   {
+    "id": "voix",
+    "icon": "🎤",
+    "label": {
+     "fr": "Voix",
+     "en": "Voice"
+    }
+   }
+  ],
+  "ratings": [
+   {
+    "fr": "Pas pour moi",
+    "en": "Not for me"
+   },
+   {
+    "fr": "Bof",
+    "en": "Meh"
+   },
+   {
+    "fr": "Agréable",
+    "en": "Pleasant"
+   },
+   {
+    "fr": "J'aime beaucoup",
+    "en": "Love it"
+   },
+   {
+    "fr": "Coup de foudre",
+    "en": "Head over heels"
+   }
+  ],
+  "starters": [
+   {
+    "fr": "Ça m'a fait penser à…",
+    "en": "It reminded me of…"
+   },
+   {
+    "fr": "J'ai été surpris par…",
+    "en": "I was surprised by…"
+   },
+   {
+    "fr": "Je réécouterais pour…",
+    "en": "I'd listen again for…"
+   }
+  ]
+ },
+ "history": {
+  "intro": {
+   "fr": "Un siècle de jazz en cinq chapitres. Retenez juste l'ambiance de chacun.",
+   "en": "A century of jazz in five chapters. Just remember the mood of each."
+  },
+  "before": {
+   "fr": "Avant 1910 : le blues des champs du Sud, les chants d'église (gospel), le ragtime au piano et les fanfares de La Nouvelle-Orléans. Le jazz naît de leur rencontre, chez les Afro-Américains.",
+   "en": "Before 1910: the blues of Southern fields, church songs (gospel), ragtime piano and New Orleans brass bands. Jazz is born where they meet, among African Americans."
+  },
+  "periods": [
+   {
+    "id": "nouvelle-orleans",
+    "title": {
+     "fr": "Nouvelle-Orléans",
+     "en": "New Orleans"
+    },
+    "dates": "1910–1930",
+    "oneLine": {
+     "fr": "La musique des fanfares et des cabarets, où tout le monde improvise ensemble.",
+     "en": "Brass-band and cabaret music, where everyone improvises together."
+    },
+    "world": {
+     "fr": "La ville portuaire mêle cultures africaines, créoles et européennes ; puis les musiciens migrent vers Chicago.",
+     "en": "The port city mixes African, Creole and European cultures; then musicians move north to Chicago."
+    },
+    "sound": {
+     "fr": "Trompette, clarinette, trombone qui s'entrelacent ; banjo et tuba ; naissance du soliste avec Armstrong.",
+     "en": "Trumpet, clarinet and trombone intertwined; banjo and tuba; the soloist is born with Armstrong."
+    },
+    "people": [
+     "King Oliver",
+     "Louis Armstrong",
+     "Jelly Roll Morton",
+     "Sidney Bechet"
+    ],
+    "weeks": [
+     1
+    ]
+   },
+   {
+    "id": "swing",
+    "title": {
+     "fr": "Swing",
+     "en": "Swing"
+    },
+    "dates": "1930–1945",
+    "oneLine": {
+     "fr": "Le jazz devient la musique de danse de toute l'Amérique.",
+     "en": "Jazz becomes all of America's dance music."
+    },
+    "world": {
+     "fr": "La Grande Dépression, puis la guerre ; les grands orchestres jouent dans les dancings et à la radio.",
+     "en": "The Great Depression, then war; big bands play ballrooms and radio."
+    },
+    "sound": {
+     "fr": "Big bands de quinze musiciens, sections de cuivres et de saxophones, rythme qui balance.",
+     "en": "Fifteen-piece big bands, brass and sax sections, a swinging beat."
+    },
+    "people": [
+     "Duke Ellington",
+     "Count Basie",
+     "Benny Goodman",
+     "Billie Holiday",
+     "Ella Fitzgerald"
+    ],
+    "weeks": []
+   },
+   {
+    "id": "bebop",
+    "title": {
+     "fr": "Bebop",
+     "en": "Bebop"
+    },
+    "dates": "1945–1955",
+    "oneLine": {
+     "fr": "Le jazz quitte la piste de danse pour devenir un art d'écoute, rapide et virtuose.",
+     "en": "Jazz leaves the dance floor to become a fast, virtuosic art for listening."
+    },
+    "world": {
+     "fr": "Les petits clubs de la 52e rue à New York, l'après-guerre.",
+     "en": "The small clubs of 52nd Street in New York, the post-war years."
+    },
+    "sound": {
+     "fr": "Petites formations, tempos très rapides, harmonies complexes.",
+     "en": "Small groups, very fast tempos, complex harmony."
+    },
+    "people": [
+     "Charlie Parker",
+     "Dizzy Gillespie",
+     "Thelonious Monk",
+     "Bud Powell"
+    ],
+    "weeks": []
+   },
+   {
+    "id": "cool-modal",
+    "title": {
+     "fr": "Cool, hard bop et modal",
+     "en": "Cool, hard bop and modal"
+    },
+    "dates": "1950–1965",
+    "oneLine": {
+     "fr": "Le jazz se diversifie : détendu, ardent ou méditatif.",
+     "en": "Jazz branches out: relaxed, fiery or meditative."
+    },
+    "world": {
+     "fr": "Le microsillon permet des morceaux longs ; le jazz s'écoute chez soi et sur les campus.",
+     "en": "The LP allows long tracks; jazz is heard at home and on campus."
+    },
+    "sound": {
+     "fr": "Sons plus doux (cool), racines blues et gospel (hard bop), longues plages sur une gamme (modal).",
+     "en": "Softer sounds (cool), blues and gospel roots (hard bop), long stretches on one scale (modal)."
+    },
+    "people": [
+     "Miles Davis",
+     "John Coltrane",
+     "Dave Brubeck",
+     "Art Blakey",
+     "Bill Evans"
+    ],
+    "weeks": [
+     2,
+     3
+    ]
+   },
+   {
+    "id": "free-fusion",
+    "title": {
+     "fr": "Free et fusion",
+     "en": "Free and fusion"
+    },
+    "dates": "1960 →",
+    "oneLine": {
+     "fr": "Le jazz casse ses propres règles, puis se mêle au rock, au funk et au monde entier.",
+     "en": "Jazz breaks its own rules, then blends with rock, funk and the whole world."
+    },
+    "world": {
+     "fr": "Droits civiques, contre-culture, guitares électriques.",
+     "en": "Civil rights, counterculture, electric guitars."
+    },
+    "sound": {
+     "fr": "Improvisation libre, instruments électriques, rythmes du rock et du funk.",
+     "en": "Free improvisation, electric instruments, rock and funk rhythms."
+    },
+    "people": [
+     "Ornette Coleman",
+     "Miles Davis",
+     "Herbie Hancock",
+     "Weather Report"
+    ],
+    "weeks": []
+   }
+  ],
+  "words": [
+   {
+    "term": {
+     "fr": "Swing",
+     "en": "Swing"
+    },
+    "def": {
+     "fr": "La façon de balancer le rythme qui donne envie de bouger.",
+     "en": "The rhythmic lilt that makes you want to move."
+    }
+   },
+   {
+    "term": {
+     "fr": "Improvisation",
+     "en": "Improvisation"
+    },
+    "def": {
+     "fr": "Inventer en jouant.",
+     "en": "Inventing as you play."
+    }
+   },
+   {
+    "term": {
+     "fr": "Standard",
+     "en": "Standard"
+    },
+    "def": {
+     "fr": "Un morceau que tous les musiciens connaissent et réinterprètent.",
+     "en": "A tune every musician knows and reinterprets."
+    }
+   },
+   {
+    "term": {
+     "fr": "Chorus",
+     "en": "Chorus"
+    },
+    "def": {
+     "fr": "Un tour de la grille du morceau.",
+     "en": "One pass through the tune's form."
+    }
+   },
+   {
+    "term": {
+     "fr": "Section rythmique",
+     "en": "Rhythm section"
+    },
+    "def": {
+     "fr": "Piano, contrebasse, batterie.",
+     "en": "Piano, bass, drums."
+    }
+   },
+   {
+    "term": {
+     "fr": "Blue note",
+     "en": "Blue note"
+    },
+    "def": {
+     "fr": "Une note légèrement « tordue » venue du blues.",
+     "en": "A slightly “bent” note from the blues."
+    }
+   }
+  ]
+ }
+}

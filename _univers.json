@@ -5,11 +5,49 @@
   {
    "id": "classique",
    "root": "",
-   "brand": {"lead": "Maestro", "accent": "Steevax"},
-   "name": {"fr": "Musique classique", "en": "Classical music"},
-   "kicker": {"fr": "Un entrepreneur découvre la musique classique", "en": "An entrepreneur discovers classical music"},
-   "heroTitle": {"fr": "Apprendre à écouter", "en": "Learning to listen"},
-   "audio": ["free"]
+   "brand": {
+    "lead": "Maestro",
+    "accent": "Steevax"
+   },
+   "name": {
+    "fr": "Musique classique",
+    "en": "Classical music"
+   },
+   "kicker": {
+    "fr": "Un entrepreneur découvre la musique classique",
+    "en": "An entrepreneur discovers classical music"
+   },
+   "heroTitle": {
+    "fr": "Apprendre à écouter",
+    "en": "Learning to listen"
+   },
+   "audio": [
+    "free"
+   ]
+  },
+  {
+   "id": "jazz",
+   "root": "univers/jazz/",
+   "brand": {
+    "lead": "Steevax",
+    "accent": "Jazz Club"
+   },
+   "name": {
+    "fr": "Jazz",
+    "en": "Jazz"
+   },
+   "kicker": {
+    "fr": "Un entrepreneur découvre le jazz",
+    "en": "An entrepreneur discovers jazz"
+   },
+   "heroTitle": {
+    "fr": "Entrer dans le club",
+    "en": "Step into the club"
+   },
+   "audio": [
+    "free",
+    "appleMusic"
+   ]
   }
  ]
 }

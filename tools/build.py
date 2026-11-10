@@ -27,7 +27,10 @@ def check(week, path, allowed):
         for a in w.get("audio", []):
             src = a.get("kind", "free")
             assert src in SOURCES and src in allowed, f"{path}/{w['id']}: source audio '{src}' non admise dans cet univers"
-            assert (a.get("url") if src == "free" else a.get("appleMusicId")), f"{path}/{w['id']}: piste sans url / appleMusicId"
+            if src == "free":
+                assert a.get("url"), f"{path}/{w['id']}: piste libre sans url"
+            elif not a.get("appleMusicId"):
+                print(f"  ! {path}/{w['id']}: piste Apple Music pas encore résolue (lancer le workflow Resolve media)")
         g = w.get("guide")
         if g:
             assert set(g["ear"]["answer"]) <= set(g["ear"]["options"]), f"{w['id']}: réponses hors options"

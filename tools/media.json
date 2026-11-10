@@ -237,6 +237,115 @@
      }
     ]
    }
+  },
+  "jazz-semaine-01": {
+   "image": {
+    "search": [
+     "Louis Armstrong Aquarium New York Gottlieb",
+     "Louis Armstrong Gottlieb"
+    ],
+    "focus": "50% 25%"
+   },
+   "audio": {
+    "jazz-west-end-blues": [
+     {
+      "label": {
+       "fr": "West End Blues (1928)",
+       "en": "West End Blues (1928)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Louis Armstrong West End Blues",
+       "artist": "Armstrong",
+       "title": "West End Blues",
+       "albums": [
+        "Hot Five",
+        "Hot 5",
+        "1928",
+        "Okeh"
+       ],
+       "seconds": [
+        180,
+        215
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "jazz-semaine-02": {
+   "image": {
+    "search": [
+     "Miles Davis Three Deuces Gottlieb",
+     "Miles Davis Gottlieb 1947"
+    ],
+    "focus": "50% 30%"
+   },
+   "audio": {
+    "jazz-so-what": [
+     {
+      "label": {
+       "fr": "So What (Kind of Blue, 1959)",
+       "en": "So What (Kind of Blue, 1959)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Miles Davis So What Kind of Blue",
+       "artist": "Miles Davis",
+       "title": "So What",
+       "albums": [
+        "Kind of Blue"
+       ],
+       "seconds": [
+        550,
+        575
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "jazz-semaine-03": {
+   "image": {
+    "search": [
+     "Dave Brubeck Nationaal Archief",
+     "Dave Brubeck 1967",
+     "Dave Brubeck"
+    ],
+    "focus": "50% 30%"
+   },
+   "audio": {
+    "jazz-take-five": [
+     {
+      "label": {
+       "fr": "Take Five (Time Out, 1959)",
+       "en": "Take Five (Time Out, 1959)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Dave Brubeck Take Five Time Out",
+       "artist": "Brubeck",
+       "title": "Take Five",
+       "albums": [
+        "Time Out"
+       ],
+       "seconds": [
+        315,
+        335
+       ]
+      }
+     }
+    ]
+   }
+  }
+ },
+ "heroes": {
+  "jazz": {
+   "search": [
+    "William P. Gottlieb 52nd Street New York 1948",
+    "52nd Street New York Gottlieb"
+   ],
+   "focus": "50% 45%"
   }
  }
 }

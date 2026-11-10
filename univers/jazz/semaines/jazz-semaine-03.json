@@ -1,0 +1,238 @@
+{
+ "id": "jazz-semaine-03",
+ "n": 3,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "cool-modal",
+ "title": {
+  "fr": "Brubeck, compter jusqu'à cinq",
+  "en": "Brubeck, counting to five"
+ },
+ "world": {
+  "fr": "1959 : la même année que Kind of Blue ; le jazz est alors joué dans les universités américaines et devient un ambassadeur des États-Unis dans le monde.",
+  "en": "1959: the same year as Kind of Blue; jazz is played on American campuses and becomes an ambassador for the US around the world."
+ },
+ "works": [
+  {
+   "id": "jazz-take-five",
+   "people": [
+    {
+     "name": "The Dave Brubeck Quartet",
+     "role": "band"
+    },
+    {
+     "name": "Paul Desmond",
+     "role": "composer"
+    }
+   ],
+   "title": {
+    "fr": "Take Five",
+    "en": "Take Five"
+   },
+   "year": "1959",
+   "recording": {
+    "performers": "The Dave Brubeck Quartet",
+    "label": "Columbia (Time Out)",
+    "year": 1959
+   },
+   "startWith": {
+    "fr": "En entier (environ 5 min 30)",
+    "en": "The whole piece (about 5'30)"
+   },
+   "listenFor": {
+    "fr": "Le rythme boiteux : comptez « un-deux-trois, un-deux » en boucle. C'est une mesure à cinq temps, presque inconnue dans la musique populaire de l'époque.",
+    "en": "The limping rhythm: count “one-two-three, one-two” over and over. It's five beats to the bar, almost unheard of in popular music at the time."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Dave%20Brubeck%20Take%20Five%20Time%20Out",
+    "spotify": "https://open.spotify.com/search/Dave%20Brubeck%20Take%20Five%20Time%20Out",
+    "youtube": "https://www.youtube.com/results?search_query=Dave%20Brubeck%20Take%20Five%20Time%20Out"
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Take Five (Time Out, 1959)",
+      "en": "Take Five (Time Out, 1959)"
+     },
+     "kind": "appleMusic",
+     "performer": "The Dave Brubeck Quartet",
+     "license": "Apple Music"
+    }
+   ],
+   "threads": [
+    {
+     "to": "jazz-so-what",
+     "kind": "same-era",
+     "why": {
+      "fr": "Même année, autre audace : Miles travaille l'harmonie, Brubeck le rythme.",
+      "en": "Same year, another bold move: Miles works on harmony, Brubeck on rhythm."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Le tube de jazz le plus célèbre est construit sur un rythme qu'on croyait impossible à danser.",
+     "en": "The most famous jazz hit is built on a rhythm people thought you couldn't dance to."
+    },
+    "context": {
+     "fr": "En 1959, le pianiste Dave Brubeck enregistre Time Out, un album entier de rythmes inhabituels, inspiré notamment par des musiques entendues en tournée en Turquie. Sa maison de disques n'y croit pas. Take Five, composé par son saxophoniste Paul Desmond, devient pourtant le premier single de jazz à se vendre à plus d'un million d'exemplaires.",
+     "en": "In 1959 pianist Dave Brubeck records Time Out, a whole album of unusual rhythms, inspired partly by music heard on tour in Turkey. His label doesn't believe in it. Yet Take Five, written by his saxophonist Paul Desmond, becomes the first jazz single to sell over a million copies."
+    },
+    "why": {
+     "fr": "Il prouve que le jazz peut être à la fois audacieux et populaire. Et c'est le meilleur exercice d'oreille pour sentir une mesure : une fois que vous l'avez comptée, vous ne l'oubliez plus.",
+     "en": "It proves jazz can be both daring and popular. And it's the best ear exercise to feel a time signature: once you've counted it, you never forget it."
+    },
+    "how": {
+     "fr": "Tapez du pied : un-deux-trois, un-deux. Gardez ce compte du début à la fin, même pendant le solo de batterie, où c'est plus difficile.",
+     "en": "Tap your foot: one-two-three, one-two. Keep the count from start to finish, even during the drum solo, where it gets harder."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "La batterie seule pose le rythme, puis le piano entre avec un motif répété, toujours le même.",
+       "en": "The drums alone set the rhythm, then the piano comes in with a repeated figure, always the same."
+      }
+     },
+     {
+      "when": {
+       "fr": "Juste après",
+       "en": "Just after"
+      },
+      "what": {
+       "fr": "Le saxophone alto de Paul Desmond chante le thème, doux et aérien.",
+       "en": "Paul Desmond's alto sax sings the theme, soft and airy."
+      }
+     },
+     {
+      "when": {
+       "fr": "Au milieu",
+       "en": "In the middle"
+      },
+      "what": {
+       "fr": "Long solo de batterie de Joe Morello, pendant que le piano garde le motif.",
+       "en": "A long drum solo by Joe Morello, while the piano keeps the figure going."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "Le saxophone reprend le thème, puis tout s'arrête net.",
+       "en": "The sax takes the theme again, then everything stops."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "saxophone",
+      "piano",
+      "contrebasse",
+      "batterie",
+      "trompette",
+      "guitare",
+      "clarinette"
+     ],
+     "answer": [
+      "saxophone",
+      "piano",
+      "contrebasse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Combien de temps compte chaque mesure ?",
+       "en": "How many beats in each bar?"
+      },
+      "options": [
+       {
+        "fr": "Trois",
+        "en": "Three"
+       },
+       {
+        "fr": "Quatre",
+        "en": "Four"
+       },
+       {
+        "fr": "Cinq",
+        "en": "Five"
+       }
+      ],
+      "answer": 2,
+      "why": {
+       "fr": "D'où le titre : Take Five.",
+       "en": "Hence the title: Take Five."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qui a composé Take Five ?",
+       "en": "Who wrote Take Five?"
+      },
+      "options": [
+       {
+        "fr": "Dave Brubeck",
+        "en": "Dave Brubeck"
+       },
+       {
+        "fr": "Paul Desmond",
+        "en": "Paul Desmond"
+       },
+       {
+        "fr": "Miles Davis",
+        "en": "Miles Davis"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Le saxophoniste du quartette, pas le chef.",
+       "en": "The quartet's saxophonist, not the leader."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Mesure",
+       "en": "Bar / time signature"
+      },
+      "def": {
+       "fr": "Le nombre de temps qui reviennent en boucle : 4 dans la plupart des chansons, 5 ici.",
+       "en": "The number of beats that repeat: 4 in most songs, 5 here."
+      }
+     },
+     {
+      "term": {
+       "fr": "Quartette",
+       "en": "Quartet"
+      },
+      "def": {
+       "fr": "Un groupe de quatre musiciens.",
+       "en": "A group of four musicians."
+      }
+     },
+     {
+      "term": {
+       "fr": "Ostinato",
+       "en": "Ostinato"
+      },
+      "def": {
+       "fr": "Un motif répété en boucle.",
+       "en": "A figure repeated over and over."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

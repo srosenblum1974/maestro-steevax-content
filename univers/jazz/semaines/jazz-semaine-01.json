@@ -1,0 +1,247 @@
+{
+ "id": "jazz-semaine-01",
+ "n": 1,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "nouvelle-orleans",
+ "title": {
+  "fr": "Armstrong, la naissance du soliste",
+  "en": "Armstrong, the birth of the soloist"
+ },
+ "world": {
+  "fr": "1928 : la Prohibition interdit l'alcool aux États-Unis, les clubs clandestins de Chicago font vivre le jazz ; en novembre, Mickey Mouse apparaît au cinéma.",
+  "en": "1928: Prohibition bans alcohol in the US, Chicago's speakeasies keep jazz alive; in November, Mickey Mouse appears on screen."
+ },
+ "works": [
+  {
+   "id": "jazz-west-end-blues",
+   "people": [
+    {
+     "name": "Louis Armstrong and His Hot Five",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "West End Blues",
+    "en": "West End Blues"
+   },
+   "year": "1928",
+   "recording": {
+    "performers": "Louis Armstrong and His Hot Five",
+    "label": "OKeh",
+    "year": 1928
+   },
+   "startWith": {
+    "fr": "En entier (environ 3 min 20)",
+    "en": "The whole piece (about 3'20)"
+   },
+   "listenFor": {
+    "fr": "Le solo d'ouverture de la trompette, seule, sans accompagnement : un musicien qui se lance devant tout le monde.",
+    "en": "The trumpet's opening solo, alone and unaccompanied: one musician stepping out in front of everyone."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Louis%20Armstrong%20West%20End%20Blues%201928",
+    "spotify": "https://open.spotify.com/search/Louis%20Armstrong%20West%20End%20Blues%201928",
+    "youtube": "https://www.youtube.com/results?search_query=Louis%20Armstrong%20West%20End%20Blues%201928"
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "West End Blues (1928)",
+      "en": "West End Blues (1928)"
+     },
+     "kind": "appleMusic",
+     "performer": "Louis Armstrong and His Hot Five",
+     "license": "Apple Music"
+    }
+   ],
+   "threads": [
+    {
+     "to": "jazz-so-what",
+     "kind": "influence",
+     "why": {
+      "fr": "Trente ans plus tard, le soliste est roi : Miles Davis prend la suite.",
+      "en": "Thirty years later the soloist is king: Miles Davis carries it on."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Quinze secondes de trompette seule, et le jazz change de visage.",
+     "en": "Fifteen seconds of solo trumpet, and jazz changes face."
+    },
+    "context": {
+     "fr": "Chicago, 28 juin 1928. Louis Armstrong, né dans la misère à La Nouvelle-Orléans, enregistre ce blues de son mentor King Oliver avec son petit groupe de studio, le Hot Five. Au piano : Earl Hines. Le disque dure trois minutes, la limite d'une face de 78 tours.",
+     "en": "Chicago, 28 June 1928. Louis Armstrong, born poor in New Orleans, records this blues by his mentor King Oliver with his studio band, the Hot Five. On piano: Earl Hines. The record lasts three minutes, the limit of one side of a 78."
+    },
+    "why": {
+     "fr": "Avant Armstrong, le jazz était surtout une musique d'ensemble où tout le monde jouait en même temps. Ici, un seul musicien prend la parole et invente en direct. C'est le début du solo improvisé, le cœur de tout le jazz qui suivra. Ce disque a été parmi les premiers inscrits au Grammy Hall of Fame.",
+     "en": "Before Armstrong, jazz was mostly ensemble music with everyone playing at once. Here one musician takes the floor and invents on the spot. It's the birth of the improvised solo, the heart of all jazz to come. This record was among the first inducted into the Grammy Hall of Fame."
+    },
+    "how": {
+     "fr": "Concentrez-vous sur les quinze premières secondes : c'est le moment historique. Puis écoutez comment chaque instrument a son tour, comme une conversation.",
+     "en": "Focus on the first fifteen seconds: that's the historic moment. Then hear how each instrument takes its turn, like a conversation."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le tout début",
+       "en": "The very start"
+      },
+      "what": {
+       "fr": "La trompette seule, une cascade de notes qui monte et redescend, sans aucun accompagnement.",
+       "en": "The trumpet alone, a cascade of notes climbing and falling, with no accompaniment."
+      }
+     },
+     {
+      "when": {
+       "fr": "Juste après",
+       "en": "Just after"
+      },
+      "what": {
+       "fr": "Tout le groupe entre, lentement : le thème du blues.",
+       "en": "The whole band comes in, slowly: the blues theme."
+      }
+     },
+     {
+      "when": {
+       "fr": "Vers le milieu",
+       "en": "Around the middle"
+      },
+      "what": {
+       "fr": "Armstrong chante sans paroles, avec des syllabes (le « scat »), et la clarinette lui répond.",
+       "en": "Armstrong sings without words, in syllables (scat), and the clarinet answers him."
+      }
+     },
+     {
+      "when": {
+       "fr": "Ensuite",
+       "en": "Then"
+      },
+      "what": {
+       "fr": "Le piano d'Earl Hines, seul, vif et inventif.",
+       "en": "Earl Hines's piano, alone, lively and inventive."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "La trompette tient une note aiguë très longtemps, puis tout se calme.",
+       "en": "The trumpet holds a high note for a long time, then everything settles."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "trompette",
+      "clarinette",
+      "trombone",
+      "piano",
+      "banjo",
+      "batterie",
+      "saxophone",
+      "contrebasse"
+     ],
+     "answer": [
+      "trompette",
+      "clarinette",
+      "trombone",
+      "piano",
+      "banjo",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Comment commence le morceau ?",
+       "en": "How does the piece begin?"
+      },
+      "options": [
+       {
+        "fr": "Par tout le groupe",
+        "en": "With the whole band"
+       },
+       {
+        "fr": "Par la trompette seule",
+        "en": "With the trumpet alone"
+       },
+       {
+        "fr": "Par le piano",
+        "en": "With the piano"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Le solo d'ouverture d'Armstrong est l'un des plus célèbres de l'histoire.",
+       "en": "Armstrong's opening solo is one of the most famous in history."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qu'est-ce que le « scat » ?",
+       "en": "What is scat?"
+      },
+      "options": [
+       {
+        "fr": "Chanter avec des syllabes, sans paroles",
+        "en": "Singing in syllables, without words"
+       },
+       {
+        "fr": "Un instrument",
+        "en": "An instrument"
+       },
+       {
+        "fr": "Une danse",
+        "en": "A dance"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "La voix devient un instrument qui improvise.",
+       "en": "The voice becomes an improvising instrument."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Blues",
+       "en": "Blues"
+      },
+      "def": {
+       "fr": "Une forme de 12 mesures née chez les Afro-Américains du Sud, base d'une grande partie du jazz.",
+       "en": "A 12-bar form born among Southern African Americans, the basis of much jazz."
+      }
+     },
+     {
+      "term": {
+       "fr": "Improvisation",
+       "en": "Improvisation"
+      },
+      "def": {
+       "fr": "Inventer la musique en la jouant.",
+       "en": "Inventing music as you play it."
+      }
+     },
+     {
+      "term": {
+       "fr": "Scat",
+       "en": "Scat"
+      },
+      "def": {
+       "fr": "Chant improvisé sur des syllabes sans sens.",
+       "en": "Improvised singing on meaningless syllables."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,7 +1,9 @@
 """Finds the free recordings and paintings listed in tools/media.json on Wikimedia Commons, then writes:
 - into each semaines/*.json work: "audio": [{label, url (MP3), performer, license, source}]
 - into each week: "image": {path, credit, license, source}; the painting itself is downloaded to illus/
-- into _parcours.json: "heroImage"
+- into _parcours.json: "heroImage" (and each universe's own _parcours.json, from "heroes")
+- Apple Music tracks ("kind": "appleMusic", "itunes": {...}): the catalogue id, a 30-second preview URL and the
+  Apple Music link, found with the public iTunes Search API
 and prints a report. Only files whose licence is public domain or Creative Commons are accepted.
 
 Runs in GitHub Actions (resolve-media.yml), where the network is open:  python3 tools/resolve_media.py
@@ -93,6 +95,38 @@ def pick(spec, kind, width=None):
     return None
 
 
+ITUNES = "https://itunes.apple.com/search"
+
+
+def itunes(spec):
+    """The catalogue entry matching artist, title, album (tried in order) and length; None if nothing fits."""
+    q = urllib.parse.urlencode({"term": spec["term"], "entity": "song", "limit": 100, "country": spec.get("country", "fr")})
+    req = urllib.request.Request(f"{ITUNES}?{q}", headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        results = json.load(r).get("results", [])
+    low = lambda s: (s or "").lower()
+    lo, hi = spec.get("seconds", [0, 10**6])
+    ok = [x for x in results if low(spec["artist"]) in low(x.get("artistName")) and low(spec["title"]) in low(x.get("trackName"))
+          and lo <= (x.get("trackTimeMillis") or 0) / 1000 <= hi and x.get("previewUrl")]
+    for album in spec.get("albums", []) + [""]:
+        for x in ok:
+            if low(album) in low(x.get("collectionName")):
+                return x
+    return None
+
+
+def universe_files():
+    """Week id → its file, and universe id → its _parcours.json, across every universe."""
+    weeks, parcours = {}, {}
+    uni = json.loads((ROOT / "_univers.json").read_text()) if (ROOT / "_univers.json").exists() else {"universes": [{"id": "classique", "root": ""}]}
+    for u in uni["universes"]:
+        base = ROOT / u["root"]
+        parcours[u["id"]] = base / "_parcours.json"
+        for p in (base / "semaines").glob("*.json"):
+            weeks[p.stem] = p
+    return weeks, parcours
+
+
 def main():
     media = json.loads((ROOT / "tools/media.json").read_text())
     (ROOT / "illus").mkdir(exist_ok=True)
@@ -122,14 +156,20 @@ def main():
         return {"path": f"illus/{name}.jpg", "credit": spec.get("credit") or (i["artist"] + (f", {i['date']}" if i["date"] else "")),
                 "license": i["license"], "source": i["page"], "focus": spec.get("focus", "50% 40%")}
 
-    hero = image(media["hero"], "accueil")
-    if hero:
-        p = json.loads((ROOT / "_parcours.json").read_text())
-        p["heroImage"] = hero
-        (ROOT / "_parcours.json").write_text(json.dumps(p, ensure_ascii=False, indent=1) + "\n")
+    week_files, parcours_files = universe_files()
+    heroes = {"classique": (media["hero"], "accueil"), **{u: (sp, f"accueil-{u}") for u, sp in media.get("heroes", {}).items()}}
+    for uid, (spec, name) in heroes.items():
+        hero = image(spec, name)
+        if hero and uid in parcours_files:
+            p = json.loads(parcours_files[uid].read_text())
+            p["heroImage"] = hero
+            parcours_files[uid].write_text(json.dumps(p, ensure_ascii=False, indent=1) + "\n")
 
     for wid, spec in media["weeks"].items():
-        path = ROOT / f"semaines/{wid}.json"
+        path = week_files.get(wid)
+        if not path:
+            failures.append(f"week {wid}: no file")
+            continue
         week = json.loads(path.read_text())
         img = image(spec["image"], wid)
         if img:
@@ -137,6 +177,18 @@ def main():
         for work in week["works"]:
             tracks = []
             for t in spec.get("audio", {}).get(work["id"], []):
+                if t.get("kind") == "appleMusic":
+                    x = itunes(t["itunes"])
+                    if not x:
+                        failures.append(f"apple music {wid}/{work['id']}: {t['label']['en']}")
+                        continue
+                    report.append(f"APPLE MUSIC {wid}/{work['id']}: {x['trackName']} — {x['artistName']} — {x['collectionName']} ({x['trackId']})")
+                    tracks.append({"label": t["label"], "kind": "appleMusic", "appleMusicId": str(x["trackId"]),
+                                   "previewUrl": x["previewUrl"], "performer": x["artistName"], "license": "Apple Music",
+                                   "source": x.get("trackViewUrl")})
+                    if x.get("trackViewUrl"):
+                        work["links"]["appleMusic"] = x["trackViewUrl"]
+                    continue
                 i = pick(t, "audio")
                 if not i:
                     failures.append(f"audio {wid}/{work['id']}: {t['label']['en']}")

@@ -1,0 +1,64 @@
+{
+ "weeks": [
+  {
+   "id": "jazz-semaine-01",
+   "n": 1,
+   "phase": 1,
+   "period": "nouvelle-orleans",
+   "title": {
+    "fr": "Armstrong, la naissance du soliste",
+    "en": "Armstrong, the birth of the soloist"
+   },
+   "works": [
+    {
+     "id": "jazz-west-end-blues",
+     "composer": "Louis Armstrong and His Hot Five",
+     "title": {
+      "fr": "West End Blues",
+      "en": "West End Blues"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jazz-semaine-02",
+   "n": 2,
+   "phase": 1,
+   "period": "cool-modal",
+   "title": {
+    "fr": "Miles Davis, l'art de l'espace",
+    "en": "Miles Davis, the art of space"
+   },
+   "works": [
+    {
+     "id": "jazz-so-what",
+     "composer": "Miles Davis",
+     "title": {
+      "fr": "So What",
+      "en": "So What"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jazz-semaine-03",
+   "n": 3,
+   "phase": 1,
+   "period": "cool-modal",
+   "title": {
+    "fr": "Brubeck, compter jusqu'à cinq",
+    "en": "Brubeck, counting to five"
+   },
+   "works": [
+    {
+     "id": "jazz-take-five",
+     "composer": "The Dave Brubeck Quartet, Paul Desmond",
+     "title": {
+      "fr": "Take Five",
+      "en": "Take Five"
+     }
+    }
+   ]
+  }
+ ]
+}

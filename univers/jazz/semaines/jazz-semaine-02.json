@@ -1,0 +1,254 @@
+{
+ "id": "jazz-semaine-02",
+ "n": 2,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "cool-modal",
+ "title": {
+  "fr": "Miles Davis, l'art de l'espace",
+  "en": "Miles Davis, the art of space"
+ },
+ "world": {
+  "fr": "1959 : Fidel Castro prend le pouvoir à Cuba, la Nouvelle Vague éclate au cinéma avec Les Quatre Cents Coups, et la poupée Barbie arrive dans les magasins.",
+  "en": "1959: Fidel Castro takes power in Cuba, the French New Wave breaks out with The 400 Blows, and the Barbie doll reaches the shops."
+ },
+ "works": [
+  {
+   "id": "jazz-so-what",
+   "people": [
+    {
+     "name": "Miles Davis",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "So What",
+    "en": "So What"
+   },
+   "year": "1959",
+   "recording": {
+    "performers": "Miles Davis, John Coltrane, Cannonball Adderley, Bill Evans, Paul Chambers, Jimmy Cobb",
+    "label": "Columbia",
+    "year": 1959
+   },
+   "startWith": {
+    "fr": "En entier (environ 9 min) ; le premier passage clé dure une minute",
+    "en": "The whole piece (about 9 min); the first key passage lasts one minute"
+   },
+   "listenFor": {
+    "fr": "Le dialogue entre la contrebasse, qui pose une question, et le groupe, qui répond par deux accords : « so what ? », « et alors ? ».",
+    "en": "The dialogue between the double bass, asking a question, and the band, answering with two chords: “so what?”."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Miles%20Davis%20So%20What%20Kind%20of%20Blue",
+    "spotify": "https://open.spotify.com/search/Miles%20Davis%20So%20What%20Kind%20of%20Blue",
+    "youtube": "https://www.youtube.com/results?search_query=Miles%20Davis%20So%20What%20Kind%20of%20Blue"
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "So What (Kind of Blue, 1959)",
+      "en": "So What (Kind of Blue, 1959)"
+     },
+     "kind": "appleMusic",
+     "performer": "Miles Davis",
+     "license": "Apple Music"
+    }
+   ],
+   "threads": [
+    {
+     "to": "jazz-take-five",
+     "kind": "same-era",
+     "why": {
+      "fr": "La même année 1959, un autre chef-d'œuvre joue avec le rythme.",
+      "en": "The same year, 1959, another masterpiece plays with rhythm."
+     }
+    },
+    {
+     "to": "debussy-faune",
+     "kind": "influence",
+     "why": {
+      "fr": "Le pianiste Bill Evans adorait Debussy et Ravel : on entend leurs couleurs dans ses accords.",
+      "en": "Pianist Bill Evans loved Debussy and Ravel: you hear their colours in his chords."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "L'album de jazz le plus vendu de l'histoire commence par un murmure.",
+     "en": "The best-selling jazz album in history begins with a murmur."
+    },
+    "context": {
+     "fr": "New York, 2 mars 1959. Miles Davis réunit six musiciens, dont John Coltrane au saxophone ténor et Bill Evans au piano. Il ne leur donne que de courtes esquisses, presque pas de répétition : il veut capter la fraîcheur de la première prise. L'album s'appelle Kind of Blue.",
+     "en": "New York, 2 March 1959. Miles Davis gathers six musicians, including John Coltrane on tenor sax and Bill Evans on piano. He gives them only short sketches and almost no rehearsal: he wants the freshness of the first take. The album is called Kind of Blue."
+    },
+    "why": {
+     "fr": "Avant, le bebop enchaînait des accords à toute vitesse. Ici, Miles fait l'inverse : très peu d'accords, de longues plages sur une seule gamme. C'est le jazz modal. Les solistes ont de l'espace pour respirer et chanter. Beaucoup de gens entrent dans le jazz par ce disque.",
+     "en": "Before, bebop raced through chords. Here Miles does the opposite: very few chords, long stretches on a single scale. That's modal jazz. The soloists have room to breathe and sing. Many people come into jazz through this record."
+    },
+    "how": {
+     "fr": "Écoutez d'abord la question-réponse du début. Ensuite, comparez les trois solistes : Miles (trompette, peu de notes), Coltrane (saxophone ténor, torrent de notes), Cannonball Adderley (saxophone alto, joyeux et bluesy).",
+     "en": "First listen to the opening question and answer. Then compare the three soloists: Miles (trumpet, few notes), Coltrane (tenor sax, a torrent of notes), Cannonball Adderley (alto sax, joyful and bluesy)."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Piano et contrebasse rêvent seuls, sans tempo, comme une introduction de film.",
+       "en": "Piano and bass dream alone, without tempo, like a film's opening."
+      }
+     },
+     {
+      "when": {
+       "fr": "Puis",
+       "en": "Then"
+      },
+      "what": {
+       "fr": "La contrebasse joue le thème, et le groupe répond par deux accords : so-what.",
+       "en": "The double bass plays the theme, and the band answers with two chords: so-what."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le premier solo",
+       "en": "The first solo"
+      },
+      "what": {
+       "fr": "La trompette de Miles, avec peu de notes et beaucoup de silences.",
+       "en": "Miles's trumpet, few notes and lots of silence."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le deuxième solo",
+       "en": "The second solo"
+      },
+      "what": {
+       "fr": "Coltrane au ténor : plus dense, plus intense.",
+       "en": "Coltrane on tenor: denser, more intense."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le troisième solo, puis la fin",
+       "en": "The third solo, then the end"
+      },
+      "what": {
+       "fr": "Cannonball à l'alto, puis le thème revient et le morceau s'efface doucement.",
+       "en": "Cannonball on alto, then the theme returns and the piece fades out."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "trompette",
+      "saxophone",
+      "piano",
+      "contrebasse",
+      "batterie",
+      "clarinette",
+      "guitare",
+      "trombone"
+     ],
+     "answer": [
+      "trompette",
+      "saxophone",
+      "piano",
+      "contrebasse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel instrument joue le thème au début ?",
+       "en": "Which instrument plays the theme at the start?"
+      },
+      "options": [
+       {
+        "fr": "La trompette",
+        "en": "The trumpet"
+       },
+       {
+        "fr": "La contrebasse",
+        "en": "The double bass"
+       },
+       {
+        "fr": "Le saxophone",
+        "en": "The saxophone"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "La contrebasse questionne, le groupe répond.",
+       "en": "The bass asks, the band answers."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qu'est-ce que le jazz modal ?",
+       "en": "What is modal jazz?"
+      },
+      "options": [
+       {
+        "fr": "Un jazz très rapide",
+        "en": "Very fast jazz"
+       },
+       {
+        "fr": "Peu d'accords, de longues plages sur une gamme",
+        "en": "Few chords, long stretches on one scale"
+       },
+       {
+        "fr": "Du jazz chanté",
+        "en": "Sung jazz"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Moins de changements, plus de liberté pour les solistes.",
+       "en": "Fewer changes, more freedom for soloists."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Modal",
+       "en": "Modal"
+      },
+      "def": {
+       "fr": "Construit sur une gamme plutôt que sur une suite rapide d'accords.",
+       "en": "Built on a scale rather than a fast chord sequence."
+      }
+     },
+     {
+      "term": {
+       "fr": "Section rythmique",
+       "en": "Rhythm section"
+      },
+      "def": {
+       "fr": "Piano, contrebasse et batterie : le moteur qui accompagne les solistes.",
+       "en": "Piano, bass and drums: the engine behind the soloists."
+      }
+     },
+     {
+      "term": {
+       "fr": "Chorus",
+       "en": "Chorus"
+      },
+      "def": {
+       "fr": "Un tour complet de la grille du morceau ; un solo dure souvent plusieurs chorus.",
+       "en": "One full pass through the tune's form; a solo often lasts several choruses."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -251,7 +251,7 @@ const UI = {
       journalIntro:"Ce que Steve écoute, ce qui le prend, ce qui l'ennuie. Publié au fil de son propre parcours.",
       noEntries:"Le carnet s'ouvre avec la semaine 1. Premières notes très bientôt.",
       methodKicker:"Le rituel",methodTitle:"Trois étapes pour chaque œuvre",phasesTitle:"Les quatre phases",
-      uniTitle:"Les univers",saveTitle:"Votre progression",saveIntro:"Elle est gardée dans ce navigateur. Exportez-la pour la sauvegarder ou la retrouver dans l'app iPhone.",
+      uniTitle:"Les univers",preview:"extrait 30 s · Apple Music",fullAM:"Écouter en entier sur Apple Music →",saveTitle:"Votre progression",saveIntro:"Elle est gardée dans ce navigateur. Exportez-la pour la sauvegarder ou la retrouver dans l'app iPhone.",
       export:"Exporter ma progression",import:"Importer une progression",imported:"Progression importée.",
       painting:"Peinture",footer:"{brand} · un projet personnel de Steve Rosenblum · enregistrements et peintures libres de droits (Wikimedia Commons, Musopen)"},
   en:{heroKicker:"An entrepreneur discovers classical music",heroTitle:"Learning to listen",tabPath:"Path",tabJournal:"Notebook",tabMethod:"Method",
@@ -271,7 +271,7 @@ const UI = {
       journalIntro:"What Steve listens to, what grips him, what bores him. Published as he walks his own path.",
       noEntries:"The notebook opens with week 1. First notes coming soon.",
       methodKicker:"The ritual",methodTitle:"Three steps for each work",phasesTitle:"The four phases",
-      uniTitle:"Universes",saveTitle:"Your progress",saveIntro:"It is kept in this browser. Export it to back it up or bring it into the iPhone app.",
+      uniTitle:"Universes",preview:"30-second preview · Apple Music",fullAM:"Listen in full on Apple Music →",saveTitle:"Your progress",saveIntro:"It is kept in this browser. Export it to back it up or bring it into the iPhone app.",
       export:"Export my progress",import:"Import progress",imported:"Progress imported.",
       painting:"Painting",footer:"{brand} · a personal project by Steve Rosenblum · free recordings and paintings (Wikimedia Commons, Musopen)"}
 };
@@ -359,10 +359,10 @@ function renderHistory(){
   $("historyBody").innerHTML=`<div class="wrap" style="padding-bottom:10px"><div class="kicker">${t("hIntro")}</div><h2>${t("hTitle")}</h2><p>${esc(L(h.intro))}</p>
     <div class="frise">${h.periods.map(p=>`<a href="#" data-era="${p.id}" ><b>${esc(L(p.title))}</b>${esc(p.dates)}</a>`).join("")}</div>
     <div class="memo"><span class="lab">${t("before")}</span>${esc(L(h.before))}</div></div>
-    ${h.periods.map(p=>`<div id="era-${p.id}"><section class="bleed era"><img class="bg" src="${esc(p.image.path)}" alt="" loading="lazy" style="object-position:${esc(p.image.focus||"50% 40%")}">
-      <div class="inner"><div class="kicker">${esc(p.dates)}</div><h2 style="color:var(--paper)">${esc(L(p.title))}</h2><p class="lede" style="max-width:none">${esc(L(p.oneLine))}</p></div><div class="credit">${credit(p.image)}</div></section>
+    ${h.periods.map(p=>{const im=p.image||(weeks.find(w=>p.weeks.includes(w.n))||{}).image;return `<div id="era-${p.id}"><section class="bleed era">${im?`<img class="bg" src="${esc(im.path)}" alt="" loading="lazy" style="object-position:${esc(im.focus||"50% 40%")}">`:""}
+      <div class="inner"><div class="kicker">${esc(p.dates)}</div><h2 style="color:var(--paper)">${esc(L(p.title))}</h2><p class="lede" style="max-width:none">${esc(L(p.oneLine))}</p></div><div class="credit">${credit(im)}</div></section>
       <div class="era-body"><span class="lab">${t("worldL")}</span><p>${esc(L(p.world))}</p><span class="lab">${t("soundL")}</span><p>${esc(L(p.sound))}</p><span class="lab">${t("who")}</span><p>${p.people.map(esc).join(" · ")}</p>
-      <span class="lab">${t("listenW")}</span><div class="weeklinks" style="margin-top:6px">${p.weeks.map(n=>{const w=weeks.find(x=>x.n===n);return w?`<a href="#${w.id}">${t("week")} ${n} · ${esc(L(w.title))}</a>`:""}).join("")}</div></div></div>`).join("")}
+      <span class="lab">${t("listenW")}</span><div class="weeklinks" style="margin-top:6px">${p.weeks.map(n=>{const w=weeks.find(x=>x.n===n);return w?`<a href="#${w.id}">${t("week")} ${n} · ${esc(L(w.title))}</a>`:""}).join("")}</div></div></div>`}).join("")}
     <div class="wrap"><h2>${t("basic")}</h2>${h.words.map(g=>`<div class="memo"><b>${esc(L(g.term))}</b> : ${esc(L(g.def))}</div>`).join("")}</div>`;
   document.querySelectorAll("[data-era]").forEach(a=>a.onclick=e=>{e.preventDefault();$("era-"+a.dataset.era).scrollIntoView({behavior:"smooth"})});
 }
@@ -417,8 +417,8 @@ function workHTML(x){
     ${g?`<p class="hook">${esc(L(g.hook))}</p><div class="story"><span class="lab">${t("context")}</span><p>${esc(L(g.context))}</p><span class="lab">${t("why")}</span><p>${esc(L(g.why))}</p>
       <span class="lab">${t("words")}</span>${g.glossary.map(k=>`<details class="gl"><summary>${esc(L(k.term))}</summary> ${esc(L(k.def))}</details>`).join("")}</div>`:""}
     <div class="field"><em>${t("piece")} · ${t("start")}</em>${esc(L(x.startWith))}</div>
-    ${tracks.length?tracks.map(a=>(a.kind||"free")!=="free"?`<p class="ref">${esc(L(a.label))} : <a href="${esc(x.links.appleMusic)}" target="_blank" rel="noopener">Apple Music</a></p>`:`<div class="track" data-url="${esc(a.url)}" data-work="${x.id}" data-title="${esc(L(x.title))} — ${esc(L(a.label))}" data-composer="${esc(artists(x))}" data-art="">
-       <button class="play" aria-label="Play">▶</button><div class="tt"><b>${esc(L(a.label))}</b><small>${esc(a.performer)} · ${esc(a.license)} · <span class="time"></span></small><div class="scrub"><i></i></div></div></div>`).join(""):`<p class="ref">${t("noAudio")}</p><div class="links"><a href="${x.links.youtube}" target="_blank" rel="noopener">YouTube</a><a href="${x.links.appleMusic}" target="_blank" rel="noopener">Apple Music</a><a href="${x.links.spotify}" target="_blank" rel="noopener">Spotify</a></div>`}
+    ${tracks.length?tracks.map(a=>!(a.url||a.previewUrl)?`<p class="ref">${esc(L(a.label))} : <a href="${esc(x.links.appleMusic)}" target="_blank" rel="noopener">Apple Music</a></p>`:`<div class="track" data-url="${esc(a.url||a.previewUrl)}" data-work="${x.id}" data-title="${esc(L(x.title))} — ${esc(L(a.label))}" data-composer="${esc(artists(x))}" data-art="">
+       <button class="play" aria-label="Play">▶</button><div class="tt"><b>${esc(L(a.label))}</b><small>${esc(a.performer)} · ${a.url?esc(a.license):t("preview")} · <span class="time"></span></small><div class="scrub"><i></i></div></div></div>${a.url?"":`<p class="ref" style="margin-top:0"><a href="${esc(x.links.appleMusic)}" target="_blank" rel="noopener">${t("fullAM")}</a></p>`}`).join(""):`<p class="ref">${t("noAudio")}</p><div class="links"><a href="${x.links.youtube}" target="_blank" rel="noopener">YouTube</a><a href="${x.links.appleMusic}" target="_blank" rel="noopener">Apple Music</a><a href="${x.links.spotify}" target="_blank" rel="noopener">Spotify</a></div>`}
     <div class="stepper">${names.map((n,i)=>{const d=s.listens[i],can=d||i===now;return `<button class="${d?"done":""} ${i===open?"open":""} ${i===now?"cur":""}" data-go="${i}" ${can?"":"disabled title=\""+t("locked")+"\""}><i>${d?"✓":can?i+1:"🔒"}</i>${n}</button>`}).join("")}</div>
     ${open>=0?step[open]():""}
     ${all&&open<0?`<div class="souv"><h4>${t("souv")}</h4><small>${esc(s.savedAt||"")}</small><div class="row">${chipsRO("emotions",s.emotions)} ${chipsRO("images",s.images)}</div><div style="color:var(--gold);font-size:20px">${"★".repeat(s.rating)}</div>${s.rating?`<small>${esc(L(parcours.palette.ratings[s.rating-1]))}</small>`:""}${s.note?`<q>${esc(s.note)}</q>`:""}<div><button class="ghost" data-go="2">${t("edit")}</button></div></div>`:""}

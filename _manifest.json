@@ -1,9 +1,9 @@
 {
- "version": 1794338235,
+ "version": 1794338822,
  "files": {
   "_index.json": "8ac35fa1f33464df",
   "_parcours.json": "68f020c4722714b5",
-  "_univers.json": "07406f4305099554",
+  "_univers.json": "0948a07060ac02dd",
   "journal/_journal.json": "3b3b54dbde26d4d9",
   "semaines/semaine-01.json": "d97ee850e0a8759c",
   "semaines/semaine-02.json": "9ad789fd491b3b1a",
@@ -12,6 +12,12 @@
   "semaines/semaine-05.json": "7565123bee6c1cc6",
   "semaines/semaine-06.json": "c3880ff02e9260a9",
   "semaines/semaine-07.json": "ec3a27e752263f45",
-  "semaines/semaine-08.json": "ae201026224c1152"
+  "semaines/semaine-08.json": "ae201026224c1152",
+  "univers/jazz/_index.json": "cf90f84235861039",
+  "univers/jazz/_parcours.json": "a7fad2e609187a96",
+  "univers/jazz/journal/_journal.json": "5fb24569efa7c786",
+  "univers/jazz/semaines/jazz-semaine-01.json": "ee6dafbc2c2bbf43",
+  "univers/jazz/semaines/jazz-semaine-02.json": "3bd2c1971ec41a5e",
+  "univers/jazz/semaines/jazz-semaine-03.json": "3c62c66dbf035758"
  }
 }
