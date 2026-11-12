@@ -43,7 +43,7 @@
     "en": "The contrast: verses almost murmured, choruses screamed."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Nirvana%20Smells%20Like%20Teen%20Spirit",
+    "appleMusic": "https://music.apple.com/fr/album/smells-like-teen-spirit-remastered/1586410660?i=1586410661&uo=4",
     "spotify": "https://open.spotify.com/search/Nirvana%20Smells%20Like%20Teen%20Spirit",
     "youtube": "https://www.youtube.com/results?search_query=Nirvana%20Smells%20Like%20Teen%20Spirit"
    },
@@ -197,7 +197,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Smells Like Teen Spirit (1991)",
+      "en": "Smells Like Teen Spirit (1991)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1586410661",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/36/9c/b0369c24-5047-1f93-a228-64ecec779cdc/mzaf_17479720470163953122.plus.aac.p.m4a",
+     "performer": "Nirvana",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/smells-like-teen-spirit-remastered/1586410660?i=1586410661&uo=4"
+    }
+   ]
   },
   {
    "id": "rock-creep",
@@ -226,7 +240,7 @@
     "en": "The furious guitar stabs just before the chorus: the guitarist seems to want to break the song."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Radiohead%20Creep",
+    "appleMusic": "https://music.apple.com/fr/album/creep/922360274?i=922360286&uo=4",
     "spotify": "https://open.spotify.com/search/Radiohead%20Creep",
     "youtube": "https://www.youtube.com/results?search_query=Radiohead%20Creep"
    },
@@ -374,7 +388,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Creep (1992)",
+      "en": "Creep (1992)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "922360286",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/4d/71/3a4d71e1-5065-904d-5513-b49415710313/mzaf_5597953917760999756.plus.aac.p.m4a",
+     "performer": "Radiohead",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/creep/922360274?i=922360286&uo=4"
+    }
+   ]
   },
   {
    "id": "rock-seven-nation-army",
@@ -403,7 +431,7 @@
     "en": "The riff at the start: it sounds like a bass, but it is a guitar. The band has no bassist."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=The%20White%20Stripes%20Seven%20Nation%20Army",
+    "appleMusic": "https://music.apple.com/fr/album/seven-nation-army/1675379752?i=1675379764&uo=4",
     "spotify": "https://open.spotify.com/search/The%20White%20Stripes%20Seven%20Nation%20Army",
     "youtube": "https://www.youtube.com/results?search_query=The%20White%20Stripes%20Seven%20Nation%20Army"
    },
@@ -547,7 +575,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Seven Nation Army (2003)",
+      "en": "Seven Nation Army (2003)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1675379764",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/28/22/7f282276-e463-79c2-b770-40c762df0c48/mzaf_3138918352191055941.plus.aac.p.m4a",
+     "performer": "The White Stripes",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/seven-nation-army/1675379752?i=1675379764&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/rock-semaine-06.jpg",
+  "credit": "Richard Mortel from Riyadh, Saudi Arabia",
+  "license": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_The_Scream,_1893,_National_Gallery,_Oslo_(1)_(35658212823).jpg",
+  "focus": "50% 60%"
+ }
 }

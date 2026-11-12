@@ -43,7 +43,7 @@
     "en": "The speed and the simplicity: no solo, no frills, everyone plays the same thing."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Ramones%20Blitzkrieg%20Bop",
+    "appleMusic": "https://music.apple.com/fr/album/blitzkrieg-bop-40th-anniversary-mono-mix/1127410202?i=1127410290&uo=4",
     "spotify": "https://open.spotify.com/search/Ramones%20Blitzkrieg%20Bop",
     "youtube": "https://www.youtube.com/results?search_query=Ramones%20Blitzkrieg%20Bop"
    },
@@ -190,7 +190,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Blitzkrieg Bop (1976)",
+      "en": "Blitzkrieg Bop (1976)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1127410290",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c5/26/00/c5260034-d908-4c3e-1cdd-ef41b1aab948/mzaf_877459140417180149.plus.aac.p.m4a",
+     "performer": "Ramones",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/blitzkrieg-bop-40th-anniversary-mono-mix/1127410202?i=1127410290&uo=4"
+    }
+   ]
   },
   {
    "id": "rock-london-calling",
@@ -219,7 +233,7 @@
     "en": "The bass, descending like a threat, and the guitars striking like an alarm."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=The%20Clash%20London%20Calling",
+    "appleMusic": "https://music.apple.com/fr/album/london-calling/684811762?i=684811768&uo=4",
     "spotify": "https://open.spotify.com/search/The%20Clash%20London%20Calling",
     "youtube": "https://www.youtube.com/results?search_query=The%20Clash%20London%20Calling"
    },
@@ -374,7 +388,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "London Calling (1979)",
+      "en": "London Calling (1979)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "684811768",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/e5/65/40e5656c-e7db-9f1f-4890-d0f9b6c7b45f/mzaf_17665211272480329804.plus.aac.p.m4a",
+     "performer": "The Clash",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/london-calling/684811762?i=684811768&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/rock-semaine-05.jpg",
+  "credit": "George Bellows, 1909",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:George_Wesley_Bellows_Stag_at_Sharkey_(Cropped).jpg",
+  "focus": "50% 45%"
+ }
 }

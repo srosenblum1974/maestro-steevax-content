@@ -50,6 +50,46 @@ IMAGE rock-semaine-02: File:Ernst Ludwig Kirchner - Potsdamer Platz.jpg — Erns
 APPLE MUSIC rock-semaine-02/rock-satisfaction: (I Can't Get No) Satisfaction — The Rolling Stones — Out of Our Heads (1440743544)
 IMAGE rock-semaine-03: File:John Martin - The Great Day of His Wrath - Google Art Project.jpg — John Martin — Public domain
 APPLE MUSIC rock-semaine-03/rock-whole-lotta-love: Whole Lotta Love — Led Zeppelin — Led Zeppelin II (Deluxe Edition) (836967297)
+IMAGE jazz-semaine-04: File:Piet Mondrian, 1942 - Broadway Boogie Woogie.jpg — Piet Mondrian — Public domain
+APPLE MUSIC jazz-semaine-04/jazz-sing-sing-sing: Sing, Sing, Sing (from "New-York Stories") — Benny Goodman and His Orchestra — Woody Allen en musique (Remastered) (644319379)
+APPLE MUSIC jazz-semaine-04/jazz-take-the-a-train: Take the 'A' Train — Duke Ellington and His Orchestra — Take the 'A' Train (908039206)
+IMAGE jazz-semaine-05: File:Vasily Kandinsky Improvisation 28 (second version).jpg — Wassily Kandinsky — Public domain
+APPLE MUSIC jazz-semaine-05/jazz-ko-ko: Ko-Ko — Charlie Parker — The Savoy 10-inch LP Collection (1491387110)
+APPLE MUSIC jazz-semaine-05/jazz-round-midnight: 'Round Midnight — Thelonious Monk — Genius of Modern Music, Vol. 1 (1459444213)
+IMAGE jazz-semaine-06: File:Theo van Doesburg-Rhythmus eines russischen Tanzes.jpg — Theo van Doesburg — Public domain
+APPLE MUSIC jazz-semaine-06/jazz-lonely-woman: Lonely Woman (Remastered) — Ornette Coleman — The Shape of Jazz to Come (Remastered 2014) (896564104)
+APPLE MUSIC jazz-semaine-06/jazz-a-love-supreme-acknowledgement: A Love Supreme, Pt. 1: Acknowledgement — John Coltrane — A Love Supreme (1440713020)
+APPLE MUSIC jazz-semaine-06/jazz-chameleon: Chameleon — Herbie Hancock — Head Hunters (158571527)
+IMAGE reggae-semaine-04: File:Winslow Homer - Palm Tree, Nassau.jpg — Winslow Homer — Public domain
+APPLE MUSIC reggae-semaine-04/reggae-my-boy-lollipop: My Boy Lollipop — Millie Small — My Boy Lollipop: The Best of Millie Small (1443334806)
+APPLE MUSIC reggae-semaine-04/reggae-guns-of-navarone: Guns of Navarone — The Skatalites — Guns Of Navarone - Single (1687260930)
+IMAGE reggae-semaine-05: File:Martin Johnson Heade-Cattleya Orchid and Three Brazilian Hummingbirds.jpg — Martin Johnson Heade — Public domain
+APPLE MUSIC reggae-semaine-05/reggae-the-harder-they-come: The Harder They Come — Jimmy Cliff — The Harder They Come (Original Motion Picture Soundtrack) (1535475648)
+APPLE MUSIC reggae-semaine-05/reggae-marcus-garvey: Marcus Garvey — Burning Spear — Marcus Garvey (1436091624)
+APPLE MUSIC reggae-semaine-05/reggae-police-and-thieves: Police And Thieves — Junior Murvin — Police And Thieves - Single (1824001173)
+IMAGE reggae-semaine-06: File:Surprised-Rousseau.jpg — Henri Rousseau — Public domain
+APPLE MUSIC reggae-semaine-06/reggae-bam-bam: Bam Bam — Sister Nancy — One Two (1799638137)
+APPLE MUSIC reggae-semaine-06/reggae-under-mi-sleng-teng: Under Mi Sleng Teng — Wayne Smith — King Jammy's - Selector's Choice, Vol. 1 (309436367)
+IMAGE pop-semaine-04: File:Vassily Kandinsky, 1913 - Color Study, Squares with Concentric Circles.jpg — Wassily Kandinsky — Public domain
+APPLE MUSIC pop-semaine-04/pop-i-want-to-hold-your-hand: I Want to Hold Your Hand — The Beatles — Past Masters, Vols. 1 & 2 (1441133632)
+APPLE MUSIC pop-semaine-04/pop-good-vibrations: Good Vibrations — The Beach Boys — Smiley Smile (Mono & Stereo) (1442865074)
+IMAGE pop-semaine-05: File:Burg und Sonne - Klee.jpg — Paul Klee — Public domain
+APPLE MUSIC pop-semaine-05/pop-when-doves-cry: When Doves Cry — Prince & The Revolution — Purple Rain (Deluxe Expanded Edition) [2015 Paisley Park Remaster] (1229320475)
+APPLE MUSIC pop-semaine-05/pop-like-a-prayer: Like a Prayer — Madonna — Like a Prayer (83445997)
+APPLE MUSIC pop-semaine-05/pop-i-wanna-dance-with-somebody: I Wanna Dance with Somebody (Who Loves Me) — Whitney Houston — Whitney (840431935)
+IMAGE pop-semaine-06: File:Marc - Kämpfende Formen PA291382.jpg — Franz Marc — Public domain
+APPLE MUSIC pop-semaine-06/pop-baby-one-more-time: ...Baby One More Time — Britney Spears — ...Baby One More Time (Deluxe Version) (273143820)
+APPLE MUSIC pop-semaine-06/pop-crazy-in-love: Crazy in Love (feat. JAŸ-Z) — Beyoncé — Dangerously in Love (201274644)
+IMAGE rock-semaine-04: File:Joseph Mallord William Turner - The Burning of the Houses of Lords and Commons, 16 October 1834 - 1942.647 - Cleveland Museum of Art.jpg — J. M. W. Turner — Public domain
+APPLE MUSIC rock-semaine-04/rock-smoke-on-the-water: Smoke on the Water (Remastered) — Deep Purple — Machine Head (Remastered) (1440787908)
+APPLE MUSIC rock-semaine-04/rock-bohemian-rhapsody: Bohemian Rhapsody — Queen — A Night At The Opera (Deluxe Edition) (6781024437)
+IMAGE rock-semaine-05: File:George Wesley Bellows Stag at Sharkey (Cropped).jpg — George Bellows — Public domain
+APPLE MUSIC rock-semaine-05/rock-blitzkrieg-bop: Blitzkrieg Bop (40th Anniversary Mono Mix) — Ramones — Ramones (40th Anniversary Deluxe Edition) (1127410290)
+APPLE MUSIC rock-semaine-05/rock-london-calling: London Calling — The Clash — London Calling (684811768)
+IMAGE rock-semaine-06: File:Edvard Munch, The Scream, 1893, National Gallery, Oslo (1) (35658212823).jpg — Richard Mortel from Riyadh, Saudi Arabia — CC BY 2.0
+APPLE MUSIC rock-semaine-06/rock-smells-like-teen-spirit: Smells Like Teen Spirit (Remastered) — Nirvana — Nevermind (30th Anniversary Super Deluxe) (1586410661)
+APPLE MUSIC rock-semaine-06/rock-creep: Creep — Radiohead — Halloween (922360286)
+APPLE MUSIC rock-semaine-06/rock-seven-nation-army: Seven Nation Army — The White Stripes — Elephant (Deluxe) (1675379764)
 
 NOT FOUND:
 audio semaine-04/beethoven-symphonies-5-7: Symphony No. 7 — Allegretto

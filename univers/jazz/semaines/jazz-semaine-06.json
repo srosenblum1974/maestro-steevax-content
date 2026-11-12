@@ -43,7 +43,7 @@
     "en": "What is missing: there is no piano, so no chords to guide the soloists."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Ornette%20Coleman%20Lonely%20Woman",
+    "appleMusic": "https://music.apple.com/fr/album/lonely-woman-remastered/896564052?i=896564104&uo=4",
     "spotify": "https://open.spotify.com/search/Ornette%20Coleman%20Lonely%20Woman",
     "youtube": "https://www.youtube.com/results?search_query=Ornette%20Coleman%20Lonely%20Woman"
    },
@@ -188,7 +188,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Lonely Woman (1959)",
+      "en": "Lonely Woman (1959)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "896564104",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/0f/df/0f0fdf2f-48bc-fddb-3e68-5aefd11aa0cb/mzaf_12579562674524591415.plus.aac.p.m4a",
+     "performer": "Ornette Coleman",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/lonely-woman-remastered/896564052?i=896564104&uo=4"
+    }
+   ]
   },
   {
    "id": "jazz-a-love-supreme-acknowledgement",
@@ -217,7 +231,7 @@
     "en": "The four notes of the bass, near the start: the whole piece grows from them."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=John%20Coltrane%20A%20Love%20Supreme%2C%20Part%20I%3A%20Acknowledgement",
+    "appleMusic": "https://music.apple.com/fr/album/a-love-supreme-pt-1-acknowledgement/1440713018?i=1440713020&uo=4",
     "spotify": "https://open.spotify.com/search/John%20Coltrane%20A%20Love%20Supreme%2C%20Part%20I%3A%20Acknowledgement",
     "youtube": "https://www.youtube.com/results?search_query=John%20Coltrane%20A%20Love%20Supreme%2C%20Part%20I%3A%20Acknowledgement"
    },
@@ -375,7 +389,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "A Love Supreme, Part I: Acknowledgement (1965)",
+      "en": "A Love Supreme, Part I: Acknowledgement (1965)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1440713020",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/57/ad/4657ad07-9bb1-a8f9-75d3-61a3f1d3dc8b/mzaf_2837170089287274786.plus.aac.p.m4a",
+     "performer": "John Coltrane",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/a-love-supreme-pt-1-acknowledgement/1440713018?i=1440713020&uo=4"
+    }
+   ]
   },
   {
    "id": "jazz-chameleon",
@@ -404,7 +432,7 @@
     "en": "The bass line at the start, played on a synthesizer: it loops round and never lets you go."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Herbie%20Hancock%20Chameleon",
+    "appleMusic": "https://music.apple.com/fr/album/chameleon/158571524?i=158571527&uo=4",
     "spotify": "https://open.spotify.com/search/Herbie%20Hancock%20Chameleon",
     "youtube": "https://www.youtube.com/results?search_query=Herbie%20Hancock%20Chameleon"
    },
@@ -549,7 +577,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Chameleon (1973)",
+      "en": "Chameleon (1973)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "158571527",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/bc/d1/05bcd144-2db9-5e43-a4a9-1bd33cf7d169/mzaf_7915628022145635448.plus.aac.p.m4a",
+     "performer": "Herbie Hancock",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/chameleon/158571524?i=158571527&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/jazz-semaine-06.jpg",
+  "credit": "Theo van Doesburg, 1918",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg-Rhythmus_eines_russischen_Tanzes.jpg",
+  "focus": "50% 50%"
+ }
 }

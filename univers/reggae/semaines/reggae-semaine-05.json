@@ -43,7 +43,7 @@
     "en": "The organ bubbling behind the voice, and the energy of a singer staking everything."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Jimmy%20Cliff%20The%20Harder%20They%20Come",
+    "appleMusic": "https://music.apple.com/fr/album/the-harder-they-come/1535475638?i=1535475648&uo=4",
     "spotify": "https://open.spotify.com/search/Jimmy%20Cliff%20The%20Harder%20They%20Come",
     "youtube": "https://www.youtube.com/results?search_query=Jimmy%20Cliff%20The%20Harder%20They%20Come"
    },
@@ -190,7 +190,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "The Harder They Come (1972)",
+      "en": "The Harder They Come (1972)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1535475648",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/70/1b/1b701b33-6bc3-7449-943b-7d1de44d36c3/mzaf_16608811923221816452.plus.aac.p.m4a",
+     "performer": "Jimmy Cliff",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/the-harder-they-come/1535475638?i=1535475648&uo=4"
+    }
+   ]
   },
   {
    "id": "reggae-marcus-garvey",
@@ -219,7 +233,7 @@
     "en": "The low horns at the start, solemn, and a voice that chants more than it sings."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Burning%20Spear%20Marcus%20Garvey",
+    "appleMusic": "https://music.apple.com/fr/album/marcus-garvey/1436091420?i=1436091624&uo=4",
     "spotify": "https://open.spotify.com/search/Burning%20Spear%20Marcus%20Garvey",
     "youtube": "https://www.youtube.com/results?search_query=Burning%20Spear%20Marcus%20Garvey"
    },
@@ -368,7 +382,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Marcus Garvey (1975)",
+      "en": "Marcus Garvey (1975)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1436091624",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/d5/26/13d5268e-9147-fcb8-c0d9-11f7326a1d1b/mzaf_18062463742243492122.plus.aac.p.m4a",
+     "performer": "Burning Spear",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/marcus-garvey/1436091420?i=1436091624&uo=4"
+    }
+   ]
   },
   {
    "id": "reggae-police-and-thieves",
@@ -401,7 +429,7 @@
     "en": "The falsetto voice, very high and very gentle, on a subject that is anything but."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Junior%20Murvin%20Police%20and%20Thieves",
+    "appleMusic": "https://music.apple.com/fr/album/police-and-thieves/1824001172?i=1824001173&uo=4",
     "spotify": "https://open.spotify.com/search/Junior%20Murvin%20Police%20and%20Thieves",
     "youtube": "https://www.youtube.com/results?search_query=Junior%20Murvin%20Police%20and%20Thieves"
    },
@@ -555,7 +583,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Police and Thieves (1976)",
+      "en": "Police and Thieves (1976)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1824001173",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/63/60/c7636059-c8e2-61de-5b4d-3debaea6a229/mzaf_2450396378178541253.plus.aac.p.m4a",
+     "performer": "Junior Murvin",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/police-and-thieves/1824001172?i=1824001173&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/reggae-semaine-05.jpg",
+  "credit": "Martin Johnson Heade, 1871",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Martin_Johnson_Heade-Cattleya_Orchid_and_Three_Brazilian_Hummingbirds.jpg",
+  "focus": "50% 50%"
+ }
 }

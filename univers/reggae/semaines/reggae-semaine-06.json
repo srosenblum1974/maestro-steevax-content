@@ -43,7 +43,7 @@
     "en": "The voice that talks as much as it sings, laid over an instrumental that already existed."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Sister%20Nancy%20Bam%20Bam",
+    "appleMusic": "https://music.apple.com/fr/album/bam-bam/1799637929?i=1799638137&uo=4",
     "spotify": "https://open.spotify.com/search/Sister%20Nancy%20Bam%20Bam",
     "youtube": "https://www.youtube.com/results?search_query=Sister%20Nancy%20Bam%20Bam"
    },
@@ -197,7 +197,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Bam Bam (1982)",
+      "en": "Bam Bam (1982)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1799638137",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/f6/2c/37f62c3b-0045-2ea1-2c9c-7054ad1d8e41/mzaf_14777848545239499490.plus.aac.p.m4a",
+     "performer": "Sister Nancy",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/bam-bam/1799637929?i=1799638137&uo=4"
+    }
+   ]
   },
   {
    "id": "reggae-under-mi-sleng-teng",
@@ -230,7 +244,7 @@
     "en": "The sound: no real instruments any more, only a small electronic keyboard and its drum machine."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Wayne%20Smith%20Under%20Mi%20Sleng%20Teng",
+    "appleMusic": "https://music.apple.com/fr/album/under-mi-sleng-teng/309436284?i=309436367&uo=4",
     "spotify": "https://open.spotify.com/search/Wayne%20Smith%20Under%20Mi%20Sleng%20Teng",
     "youtube": "https://www.youtube.com/results?search_query=Wayne%20Smith%20Under%20Mi%20Sleng%20Teng"
    },
@@ -372,7 +386,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Under Mi Sleng Teng (1985)",
+      "en": "Under Mi Sleng Teng (1985)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "309436367",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/83/b6/0883b611-a4c1-ea7f-034e-380e93a658e9/mzaf_64665082999266602.plus.aac.p.m4a",
+     "performer": "Wayne Smith",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/under-mi-sleng-teng/309436284?i=309436367&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/reggae-semaine-06.jpg",
+  "credit": "Henri Rousseau, 1891",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Surprised-Rousseau.jpg",
+  "focus": "50% 50%"
+ }
 }

@@ -43,7 +43,7 @@
     "en": "The instruments entering one by one: guitar, cymbal, organ, drums, bass."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Deep%20Purple%20Smoke%20on%20the%20Water",
+    "appleMusic": "https://music.apple.com/fr/album/smoke-on-the-water-remastered/1440787519?i=1440787908&uo=4",
     "spotify": "https://open.spotify.com/search/Deep%20Purple%20Smoke%20on%20the%20Water",
     "youtube": "https://www.youtube.com/results?search_query=Deep%20Purple%20Smoke%20on%20the%20Water"
    },
@@ -191,7 +191,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Smoke on the Water (1972)",
+      "en": "Smoke on the Water (1972)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1440787908",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/3f/1b/083f1b23-decd-8fe6-2bad-0437d1c5d959/mzaf_9991776491763640927.plus.aac.p.m4a",
+     "performer": "Deep Purple",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/smoke-on-the-water-remastered/1440787519?i=1440787908&uo=4"
+    }
+   ]
   },
   {
    "id": "rock-bohemian-rhapsody",
@@ -220,7 +234,7 @@
     "en": "The changes of genre: ballad, opera, hard rock. There is no chorus."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Queen%20Bohemian%20Rhapsody",
+    "appleMusic": "https://music.apple.com/fr/album/bohemian-rhapsody/6781024026?i=6781024437&uo=4",
     "spotify": "https://open.spotify.com/search/Queen%20Bohemian%20Rhapsody",
     "youtube": "https://www.youtube.com/results?search_query=Queen%20Bohemian%20Rhapsody"
    },
@@ -377,7 +391,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Bohemian Rhapsody (1975)",
+      "en": "Bohemian Rhapsody (1975)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "6781024437",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/83/09/4b8309c3-e3b2-10bd-ea80-ec017d832503/mzaf_9752264660400108875.plus.aac.p.m4a",
+     "performer": "Queen",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/bohemian-rhapsody/6781024026?i=6781024437&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/rock-semaine-04.jpg",
+  "credit": "J. M. W. Turner, 1834",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_The_Burning_of_the_Houses_of_Lords_and_Commons,_16_October_1834_-_1942.647_-_Cleveland_Museum_of_Art.jpg",
+  "focus": "50% 50%"
+ }
 }

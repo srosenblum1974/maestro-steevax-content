@@ -43,7 +43,7 @@
     "en": "Lennon's and McCartney's two voices, glued together, and the handclaps."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=The%20Beatles%20I%20Want%20to%20Hold%20Your%20Hand",
+    "appleMusic": "https://music.apple.com/fr/album/i-want-to-hold-your-hand/1441133181?i=1441133632&uo=4",
     "spotify": "https://open.spotify.com/search/The%20Beatles%20I%20Want%20to%20Hold%20Your%20Hand",
     "youtube": "https://www.youtube.com/results?search_query=The%20Beatles%20I%20Want%20to%20Hold%20Your%20Hand"
    },
@@ -201,7 +201,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "I Want to Hold Your Hand (1963)",
+      "en": "I Want to Hold Your Hand (1963)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1441133632",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/f2/52/acf2524f-9f07-933f-e099-42a8d0f45c64/mzaf_16527119621893589884.plus.aac.p.m4a",
+     "performer": "The Beatles",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/i-want-to-hold-your-hand/1441133181?i=1441133632&uo=4"
+    }
+   ]
   },
   {
    "id": "pop-good-vibrations",
@@ -234,7 +248,7 @@
     "en": "The changes of scenery: the song moves from one mood to another as a film changes scene."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=The%20Beach%20Boys%20Good%20Vibrations",
+    "appleMusic": "https://music.apple.com/fr/album/good-vibrations/1442864862?i=1442865074&uo=4",
     "spotify": "https://open.spotify.com/search/The%20Beach%20Boys%20Good%20Vibrations",
     "youtube": "https://www.youtube.com/results?search_query=The%20Beach%20Boys%20Good%20Vibrations"
    },
@@ -382,7 +396,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Good Vibrations (1966)",
+      "en": "Good Vibrations (1966)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1442865074",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4f/a1/b2/4fa1b2fe-7f99-8a4c-72a9-0804c77f2b58/mzaf_7135940363914090298.plus.aac.p.m4a",
+     "performer": "The Beach Boys",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/good-vibrations/1442864862?i=1442865074&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/pop-semaine-04.jpg",
+  "credit": "Wassily Kandinsky, 1913",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1913_-_Color_Study,_Squares_with_Concentric_Circles.jpg",
+  "focus": "50% 50%"
+ }
 }

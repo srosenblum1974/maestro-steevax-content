@@ -43,7 +43,7 @@
     "en": "The speed. Do not try to follow everything: let the notes go by and feel the drive."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Charlie%20Parker%20Ko-Ko",
+    "appleMusic": "https://music.apple.com/fr/album/ko-ko/1491386851?i=1491387110&uo=4",
     "spotify": "https://open.spotify.com/search/Charlie%20Parker%20Ko-Ko",
     "youtube": "https://www.youtube.com/results?search_query=Charlie%20Parker%20Ko-Ko"
    },
@@ -189,7 +189,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Ko-Ko (1945)",
+      "en": "Ko-Ko (1945)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1491387110",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/c6/7f/cdc67f82-a3b8-a8ca-cefe-6ade5b6b3f0d/mzaf_11331458498597517525.plus.aac.p.m4a",
+     "performer": "Charlie Parker",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/ko-ko/1491386851?i=1491387110&uo=4"
+    }
+   ]
   },
   {
    "id": "jazz-round-midnight",
@@ -218,7 +232,7 @@
     "en": "The piano's “wrong” notes: they sound off for a second, then obvious."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Thelonious%20Monk%20%E2%80%99Round%20Midnight",
+    "appleMusic": "https://music.apple.com/fr/album/round-midnight/1459444209?i=1459444213&uo=4",
     "spotify": "https://open.spotify.com/search/Thelonious%20Monk%20%E2%80%99Round%20Midnight",
     "youtube": "https://www.youtube.com/results?search_query=Thelonious%20Monk%20%E2%80%99Round%20Midnight"
    },
@@ -376,7 +390,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "’Round Midnight (1947)",
+      "en": "’Round Midnight (1947)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1459444213",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/79/aa/e879aa86-5736-3cb0-5004-4c667b938e37/mzaf_18182249785867051776.plus.aac.p.m4a",
+     "performer": "Thelonious Monk",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/round-midnight/1459444209?i=1459444213&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/jazz-semaine-05.jpg",
+  "credit": "Wassily Kandinsky, 1912",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Vasily_Kandinsky_Improvisation_28_(second_version).jpg",
+  "focus": "50% 50%"
+ }
 }
