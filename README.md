@@ -24,3 +24,22 @@ parcours sous `root` : `_parcours.json`, `_index.json`, `semaines/<id>.json`, `j
 identifiants de semaines et de pièces uniques entre univers (préfixez-les), fichier de semaine nommé d'après son id,
 types de piste (`kind` : `free` ou `appleMusic`) admis par l'univers, fils (`threads`) vers des pièces existantes.
 Une pièce indique ses auteurs par `composer` (classique) ou `people` (`[{name, role}]`).
+
+
+## Séances d'oreille (moteur commun à tous les univers)
+
+L'app entraîne l'oreille par séances de quelques minutes sur des extraits courts. Rien n'y est propre à un genre :
+tout vient des fichiers de l'univers.
+
+- **Compétences** : `skills` dans le `_parcours.json` de l'univers (`id`, `icon`, `name`). Un `role` (`artist`, `piece`
+  ou `period`, avec la question `ask`) permet à l'app d'écrire seule des questions à partir des pièces : qui, quel
+  morceau, quelle époque. Sans `skills`, l'app utilise trois compétences génériques.
+- **Séances écrites** : `sessions` dans un fichier de semaine. Chaque exercice (`type: "choice"`) a une compétence
+  (`skill`), une question (`prompt`), un ou deux extraits (`excerpts` : `work`, `track`, `start`, `duration` en
+  secondes), des réponses (`options`), la bonne (`answer`), une explication (`why`) et une phrase d'introduction
+  facultative (`tip`). Avec deux extraits, les réponses sont dans l'ordre A, B.
+- **Séances automatiques** : une semaine sans `sessions` reçoit une séance écrite par l'app. Le test à l'aveugle et les
+  révisions sont toujours automatiques. Un nouvel univers fonctionne donc dès que ses pièces ont une piste.
+- Pistes Apple Music : l'extrait est pris dans l'aperçu de 30 secondes (`start + duration` ≤ 30).
+
+`tools/build.py` vérifie les compétences, les extraits (pièce et piste existantes dans l'univers) et les réponses.

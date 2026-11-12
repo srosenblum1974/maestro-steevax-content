@@ -207,5 +207,511 @@
  "world": {
   "fr": "Vers 1720 : Louis XV est un enfant roi, Venise brille encore, et Bach n'est connu que comme organiste.",
   "en": "Around 1720: Louis XV is a boy king, Venice still shines, and Bach is known mainly as an organist."
- }
+ },
+ "sessions": [
+  {
+   "id": "s01-1",
+   "title": {
+    "fr": "Un seul instrument",
+    "en": "A single instrument"
+   },
+   "teaser": {
+    "fr": "Prochaine séance : pourquoi ces suites ont dormi presque deux siècles.",
+    "en": "Next session: why these suites slept for almost two centuries."
+   },
+   "exercises": [
+    {
+     "id": "s01-1-1",
+     "type": "choice",
+     "skill": "instruments",
+     "tip": {
+      "fr": "Écoutez d'abord, répondez ensuite.",
+      "en": "Listen first, then answer."
+     },
+     "prompt": {
+      "fr": "Quel instrument entendez-vous ?",
+      "en": "Which instrument do you hear?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 0,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Violoncelle",
+       "en": "Cello"
+      },
+      {
+       "fr": "Violon",
+       "en": "Violin"
+      },
+      {
+       "fr": "Piano",
+       "en": "Piano"
+      },
+      {
+       "fr": "Flûte",
+       "en": "Flute"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Le violoncelle : un grand violon au son grave et chaud, que l'on joue assis, l'instrument entre les genoux.",
+      "en": "The cello: a large violin with a low, warm sound, played seated with the instrument between the knees."
+     }
+    },
+    {
+     "id": "s01-1-2",
+     "type": "choice",
+     "skill": "ecoute",
+     "prompt": {
+      "fr": "Combien de musiciens jouent ?",
+      "en": "How many musicians are playing?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 25,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Un seul",
+       "en": "Just one"
+      },
+      {
+       "fr": "Deux",
+       "en": "Two"
+      },
+      {
+       "fr": "Un quatuor",
+       "en": "A quartet"
+      },
+      {
+       "fr": "Un orchestre",
+       "en": "An orchestra"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Un seul violoncelliste. Bach donne l'illusion de plusieurs voix en faisant sauter l'archet du grave à l'aigu.",
+      "en": "A single cellist. Bach creates the illusion of several voices by making the bow leap from low to high."
+     }
+    },
+    {
+     "id": "s01-1-3",
+     "type": "choice",
+     "skill": "instruments",
+     "prompt": {
+      "fr": "Lequel est joué par un seul instrument ?",
+      "en": "Which one is played by a single instrument?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 0,
+       "start": 5,
+       "duration": 12
+      },
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 50,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "A",
+       "en": "A"
+      },
+      {
+       "fr": "B",
+       "en": "B"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "fr": "B est le Prélude de Bach, seul au violoncelle. A est un orchestre à cordes : Vivaldi, que vous découvrirez la semaine prochaine.",
+      "en": "B is Bach's Prelude, on solo cello. A is a string orchestra: Vivaldi, whom you will meet next week."
+     }
+    },
+    {
+     "id": "s01-1-4",
+     "type": "choice",
+     "skill": "epoques",
+     "tip": {
+      "fr": "Bach écrit ces suites vers 1720, à la cour de Köthen.",
+      "en": "Bach writes these suites around 1720, at the court of Köthen."
+     },
+     "prompt": {
+      "fr": "Comment appelle-t-on cette époque de la musique ?",
+      "en": "What is this era of music called?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 70,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Baroque",
+       "en": "Baroque"
+      },
+      {
+       "fr": "Classique",
+       "en": "Classical"
+      },
+      {
+       "fr": "Romantique",
+       "en": "Romantic"
+      },
+      {
+       "fr": "Moderne",
+       "en": "Modern"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Le baroque va d'environ 1600 à 1750. Bach en est le sommet.",
+      "en": "The Baroque runs from about 1600 to 1750. Bach is its summit."
+     }
+    },
+    {
+     "id": "s01-1-5",
+     "type": "choice",
+     "skill": "ecoute",
+     "prompt": {
+      "fr": "Les notes sont-elles jouées ensemble ou l'une après l'autre ?",
+      "en": "Are the notes played together or one after another?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 0,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "L'une après l'autre",
+       "en": "One after another"
+      },
+      {
+       "fr": "Plusieurs à la fois, en accords",
+       "en": "Several at once, in chords"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "L'une après l'autre : des accords égrenés note par note. C'est ce qu'on appelle un arpège.",
+      "en": "One after another: chords spelled out note by note. This is called an arpeggio."
+     }
+    },
+    {
+     "id": "s01-1-6",
+     "type": "choice",
+     "skill": "compositeurs",
+     "prompt": {
+      "fr": "Qui a composé cette musique ?",
+      "en": "Who composed this music?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 40,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Bach",
+       "en": "Bach"
+      },
+      {
+       "fr": "Mozart",
+       "en": "Mozart"
+      },
+      {
+       "fr": "Vivaldi",
+       "en": "Vivaldi"
+      },
+      {
+       "fr": "Chopin",
+       "en": "Chopin"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Johann Sebastian Bach, Suite pour violoncelle n°1, Prélude.",
+      "en": "Johann Sebastian Bach, Cello Suite No. 1, Prelude."
+     }
+    }
+   ]
+  },
+  {
+   "id": "s01-2",
+   "title": {
+    "fr": "Le Prélude, de l'intérieur",
+    "en": "Inside the Prelude"
+   },
+   "teaser": {
+    "fr": "Semaine suivante : Vivaldi peint un orage avec des violons.",
+    "en": "Next week: Vivaldi paints a storm with violins."
+   },
+   "exercises": [
+    {
+     "id": "s01-2-1",
+     "type": "choice",
+     "skill": "oeuvres",
+     "tip": {
+      "fr": "Ce morceau est un prélude.",
+      "en": "This piece is a prelude."
+     },
+     "prompt": {
+      "fr": "Que veut dire « prélude » ?",
+      "en": "What does “prelude” mean?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 0,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Le morceau d'ouverture",
+       "en": "The opening piece"
+      },
+      {
+       "fr": "Le morceau final",
+       "en": "The closing piece"
+      },
+      {
+       "fr": "Une danse lente",
+       "en": "A slow dance"
+      },
+      {
+       "fr": "Un chant",
+       "en": "A song"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Le prélude ouvre la suite, avant une série de danses.",
+      "en": "The prelude opens the suite, before a series of dances."
+     }
+    },
+    {
+     "id": "s01-2-2",
+     "type": "choice",
+     "skill": "oeuvres",
+     "tip": {
+      "fr": "Ces suites sont restées presque oubliées pendant près de deux siècles.",
+      "en": "These suites lay almost forgotten for nearly two centuries."
+     },
+     "prompt": {
+      "fr": "Qui les a fait connaître au monde entier ?",
+      "en": "Who made them known to the whole world?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 20,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Pablo Casals",
+       "en": "Pablo Casals"
+      },
+      {
+       "fr": "Mozart",
+       "en": "Mozart"
+      },
+      {
+       "fr": "Beethoven",
+       "en": "Beethoven"
+      },
+      {
+       "fr": "Vivaldi",
+       "en": "Vivaldi"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Le violoncelliste catalan Pablo Casals les découvre adolescent à Barcelone, puis les enregistre dans les années 1930.",
+      "en": "The Catalan cellist Pablo Casals found them as a teenager in Barcelona, then recorded them in the 1930s."
+     }
+    },
+    {
+     "id": "s01-2-3",
+     "type": "choice",
+     "skill": "instruments",
+     "prompt": {
+      "fr": "Lequel est un violoncelle ?",
+      "en": "Which one is a cello?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 30,
+       "duration": 12
+      },
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 1,
+       "start": 5,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "A",
+       "en": "A"
+      },
+      {
+       "fr": "B",
+       "en": "B"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "A : le violoncelle, grave et chaud. B : des violons, plus aigus et plus brillants.",
+      "en": "A: the cello, low and warm. B: violins, higher and brighter."
+     }
+    },
+    {
+     "id": "s01-2-4",
+     "type": "choice",
+     "skill": "oeuvres",
+     "prompt": {
+      "fr": "Ces deux extraits viennent-ils de la même œuvre ?",
+      "en": "Do these two excerpts come from the same work?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 10,
+       "duration": 12
+      },
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 75,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "Oui, la même",
+       "en": "Yes, the same"
+      },
+      {
+       "fr": "Non, deux œuvres",
+       "en": "No, two works"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Les deux viennent du Prélude : même instrument, même mouvement de vagues.",
+      "en": "Both come from the Prelude: the same instrument, the same wave-like motion."
+     }
+    },
+    {
+     "id": "s01-2-5",
+     "type": "choice",
+     "skill": "epoques",
+     "prompt": {
+      "fr": "De quelle époque date cette musique ?",
+      "en": "Which era is this music from?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 55,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Baroque",
+       "en": "Baroque"
+      },
+      {
+       "fr": "Classique",
+       "en": "Classical"
+      },
+      {
+       "fr": "Romantique",
+       "en": "Romantic"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Baroque : Bach, vers 1720.",
+      "en": "Baroque: Bach, around 1720."
+     }
+    },
+    {
+     "id": "s01-2-6",
+     "type": "choice",
+     "skill": "oeuvres",
+     "prompt": {
+      "fr": "Quelle œuvre entendez-vous ?",
+      "en": "Which work do you hear?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 85,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "Suite pour violoncelle n°1 de Bach",
+       "en": "Bach's Cello Suite No. 1"
+      },
+      {
+       "fr": "Les Quatre Saisons de Vivaldi",
+       "en": "Vivaldi's Four Seasons"
+      },
+      {
+       "fr": "Symphonie n°40 de Mozart",
+       "en": "Mozart's Symphony No. 40"
+      },
+      {
+       "fr": "Requiem de Mozart",
+       "en": "Mozart's Requiem"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "La Suite pour violoncelle n°1 de Bach. Vous la reconnaissez maintenant.",
+      "en": "Bach's Cello Suite No. 1. You recognise it now."
+     }
+    }
+   ]
+  }
+ ]
 }

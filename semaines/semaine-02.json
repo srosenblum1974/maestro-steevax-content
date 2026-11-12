@@ -219,5 +219,523 @@
  "world": {
   "fr": "1725 : à Venise, le carnaval dure des mois et attire l'Europe entière.",
   "en": "1725: in Venice carnival lasts for months and draws all Europe."
- }
+ },
+ "sessions": [
+  {
+   "id": "s02-1",
+   "title": {
+    "fr": "L'orage",
+    "en": "The storm"
+   },
+   "teaser": {
+    "fr": "Prochaine séance : le printemps, et des oiseaux joués au violon.",
+    "en": "Next session: spring, and birds played on violins."
+   },
+   "exercises": [
+    {
+     "id": "s02-1-1",
+     "type": "choice",
+     "skill": "instruments",
+     "prompt": {
+      "fr": "Quelle famille d'instruments entendez-vous ?",
+      "en": "Which family of instruments do you hear?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 0,
+       "start": 0,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Les cordes (violons, violoncelles)",
+       "en": "Strings (violins, cellos)"
+      },
+      {
+       "fr": "Les cuivres (trompettes, cors)",
+       "en": "Brass (trumpets, horns)"
+      },
+      {
+       "fr": "Les bois (flûtes, hautbois)",
+       "en": "Woodwinds (flutes, oboes)"
+      },
+      {
+       "fr": "Les percussions",
+       "en": "Percussion"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Un orchestre à cordes : violons, altos, violoncelles et contrebasse.",
+      "en": "A string orchestra: violins, violas, cellos and double bass."
+     }
+    },
+    {
+     "id": "s02-1-2",
+     "type": "choice",
+     "skill": "ecoute",
+     "tip": {
+      "fr": "Vivaldi a accompagné chaque saison d'un poème. Celui-ci parle du temps qu'il fait.",
+      "en": "Vivaldi paired each season with a poem. This one is about the weather."
+     },
+     "prompt": {
+      "fr": "Que décrit cette musique ?",
+      "en": "What does this music describe?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 0,
+       "start": 10,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Un orage d'été",
+       "en": "A summer storm"
+      },
+      {
+       "fr": "Une berceuse",
+       "en": "A lullaby"
+      },
+      {
+       "fr": "Une promenade tranquille",
+       "en": "A quiet walk"
+      },
+      {
+       "fr": "Une marche militaire",
+       "en": "A military march"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Le finale de L'Été : l'orage et la grêle s'abattent sur les champs. Les archets fusent à toute vitesse.",
+      "en": "The finale of Summer: storm and hail beat down on the fields. The bows fly at full speed."
+     }
+    },
+    {
+     "id": "s02-1-3",
+     "type": "choice",
+     "skill": "ecoute",
+     "prompt": {
+      "fr": "Le tempo est…",
+      "en": "The tempo is…"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 0,
+       "start": 30,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "Très rapide",
+       "en": "Very fast"
+      },
+      {
+       "fr": "Lent",
+       "en": "Slow"
+      },
+      {
+       "fr": "Modéré",
+       "en": "Moderate"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Presto : « très vite » en italien. C'est l'indication écrite par Vivaldi.",
+      "en": "Presto: “very fast” in Italian. That is the marking Vivaldi wrote."
+     }
+    },
+    {
+     "id": "s02-1-4",
+     "type": "choice",
+     "skill": "compositeurs",
+     "prompt": {
+      "fr": "Lequel est de Vivaldi ?",
+      "en": "Which one is by Vivaldi?"
+     },
+     "excerpts": [
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 15,
+       "duration": 12
+      },
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 0,
+       "start": 45,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "A",
+       "en": "A"
+      },
+      {
+       "fr": "B",
+       "en": "B"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "fr": "B : l'orage de Vivaldi. A : le violoncelle seul de Bach.",
+      "en": "B: Vivaldi's storm. A: Bach's solo cello."
+     }
+    },
+    {
+     "id": "s02-1-5",
+     "type": "choice",
+     "skill": "epoques",
+     "tip": {
+      "fr": "Les Quatre Saisons paraissent en 1725.",
+      "en": "The Four Seasons are published in 1725."
+     },
+     "prompt": {
+      "fr": "Vivaldi et Bach appartiennent à la même époque. Laquelle ?",
+      "en": "Vivaldi and Bach belong to the same era. Which one?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 0,
+       "start": 60,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "Baroque",
+       "en": "Baroque"
+      },
+      {
+       "fr": "Classique",
+       "en": "Classical"
+      },
+      {
+       "fr": "Romantique",
+       "en": "Romantic"
+      },
+      {
+       "fr": "Moderne",
+       "en": "Modern"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Le baroque. Vivaldi à Venise, Bach en Allemagne, au même moment.",
+      "en": "The Baroque. Vivaldi in Venice, Bach in Germany, at the same time."
+     }
+    },
+    {
+     "id": "s02-1-6",
+     "type": "choice",
+     "skill": "ecoute",
+     "tip": {
+      "fr": "Dans cette œuvre, un violon se détache de l'orchestre et dialogue avec lui.",
+      "en": "In this work, one violin stands out from the orchestra and converses with it."
+     },
+     "prompt": {
+      "fr": "Comment s'appelle cette forme ?",
+      "en": "What is this form called?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 0,
+       "start": 20,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Un concerto",
+       "en": "A concerto"
+      },
+      {
+       "fr": "Une symphonie",
+       "en": "A symphony"
+      },
+      {
+       "fr": "Une suite",
+       "en": "A suite"
+      },
+      {
+       "fr": "Un requiem",
+       "en": "A requiem"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Un concerto : un soliste face à l'orchestre. Chaque saison est un concerto pour violon.",
+      "en": "A concerto: a soloist facing the orchestra. Each season is a violin concerto."
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02-2",
+   "title": {
+    "fr": "Le printemps",
+    "en": "Spring"
+   },
+   "teaser": {
+    "fr": "Semaine suivante : Mozart, et une symphonie qui commence sans prévenir.",
+    "en": "Next week: Mozart, and a symphony that starts without warning."
+   },
+   "exercises": [
+    {
+     "id": "s02-2-1",
+     "type": "choice",
+     "skill": "ecoute",
+     "prompt": {
+      "fr": "Quelle saison Vivaldi peint-il ici ?",
+      "en": "Which season is Vivaldi painting here?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 1,
+       "start": 0,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Le printemps",
+       "en": "Spring"
+      },
+      {
+       "fr": "L'hiver",
+       "en": "Winter"
+      },
+      {
+       "fr": "L'été",
+       "en": "Summer"
+      },
+      {
+       "fr": "L'automne",
+       "en": "Autumn"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Le Printemps : un thème joyeux et dansant, l'un des plus célèbres de toute la musique.",
+      "en": "Spring: a joyful, dancing theme, one of the most famous in all music."
+     }
+    },
+    {
+     "id": "s02-2-2",
+     "type": "choice",
+     "skill": "ecoute",
+     "prompt": {
+      "fr": "Lequel est l'orage d'été ?",
+      "en": "Which one is the summer storm?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 1,
+       "start": 10,
+       "duration": 12
+      },
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 0,
+       "start": 5,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "A",
+       "en": "A"
+      },
+      {
+       "fr": "B",
+       "en": "B"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "fr": "B : l'orage, rapide et menaçant. A : le printemps, clair et dansant.",
+      "en": "B: the storm, fast and threatening. A: spring, bright and dancing."
+     }
+    },
+    {
+     "id": "s02-2-3",
+     "type": "choice",
+     "skill": "ecoute",
+     "tip": {
+      "fr": "Dans Le Printemps, Vivaldi imite un son de la nature avec des violons.",
+      "en": "In Spring, Vivaldi imitates a sound of nature with violins."
+     },
+     "prompt": {
+      "fr": "Lequel, d'après son poème ?",
+      "en": "Which one, according to his poem?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 1,
+       "start": 30,
+       "duration": 20
+      }
+     ],
+     "options": [
+      {
+       "fr": "Le chant des oiseaux",
+       "en": "Birdsong"
+      },
+      {
+       "fr": "Le galop d'un cheval",
+       "en": "A galloping horse"
+      },
+      {
+       "fr": "Les cloches d'une église",
+       "en": "Church bells"
+      },
+      {
+       "fr": "Le vent d'hiver",
+       "en": "The winter wind"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Des violons se répondent en trilles : ce sont les oiseaux qui saluent le printemps. Vivaldi l'a noté sur la partition.",
+      "en": "Violins answer each other in trills: the birds greeting spring. Vivaldi wrote it in the score."
+     }
+    },
+    {
+     "id": "s02-2-4",
+     "type": "choice",
+     "skill": "compositeurs",
+     "prompt": {
+      "fr": "Qui a composé cette musique ?",
+      "en": "Who composed this music?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 1,
+       "start": 50,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "Vivaldi",
+       "en": "Vivaldi"
+      },
+      {
+       "fr": "Bach",
+       "en": "Bach"
+      },
+      {
+       "fr": "Mozart",
+       "en": "Mozart"
+      },
+      {
+       "fr": "Beethoven",
+       "en": "Beethoven"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Antonio Vivaldi, Les Quatre Saisons, Le Printemps.",
+      "en": "Antonio Vivaldi, The Four Seasons, Spring."
+     }
+    },
+    {
+     "id": "s02-2-5",
+     "type": "choice",
+     "skill": "instruments",
+     "prompt": {
+      "fr": "Dans lequel entend-on un seul musicien ?",
+      "en": "In which one do you hear a single musician?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 1,
+       "start": 60,
+       "duration": 12
+      },
+      {
+       "work": "bach-suites-violoncelle",
+       "track": 0,
+       "start": 60,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "A",
+       "en": "A"
+      },
+      {
+       "fr": "B",
+       "en": "B"
+      }
+     ],
+     "answer": 1,
+     "why": {
+      "fr": "B : le violoncelle seul de Bach. A : l'orchestre de Vivaldi.",
+      "en": "B: Bach's solo cello. A: Vivaldi's orchestra."
+     }
+    },
+    {
+     "id": "s02-2-6",
+     "type": "choice",
+     "skill": "ecoute",
+     "tip": {
+      "fr": "On appelle cela de la « musique à programme ».",
+      "en": "This is called “programme music”."
+     },
+     "prompt": {
+      "fr": "Qu'est-ce que cela veut dire ?",
+      "en": "What does that mean?"
+     },
+     "excerpts": [
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 0,
+       "start": 70,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "La musique raconte une histoire ou décrit une scène",
+       "en": "The music tells a story or describes a scene"
+      },
+      {
+       "fr": "La musique est écrite pour un concert précis",
+       "en": "The music is written for one particular concert"
+      },
+      {
+       "fr": "La musique suit un plan mathématique",
+       "en": "The music follows a mathematical plan"
+      },
+      {
+       "fr": "La musique accompagne une danse",
+       "en": "The music accompanies a dance"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Orage, oiseaux, chaleur : Vivaldi peint des scènes. C'est l'un des premiers grands exemples de musique à programme.",
+      "en": "Storm, birds, heat: Vivaldi paints scenes. It is one of the first great examples of programme music."
+     }
+    }
+   ]
+  }
+ ]
 }

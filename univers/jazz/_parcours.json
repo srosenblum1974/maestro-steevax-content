@@ -612,5 +612,62 @@
   "license": "Public domain",
   "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Ryan%E2%80%99s_(jazz_club)_Harry_the_Hipster_and_Tony%27s_in_1948_NYC,_from-_Joe_Marsala,_Adele_Girard,_and_Toots_Thielemans,_52nd_Street,_New_York,_N.Y.,_ca._1948_(William_P._Gottlieb_11411)_(cropped).jpg",
   "focus": "50% 45%"
- }
+ },
+ "skills": [
+  {
+   "id": "instruments",
+   "icon": "🎷",
+   "name": {
+    "fr": "Instruments",
+    "en": "Instruments"
+   }
+  },
+  {
+   "id": "ecoute",
+   "icon": "👂",
+   "name": {
+    "fr": "Écoute active",
+    "en": "Active listening"
+   }
+  },
+  {
+   "id": "artistes",
+   "icon": "🎤",
+   "name": {
+    "fr": "Artistes",
+    "en": "Artists"
+   },
+   "role": "artist",
+   "ask": {
+    "fr": "Qui joue ?",
+    "en": "Who is playing?"
+   }
+  },
+  {
+   "id": "morceaux",
+   "icon": "🎵",
+   "name": {
+    "fr": "Morceaux",
+    "en": "Tunes"
+   },
+   "role": "piece",
+   "ask": {
+    "fr": "Quel morceau entendez-vous ?",
+    "en": "Which tune do you hear?"
+   }
+  },
+  {
+   "id": "courants",
+   "icon": "🕰️",
+   "name": {
+    "fr": "Courants",
+    "en": "Styles"
+   },
+   "role": "period",
+   "ask": {
+    "fr": "De quel courant du jazz vient cette musique ?",
+    "en": "Which style of jazz is this?"
+   }
+  }
+ ]
 }

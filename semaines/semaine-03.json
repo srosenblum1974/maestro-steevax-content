@@ -410,5 +410,555 @@
  "world": {
   "fr": "1788-1791 : la Révolution française éclate pendant que Mozart écrit ses dernières œuvres.",
   "en": "1788–1791: the French Revolution breaks out while Mozart writes his last works."
- }
+ },
+ "sessions": [
+  {
+   "id": "s03-1",
+   "title": {
+    "fr": "La Symphonie n°40",
+    "en": "Symphony No. 40"
+   },
+   "teaser": {
+    "fr": "Prochaine séance : la dernière page que Mozart ait écrite.",
+    "en": "Next session: the last page Mozart ever wrote."
+   },
+   "exercises": [
+    {
+     "id": "s03-1-1",
+     "type": "choice",
+     "skill": "ecoute",
+     "prompt": {
+      "fr": "Combien de musiciens jouent, environ ?",
+      "en": "Roughly how many musicians are playing?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-symphonie-40",
+       "track": 0,
+       "start": 0,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Un orchestre entier",
+       "en": "A whole orchestra"
+      },
+      {
+       "fr": "Un seul",
+       "en": "Just one"
+      },
+      {
+       "fr": "Un quatuor (quatre musiciens)",
+       "en": "A quartet (four musicians)"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Un orchestre symphonique : cordes, flûte, hautbois, bassons et cors.",
+      "en": "A symphony orchestra: strings, flute, oboes, bassoons and horns."
+     }
+    },
+    {
+     "id": "s03-1-2",
+     "type": "choice",
+     "skill": "instruments",
+     "tip": {
+      "fr": "Mozart a écarté de cette symphonie deux instruments d'éclat.",
+      "en": "Mozart left two showy instruments out of this symphony."
+     },
+     "prompt": {
+      "fr": "Lesquels ?",
+      "en": "Which ones?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-symphonie-40",
+       "track": 0,
+       "start": 20,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Trompettes et timbales",
+       "en": "Trumpets and timpani"
+      },
+      {
+       "fr": "Violons et altos",
+       "en": "Violins and violas"
+      },
+      {
+       "fr": "Flûte et hautbois",
+       "en": "Flute and oboes"
+      },
+      {
+       "fr": "Cors et bassons",
+       "en": "Horns and bassoons"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Ni trompettes ni timbales : la couleur reste sombre et tendue, sans fanfare.",
+      "en": "No trumpets, no timpani: the colour stays dark and tense, with no fanfare."
+     }
+    },
+    {
+     "id": "s03-1-3",
+     "type": "choice",
+     "skill": "epoques",
+     "tip": {
+      "fr": "Mozart écrit cette symphonie à l'été 1788.",
+      "en": "Mozart writes this symphony in the summer of 1788."
+     },
+     "prompt": {
+      "fr": "Quelle époque succède au baroque ?",
+      "en": "Which era follows the Baroque?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-symphonie-40",
+       "track": 0,
+       "start": 40,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "Classique",
+       "en": "Classical"
+      },
+      {
+       "fr": "Romantique",
+       "en": "Romantic"
+      },
+      {
+       "fr": "Moderne",
+       "en": "Modern"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "L'époque classique, d'environ 1750 à 1820 : clarté, équilibre, thèmes que l'on retient. Mozart et Haydn en sont les maîtres.",
+      "en": "The Classical era, from about 1750 to 1820: clarity, balance, themes you remember. Mozart and Haydn are its masters."
+     }
+    },
+    {
+     "id": "s03-1-4",
+     "type": "choice",
+     "skill": "compositeurs",
+     "prompt": {
+      "fr": "Lequel est de Mozart ?",
+      "en": "Which one is by Mozart?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-symphonie-40",
+       "track": 0,
+       "start": 5,
+       "duration": 12
+      },
+      {
+       "work": "vivaldi-quatre-saisons",
+       "track": 0,
+       "start": 15,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "A",
+       "en": "A"
+      },
+      {
+       "fr": "B",
+       "en": "B"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "A : la Symphonie n°40 de Mozart. B : l'orage de Vivaldi.",
+      "en": "A: Mozart's Symphony No. 40. B: Vivaldi's storm."
+     }
+    },
+    {
+     "id": "s03-1-5",
+     "type": "choice",
+     "skill": "ecoute",
+     "prompt": {
+      "fr": "Le thème du début est…",
+      "en": "The opening theme is…"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-symphonie-40",
+       "track": 0,
+       "start": 0,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Agité et inquiet",
+       "en": "Restless and uneasy"
+      },
+      {
+       "fr": "Solennel et lent",
+       "en": "Solemn and slow"
+      },
+      {
+       "fr": "Joyeux et dansant",
+       "en": "Joyful and dancing"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Sol mineur : l'une des deux seules symphonies de Mozart en mode mineur. Le thème halète, comme pressé.",
+      "en": "G minor: one of only two Mozart symphonies in a minor key. The theme pants, as if in a hurry."
+     }
+    },
+    {
+     "id": "s03-1-6",
+     "type": "choice",
+     "skill": "ecoute",
+     "prompt": {
+      "fr": "Lequel est le mouvement lent ?",
+      "en": "Which one is the slow movement?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-symphonie-40",
+       "track": 1,
+       "start": 10,
+       "duration": 12
+      },
+      {
+       "work": "mozart-symphonie-40",
+       "track": 0,
+       "start": 60,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "A",
+       "en": "A"
+      },
+      {
+       "fr": "B",
+       "en": "B"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "A : l'Andante, « en marchant ». Une symphonie classique alterne mouvements rapides et lents.",
+      "en": "A: the Andante, “at a walking pace”. A Classical symphony alternates fast and slow movements."
+     }
+    }
+   ]
+  },
+  {
+   "id": "s03-2",
+   "title": {
+    "fr": "Le Requiem",
+    "en": "The Requiem"
+   },
+   "teaser": {
+    "fr": "Semaine suivante : Beethoven, et quatre notes qui construisent tout.",
+    "en": "Next week: Beethoven, and four notes that build everything."
+   },
+   "exercises": [
+    {
+     "id": "s03-2-1",
+     "type": "choice",
+     "skill": "instruments",
+     "prompt": {
+      "fr": "Qu'entendez-vous en plus de l'orchestre ?",
+      "en": "What do you hear besides the orchestra?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-requiem",
+       "track": 0,
+       "start": 15,
+       "duration": 20
+      }
+     ],
+     "options": [
+      {
+       "fr": "Un chœur",
+       "en": "A choir"
+      },
+      {
+       "fr": "Un piano",
+       "en": "A piano"
+      },
+      {
+       "fr": "Une guitare",
+       "en": "A guitar"
+      },
+      {
+       "fr": "Un clavecin seul",
+       "en": "A solo harpsichord"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Un chœur : des dizaines de voix, de la plus grave à la plus aiguë.",
+      "en": "A choir: dozens of voices, from the lowest to the highest."
+     }
+    },
+    {
+     "id": "s03-2-2",
+     "type": "choice",
+     "skill": "ecoute",
+     "prompt": {
+      "fr": "L'atmosphère est…",
+      "en": "The mood is…"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-requiem",
+       "track": 0,
+       "start": 0,
+       "duration": 25
+      }
+     ],
+     "options": [
+      {
+       "fr": "Grave et recueillie",
+       "en": "Grave and prayerful"
+      },
+      {
+       "fr": "Joyeuse",
+       "en": "Joyful"
+      },
+      {
+       "fr": "Guerrière",
+       "en": "Warlike"
+      },
+      {
+       "fr": "Légère",
+       "en": "Light-hearted"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Les cordes soupirent, puis le chœur entre : c'est une musique de deuil.",
+      "en": "The strings sigh, then the choir enters: this is music of mourning."
+     }
+    },
+    {
+     "id": "s03-2-3",
+     "type": "choice",
+     "skill": "oeuvres",
+     "tip": {
+      "fr": "Un requiem est une œuvre religieuse.",
+      "en": "A requiem is a sacred work."
+     },
+     "prompt": {
+      "fr": "Pour quelle occasion ?",
+      "en": "For which occasion?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-requiem",
+       "track": 0,
+       "start": 30,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Une messe pour les morts",
+       "en": "A mass for the dead"
+      },
+      {
+       "fr": "Un mariage",
+       "en": "A wedding"
+      },
+      {
+       "fr": "Un couronnement",
+       "en": "A coronation"
+      },
+      {
+       "fr": "Noël",
+       "en": "Christmas"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Le requiem est la messe des défunts. Son premier mot latin, « requiem », veut dire « repos ».",
+      "en": "The requiem is the mass for the dead. Its first Latin word, “requiem”, means “rest”."
+     }
+    },
+    {
+     "id": "s03-2-4",
+     "type": "choice",
+     "skill": "oeuvres",
+     "tip": {
+      "fr": "« Lacrimosa » est un mot latin.",
+      "en": "“Lacrimosa” is a Latin word."
+     },
+     "prompt": {
+      "fr": "Que veut-il dire ?",
+      "en": "What does it mean?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-requiem",
+       "track": 0,
+       "start": 45,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Pleine de larmes",
+       "en": "Full of tears"
+      },
+      {
+       "fr": "Pleine de joie",
+       "en": "Full of joy"
+      },
+      {
+       "fr": "Lumière éternelle",
+       "en": "Eternal light"
+      },
+      {
+       "fr": "Repos",
+       "en": "Rest"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "« Lacrimosa dies illa » : « jour plein de larmes que ce jour-là ».",
+      "en": "“Lacrimosa dies illa”: “full of tears will be that day”."
+     }
+    },
+    {
+     "id": "s03-2-5",
+     "type": "choice",
+     "skill": "compositeurs",
+     "tip": {
+      "fr": "Mozart meurt en décembre 1791, à 35 ans, en laissant le Requiem inachevé.",
+      "en": "Mozart dies in December 1791, aged 35, leaving the Requiem unfinished."
+     },
+     "prompt": {
+      "fr": "Qui l'a terminé ?",
+      "en": "Who completed it?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-requiem",
+       "track": 0,
+       "start": 60,
+       "duration": 15
+      }
+     ],
+     "options": [
+      {
+       "fr": "Son élève Süssmayr",
+       "en": "His pupil Süssmayr"
+      },
+      {
+       "fr": "Beethoven",
+       "en": "Beethoven"
+      },
+      {
+       "fr": "Haydn",
+       "en": "Haydn"
+      },
+      {
+       "fr": "Sa femme Constanze",
+       "en": "His wife Constanze"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Franz Xaver Süssmayr. Du Lacrimosa, Mozart n'aurait écrit que les huit premières mesures.",
+      "en": "Franz Xaver Süssmayr. Of the Lacrimosa, Mozart is said to have written only the first eight bars."
+     }
+    },
+    {
+     "id": "s03-2-6",
+     "type": "choice",
+     "skill": "compositeurs",
+     "prompt": {
+      "fr": "Ces deux musiques sont-elles du même compositeur ?",
+      "en": "Are these two pieces by the same composer?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-symphonie-40",
+       "track": 0,
+       "start": 30,
+       "duration": 12
+      },
+      {
+       "work": "mozart-requiem",
+       "track": 0,
+       "start": 20,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "Oui",
+       "en": "Yes"
+      },
+      {
+       "fr": "Non",
+       "en": "No"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "Les deux sont de Mozart : la clarté d'un côté, l'ombre de l'autre.",
+      "en": "Both are by Mozart: clarity on one side, shadow on the other."
+     }
+    },
+    {
+     "id": "s03-2-7",
+     "type": "choice",
+     "skill": "oeuvres",
+     "prompt": {
+      "fr": "Quelle œuvre entendez-vous ?",
+      "en": "Which work do you hear?"
+     },
+     "excerpts": [
+      {
+       "work": "mozart-symphonie-40",
+       "track": 0,
+       "start": 75,
+       "duration": 12
+      }
+     ],
+     "options": [
+      {
+       "fr": "Symphonie n°40 de Mozart",
+       "en": "Mozart's Symphony No. 40"
+      },
+      {
+       "fr": "Les Quatre Saisons de Vivaldi",
+       "en": "Vivaldi's Four Seasons"
+      },
+      {
+       "fr": "Suite pour violoncelle n°1 de Bach",
+       "en": "Bach's Cello Suite No. 1"
+      },
+      {
+       "fr": "Requiem de Mozart",
+       "en": "Mozart's Requiem"
+      }
+     ],
+     "answer": 0,
+     "why": {
+      "fr": "La Symphonie n°40 de Mozart.",
+      "en": "Mozart's Symphony No. 40."
+     }
+    }
+   ]
+  }
+ ]
 }

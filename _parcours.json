@@ -663,5 +663,62 @@
     }
    }
   ]
- }
+ },
+ "skills": [
+  {
+   "id": "instruments",
+   "icon": "🎻",
+   "name": {
+    "fr": "Instruments",
+    "en": "Instruments"
+   }
+  },
+  {
+   "id": "ecoute",
+   "icon": "👂",
+   "name": {
+    "fr": "Écoute active",
+    "en": "Active listening"
+   }
+  },
+  {
+   "id": "compositeurs",
+   "icon": "✍️",
+   "name": {
+    "fr": "Compositeurs",
+    "en": "Composers"
+   },
+   "role": "artist",
+   "ask": {
+    "fr": "Qui a composé cette musique ?",
+    "en": "Who composed this music?"
+   }
+  },
+  {
+   "id": "oeuvres",
+   "icon": "🎼",
+   "name": {
+    "fr": "Œuvres",
+    "en": "Works"
+   },
+   "role": "piece",
+   "ask": {
+    "fr": "Quelle œuvre entendez-vous ?",
+    "en": "Which work do you hear?"
+   }
+  },
+  {
+   "id": "epoques",
+   "icon": "🏛️",
+   "name": {
+    "fr": "Époques",
+    "en": "Eras"
+   },
+   "role": "period",
+   "ask": {
+    "fr": "De quelle époque vient cette musique ?",
+    "en": "Which era is this music from?"
+   }
+  }
+ ]
 }
