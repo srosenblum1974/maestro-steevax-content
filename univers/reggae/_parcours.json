@@ -1,0 +1,728 @@
+{
+ "title": {
+  "fr": "Steevax Sound System",
+  "en": "Steevax Sound System"
+ },
+ "tagline": {
+  "fr": "Une île, une basse, un contretemps : le reggae, morceau après morceau.",
+  "en": "An island, a bass line, an off-beat: reggae, one song at a time."
+ },
+ "ritual": [
+  {
+   "id": "decouvrir",
+   "title": {
+    "fr": "Étape 1 : Découvrir",
+    "en": "Step 1: Discover"
+   },
+   "text": {
+    "fr": "Vous écoutez sans rien chercher, puis vous dites ce que vous avez ressenti en touchant des icônes.",
+    "en": "You listen without looking for anything, then tap icons to say what you felt."
+   }
+  },
+  {
+   "id": "reperer",
+   "title": {
+    "fr": "Étape 2 : Repérer",
+    "en": "Step 2: Spot"
+   },
+   "text": {
+    "fr": "Vous réécoutez avec une mission : reconnaître les moments clés et deviner les instruments.",
+    "en": "You listen again on a mission: recognise the key moments and guess the instruments."
+   }
+  },
+  {
+   "id": "retenir",
+   "title": {
+    "fr": "Étape 3 : Retenir",
+    "en": "Step 3: Remember"
+   },
+   "text": {
+    "fr": "Quelques jours plus tard, un mini-quiz et une dernière écoute. Vous gardez une note et un souvenir.",
+    "en": "A few days later, a mini-quiz and one last listen. You keep a rating and a memory."
+   }
+  }
+ ],
+ "notebook": {
+  "fr": "À chaque œuvre, votre carnet se remplit tout seul : émotions, images, instruments, note. Tout apparaît dans l'onglet Carnet.",
+  "en": "For each work your notebook fills itself: emotions, images, instruments, rating. It all shows up in the Notebook tab."
+ },
+ "signal": {
+  "fr": "Le signal à surveiller : votre tête marque-t-elle le contretemps toute seule ?",
+  "en": "The signal to watch: does your head nod on the off-beat by itself?"
+ },
+ "phases": [
+  {
+   "n": 1,
+   "weeks": "1-3",
+   "title": {
+    "fr": "Accrocher l'oreille",
+    "en": "Hooking the ear"
+   }
+  },
+  {
+   "n": 2,
+   "weeks": "4+",
+   "title": {
+    "fr": "Suivre les fils",
+    "en": "Following the threads"
+   }
+  }
+ ],
+ "periods": {
+  "ska": {
+   "fr": "Ska (1959–1966)",
+   "en": "Ska (1959–1966)"
+  },
+  "rocksteady": {
+   "fr": "Rocksteady (1966–1968)",
+   "en": "Rocksteady (1966–1968)"
+  },
+  "early-reggae": {
+   "fr": "Naissance du reggae (1968–1972)",
+   "en": "Birth of reggae (1968–1972)"
+  },
+  "roots": {
+   "fr": "Roots (1972–1981)",
+   "en": "Roots (1972–1981)"
+  },
+  "dub": {
+   "fr": "Dub (1972 →)",
+   "en": "Dub (1972 →)"
+  },
+  "dancehall": {
+   "fr": "Dancehall (1980 →)",
+   "en": "Dancehall (1980 →)"
+  }
+ },
+ "palette": {
+  "emotions": [
+   {
+    "id": "apaise",
+    "icon": "😌",
+    "label": {
+     "fr": "Apaisé",
+     "en": "Soothed"
+    }
+   },
+   {
+    "id": "emu",
+    "icon": "🥹",
+    "label": {
+     "fr": "Ému",
+     "en": "Moved"
+    }
+   },
+   {
+    "id": "triste",
+    "icon": "😢",
+    "label": {
+     "fr": "Triste",
+     "en": "Sad"
+    }
+   },
+   {
+    "id": "joyeux",
+    "icon": "😄",
+    "label": {
+     "fr": "Joyeux",
+     "en": "Joyful"
+    }
+   },
+   {
+    "id": "exalte",
+    "icon": "🤩",
+    "label": {
+     "fr": "Exalté",
+     "en": "Thrilled"
+    }
+   },
+   {
+    "id": "frissons",
+    "icon": "⚡️",
+    "label": {
+     "fr": "Frissons",
+     "en": "Chills"
+    }
+   },
+   {
+    "id": "inquiet",
+    "icon": "😟",
+    "label": {
+     "fr": "Inquiet",
+     "en": "Uneasy"
+    }
+   },
+   {
+    "id": "nostalgique",
+    "icon": "🌅",
+    "label": {
+     "fr": "Nostalgique",
+     "en": "Nostalgic"
+    }
+   },
+   {
+    "id": "ennuye",
+    "icon": "🥱",
+    "label": {
+     "fr": "Ennuyé",
+     "en": "Bored"
+    }
+   },
+   {
+    "id": "perdu",
+    "icon": "😵‍💫",
+    "label": {
+     "fr": "Perdu",
+     "en": "Lost"
+    }
+   }
+  ],
+  "images": [
+   {
+    "id": "vague",
+    "icon": "🌊",
+    "label": {
+     "fr": "Vagues",
+     "en": "Waves"
+    }
+   },
+   {
+    "id": "orage",
+    "icon": "⛈️",
+    "label": {
+     "fr": "Orage",
+     "en": "Storm"
+    }
+   },
+   {
+    "id": "oiseaux",
+    "icon": "🐦",
+    "label": {
+     "fr": "Oiseaux",
+     "en": "Birds"
+    }
+   },
+   {
+    "id": "foret",
+    "icon": "🌲",
+    "label": {
+     "fr": "Forêt",
+     "en": "Forest"
+    }
+   },
+   {
+    "id": "nuit",
+    "icon": "🌙",
+    "label": {
+     "fr": "Nuit",
+     "en": "Night"
+    }
+   },
+   {
+    "id": "soleil",
+    "icon": "☀️",
+    "label": {
+     "fr": "Soleil",
+     "en": "Sun"
+    }
+   },
+   {
+    "id": "danse",
+    "icon": "💃",
+    "label": {
+     "fr": "Danse",
+     "en": "Dance"
+    }
+   },
+   {
+    "id": "combat",
+    "icon": "⚔️",
+    "label": {
+     "fr": "Combat",
+     "en": "Battle"
+    }
+   },
+   {
+    "id": "priere",
+    "icon": "🕯️",
+    "label": {
+     "fr": "Prière",
+     "en": "Prayer"
+    }
+   },
+   {
+    "id": "voyage",
+    "icon": "🧭",
+    "label": {
+     "fr": "Voyage",
+     "en": "Journey"
+    }
+   },
+   {
+    "id": "reve",
+    "icon": "☁️",
+    "label": {
+     "fr": "Rêve",
+     "en": "Dream"
+    }
+   },
+   {
+    "id": "cinema",
+    "icon": "🎬",
+    "label": {
+     "fr": "Film",
+     "en": "Film"
+    }
+   }
+  ],
+  "instruments": [
+   {
+    "id": "voix",
+    "icon": "🎤",
+    "label": {
+     "fr": "Voix",
+     "en": "Lead vocal"
+    }
+   },
+   {
+    "id": "choeurs",
+    "icon": "🗣️",
+    "label": {
+     "fr": "Chœurs",
+     "en": "Backing vocals"
+    }
+   },
+   {
+    "id": "guitare",
+    "icon": "🎸",
+    "label": {
+     "fr": "Guitare",
+     "en": "Guitar"
+    }
+   },
+   {
+    "id": "basse",
+    "icon": "🔉",
+    "label": {
+     "fr": "Basse",
+     "en": "Bass"
+    }
+   },
+   {
+    "id": "batterie",
+    "icon": "🥁",
+    "label": {
+     "fr": "Batterie",
+     "en": "Drums"
+    }
+   },
+   {
+    "id": "piano",
+    "icon": "🎹",
+    "label": {
+     "fr": "Piano",
+     "en": "Piano"
+    }
+   },
+   {
+    "id": "orgue",
+    "icon": "⛪️",
+    "label": {
+     "fr": "Orgue",
+     "en": "Organ"
+    }
+   },
+   {
+    "id": "synthe",
+    "icon": "🎛️",
+    "label": {
+     "fr": "Synthétiseur",
+     "en": "Synthesizer"
+    }
+   },
+   {
+    "id": "cuivres",
+    "icon": "🎺",
+    "label": {
+     "fr": "Cuivres",
+     "en": "Horns"
+    }
+   },
+   {
+    "id": "saxophone",
+    "icon": "🎷",
+    "label": {
+     "fr": "Saxophone",
+     "en": "Saxophone"
+    }
+   },
+   {
+    "id": "cordes",
+    "icon": "🎻",
+    "label": {
+     "fr": "Cordes",
+     "en": "Strings"
+    }
+   },
+   {
+    "id": "percussions",
+    "icon": "🪘",
+    "label": {
+     "fr": "Percussions",
+     "en": "Percussion"
+    }
+   },
+   {
+    "id": "melodica",
+    "icon": "🌬️",
+    "label": {
+     "fr": "Mélodica",
+     "en": "Melodica"
+    }
+   },
+   {
+    "id": "theremin",
+    "icon": "📡",
+    "label": {
+     "fr": "Thérémine",
+     "en": "Theremin"
+    }
+   }
+  ],
+  "ratings": [
+   {
+    "fr": "Pas pour moi",
+    "en": "Not for me"
+   },
+   {
+    "fr": "Bof",
+    "en": "Meh"
+   },
+   {
+    "fr": "Agréable",
+    "en": "Pleasant"
+   },
+   {
+    "fr": "J'aime beaucoup",
+    "en": "Love it"
+   },
+   {
+    "fr": "Coup de foudre",
+    "en": "Head over heels"
+   }
+  ],
+  "starters": [
+   {
+    "fr": "Ça m'a fait penser à…",
+    "en": "It reminded me of…"
+   },
+   {
+    "fr": "J'ai été surpris par…",
+    "en": "I was surprised by…"
+   },
+   {
+    "fr": "Je réécouterais pour…",
+    "en": "I'd listen again for…"
+   }
+  ]
+ },
+ "history": {
+  "intro": {
+   "fr": "Soixante ans de musique jamaïcaine en six chapitres. Retenez surtout le tempo de chacun.",
+   "en": "Sixty years of Jamaican music in six chapters. Above all, remember the tempo of each."
+  },
+  "before": {
+   "fr": "Avant 1959 : le mento, la musique rurale de l'île, et le rhythm and blues américain capté sur les radios de La Nouvelle-Orléans et de Miami.",
+   "en": "Before 1959: mento, the island's rural music, and American rhythm and blues picked up from New Orleans and Miami radio."
+  },
+  "periods": [
+   {
+    "id": "ska",
+    "title": {
+     "fr": "Ska",
+     "en": "Ska"
+    },
+    "dates": "1959–1966",
+    "oneLine": {
+     "fr": "La Jamaïque indépendante invente sa propre musique de danse, rapide et cuivrée.",
+     "en": "Newly independent Jamaica invents its own dance music, fast and brassy."
+    },
+    "world": {
+     "fr": "L'île devient indépendante en 1962. Les sound systems, ces discothèques de rue, font la loi à Kingston.",
+     "en": "The island becomes independent in 1962. Sound systems, street discos on wheels, rule Kingston."
+    },
+    "sound": {
+     "fr": "Tempo rapide, section de cuivres, guitare et piano qui frappent entre les temps.",
+     "en": "Fast tempo, horn section, guitar and piano hitting between the beats."
+    },
+    "people": [
+     "The Skatalites",
+     "Prince Buster",
+     "Desmond Dekker",
+     "Millie Small"
+    ],
+    "weeks": []
+   },
+   {
+    "id": "rocksteady",
+    "title": {
+     "fr": "Rocksteady",
+     "en": "Rocksteady"
+    },
+    "dates": "1966–1968",
+    "oneLine": {
+     "fr": "Le tempo ralentit, la basse prend le pouvoir, les voix s'adoucissent.",
+     "en": "The tempo slows, the bass takes over, the voices soften."
+    },
+    "world": {
+     "fr": "Un été caniculaire, dit-on, et des danseurs qui veulent souffler. La période dure à peine deux ans.",
+     "en": "A scorching summer, the story goes, and dancers who want to slow down. The period lasts barely two years."
+    },
+    "sound": {
+     "fr": "Moins de cuivres, des trios vocaux soyeux, une ligne de basse qui chante.",
+     "en": "Fewer horns, silky vocal trios, a bass line that sings."
+    },
+    "people": [
+     "Alton Ellis",
+     "The Paragons",
+     "The Heptones",
+     "Ken Boothe"
+    ],
+    "weeks": []
+   },
+   {
+    "id": "early-reggae",
+    "title": {
+     "fr": "Naissance du reggae",
+     "en": "Birth of reggae"
+    },
+    "dates": "1968–1972",
+    "oneLine": {
+     "fr": "Un rythme plus nerveux, un orgue qui sautille, et un mot nouveau : reggae.",
+     "en": "A jumpier beat, a bubbling organ, and a new word: reggae."
+    },
+    "world": {
+     "fr": "Les producteurs de Kingston sortent des 45 tours à la chaîne ; le film The Harder They Come (1972) montre l'île au monde.",
+     "en": "Kingston producers turn out singles by the dozen; the film The Harder They Come (1972) shows the island to the world."
+    },
+    "sound": {
+     "fr": "Guitare hachée sur le contretemps, orgue, basse ronde, chant venu du gospel.",
+     "en": "Choppy off-beat guitar, organ, round bass, gospel-rooted singing."
+    },
+    "people": [
+     "Toots and the Maytals",
+     "Jimmy Cliff",
+     "Desmond Dekker",
+     "Lee « Scratch » Perry"
+    ],
+    "weeks": [
+     1
+    ]
+   },
+   {
+    "id": "roots",
+    "title": {
+     "fr": "Roots",
+     "en": "Roots"
+    },
+    "dates": "1972–1981",
+    "oneLine": {
+     "fr": "Le reggae ralentit, s'approfondit et parle de foi, d'Afrique et de justice.",
+     "en": "Reggae slows down, deepens and speaks of faith, Africa and justice."
+    },
+    "world": {
+     "fr": "Le mouvement rastafari inspire les musiciens ; la Jamaïque traverse des années de violence politique ; Bob Marley devient une voix mondiale.",
+     "en": "The Rastafari movement inspires the musicians; Jamaica goes through years of political violence; Bob Marley becomes a world voice."
+    },
+    "sound": {
+     "fr": "Tempo lent, basse et batterie au premier plan, chœurs, textes spirituels et politiques.",
+     "en": "Slow tempo, bass and drums up front, harmonies, spiritual and political lyrics."
+    },
+    "people": [
+     "Bob Marley & The Wailers",
+     "Peter Tosh",
+     "Burning Spear",
+     "Culture"
+    ],
+    "weeks": [
+     2
+    ]
+   },
+   {
+    "id": "dub",
+    "title": {
+     "fr": "Dub",
+     "en": "Dub"
+    },
+    "dates": "1972 →",
+    "oneLine": {
+     "fr": "L'ingénieur du son devient musicien : il démonte la chanson et la reconstruit avec de l'écho.",
+     "en": "The sound engineer becomes a musician: he takes the song apart and rebuilds it with echo."
+    },
+    "world": {
+     "fr": "Dans de minuscules studios de Kingston, on remixe les faces B pour les sound systems. Le remix moderne naît ici.",
+     "en": "In tiny Kingston studios, B-sides are remixed for the sound systems. The modern remix is born here."
+    },
+    "sound": {
+     "fr": "Voix retirée, basse et batterie seules, écho, réverbération, instruments qui entrent et sortent.",
+     "en": "Vocals removed, bass and drums alone, echo, reverb, instruments dropping in and out."
+    },
+    "people": [
+     "King Tubby",
+     "Lee « Scratch » Perry",
+     "Augustus Pablo",
+     "Scientist"
+    ],
+    "weeks": [
+     3
+    ]
+   },
+   {
+    "id": "dancehall",
+    "title": {
+     "fr": "Dancehall",
+     "en": "Dancehall"
+    },
+    "dates": "1980 →",
+    "oneLine": {
+     "fr": "Le rythme devient électronique et le DJ qui parle sur le disque passe au premier plan.",
+     "en": "The beat goes electronic and the DJ talking over the record moves to the front."
+    },
+    "world": {
+     "fr": "Après la mort de Marley en 1981, la musique revient vers les pistes de danse de Kingston ; les boîtes à rythmes arrivent en 1985.",
+     "en": "After Marley's death in 1981, the music returns to Kingston's dance floors; drum machines arrive in 1985."
+    },
+    "sound": {
+     "fr": "Rythmes numériques, voix parlée-chantée, tempo plus vif.",
+     "en": "Digital rhythms, half-spoken vocals, a livelier tempo."
+    },
+    "people": [
+     "Yellowman",
+     "Shabba Ranks",
+     "Buju Banton",
+     "Sean Paul"
+    ],
+    "weeks": []
+   }
+  ],
+  "words": [
+   {
+    "term": {
+     "fr": "Contretemps",
+     "en": "Off-beat"
+    },
+    "def": {
+     "fr": "Le coup de guitare ou de clavier placé entre les temps : la signature du reggae.",
+     "en": "The guitar or keyboard stroke placed between the beats: reggae's signature."
+    }
+   },
+   {
+    "term": {
+     "fr": "Riddim",
+     "en": "Riddim"
+    },
+    "def": {
+     "fr": "La base basse-batterie d'un morceau, réutilisée pour d'autres chansons.",
+     "en": "A song's bass-and-drum foundation, reused for other songs."
+    }
+   },
+   {
+    "term": {
+     "fr": "Sound system",
+     "en": "Sound system"
+    },
+    "def": {
+     "fr": "Une discothèque de rue : un camion, des enceintes géantes, un sélecteur de disques.",
+     "en": "A street disco: a truck, giant speakers, a record selector."
+    }
+   },
+   {
+    "term": {
+     "fr": "Dub",
+     "en": "Dub"
+    },
+    "def": {
+     "fr": "Une version remixée, sans la voix, où l'ingénieur joue avec l'écho.",
+     "en": "A remixed version, without vocals, where the engineer plays with echo."
+    }
+   },
+   {
+    "term": {
+     "fr": "Rastafari",
+     "en": "Rastafari"
+    },
+    "def": {
+     "fr": "Mouvement spirituel né en Jamaïque dans les années 1930, tourné vers l'Afrique.",
+     "en": "A spiritual movement born in Jamaica in the 1930s, looking towards Africa."
+    }
+   },
+   {
+    "term": {
+     "fr": "One drop",
+     "en": "One drop"
+    },
+    "def": {
+     "fr": "Un rythme de batterie où le premier temps reste vide et l'accent tombe sur le troisième.",
+     "en": "A drum pattern where the first beat is left empty and the accent falls on the third."
+    }
+   }
+  ]
+ },
+ "skills": [
+  {
+   "id": "instruments",
+   "icon": "🎸",
+   "name": {
+    "fr": "Instruments",
+    "en": "Instruments"
+   }
+  },
+  {
+   "id": "ecoute",
+   "icon": "👂",
+   "name": {
+    "fr": "Écoute active",
+    "en": "Active listening"
+   }
+  },
+  {
+   "id": "artistes",
+   "icon": "🎤",
+   "name": {
+    "fr": "Artistes",
+    "en": "Artists"
+   },
+   "role": "artist",
+   "ask": {
+    "fr": "Qui joue ?",
+    "en": "Who is playing?"
+   }
+  },
+  {
+   "id": "morceaux",
+   "icon": "🎵",
+   "name": {
+    "fr": "Morceaux",
+    "en": "Songs"
+   },
+   "role": "piece",
+   "ask": {
+    "fr": "Quel morceau entendez-vous ?",
+    "en": "Which song do you hear?"
+   }
+  },
+  {
+   "id": "courants",
+   "icon": "🕰️",
+   "name": {
+    "fr": "Courants",
+    "en": "Styles"
+   },
+   "role": "period",
+   "ask": {
+    "fr": "De quel courant vient cette musique ?",
+    "en": "Which style is this music from?"
+   }
+  }
+ ]
+}

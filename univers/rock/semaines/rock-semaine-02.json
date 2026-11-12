@@ -1,0 +1,260 @@
+{
+ "id": "rock-semaine-02",
+ "n": 2,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "british-invasion",
+ "title": {
+  "fr": "Les Rolling Stones, trois notes suffisent",
+  "en": "The Rolling Stones, three notes are enough"
+ },
+ "world": {
+  "fr": "1965 : les premières troupes de combat américaines débarquent au Vietnam, Alexeï Leonov sort le premier dans l'espace, et Churchill meurt à Londres.",
+  "en": "1965: the first American combat troops land in Vietnam, Alexei Leonov makes the first spacewalk, and Churchill dies in London."
+ },
+ "works": [
+  {
+   "id": "rock-satisfaction",
+   "people": [
+    {
+     "name": "The Rolling Stones",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "(I Can't Get No) Satisfaction",
+    "en": "(I Can't Get No) Satisfaction"
+   },
+   "year": "1965",
+   "recording": {
+    "performers": "Mick Jagger, Keith Richards, Brian Jones, Bill Wyman, Charlie Watts",
+    "label": "Decca / London",
+    "year": 1965
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole song"
+   },
+   "listenFor": {
+    "fr": "Le riff de guitare du début : trois notes, un son sale, et il revient tout le temps.",
+    "en": "The guitar riff at the start: three notes, a dirty sound, and it keeps coming back."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Rolling%20Stones%20Satisfaction",
+    "spotify": "https://open.spotify.com/search/Rolling%20Stones%20Satisfaction",
+    "youtube": "https://www.youtube.com/results?search_query=Rolling%20Stones%20Satisfaction"
+   },
+   "threads": [
+    {
+     "to": "rock-johnny-b-goode",
+     "kind": "influence",
+     "why": {
+      "fr": "L'école de Keith Richards : il a appris la guitare en copiant Chuck Berry.",
+      "en": "Keith Richards's school: he learned guitar by copying Chuck Berry."
+     }
+    },
+    {
+     "to": "rock-whole-lotta-love",
+     "kind": "same-era",
+     "why": {
+      "fr": "Quatre ans plus tard, le riff devient énorme.",
+      "en": "Four years later, the riff becomes enormous."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Un riff rêvé en pleine nuit, enregistré à moitié endormi, devenu le plus connu du rock.",
+     "en": "A riff dreamt in the middle of the night, recorded half asleep, now the best known in rock."
+    },
+    "context": {
+     "fr": "Mai 1965, en tournée américaine. Keith Richards se réveille, joue un riff devant un magnétophone à cassette et se rendort. Quelques jours plus tard, à Hollywood, il branche sa guitare dans une petite boîte neuve, une pédale de « fuzz », qui salit le son. Il pensait remplacer ce brouillon par des cuivres et ne voulait pas que la chanson sorte en 45 tours. Elle devient le premier numéro un américain du groupe.",
+     "en": "May 1965, on an American tour. Keith Richards wakes up, plays a riff into a cassette recorder and falls back asleep. A few days later, in Hollywood, he plugs his guitar into a new little box, a “fuzz” pedal, that dirties the sound. He meant to replace this rough draft with horns and did not want the song released as a single. It becomes the band's first American number one."
+    },
+    "why": {
+     "fr": "Le rock découvre qu'un riff peut tenir lieu de mélodie, et qu'un son « abîmé » peut être plus fort qu'un son propre. Les paroles, elles, visent la publicité et la société de consommation : la chanson pop se met à râler.",
+     "en": "Rock discovers that a riff can stand in for a melody, and that a “damaged” sound can hit harder than a clean one. As for the words, they take aim at advertising and consumer society: the pop song starts to grumble."
+    },
+    "how": {
+     "fr": "Chantez le riff dans votre tête, puis comptez combien de fois il revient. Remarquez que la voix de Jagger commence bas, presque boudeuse, et monte jusqu'au cri.",
+     "en": "Sing the riff in your head, then count how many times it returns. Notice that Jagger's voice starts low, almost sulky, and climbs to a shout."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Le riff seul, avec son grésillement, puis la batterie et la basse le rejoignent.",
+       "en": "The riff alone, with its buzz, then drums and bass join it."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les premières phrases",
+       "en": "The first lines"
+      },
+      "what": {
+       "fr": "Jagger chante bas, presque boudeur, par-dessus le riff.",
+       "en": "Jagger sings low, almost sulking, over the riff."
+      }
+     },
+     {
+      "when": {
+       "fr": "La montée",
+       "en": "The climb"
+      },
+      "what": {
+       "fr": "La voix grimpe par paliers, jusqu'au cri.",
+       "en": "The voice climbs step by step, up to a shout."
+      }
+     },
+     {
+      "when": {
+       "fr": "Tout du long",
+       "en": "Throughout"
+      },
+      "what": {
+       "fr": "Un tambourin marque le temps derrière la batterie.",
+       "en": "A tambourine marks the beat behind the drums."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "Le riff tourne en boucle pendant que le son s'éloigne.",
+       "en": "The riff loops round as the sound fades away."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie",
+      "percussions",
+      "synthe",
+      "cordes",
+      "cuivres",
+      "melodica",
+      "theremin"
+     ],
+     "answer": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie",
+      "percussions"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "D'où vient le son sale de la guitare ?",
+       "en": "Where does the guitar's dirty sound come from?"
+      },
+      "options": [
+       {
+        "fr": "D'un ampli cassé",
+        "en": "A broken amp"
+       },
+       {
+        "fr": "D'une pédale de fuzz",
+        "en": "A fuzz pedal"
+       },
+       {
+        "fr": "D'un saxophone",
+        "en": "A saxophone"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Une petite boîte entre la guitare et l'ampli, l'une des premières pédales d'effet.",
+       "en": "A small box between guitar and amp, one of the first effects pedals."
+      }
+     },
+     {
+      "q": {
+       "fr": "Par quoi Keith Richards voulait-il remplacer son riff ?",
+       "en": "What did Keith Richards want to replace his riff with?"
+      },
+      "options": [
+       {
+        "fr": "Des cuivres",
+        "en": "Horns"
+       },
+       {
+        "fr": "Un piano",
+        "en": "A piano"
+       },
+       {
+        "fr": "Des violons",
+        "en": "Violins"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "La guitare saturée ne devait être qu'un brouillon pour une section de cuivres.",
+       "en": "The distorted guitar was only meant as a sketch for a horn section."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qu'est-ce qu'un riff ?",
+       "en": "What is a riff?"
+      },
+      "options": [
+       {
+        "fr": "Un long solo improvisé",
+        "en": "A long improvised solo"
+       },
+       {
+        "fr": "Un court motif répété",
+        "en": "A short repeated figure"
+       },
+       {
+        "fr": "Le dernier accord",
+        "en": "The final chord"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Quelques notes, répétées, qui portent tout le morceau.",
+       "en": "A few notes, repeated, that carry the whole track."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Riff",
+       "en": "Riff"
+      },
+      "def": {
+       "fr": "Un court motif de guitare qui revient sans cesse.",
+       "en": "A short guitar figure that keeps returning."
+      }
+     },
+     {
+      "term": {
+       "fr": "Fuzz",
+       "en": "Fuzz"
+      },
+      "def": {
+       "fr": "Un effet qui écrase et salit le son de la guitare.",
+       "en": "An effect that squashes and dirties the guitar's sound."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

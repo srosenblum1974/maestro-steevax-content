@@ -1,0 +1,251 @@
+{
+ "id": "reggae-semaine-03",
+ "n": 3,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "dub",
+ "title": {
+  "fr": "King Tubby, le studio devient instrument",
+  "en": "King Tubby, the studio becomes an instrument"
+ },
+ "world": {
+  "fr": "Milieu des années 1970 : Apple naît dans un garage californien, le Concorde ouvre ses lignes, et Kingston vit au rythme de ses sound systems.",
+  "en": "The mid-1970s: Apple is born in a Californian garage, Concorde starts flying passengers, and Kingston lives to the beat of its sound systems."
+ },
+ "works": [
+  {
+   "id": "reggae-king-tubby-meets-rockers-uptown",
+   "people": [
+    {
+     "name": "Augustus Pablo",
+     "role": "leader"
+    },
+    {
+     "name": "King Tubby",
+     "role": "producer"
+    }
+   ],
+   "title": {
+    "fr": "King Tubby Meets Rockers Uptown",
+    "en": "King Tubby Meets Rockers Uptown"
+   },
+   "year": "1974–1976",
+   "recording": {
+    "performers": "Augustus Pablo (mélodica), King Tubby (mixage), Aston Barrett, Carlton Barrett",
+    "label": "Rockers / Island",
+    "year": 1974
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole song"
+   },
+   "listenFor": {
+    "fr": "Ce qui disparaît : la voix, la guitare, parfois tout sauf la basse. Et ce qui reste suspendu dans l'écho.",
+    "en": "What disappears: the voice, the guitar, sometimes everything but the bass. And what stays hanging in the echo."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Augustus%20Pablo%20King%20Tubby%20Meets%20Rockers%20Uptown",
+    "spotify": "https://open.spotify.com/search/Augustus%20Pablo%20King%20Tubby%20Meets%20Rockers%20Uptown",
+    "youtube": "https://www.youtube.com/results?search_query=Augustus%20Pablo%20King%20Tubby%20Meets%20Rockers%20Uptown"
+   },
+   "threads": [
+    {
+     "to": "reggae-get-up-stand-up",
+     "kind": "same-artist",
+     "why": {
+      "fr": "La même section rythmique, cette fois avec des voix et un message.",
+      "en": "The same rhythm section, this time with voices and a message."
+     }
+    },
+    {
+     "to": "pop-billie-jean",
+     "kind": "same-idea",
+     "why": {
+      "fr": "Le studio comme instrument, version pop, quelques années plus tard.",
+      "en": "The studio as an instrument, pop version, a few years later."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une chanson dont on a retiré le chanteur, et qui devient plus grande sans lui.",
+     "en": "A song with its singer taken out, which becomes greater without him."
+    },
+    "context": {
+     "fr": "Kingston, vers 1974. Augustus Pablo vient de produire une chanson pour Jacob Miller. Il confie les bandes à King Tubby, un réparateur de radios devenu ingénieur du son, qui a transformé sa table de mixage dans son petit studio du quartier de Waterhouse. Tubby coupe la voix, pousse la basse, noie la batterie dans l'écho. La face B devient plus célèbre que la chanson.",
+     "en": "Kingston, around 1974. Augustus Pablo has just produced a song for Jacob Miller. He hands the tapes to King Tubby, a radio repairman turned sound engineer, who has rebuilt his mixing desk in his small studio in the Waterhouse district. Tubby cuts the voice, pushes the bass, drowns the drums in echo. The B-side becomes more famous than the song."
+    },
+    "why": {
+     "fr": "C'est l'invention du remix. Pour la première fois, celui qui tient les boutons est un créateur à part entière. Le hip-hop, la musique électronique et toute la pop moderne viennent en partie de ce petit studio.",
+     "en": "This is the invention of the remix. For the first time, the person at the controls is a creator in his own right. Hip-hop, electronic music and all of modern pop come partly from this small studio."
+    },
+    "how": {
+     "fr": "Écoutez les trous. Chaque fois qu'un instrument disparaît, demandez-vous lequel, puis guettez son retour. Le mélodica d'Augustus Pablo est le fil à suivre.",
+     "en": "Listen to the gaps. Each time an instrument vanishes, ask yourself which one, then watch for its return. Augustus Pablo's melodica is the thread to follow."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Un éclat de voix avalé par l'écho, puis la batterie roule et la basse entre.",
+       "en": "A snatch of voice swallowed by echo, then the drums roll and the bass comes in."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le thème",
+       "en": "The theme"
+      },
+      "what": {
+       "fr": "Le mélodica, un petit clavier dans lequel on souffle, joue une mélodie orientale.",
+       "en": "The melodica, a small keyboard you blow into, plays an Eastern-sounding tune."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les coupures",
+       "en": "The drop-outs"
+      },
+      "what": {
+       "fr": "Tout s'arrête sauf la basse et la batterie : c'est le geste de Tubby.",
+       "en": "Everything stops except bass and drums: that is Tubby's move."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les échos",
+       "en": "The echoes"
+      },
+      "what": {
+       "fr": "Un coup de caisse claire se répète et s'éloigne, comme dans une grotte.",
+       "en": "A snare hit repeats and fades away, as if in a cave."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "melodica",
+      "basse",
+      "batterie",
+      "guitare",
+      "cuivres",
+      "cordes",
+      "synthe",
+      "theremin"
+     ],
+     "answer": [
+      "melodica",
+      "basse",
+      "batterie",
+      "guitare"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Qu'est-ce qu'un dub ?",
+       "en": "What is a dub?"
+      },
+      "options": [
+       {
+        "fr": "Une chanson d'amour lente",
+        "en": "A slow love song"
+       },
+       {
+        "fr": "Une version remixée d'une chanson, sans la voix",
+        "en": "A remixed version of a song, without the vocals"
+       },
+       {
+        "fr": "Un solo de batterie",
+        "en": "A drum solo"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "L'ingénieur retire la voix et rejoue la chanson avec sa table de mixage.",
+       "en": "The engineer removes the voice and replays the song with his mixing desk."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel instrument joue la mélodie ?",
+       "en": "Which instrument plays the tune?"
+      },
+      "options": [
+       {
+        "fr": "Un mélodica",
+        "en": "A melodica"
+       },
+       {
+        "fr": "Une trompette",
+        "en": "A trumpet"
+       },
+       {
+        "fr": "Un violon",
+        "en": "A violin"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le mélodica, instrument d'écolier dont Augustus Pablo a fait sa signature.",
+       "en": "The melodica, a school instrument that Augustus Pablo made his signature."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel était le premier métier de King Tubby ?",
+       "en": "What was King Tubby's first trade?"
+      },
+      "options": [
+       {
+        "fr": "Chanteur",
+        "en": "Singer"
+       },
+       {
+        "fr": "Réparateur de radios",
+        "en": "Radio repairman"
+       },
+       {
+        "fr": "Batteur",
+        "en": "Drummer"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Électronicien, il a modifié lui-même ses machines.",
+       "en": "An electronics man, he modified his machines himself."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Dub",
+       "en": "Dub"
+      },
+      "def": {
+       "fr": "Version instrumentale remixée d'un morceau.",
+       "en": "A remixed instrumental version of a track."
+      }
+     },
+     {
+      "term": {
+       "fr": "Écho",
+       "en": "Echo"
+      },
+      "def": {
+       "fr": "Un son qui se répète en s'éloignant.",
+       "en": "A sound that repeats as it fades away."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

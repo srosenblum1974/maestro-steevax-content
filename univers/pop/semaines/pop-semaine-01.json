@@ -1,0 +1,254 @@
+{
+ "id": "pop-semaine-01",
+ "n": 1,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "usines-a-tubes",
+ "title": {
+  "fr": "Les Supremes, la fabrique Motown",
+  "en": "The Supremes, the Motown factory"
+ },
+ "world": {
+  "fr": "1964 : les Beatles débarquent aux États-Unis, le Civil Rights Act interdit la ségrégation, et Tokyo accueille les Jeux olympiques.",
+  "en": "1964: the Beatles land in the United States, the Civil Rights Act outlaws segregation, and Tokyo hosts the Olympic Games."
+ },
+ "works": [
+  {
+   "id": "pop-where-did-our-love-go",
+   "people": [
+    {
+     "name": "The Supremes",
+     "role": "band"
+    },
+    {
+     "name": "Holland–Dozier–Holland",
+     "role": "composer"
+    }
+   ],
+   "title": {
+    "fr": "Where Did Our Love Go",
+    "en": "Where Did Our Love Go"
+   },
+   "year": "1964",
+   "recording": {
+    "performers": "Diana Ross, Florence Ballard, Mary Wilson ; The Funk Brothers",
+    "label": "Motown",
+    "year": 1964
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole song"
+   },
+   "listenFor": {
+    "fr": "Le battement du début, la voix douce de Diana Ross, et un refrain qui ne s'arrête presque jamais.",
+    "en": "The beat at the start, Diana Ross's soft voice, and a chorus that almost never stops."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=The%20Supremes%20Where%20Did%20Our%20Love%20Go",
+    "spotify": "https://open.spotify.com/search/The%20Supremes%20Where%20Did%20Our%20Love%20Go",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Supremes%20Where%20Did%20Our%20Love%20Go"
+   },
+   "threads": [
+    {
+     "to": "pop-billie-jean",
+     "kind": "same-artist",
+     "why": {
+      "fr": "Michael Jackson a grandi dans la même maison, Motown, avant de s'envoler.",
+      "en": "Michael Jackson grew up in the same house, Motown, before taking flight."
+     }
+    },
+    {
+     "to": "rock-satisfaction",
+     "kind": "same-era",
+     "why": {
+      "fr": "Au même moment, l'Angleterre répond avec une guitare saturée.",
+      "en": "At the same moment, England answers with a distorted guitar."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une chanson dont personne ne voulait, et le premier de cinq numéros un d'affilée.",
+     "en": "A song nobody wanted, and the first of five number ones in a row."
+    },
+    "context": {
+     "fr": "Detroit, 1964. Berry Gordy, ancien ouvrier d'une usine automobile, a bâti Motown comme une chaîne de montage : des auteurs, un orchestre maison, les Funk Brothers, et une réunion de contrôle qualité chaque semaine. Le trio Holland–Dozier–Holland propose cette chanson aux Marvelettes, qui la refusent. Elle revient aux Supremes, que l'on surnomme alors « les Supremes sans tube ».",
+     "en": "Detroit, 1964. Berry Gordy, a former car-plant worker, has built Motown like an assembly line: writers, a house band, the Funk Brothers, and a quality-control meeting every week. The Holland–Dozier–Holland team offers this song to the Marvelettes, who turn it down. It goes to the Supremes, then nicknamed “the no-hit Supremes”."
+    },
+    "why": {
+     "fr": "C'est la recette de la pop moderne : une idée simple, répétée, portée par un rythme irrésistible. Et c'est un tournant : un label noir de Detroit conquiert toute l'Amérique, en pleine lutte pour les droits civiques.",
+     "en": "This is the recipe of modern pop: one simple idea, repeated, carried by an irresistible beat. And it is a turning point: a Black-owned Detroit label wins over all of America, in the middle of the civil rights struggle."
+    },
+    "how": {
+     "fr": "Comptez les idées : il n'y en a presque qu'une, la même mélodie tourne du début à la fin. Écoutez comment de petits changements, les chœurs, le saxophone, suffisent à vous garder.",
+     "en": "Count the ideas: there is almost only one, the same tune turns from start to finish. Hear how small changes, the backing vocals, the saxophone, are enough to hold you."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Un battement sec, fait de pieds qui frappent des planches et de mains qui claquent.",
+       "en": "A dry beat, made of feet stomping on boards and hands clapping."
+      }
+     },
+     {
+      "when": {
+       "fr": "La voix",
+       "en": "The voice"
+      },
+      "what": {
+       "fr": "Diana Ross chante bas, presque en confidence.",
+       "en": "Diana Ross sings low, almost confidentially."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les chœurs",
+       "en": "The backing vocals"
+      },
+      "what": {
+       "fr": "Florence Ballard et Mary Wilson répondent par deux mots, toujours les mêmes.",
+       "en": "Florence Ballard and Mary Wilson answer with two words, always the same."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le milieu",
+       "en": "The middle"
+      },
+      "what": {
+       "fr": "Un saxophone grave prend un court solo.",
+       "en": "A deep saxophone takes a short solo."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "piano",
+      "basse",
+      "batterie",
+      "saxophone",
+      "synthe",
+      "theremin",
+      "melodica"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "piano",
+      "basse",
+      "batterie",
+      "saxophone"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Comment est fait le battement du début ?",
+       "en": "How is the opening beat made?"
+      },
+      "options": [
+       {
+        "fr": "Avec une boîte à rythmes",
+        "en": "With a drum machine"
+       },
+       {
+        "fr": "Avec des pieds sur des planches et des claquements de mains",
+        "en": "With feet on boards and handclaps"
+       },
+       {
+        "fr": "Avec des timbales",
+        "en": "With timpani"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Un homme frappe du pied sur des planches dans le studio : la percussion la moins chère du monde.",
+       "en": "A man stomps on boards in the studio: the cheapest percussion in the world."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qui a écrit la chanson ?",
+       "en": "Who wrote the song?"
+      },
+      "options": [
+       {
+        "fr": "Diana Ross",
+        "en": "Diana Ross"
+       },
+       {
+        "fr": "Le trio Holland–Dozier–Holland",
+        "en": "The Holland–Dozier–Holland team"
+       },
+       {
+        "fr": "Berry Gordy",
+        "en": "Berry Gordy"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Les auteurs maison de Motown, qui signeront des dizaines de tubes.",
+       "en": "Motown's house writers, who would sign dozens of hits."
+      }
+     },
+     {
+      "q": {
+       "fr": "À quoi Berry Gordy comparait-il Motown ?",
+       "en": "What did Berry Gordy compare Motown to?"
+      },
+      "options": [
+       {
+        "fr": "Une chaîne de montage",
+        "en": "An assembly line"
+       },
+       {
+        "fr": "Une église",
+        "en": "A church"
+       },
+       {
+        "fr": "Une école",
+        "en": "A school"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Il avait travaillé dans une usine automobile de Detroit et en a gardé la méthode.",
+       "en": "He had worked in a Detroit car plant and kept the method."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Chœurs",
+       "en": "Backing vocals"
+      },
+      "def": {
+       "fr": "Les voix qui accompagnent et répondent à la voix principale.",
+       "en": "The voices that accompany and answer the lead."
+      }
+     },
+     {
+      "term": {
+       "fr": "Label",
+       "en": "Label"
+      },
+      "def": {
+       "fr": "La maison de disques.",
+       "en": "The record company."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

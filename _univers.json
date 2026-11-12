@@ -48,6 +48,78 @@
     "free",
     "appleMusic"
    ]
+  },
+  {
+   "id": "reggae",
+   "root": "univers/reggae/",
+   "brand": {
+    "lead": "Steevax",
+    "accent": "Sound System"
+   },
+   "name": {
+    "fr": "Reggae",
+    "en": "Reggae"
+   },
+   "kicker": {
+    "fr": "Un entrepreneur découvre le reggae",
+    "en": "An entrepreneur discovers reggae"
+   },
+   "heroTitle": {
+    "fr": "Sentir le contretemps",
+    "en": "Feeling the off-beat"
+   },
+   "audio": [
+    "free",
+    "appleMusic"
+   ]
+  },
+  {
+   "id": "pop",
+   "root": "univers/pop/",
+   "brand": {
+    "lead": "Steevax",
+    "accent": "Hit Parade"
+   },
+   "name": {
+    "fr": "Pop",
+    "en": "Pop"
+   },
+   "kicker": {
+    "fr": "Un entrepreneur découvre la pop",
+    "en": "An entrepreneur discovers pop"
+   },
+   "heroTitle": {
+    "fr": "Comprendre un tube",
+    "en": "How a hit works"
+   },
+   "audio": [
+    "free",
+    "appleMusic"
+   ]
+  },
+  {
+   "id": "rock",
+   "root": "univers/rock/",
+   "brand": {
+    "lead": "Steevax",
+    "accent": "Rock Garage"
+   },
+   "name": {
+    "fr": "Rock",
+    "en": "Rock"
+   },
+   "kicker": {
+    "fr": "Un entrepreneur découvre le rock",
+    "en": "An entrepreneur discovers rock"
+   },
+   "heroTitle": {
+    "fr": "Suivre le riff",
+    "en": "Following the riff"
+   },
+   "audio": [
+    "free",
+    "appleMusic"
+   ]
   }
  ]
 }

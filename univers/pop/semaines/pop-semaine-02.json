@@ -1,0 +1,250 @@
+{
+ "id": "pop-semaine-02",
+ "n": 2,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "age-du-studio",
+ "title": {
+  "fr": "ABBA, la perfection en studio",
+  "en": "ABBA, perfection in the studio"
+ },
+ "world": {
+  "fr": "1976 : Apple est fondée en Californie, la sonde Viking 1 se pose sur Mars, et le Concorde transporte ses premiers passagers.",
+  "en": "1976: Apple is founded in California, the Viking 1 probe lands on Mars, and Concorde carries its first passengers."
+ },
+ "works": [
+  {
+   "id": "pop-dancing-queen",
+   "people": [
+    {
+     "name": "ABBA",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "Dancing Queen",
+    "en": "Dancing Queen"
+   },
+   "year": "1976",
+   "recording": {
+    "performers": "Agnetha Fältskog, Anni-Frid Lyngstad, Benny Andersson, Björn Ulvaeus",
+    "label": "Polar",
+    "year": 1976
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole song"
+   },
+   "listenFor": {
+    "fr": "Le piano qui dévale au tout début, puis les deux voix qui chantent ensemble comme une seule.",
+    "en": "The piano tumbling down at the very start, then the two voices singing together as one."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=ABBA%20Dancing%20Queen",
+    "spotify": "https://open.spotify.com/search/ABBA%20Dancing%20Queen",
+    "youtube": "https://www.youtube.com/results?search_query=ABBA%20Dancing%20Queen"
+   },
+   "threads": [
+    {
+     "to": "pop-where-did-our-love-go",
+     "kind": "influence",
+     "why": {
+      "fr": "Douze ans plus tôt, la même idée : une équipe, un studio, un refrain parfait.",
+      "en": "Twelve years earlier, the same idea: a team, a studio, a perfect chorus."
+     }
+    },
+    {
+     "to": "pop-billie-jean",
+     "kind": "same-era",
+     "why": {
+      "fr": "Six ans plus tard, la piste de danse change de son.",
+      "en": "Six years later, the dance floor changes its sound."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Un glissement de piano, et une piste de danse entière se lève.",
+     "en": "One slide of the piano, and a whole dance floor gets up."
+    },
+    "context": {
+     "fr": "Stockholm, 1975. Benny Andersson et Björn Ulvaeus écrivent, l'ingénieur Michael B. Tretow empile les prises pour épaissir le son. Quand Anni-Frid entend la musique sans les voix, elle en pleure. Le groupe la chante en juin 1976 à la télévision, à la veille du mariage du roi de Suède. Ce sera leur seul numéro un aux États-Unis.",
+     "en": "Stockholm, 1975. Benny Andersson and Björn Ulvaeus write, engineer Michael B. Tretow stacks takes to thicken the sound. When Anni-Frid hears the music without the voices, she cries. The group sings it on television in June 1976, on the eve of the King of Sweden's wedding. It will be their only number one in the United States."
+    },
+    "why": {
+     "fr": "C'est le sommet de la pop d'atelier : chaque seconde est travaillée, et pourtant tout paraît facile. La chanson est joyeuse et mélancolique à la fois, ce qui explique qu'elle traverse les générations.",
+     "en": "This is the peak of workshop pop: every second is crafted, yet it all sounds effortless. The song is joyful and wistful at once, which is why it crosses generations."
+    },
+    "how": {
+     "fr": "Remarquez qu'elle commence par le refrain, sans attendre. Puis essayez de séparer les deux chanteuses : c'est presque impossible, et c'est voulu.",
+     "en": "Notice that it opens with the chorus, without waiting. Then try to tell the two singers apart: it is almost impossible, and that is intended."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Le piano glisse du haut en bas du clavier, puis tout l'orchestre entre.",
+       "en": "The piano slides down the keyboard, then the whole band comes in."
+      }
+     },
+     {
+      "when": {
+       "fr": "Aussitôt",
+       "en": "At once"
+      },
+      "what": {
+       "fr": "La chanson commence par un morceau du refrain, avant le premier couplet.",
+       "en": "The song opens with part of the chorus, before the first verse."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les voix",
+       "en": "The voices"
+      },
+      "what": {
+       "fr": "Agnetha et Anni-Frid chantent la même mélodie ensemble, du début à la fin.",
+       "en": "Agnetha and Anni-Frid sing the same melody together, from start to finish."
+      }
+     },
+     {
+      "when": {
+       "fr": "Derrière",
+       "en": "Behind"
+      },
+      "what": {
+       "fr": "Des cordes soutiennent le refrain et le rendent plus large.",
+       "en": "Strings hold up the chorus and make it wider."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "piano",
+      "cordes",
+      "basse",
+      "batterie",
+      "saxophone",
+      "melodica",
+      "theremin"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "piano",
+      "cordes",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Par quoi la chanson commence-t-elle ?",
+       "en": "How does the song open?"
+      },
+      "options": [
+       {
+        "fr": "Un solo de guitare",
+        "en": "A guitar solo"
+       },
+       {
+        "fr": "Un glissando de piano",
+        "en": "A piano glissando"
+       },
+       {
+        "fr": "Un roulement de batterie",
+        "en": "A drum roll"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Le pianiste fait glisser sa main sur les touches : c'est un glissando.",
+       "en": "The pianist slides his hand along the keys: a glissando."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qui chante la mélodie ?",
+       "en": "Who sings the melody?"
+      },
+      "options": [
+       {
+        "fr": "Une seule chanteuse",
+        "en": "One singer"
+       },
+       {
+        "fr": "Les deux chanteuses ensemble",
+        "en": "Both singers together"
+       },
+       {
+        "fr": "Les quatre membres",
+        "en": "All four members"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Agnetha et Anni-Frid, à l'unisson : deux timbres fondus en un.",
+       "en": "Agnetha and Anni-Frid, in unison: two timbres blended into one."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qu'a-t-elle d'unique dans la carrière d'ABBA ?",
+       "en": "What makes it unique in ABBA's career?"
+      },
+      "options": [
+       {
+        "fr": "Leur seul numéro un aux États-Unis",
+        "en": "Their only number one in the United States"
+       },
+       {
+        "fr": "Leur première chanson",
+        "en": "Their first song"
+       },
+       {
+        "fr": "Leur seule chanson en suédois",
+        "en": "Their only song in Swedish"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Numéro un aux États-Unis en 1977, et dans une douzaine d'autres pays.",
+       "en": "Number one in the United States in 1977, and in a dozen other countries."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Glissando",
+       "en": "Glissando"
+      },
+      "def": {
+       "fr": "Un glissement rapide d'une note à une autre, en passant par toutes celles du milieu.",
+       "en": "A quick slide from one note to another, through all those in between."
+      }
+     },
+     {
+      "term": {
+       "fr": "Unisson",
+       "en": "Unison"
+      },
+      "def": {
+       "fr": "Plusieurs voix qui chantent exactement la même mélodie.",
+       "en": "Several voices singing exactly the same melody."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

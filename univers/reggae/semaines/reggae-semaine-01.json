@@ -1,0 +1,241 @@
+{
+ "id": "reggae-semaine-01",
+ "n": 1,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "early-reggae",
+ "title": {
+  "fr": "Toots, le mot et le rythme",
+  "en": "Toots, the word and the beat"
+ },
+ "world": {
+  "fr": "1969 : l'homme marche sur la Lune, Woodstock rassemble 400 000 personnes, et la Jamaïque, indépendante depuis sept ans, exporte ses premiers tubes.",
+  "en": "1969: man walks on the Moon, Woodstock gathers 400,000 people, and Jamaica, independent for seven years, exports its first hits."
+ },
+ "works": [
+  {
+   "id": "reggae-pressure-drop",
+   "people": [
+    {
+     "name": "Toots and the Maytals",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "Pressure Drop",
+    "en": "Pressure Drop"
+   },
+   "year": "1969",
+   "recording": {
+    "performers": "Toots Hibbert, Raleigh Gordon, Jerry Matthias",
+    "label": "Beverley's",
+    "year": 1969
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole song"
+   },
+   "listenFor": {
+    "fr": "La guitare qui frappe entre les temps, et la voix de Toots, plus proche du gospel que de la pop.",
+    "en": "The guitar hitting between the beats, and Toots's voice, closer to gospel than to pop."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Toots%20and%20the%20Maytals%20Pressure%20Drop",
+    "spotify": "https://open.spotify.com/search/Toots%20and%20the%20Maytals%20Pressure%20Drop",
+    "youtube": "https://www.youtube.com/results?search_query=Toots%20and%20the%20Maytals%20Pressure%20Drop"
+   },
+   "threads": [
+    {
+     "to": "reggae-get-up-stand-up",
+     "kind": "same-era",
+     "why": {
+      "fr": "Quatre ans plus tard, le même rythme ralentit et prend la parole.",
+      "en": "Four years later, the same beat slows down and speaks out."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Trois minutes qui contiennent tout le reggae : un contretemps, une basse ronde et une voix d'église.",
+     "en": "Three minutes that hold all of reggae: an off-beat, a round bass and a church voice."
+    },
+    "context": {
+     "fr": "Kingston, 1969. Toots Hibbert a grandi en chantant à l'église. Avec les Maytals, un trio vocal, il enregistre pour le producteur Leslie Kong. Un an plus tôt, leur chanson « Do the Reggay » a donné son nom à une musique toute neuve. « Pressure Drop » fera le tour du monde grâce au film The Harder They Come, en 1972.",
+     "en": "Kingston, 1969. Toots Hibbert grew up singing in church. With the Maytals, a vocal trio, he records for producer Leslie Kong. A year earlier their song “Do the Reggay” gave a brand-new music its name. “Pressure Drop” will travel the world thanks to the film The Harder They Come, in 1972."
+    },
+    "why": {
+     "fr": "C'est le moment où le reggae sort du ska et du rocksteady : le tempo est plus nerveux, la guitare hache le contretemps, la basse porte la mélodie. Tout ce qui suivra, de Bob Marley au dub, repose sur cette formule.",
+     "en": "This is the moment reggae steps out of ska and rocksteady: the tempo is jumpier, the guitar chops the off-beat, the bass carries the tune. Everything that follows, from Bob Marley to dub, rests on this formula."
+    },
+    "how": {
+     "fr": "Tapez du pied sur les temps, puis écoutez où tombe la guitare : jamais avec votre pied, toujours entre deux. Ensuite, suivez seulement la basse pendant un couplet.",
+     "en": "Tap your foot on the beats, then listen to where the guitar lands: never with your foot, always in between. Then follow only the bass for one verse."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Toots fredonne sans paroles, comme à l'église, pendant que le rythme s'installe.",
+       "en": "Toots hums without words, as in church, while the groove settles in."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les couplets",
+       "en": "The verses"
+      },
+      "what": {
+       "fr": "Toots lance une phrase, les deux autres Maytals lui répondent.",
+       "en": "Toots throws out a line, the two other Maytals answer him."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Le titre revient en boucle : la pression chute, l'orage arrive pour celui qui a mal agi.",
+       "en": "The title comes round and round: the pressure drops, a storm is coming for the wrongdoer."
+      }
+     },
+     {
+      "when": {
+       "fr": "Tout du long",
+       "en": "Throughout"
+      },
+      "what": {
+       "fr": "La guitare frappe sec entre les temps : c'est le contretemps.",
+       "en": "The guitar strikes sharply between the beats: that is the off-beat."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "guitare",
+      "basse",
+      "batterie",
+      "saxophone",
+      "cordes",
+      "synthe",
+      "theremin"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel mot Toots a-t-il donné au monde en 1968 ?",
+       "en": "Which word did Toots give the world in 1968?"
+      },
+      "options": [
+       {
+        "fr": "Ska",
+        "en": "Ska"
+       },
+       {
+        "fr": "Reggae",
+        "en": "Reggae"
+       },
+       {
+        "fr": "Dub",
+        "en": "Dub"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Sa chanson « Do the Reggay » est la première à porter ce nom.",
+       "en": "His song “Do the Reggay” was the first to carry the name."
+      }
+     },
+     {
+      "q": {
+       "fr": "Où tombe le coup de guitare ?",
+       "en": "Where does the guitar stroke fall?"
+      },
+      "options": [
+       {
+        "fr": "Sur chaque temps",
+        "en": "On every beat"
+       },
+       {
+        "fr": "Entre les temps",
+        "en": "Between the beats"
+       },
+       {
+        "fr": "Seulement au refrain",
+        "en": "Only in the chorus"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Entre les temps : c'est le contretemps, la signature du reggae.",
+       "en": "Between the beats: the off-beat, reggae's signature."
+      }
+     },
+     {
+      "q": {
+       "fr": "Que raconte le titre ?",
+       "en": "What does the title say?"
+      },
+      "options": [
+       {
+        "fr": "Une histoire d'amour",
+        "en": "A love story"
+       },
+       {
+        "fr": "La météo de Kingston",
+        "en": "Kingston's weather"
+       },
+       {
+        "fr": "La justice qui rattrape celui qui a mal agi",
+        "en": "Justice catching up with the wrongdoer"
+       }
+      ],
+      "answer": 2,
+      "why": {
+       "fr": "La pression qui chute annonce l'orage : Toots parlait d'un homme qui lui devait de l'argent.",
+       "en": "Falling pressure announces a storm: Toots was talking about a man who owed him money."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Contretemps",
+       "en": "Off-beat"
+      },
+      "def": {
+       "fr": "Ce qui se joue entre les temps forts.",
+       "en": "What is played between the strong beats."
+      }
+     },
+     {
+      "term": {
+       "fr": "Trio vocal",
+       "en": "Vocal trio"
+      },
+      "def": {
+       "fr": "Trois chanteurs : un meneur et deux voix qui lui répondent.",
+       "en": "Three singers: a lead and two voices answering him."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

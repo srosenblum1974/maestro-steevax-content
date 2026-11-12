@@ -1,0 +1,253 @@
+{
+ "id": "reggae-semaine-02",
+ "n": 2,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "roots",
+ "title": {
+  "fr": "Marley et Tosh, le reggae prend la parole",
+  "en": "Marley and Tosh, reggae speaks out"
+ },
+ "world": {
+  "fr": "1973 : les accords de Paris mettent fin à l'engagement américain au Vietnam, le premier choc pétrolier frappe l'Occident, et Picasso meurt à Mougins.",
+  "en": "1973: the Paris accords end American involvement in Vietnam, the first oil shock hits the West, and Picasso dies in Mougins."
+ },
+ "works": [
+  {
+   "id": "reggae-get-up-stand-up",
+   "people": [
+    {
+     "name": "Bob Marley & The Wailers",
+     "role": "band"
+    },
+    {
+     "name": "Peter Tosh",
+     "role": "composer"
+    }
+   ],
+   "title": {
+    "fr": "Get Up, Stand Up",
+    "en": "Get Up, Stand Up"
+   },
+   "year": "1973",
+   "recording": {
+    "performers": "Bob Marley, Peter Tosh, Bunny Wailer, Aston Barrett, Carlton Barrett, Earl Lindo",
+    "label": "Island",
+    "year": 1973
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole song"
+   },
+   "listenFor": {
+    "fr": "Deux voix très différentes pour le même message : Marley, souple et chaleureux ; Tosh, grave et tranchant.",
+    "en": "Two very different voices for one message: Marley, supple and warm; Tosh, deep and cutting."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Bob%20Marley%20Wailers%20Get%20Up%20Stand%20Up%20Burnin",
+    "spotify": "https://open.spotify.com/search/Bob%20Marley%20Wailers%20Get%20Up%20Stand%20Up%20Burnin",
+    "youtube": "https://www.youtube.com/results?search_query=Bob%20Marley%20Wailers%20Get%20Up%20Stand%20Up%20Burnin"
+   },
+   "threads": [
+    {
+     "to": "reggae-king-tubby-meets-rockers-uptown",
+     "kind": "same-artist",
+     "why": {
+      "fr": "La basse et la batterie des frères Barrett, celles des Wailers, portent aussi ce classique du dub.",
+      "en": "The Barrett brothers' bass and drums, the Wailers' own, also drive this dub classic."
+     }
+    },
+    {
+     "to": "reggae-pressure-drop",
+     "kind": "influence",
+     "why": {
+      "fr": "Le reggae des débuts, plus vif, d'où tout est parti.",
+      "en": "Early reggae, livelier, where it all began."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Un refrain que l'on comprend dans toutes les langues, et la dernière chanson que Bob Marley ait chantée sur scène.",
+     "en": "A chorus understood in every language, and the last song Bob Marley ever sang on stage."
+    },
+    "context": {
+     "fr": "Kingston, 1973. Les Wailers, Bob Marley, Peter Tosh et Bunny Wailer, chantent ensemble depuis dix ans. Marley et Tosh écrivent cette chanson pour l'album Burnin', le dernier du trio d'origine. Le 23 septembre 1980, à Pittsburgh, c'est par elle que Marley termine son tout dernier concert.",
+     "en": "Kingston, 1973. The Wailers, Bob Marley, Peter Tosh and Bunny Wailer, have sung together for ten years. Marley and Tosh write this song for the album Burnin', the last by the original trio. On 23 September 1980, in Pittsburgh, Marley closes his very last concert with it."
+    },
+    "why": {
+     "fr": "Le reggae devient ici une musique de combat, portée par la foi rastafari : on n'attend pas le paradis, on réclame ses droits maintenant. C'est le reggae « roots », plus lent et plus grave, qui fera de Marley une voix mondiale.",
+     "en": "Here reggae becomes fighting music, carried by the Rastafari faith: you do not wait for heaven, you claim your rights now. This is “roots” reggae, slower and deeper, which will make Marley a world voice."
+    },
+    "how": {
+     "fr": "Suivez d'abord la basse d'Aston Barrett : elle chante presque autant que les voix. Puis guettez le changement de chanteur au troisième couplet.",
+     "en": "First follow Aston Barrett's bass: it sings almost as much as the voices. Then watch for the change of singer in the third verse."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Un roulement de batterie, puis le refrain arrive tout de suite, chanté à plusieurs.",
+       "en": "A drum roll, then the chorus arrives at once, sung together."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les deux premiers couplets",
+       "en": "The first two verses"
+      },
+      "what": {
+       "fr": "Bob Marley chante seul, d'une voix souple.",
+       "en": "Bob Marley sings alone, in a supple voice."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le troisième couplet",
+       "en": "The third verse"
+      },
+      "what": {
+       "fr": "Peter Tosh prend le relais : la voix devient plus grave et plus dure.",
+       "en": "Peter Tosh takes over: the voice turns deeper and harder."
+      }
+     },
+     {
+      "when": {
+       "fr": "Tout du long",
+       "en": "Throughout"
+      },
+      "what": {
+       "fr": "La basse dessine une vraie mélodie sous les voix.",
+       "en": "The bass draws a real melody under the voices."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "guitare",
+      "basse",
+      "batterie",
+      "cuivres",
+      "cordes",
+      "melodica",
+      "theremin"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Qui chante le troisième couplet ?",
+       "en": "Who sings the third verse?"
+      },
+      "options": [
+       {
+        "fr": "Bob Marley",
+        "en": "Bob Marley"
+       },
+       {
+        "fr": "Peter Tosh",
+        "en": "Peter Tosh"
+       },
+       {
+        "fr": "Bunny Wailer",
+        "en": "Bunny Wailer"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Peter Tosh, coauteur de la chanson, à la voix plus grave.",
+       "en": "Peter Tosh, the song's co-writer, with the deeper voice."
+      }
+     },
+     {
+      "q": {
+       "fr": "Sur quel album paraît-elle ?",
+       "en": "Which album is it on?"
+      },
+      "options": [
+       {
+        "fr": "Burnin'",
+        "en": "Burnin'"
+       },
+       {
+        "fr": "Exodus",
+        "en": "Exodus"
+       },
+       {
+        "fr": "Legend",
+        "en": "Legend"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Burnin' (1973), dernier album des Wailers d'origine.",
+       "en": "Burnin' (1973), the last album by the original Wailers."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qu'est-ce qui distingue le reggae roots ?",
+       "en": "What sets roots reggae apart?"
+      },
+      "options": [
+       {
+        "fr": "Un tempo très rapide et des cuivres",
+        "en": "A very fast tempo and horns"
+       },
+       {
+        "fr": "Un tempo lent, la basse en avant, des textes spirituels et politiques",
+        "en": "A slow tempo, the bass up front, spiritual and political lyrics"
+       },
+       {
+        "fr": "Des rythmes électroniques",
+        "en": "Electronic rhythms"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Lent, grave, porté par la basse et par un message.",
+       "en": "Slow, deep, carried by the bass and by a message."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Roots",
+       "en": "Roots"
+      },
+      "def": {
+       "fr": "Le reggae des années 1970, lent et spirituel.",
+       "en": "The reggae of the 1970s, slow and spiritual."
+      }
+     },
+     {
+      "term": {
+       "fr": "Section rythmique",
+       "en": "Rhythm section"
+      },
+      "def": {
+       "fr": "La basse et la batterie, le moteur du groupe.",
+       "en": "Bass and drums, the band's engine."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

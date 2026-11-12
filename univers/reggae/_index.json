@@ -1,0 +1,64 @@
+{
+ "weeks": [
+  {
+   "id": "reggae-semaine-01",
+   "n": 1,
+   "phase": 1,
+   "period": "early-reggae",
+   "title": {
+    "fr": "Toots, le mot et le rythme",
+    "en": "Toots, the word and the beat"
+   },
+   "works": [
+    {
+     "id": "reggae-pressure-drop",
+     "composer": "Toots and the Maytals",
+     "title": {
+      "fr": "Pressure Drop",
+      "en": "Pressure Drop"
+     }
+    }
+   ]
+  },
+  {
+   "id": "reggae-semaine-02",
+   "n": 2,
+   "phase": 1,
+   "period": "roots",
+   "title": {
+    "fr": "Marley et Tosh, le reggae prend la parole",
+    "en": "Marley and Tosh, reggae speaks out"
+   },
+   "works": [
+    {
+     "id": "reggae-get-up-stand-up",
+     "composer": "Bob Marley & The Wailers, Peter Tosh",
+     "title": {
+      "fr": "Get Up, Stand Up",
+      "en": "Get Up, Stand Up"
+     }
+    }
+   ]
+  },
+  {
+   "id": "reggae-semaine-03",
+   "n": 3,
+   "phase": 1,
+   "period": "dub",
+   "title": {
+    "fr": "King Tubby, le studio devient instrument",
+    "en": "King Tubby, the studio becomes an instrument"
+   },
+   "works": [
+    {
+     "id": "reggae-king-tubby-meets-rockers-uptown",
+     "composer": "Augustus Pablo, King Tubby",
+     "title": {
+      "fr": "King Tubby Meets Rockers Uptown",
+      "en": "King Tubby Meets Rockers Uptown"
+     }
+    }
+   ]
+  }
+ ]
+}

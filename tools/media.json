@@ -337,6 +337,339 @@
      }
     ]
    }
+  },
+  "reggae-semaine-01": {
+   "image": {
+    "search": [
+     "Joseph Bartholomew Kidd Kingston Jamaica",
+     "Kidd Views of Jamaica",
+     "Kingston Jamaica 19th century lithograph"
+    ],
+    "require": "jamaica|kingston",
+    "exclude": "map|flag|coat",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "reggae-pressure-drop": [
+     {
+      "label": {
+       "fr": "Pressure Drop (1969)",
+       "en": "Pressure Drop (1969)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Toots and the Maytals Pressure Drop",
+       "artist": "Toots",
+       "title": "Pressure Drop",
+       "albums": [
+        "Harder They Come",
+        "Monkey Man",
+        "Very Best",
+        "Funky Kingston",
+        "Best"
+       ],
+       "seconds": [
+        165,
+        235
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "reggae-semaine-02": {
+   "image": {
+    "search": [
+     "Frederic Edwin Church Blue Mountains Jamaica",
+     "Frederic Edwin Church Jamaica sunset",
+     "Martin Johnson Heade Jamaica"
+    ],
+    "require": "jamaica",
+    "exclude": "vale of st",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "reggae-get-up-stand-up": [
+     {
+      "label": {
+       "fr": "Get Up, Stand Up (Burnin', 1973)",
+       "en": "Get Up, Stand Up (Burnin', 1973)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Bob Marley Wailers Get Up Stand Up",
+       "artist": "Wailers",
+       "title": "Stand Up",
+       "albums": [
+        "Burnin",
+        "Legend",
+        "Gold"
+       ],
+       "seconds": [
+        185,
+        210
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "reggae-semaine-03": {
+   "image": {
+    "search": [
+     "Frederic Edwin Church Jamaica tropical night",
+     "Frederic Edwin Church tropical scenery",
+     "Martin Johnson Heade tropical"
+    ],
+    "require": "church|heade",
+    "exclude": "vale of st|portrait|photo",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "reggae-king-tubby-meets-rockers-uptown": [
+     {
+      "label": {
+       "fr": "King Tubby Meets Rockers Uptown",
+       "en": "King Tubby Meets Rockers Uptown"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Augustus Pablo King Tubby Meets Rockers Uptown",
+       "artist": "Augustus Pablo",
+       "title": "Meets Rockers Uptown",
+       "albums": [
+        "Rockers Uptown",
+        "Classic Rockers",
+        "Original Rockers"
+       ],
+       "seconds": [
+        135,
+        175
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "pop-semaine-01": {
+   "image": {
+    "search": [
+     "Kandinsky Several Circles 1926",
+     "Kandinsky Einige Kreise"
+    ],
+    "require": "kandinsky",
+    "exclude": "photo|sketch",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "pop-where-did-our-love-go": [
+     {
+      "label": {
+       "fr": "Where Did Our Love Go (1964)",
+       "en": "Where Did Our Love Go (1964)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "The Supremes Where Did Our Love Go",
+       "artist": "Supremes",
+       "title": "Where Did Our Love Go",
+       "albums": [
+        "Where Did Our Love Go",
+        "Gold",
+        "Number 1",
+        "Anthology",
+        "Definitive"
+       ],
+       "seconds": [
+        145,
+        170
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "pop-semaine-02": {
+   "image": {
+    "search": [
+     "Robert Delaunay Rythme Joie de vivre",
+     "Robert Delaunay Rythme",
+     "Robert Delaunay Formes circulaires"
+    ],
+    "require": "delaunay",
+    "exclude": "sonia|photo|portrait",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "pop-dancing-queen": [
+     {
+      "label": {
+       "fr": "Dancing Queen (Arrival, 1976)",
+       "en": "Dancing Queen (Arrival, 1976)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "ABBA Dancing Queen",
+       "artist": "ABBA",
+       "title": "Dancing Queen",
+       "albums": [
+        "Arrival",
+        "Gold"
+       ],
+       "seconds": [
+        225,
+        236
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "pop-semaine-03": {
+   "image": {
+    "search": [
+     "Piet Mondrian Victory Boogie Woogie",
+     "Kandinsky Yellow Red Blue 1925",
+     "Kandinsky Gelb Rot Blau"
+    ],
+    "require": "mondrian|kandinsky",
+    "exclude": "photo|portrait|sketch",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "pop-billie-jean": [
+     {
+      "label": {
+       "fr": "Billie Jean (Thriller, 1982)",
+       "en": "Billie Jean (Thriller, 1982)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Michael Jackson Billie Jean",
+       "artist": "Michael Jackson",
+       "title": "Billie Jean",
+       "albums": [
+        "Thriller"
+       ],
+       "seconds": [
+        285,
+        300
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "rock-semaine-01": {
+   "image": {
+    "search": [
+     "Turner Rain, Steam and Speed The Great Western Railway",
+     "Turner Rain Steam and Speed"
+    ],
+    "require": "rain",
+    "exclude": "detail|photo",
+    "focus": "55% 50%"
+   },
+   "audio": {
+    "rock-johnny-b-goode": [
+     {
+      "label": {
+       "fr": "Johnny B. Goode (1958)",
+       "en": "Johnny B. Goode (1958)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Chuck Berry Johnny B. Goode",
+       "artist": "Chuck Berry",
+       "title": "Johnny B. Goode",
+       "albums": [
+        "Berry Is On Top",
+        "Great Twenty-Eight",
+        "Definitive",
+        "Gold",
+        "Best",
+        "Anthology"
+       ],
+       "seconds": [
+        150,
+        170
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "rock-semaine-02": {
+   "image": {
+    "search": [
+     "Ernst Ludwig Kirchner Potsdamer Platz 1914",
+     "Ernst Ludwig Kirchner Berlin street scene",
+     "Kirchner Strassenszene Berlin"
+    ],
+    "require": "kirchner",
+    "exclude": "photo|sketch|woodcut|holzschnitt",
+    "focus": "50% 35%"
+   },
+   "audio": {
+    "rock-satisfaction": [
+     {
+      "label": {
+       "fr": "(I Can't Get No) Satisfaction (1965)",
+       "en": "(I Can't Get No) Satisfaction (1965)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Rolling Stones Satisfaction",
+       "artist": "Rolling Stones",
+       "title": "Satisfaction",
+       "albums": [
+        "Out of Our Heads",
+        "Hot Rocks",
+        "Forty Licks",
+        "Big Hits"
+       ],
+       "seconds": [
+        215,
+        232
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "rock-semaine-03": {
+   "image": {
+    "search": [
+     "John Martin The Great Day of His Wrath",
+     "John Martin Great Day of His Wrath Tate"
+    ],
+    "require": "wrath",
+    "exclude": "engraving|mezzotint|print",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "rock-whole-lotta-love": [
+     {
+      "label": {
+       "fr": "Whole Lotta Love (Led Zeppelin II, 1969)",
+       "en": "Whole Lotta Love (Led Zeppelin II, 1969)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Led Zeppelin Whole Lotta Love",
+       "artist": "Led Zeppelin",
+       "title": "Whole Lotta Love",
+       "albums": [
+        "Led Zeppelin II"
+       ],
+       "seconds": [
+        325,
+        340
+       ]
+      }
+     }
+    ]
+   }
   }
  },
  "heroes": {
@@ -345,6 +678,32 @@
     "William P. Gottlieb 52nd Street New York 1948",
     "52nd Street New York Gottlieb"
    ],
+   "focus": "50% 45%"
+  },
+  "reggae": {
+   "search": [
+    "Frederic Edwin Church Vale of St Thomas Jamaica",
+    "Frederic Edwin Church Jamaica"
+   ],
+   "require": "jamaica",
+   "focus": "50% 45%"
+  },
+  "pop": {
+   "search": [
+    "Kandinsky Composition VIII 1923",
+    "Kandinsky Composition 8"
+   ],
+   "require": "kandinsky",
+   "exclude": "sketch|study|photo",
+   "focus": "50% 50%"
+  },
+  "rock": {
+   "search": [
+    "Umberto Boccioni The City Rises",
+    "Boccioni La città che sale"
+   ],
+   "require": "boccioni",
+   "exclude": "sketch|study|studio|photo",
    "focus": "50% 45%"
   }
  }

@@ -1,0 +1,64 @@
+{
+ "weeks": [
+  {
+   "id": "pop-semaine-01",
+   "n": 1,
+   "phase": 1,
+   "period": "usines-a-tubes",
+   "title": {
+    "fr": "Les Supremes, la fabrique Motown",
+    "en": "The Supremes, the Motown factory"
+   },
+   "works": [
+    {
+     "id": "pop-where-did-our-love-go",
+     "composer": "The Supremes, Holland–Dozier–Holland",
+     "title": {
+      "fr": "Where Did Our Love Go",
+      "en": "Where Did Our Love Go"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pop-semaine-02",
+   "n": 2,
+   "phase": 1,
+   "period": "age-du-studio",
+   "title": {
+    "fr": "ABBA, la perfection en studio",
+    "en": "ABBA, perfection in the studio"
+   },
+   "works": [
+    {
+     "id": "pop-dancing-queen",
+     "composer": "ABBA",
+     "title": {
+      "fr": "Dancing Queen",
+      "en": "Dancing Queen"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pop-semaine-03",
+   "n": 3,
+   "phase": 1,
+   "period": "ere-mtv",
+   "title": {
+    "fr": "Michael Jackson, la pop devient image",
+    "en": "Michael Jackson, pop becomes image"
+   },
+   "works": [
+    {
+     "id": "pop-billie-jean",
+     "composer": "Michael Jackson, Quincy Jones",
+     "title": {
+      "fr": "Billie Jean",
+      "en": "Billie Jean"
+     }
+    }
+   ]
+  }
+ ]
+}

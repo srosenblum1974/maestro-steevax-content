@@ -1,0 +1,64 @@
+{
+ "weeks": [
+  {
+   "id": "rock-semaine-01",
+   "n": 1,
+   "phase": 1,
+   "period": "rocknroll",
+   "title": {
+    "fr": "Chuck Berry, la guitare prend le pouvoir",
+    "en": "Chuck Berry, the guitar takes over"
+   },
+   "works": [
+    {
+     "id": "rock-johnny-b-goode",
+     "composer": "Chuck Berry",
+     "title": {
+      "fr": "Johnny B. Goode",
+      "en": "Johnny B. Goode"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rock-semaine-02",
+   "n": 2,
+   "phase": 1,
+   "period": "british-invasion",
+   "title": {
+    "fr": "Les Rolling Stones, trois notes suffisent",
+    "en": "The Rolling Stones, three notes are enough"
+   },
+   "works": [
+    {
+     "id": "rock-satisfaction",
+     "composer": "The Rolling Stones",
+     "title": {
+      "fr": "(I Can't Get No) Satisfaction",
+      "en": "(I Can't Get No) Satisfaction"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rock-semaine-03",
+   "n": 3,
+   "phase": 1,
+   "period": "hard-rock",
+   "title": {
+    "fr": "Led Zeppelin, le rock devient géant",
+    "en": "Led Zeppelin, rock becomes a giant"
+   },
+   "works": [
+    {
+     "id": "rock-whole-lotta-love",
+     "composer": "Led Zeppelin",
+     "title": {
+      "fr": "Whole Lotta Love",
+      "en": "Whole Lotta Love"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "id": "pop-semaine-03",
+ "n": 3,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "ere-mtv",
+ "title": {
+  "fr": "Michael Jackson, la pop devient image",
+  "en": "Michael Jackson, pop becomes image"
+ },
+ "world": {
+  "fr": "1982-1983 : les premiers lecteurs de CD arrivent en magasin, E.T. remplit les cinémas, et MTV n'a pas deux ans.",
+  "en": "1982–1983: the first CD players reach the shops, E.T. fills the cinemas, and MTV is not yet two years old."
+ },
+ "works": [
+  {
+   "id": "pop-billie-jean",
+   "people": [
+    {
+     "name": "Michael Jackson",
+     "role": "leader"
+    },
+    {
+     "name": "Quincy Jones",
+     "role": "producer"
+    }
+   ],
+   "title": {
+    "fr": "Billie Jean",
+    "en": "Billie Jean"
+   },
+   "year": "1982",
+   "recording": {
+    "performers": "Michael Jackson, Louis Johnson (basse), Ndugu Chancler (batterie), David Williams (guitare)",
+    "label": "Epic",
+    "year": 1982
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole song"
+   },
+   "listenFor": {
+    "fr": "L'entrée des instruments un par un : la batterie seule, puis la basse, puis les accords, puis la voix.",
+    "en": "The instruments entering one by one: drums alone, then the bass, then the chords, then the voice."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Michael%20Jackson%20Billie%20Jean%20Thriller",
+    "spotify": "https://open.spotify.com/search/Michael%20Jackson%20Billie%20Jean%20Thriller",
+    "youtube": "https://www.youtube.com/results?search_query=Michael%20Jackson%20Billie%20Jean%20Thriller"
+   },
+   "threads": [
+    {
+     "to": "pop-where-did-our-love-go",
+     "kind": "influence",
+     "why": {
+      "fr": "L'école Motown, où Jackson a tout appris enfant.",
+      "en": "The Motown school, where Jackson learned everything as a child."
+     }
+    },
+    {
+     "to": "reggae-king-tubby-meets-rockers-uptown",
+     "kind": "same-idea",
+     "why": {
+      "fr": "Le même principe, à Kingston : faire de la place autour de la basse et de la batterie.",
+      "en": "The same principle, in Kingston: making room around bass and drums."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Vingt-neuf secondes sans une seule parole, et l'on sait déjà que c'est un tube.",
+     "en": "Twenty-nine seconds without a single word, and you already know it is a hit."
+    },
+    "context": {
+     "fr": "Los Angeles, 1982. Michael Jackson écrit seul cette chanson pour l'album Thriller. Le producteur Quincy Jones trouve l'introduction trop longue ; Jackson refuse de la couper : c'est elle, dit-il, qui lui donne envie de danser. L'ingénieur Bruce Swedien réalise des dizaines de mixages, puis revient au deuxième. En 1983, à la télévision, Jackson danse dessus son premier moonwalk.",
+     "en": "Los Angeles, 1982. Michael Jackson writes this song alone for the album Thriller. Producer Quincy Jones finds the introduction too long; Jackson refuses to cut it: it is what makes him want to dance, he says. Engineer Bruce Swedien makes dozens of mixes, then goes back to the second. In 1983, on television, Jackson dances his first moonwalk to it."
+    },
+    "why": {
+     "fr": "La chanson fait tomber un mur : son clip est l'un des premiers d'un artiste noir à passer en boucle sur MTV. Et elle montre qu'un tube peut reposer sur presque rien, une batterie, une basse, et beaucoup d'espace.",
+     "en": "The song brings down a wall: its video is one of the first by a Black artist to play in heavy rotation on MTV. And it shows that a hit can rest on almost nothing, drums, a bass, and a great deal of space."
+    },
+    "how": {
+     "fr": "Comptez les entrées au début, comme des invités qui arrivent un par un. Puis écoutez tout ce que la voix ajoute en dehors des paroles : souffles, hoquets, petits cris.",
+     "en": "Count the entrances at the start, like guests arriving one by one. Then hear everything the voice adds besides the words: breaths, hiccups, small cries."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "La batterie seule, sèche et régulière.",
+       "en": "Drums alone, dry and steady."
+      }
+     },
+     {
+      "when": {
+       "fr": "Quelques secondes plus tard",
+       "en": "A few seconds later"
+      },
+      "what": {
+       "fr": "La ligne de basse entre et ne s'arrêtera plus.",
+       "en": "The bass line comes in and will never stop."
+      }
+     },
+     {
+      "when": {
+       "fr": "Ensuite",
+       "en": "Next"
+      },
+      "what": {
+       "fr": "Des accords de synthétiseur, brefs, comme des points de suspension.",
+       "en": "Short synthesizer chords, like an ellipsis."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Les voix se superposent : Jackson se répond à lui-même.",
+       "en": "The voices pile up: Jackson answers himself."
+      }
+     },
+     {
+      "when": {
+       "fr": "Plus loin",
+       "en": "Later on"
+      },
+      "what": {
+       "fr": "Des cordes se glissent derrière la voix.",
+       "en": "Strings slip in behind the voice."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "basse",
+      "batterie",
+      "synthe",
+      "cordes",
+      "guitare",
+      "melodica",
+      "theremin",
+      "orgue"
+     ],
+     "answer": [
+      "voix",
+      "basse",
+      "batterie",
+      "synthe",
+      "cordes",
+      "guitare"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel instrument ouvre la chanson, seul ?",
+       "en": "Which instrument opens the song, alone?"
+      },
+      "options": [
+       {
+        "fr": "La basse",
+        "en": "The bass"
+       },
+       {
+        "fr": "La batterie",
+        "en": "The drums"
+       },
+       {
+        "fr": "Le synthétiseur",
+        "en": "The synthesizer"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "La batterie de Ndugu Chancler, puis la basse la rejoint.",
+       "en": "Ndugu Chancler's drums, then the bass joins in."
+      }
+     },
+     {
+      "q": {
+       "fr": "Que voulait couper Quincy Jones ?",
+       "en": "What did Quincy Jones want to cut?"
+      },
+      "options": [
+       {
+        "fr": "Le refrain",
+        "en": "The chorus"
+       },
+       {
+        "fr": "La longue introduction",
+        "en": "The long introduction"
+       },
+       {
+        "fr": "Le solo de guitare",
+        "en": "The guitar solo"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Vingt-neuf secondes avant la voix : une éternité à la radio. Jackson a tenu bon.",
+       "en": "Twenty-nine seconds before the voice: an eternity on radio. Jackson held firm."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel pas de danse Jackson dévoile-t-il sur cette chanson en 1983 ?",
+       "en": "Which dance step does Jackson unveil to this song in 1983?"
+      },
+      "options": [
+       {
+        "fr": "Le moonwalk",
+        "en": "The moonwalk"
+       },
+       {
+        "fr": "Le twist",
+        "en": "The twist"
+       },
+       {
+        "fr": "Le robot",
+        "en": "The robot"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Lors d'une émission anniversaire de Motown, devant des dizaines de millions de téléspectateurs.",
+       "en": "During a Motown anniversary show, in front of tens of millions of viewers."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Ligne de basse",
+       "en": "Bass line"
+      },
+      "def": {
+       "fr": "Le motif grave et répété qui porte le morceau.",
+       "en": "The low, repeated figure that carries the track."
+      }
+     },
+     {
+      "term": {
+       "fr": "Mixage",
+       "en": "Mix"
+      },
+      "def": {
+       "fr": "Le réglage du volume et de la place de chaque instrument.",
+       "en": "Setting the level and place of each instrument."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

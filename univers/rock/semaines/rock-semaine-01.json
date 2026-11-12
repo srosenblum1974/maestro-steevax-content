@@ -1,0 +1,260 @@
+{
+ "id": "rock-semaine-01",
+ "n": 1,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "rocknroll",
+ "title": {
+  "fr": "Chuck Berry, la guitare prend le pouvoir",
+  "en": "Chuck Berry, the guitar takes over"
+ },
+ "world": {
+  "fr": "1958 : la NASA est créée, de Gaulle revient au pouvoir et fonde la Ve République, et Elvis Presley part faire son service militaire.",
+  "en": "1958: NASA is created, de Gaulle returns to power and founds the Fifth Republic, and Elvis Presley leaves for military service."
+ },
+ "works": [
+  {
+   "id": "rock-johnny-b-goode",
+   "people": [
+    {
+     "name": "Chuck Berry",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "Johnny B. Goode",
+    "en": "Johnny B. Goode"
+   },
+   "year": "1958",
+   "recording": {
+    "performers": "Chuck Berry (guitare, chant), Lafayette Leake (piano), Willie Dixon (contrebasse), Fred Below (batterie)",
+    "label": "Chess",
+    "year": 1958
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole song"
+   },
+   "listenFor": {
+    "fr": "Les premières secondes de guitare, seule : tout le rock est dedans.",
+    "en": "The first seconds of guitar, alone: all of rock is in there."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Chuck%20Berry%20Johnny%20B.%20Goode",
+    "spotify": "https://open.spotify.com/search/Chuck%20Berry%20Johnny%20B.%20Goode",
+    "youtube": "https://www.youtube.com/results?search_query=Chuck%20Berry%20Johnny%20B.%20Goode"
+   },
+   "threads": [
+    {
+     "to": "rock-satisfaction",
+     "kind": "influence",
+     "why": {
+      "fr": "Le premier 45 tours des Rolling Stones était une reprise de Chuck Berry.",
+      "en": "The Rolling Stones' first single was a Chuck Berry cover."
+     }
+    },
+    {
+     "to": "jazz-west-end-blues",
+     "kind": "influence",
+     "why": {
+      "fr": "Trente ans plus tôt, le blues donnait déjà naissance à un soliste.",
+      "en": "Thirty years earlier, the blues was already giving birth to a soloist."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "L'introduction de guitare la plus célèbre du monde, envoyée dans l'espace en 1977.",
+     "en": "The most famous guitar introduction in the world, sent into space in 1977."
+    },
+    "context": {
+     "fr": "Chicago, janvier 1958. Chuck Berry enregistre pour le label Chess l'histoire d'un garçon pauvre de Louisiane qui joue de la guitare comme personne. C'est presque la sienne : il est né avenue Goode, à Saint-Louis. Pour passer à la radio, il a changé un mot du texte : le « garçon de couleur » est devenu un « garçon de la campagne ».",
+     "en": "Chicago, January 1958. Chuck Berry records for the Chess label the story of a poor Louisiana boy who plays guitar like no one else. It is almost his own: he was born on Goode Avenue, in St. Louis. To get on the radio he changed one word of the lyric: the “colored boy” became a “country boy”."
+    },
+    "why": {
+     "fr": "Avant lui, le saxophone ou le piano menaient l'orchestre. Berry met la guitare au centre et lui donne son vocabulaire. Les Beatles, les Rolling Stones et tous les autres ont appris en le copiant. En 1977, la chanson part sur le disque d'or des sondes Voyager, parmi les sons de la Terre.",
+     "en": "Before him, the saxophone or the piano led the band. Berry puts the guitar at the centre and gives it its vocabulary. The Beatles, the Rolling Stones and everyone else learned by copying him. In 1977 the song leaves on the Voyager probes' golden record, among the sounds of Earth."
+    },
+    "how": {
+     "fr": "Écoutez l'introduction, puis repérez chaque fois que la guitare répond au chant, entre deux phrases. Derrière, un piano ne s'arrête jamais de courir.",
+     "en": "Listen to the introduction, then spot each time the guitar answers the singing, between two phrases. Behind, a piano never stops running."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "La guitare seule lance le morceau, puis le groupe entre d'un coup.",
+       "en": "The guitar alone launches the track, then the band crashes in."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les couplets",
+       "en": "The verses"
+      },
+      "what": {
+       "fr": "Berry raconte une histoire, presque en parlant, très vite.",
+       "en": "Berry tells a story, almost speaking, very fast."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Un encouragement répété au héros, auquel la guitare répond à chaque fois.",
+       "en": "A repeated cheer for the hero, answered each time by the guitar."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le milieu",
+       "en": "The middle"
+      },
+      "what": {
+       "fr": "Le solo de guitare reprend les notes de l'introduction.",
+       "en": "The guitar solo picks up the notes of the introduction."
+      }
+     },
+     {
+      "when": {
+       "fr": "Tout du long",
+       "en": "Throughout"
+      },
+      "what": {
+       "fr": "Le piano tricote dans l'aigu, derrière tout le monde.",
+       "en": "The piano chatters away in the high notes, behind everyone."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "guitare",
+      "piano",
+      "basse",
+      "batterie",
+      "synthe",
+      "cordes",
+      "melodica",
+      "theremin",
+      "cuivres"
+     ],
+     "answer": [
+      "voix",
+      "guitare",
+      "piano",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel instrument ouvre le morceau ?",
+       "en": "Which instrument opens the track?"
+      },
+      "options": [
+       {
+        "fr": "Le piano",
+        "en": "The piano"
+       },
+       {
+        "fr": "La guitare électrique",
+        "en": "The electric guitar"
+       },
+       {
+        "fr": "Le saxophone",
+        "en": "The saxophone"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "La guitare seule : une introduction que tous les guitaristes apprennent.",
+       "en": "The guitar alone: an introduction every guitarist learns."
+      }
+     },
+     {
+      "q": {
+       "fr": "Où cette chanson a-t-elle été envoyée en 1977 ?",
+       "en": "Where was this song sent in 1977?"
+      },
+      "options": [
+       {
+        "fr": "Dans l'espace, avec les sondes Voyager",
+        "en": "Into space, with the Voyager probes"
+       },
+       {
+        "fr": "Au pôle Sud",
+        "en": "To the South Pole"
+       },
+       {
+        "fr": "Au fond de l'océan",
+        "en": "To the bottom of the ocean"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Elle figure sur le disque d'or embarqué par Voyager 1 et 2.",
+       "en": "It is on the golden record carried by Voyager 1 and 2."
+      }
+     },
+     {
+      "q": {
+       "fr": "De quelle musique le rock'n'roll est-il surtout issu ?",
+       "en": "Which music does rock'n'roll mostly come from?"
+      },
+      "options": [
+       {
+        "fr": "L'opéra",
+        "en": "Opera"
+       },
+       {
+        "fr": "Le blues",
+        "en": "The blues"
+       },
+       {
+        "fr": "La valse",
+        "en": "The waltz"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Le blues, accéléré et électrifié, mêlé de country.",
+       "en": "The blues, sped up and electrified, mixed with country."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Rock'n'roll",
+       "en": "Rock'n'roll"
+      },
+      "def": {
+       "fr": "Le premier rock, des années 1950 : rapide, dansant, joué en petit groupe.",
+       "en": "The first rock, of the 1950s: fast, danceable, played by a small band."
+      }
+     },
+     {
+      "term": {
+       "fr": "Introduction",
+       "en": "Introduction"
+      },
+      "def": {
+       "fr": "Les quelques secondes qui lancent le morceau avant le chant.",
+       "en": "The few seconds that launch the track before the singing."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

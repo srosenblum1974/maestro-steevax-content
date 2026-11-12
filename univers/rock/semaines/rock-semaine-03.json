@@ -1,0 +1,260 @@
+{
+ "id": "rock-semaine-03",
+ "n": 3,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "hard-rock",
+ "title": {
+  "fr": "Led Zeppelin, le rock devient géant",
+  "en": "Led Zeppelin, rock becomes a giant"
+ },
+ "world": {
+  "fr": "1969 : Neil Armstrong marche sur la Lune, Woodstock réunit 400 000 personnes, et le Concorde fait son premier vol.",
+  "en": "1969: Neil Armstrong walks on the Moon, Woodstock gathers 400,000 people, and Concorde makes its first flight."
+ },
+ "works": [
+  {
+   "id": "rock-whole-lotta-love",
+   "people": [
+    {
+     "name": "Led Zeppelin",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "Whole Lotta Love",
+    "en": "Whole Lotta Love"
+   },
+   "year": "1969",
+   "recording": {
+    "performers": "Robert Plant, Jimmy Page, John Paul Jones, John Bonham",
+    "label": "Atlantic",
+    "year": 1969
+   },
+   "startWith": {
+    "fr": "En entier, au casque si possible",
+    "en": "The whole track, on headphones if you can"
+   },
+   "listenFor": {
+    "fr": "Le riff du début, puis le milieu du morceau, où tout se défait et où les sons voyagent d'une oreille à l'autre.",
+    "en": "The riff at the start, then the middle of the track, where everything comes apart and sounds travel from one ear to the other."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Led%20Zeppelin%20Whole%20Lotta%20Love",
+    "spotify": "https://open.spotify.com/search/Led%20Zeppelin%20Whole%20Lotta%20Love",
+    "youtube": "https://www.youtube.com/results?search_query=Led%20Zeppelin%20Whole%20Lotta%20Love"
+   },
+   "threads": [
+    {
+     "to": "rock-satisfaction",
+     "kind": "influence",
+     "why": {
+      "fr": "Le riff comme colonne vertébrale : l'idée vient de là.",
+      "en": "The riff as backbone: the idea comes from there."
+     }
+    },
+    {
+     "to": "reggae-king-tubby-meets-rockers-uptown",
+     "kind": "same-idea",
+     "why": {
+      "fr": "Quelques années plus tard, à Kingston, le mixage devient lui aussi un instrument.",
+      "en": "A few years later, in Kingston, the mixing desk also becomes an instrument."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Un riff de quelques notes, puis une minute de vertige en plein milieu d'un tube.",
+     "en": "A riff of a few notes, then a minute of vertigo right in the middle of a hit."
+    },
+    "context": {
+     "fr": "Londres, 1969. Led Zeppelin enregistre son deuxième album entre deux concerts. Le guitariste Jimmy Page, qui produit aussi le disque, écrit le riff ; les paroles empruntent à une chanson du bluesman Willie Dixon, qui sera crédité des années plus tard. Pour le passage central, Page utilise un thérémine, un instrument électronique dont on joue sans le toucher, et s'amuse au mixage, avec l'ingénieur Eddie Kramer, à faire tourner les sons.",
+     "en": "London, 1969. Led Zeppelin records its second album between concerts. Guitarist Jimmy Page, who also produces the record, writes the riff; the lyrics borrow from a song by bluesman Willie Dixon, who will be credited years later. For the middle section, Page uses a theremin, an electronic instrument played without touching it, and has fun at the mixing desk, with engineer Eddie Kramer, sending the sounds spinning."
+    },
+    "why": {
+     "fr": "C'est l'acte de naissance du hard rock : le blues, joué beaucoup plus fort, avec une batterie énorme. Et c'est la preuve qu'un morceau très populaire peut contenir une minute de pure expérimentation sonore.",
+     "en": "This is hard rock's birth certificate: the blues, played much louder, with enormous drums. And it proves that a hugely popular track can hold a minute of pure sonic experiment."
+    },
+    "how": {
+     "fr": "Au casque, suivez le riff jusqu'à ce qu'il disparaisse. Dans le passage central, ne cherchez pas de mélodie : écoutez les sons se déplacer. Puis attendez le retour de la batterie.",
+     "en": "On headphones, follow the riff until it vanishes. In the middle section, do not look for a tune: listen to the sounds moving about. Then wait for the drums to return."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "La guitare joue le riff seule, la basse la double, puis la voix entre.",
+       "en": "The guitar plays the riff alone, the bass doubles it, then the voice comes in."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le premier refrain",
+       "en": "The first chorus"
+      },
+      "what": {
+       "fr": "La batterie de John Bonham arrive enfin, et tout devient plus lourd.",
+       "en": "John Bonham's drums finally arrive, and everything gets heavier."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le milieu",
+       "en": "The middle"
+      },
+      "what": {
+       "fr": "Le riff s'arrête. Cymbales, cris et sifflements électroniques passent d'une oreille à l'autre.",
+       "en": "The riff stops. Cymbals, cries and electronic whistles pass from one ear to the other."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le retour",
+       "en": "The return"
+      },
+      "what": {
+       "fr": "Un roulement de batterie, et la guitare lance un solo par brèves rafales.",
+       "en": "A drum fill, and the guitar launches a solo in short bursts."
+      }
+     },
+     {
+      "when": {
+       "fr": "Vers la fin",
+       "en": "Towards the end"
+      },
+      "what": {
+       "fr": "La voix reste seule un instant, entourée de son propre écho.",
+       "en": "The voice is left alone for a moment, wrapped in its own echo."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie",
+      "theremin",
+      "piano",
+      "cordes",
+      "cuivres",
+      "melodica",
+      "synthe"
+     ],
+     "answer": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie",
+      "theremin"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel instrument étrange entend-on au milieu ?",
+       "en": "Which strange instrument is heard in the middle?"
+      },
+      "options": [
+       {
+        "fr": "Un thérémine",
+        "en": "A theremin"
+       },
+       {
+        "fr": "Une cornemuse",
+        "en": "Bagpipes"
+       },
+       {
+        "fr": "Un clavecin",
+        "en": "A harpsichord"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Un instrument électronique des années 1920, dont on joue en approchant les mains d'une antenne.",
+       "en": "An electronic instrument from the 1920s, played by moving your hands near an antenna."
+      }
+     },
+     {
+      "q": {
+       "fr": "De quelle musique vient ce morceau ?",
+       "en": "Which music does this track come from?"
+      },
+      "options": [
+       {
+        "fr": "Le blues",
+        "en": "The blues"
+       },
+       {
+        "fr": "La musique baroque",
+        "en": "Baroque music"
+       },
+       {
+        "fr": "Le reggae",
+        "en": "Reggae"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Les paroles viennent d'une chanson de Willie Dixon ; le hard rock est du blues amplifié.",
+       "en": "The words come from a Willie Dixon song; hard rock is amplified blues."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qui a produit le disque ?",
+       "en": "Who produced the record?"
+      },
+      "options": [
+       {
+        "fr": "Le chanteur, Robert Plant",
+        "en": "The singer, Robert Plant"
+       },
+       {
+        "fr": "Le guitariste, Jimmy Page",
+        "en": "The guitarist, Jimmy Page"
+       },
+       {
+        "fr": "Un producteur extérieur",
+        "en": "An outside producer"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Jimmy Page, ancien musicien de studio, décidait lui-même du son du groupe.",
+       "en": "Jimmy Page, a former session musician, decided the band's sound himself."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Hard rock",
+       "en": "Hard rock"
+      },
+      "def": {
+       "fr": "Un rock plus lourd et plus fort, né du blues à la fin des années 1960.",
+       "en": "A heavier, louder rock, born from the blues in the late 1960s."
+      }
+     },
+     {
+      "term": {
+       "fr": "Stéréo",
+       "en": "Stereo"
+      },
+      "def": {
+       "fr": "Deux canaux, gauche et droite, qui permettent de placer et de déplacer les sons.",
+       "en": "Two channels, left and right, which let sounds be placed and moved."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

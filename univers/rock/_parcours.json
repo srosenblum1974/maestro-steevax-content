@@ -1,0 +1,702 @@
+{
+ "title": {
+  "fr": "Steevax Rock Garage",
+  "en": "Steevax Rock Garage"
+ },
+ "tagline": {
+  "fr": "Une guitare, un ampli, un riff : le rock, morceau après morceau.",
+  "en": "A guitar, an amp, a riff: rock, one track at a time."
+ },
+ "ritual": [
+  {
+   "id": "decouvrir",
+   "title": {
+    "fr": "Étape 1 : Découvrir",
+    "en": "Step 1: Discover"
+   },
+   "text": {
+    "fr": "Vous écoutez sans rien chercher, puis vous dites ce que vous avez ressenti en touchant des icônes.",
+    "en": "You listen without looking for anything, then tap icons to say what you felt."
+   }
+  },
+  {
+   "id": "reperer",
+   "title": {
+    "fr": "Étape 2 : Repérer",
+    "en": "Step 2: Spot"
+   },
+   "text": {
+    "fr": "Vous réécoutez avec une mission : reconnaître les moments clés et deviner les instruments.",
+    "en": "You listen again on a mission: recognise the key moments and guess the instruments."
+   }
+  },
+  {
+   "id": "retenir",
+   "title": {
+    "fr": "Étape 3 : Retenir",
+    "en": "Step 3: Remember"
+   },
+   "text": {
+    "fr": "Quelques jours plus tard, un mini-quiz et une dernière écoute. Vous gardez une note et un souvenir.",
+    "en": "A few days later, a mini-quiz and one last listen. You keep a rating and a memory."
+   }
+  }
+ ],
+ "notebook": {
+  "fr": "À chaque œuvre, votre carnet se remplit tout seul : émotions, images, instruments, note. Tout apparaît dans l'onglet Carnet.",
+  "en": "For each work your notebook fills itself: emotions, images, instruments, rating. It all shows up in the Notebook tab."
+ },
+ "signal": {
+  "fr": "Le signal à surveiller : jouez-vous le riff dans le vide, avec les mains ?",
+  "en": "The signal to watch: do you find yourself playing the riff in the air?"
+ },
+ "phases": [
+  {
+   "n": 1,
+   "weeks": "1-3",
+   "title": {
+    "fr": "Accrocher l'oreille",
+    "en": "Hooking the ear"
+   }
+  },
+  {
+   "n": 2,
+   "weeks": "4+",
+   "title": {
+    "fr": "Suivre les fils",
+    "en": "Following the threads"
+   }
+  }
+ ],
+ "periods": {
+  "rocknroll": {
+   "fr": "Rock'n'roll (1954–1962)",
+   "en": "Rock'n'roll (1954–1962)"
+  },
+  "british-invasion": {
+   "fr": "L'invasion britannique (1963–1968)",
+   "en": "The British Invasion (1963–1968)"
+  },
+  "hard-rock": {
+   "fr": "Hard rock et rock progressif (1968–1976)",
+   "en": "Hard rock and progressive rock (1968–1976)"
+  },
+  "punk-new-wave": {
+   "fr": "Punk et new wave (1976–1989)",
+   "en": "Punk and new wave (1976–1989)"
+  },
+  "alternatif": {
+   "fr": "Rock alternatif (1990 →)",
+   "en": "Alternative rock (1990 →)"
+  }
+ },
+ "palette": {
+  "emotions": [
+   {
+    "id": "apaise",
+    "icon": "😌",
+    "label": {
+     "fr": "Apaisé",
+     "en": "Soothed"
+    }
+   },
+   {
+    "id": "emu",
+    "icon": "🥹",
+    "label": {
+     "fr": "Ému",
+     "en": "Moved"
+    }
+   },
+   {
+    "id": "triste",
+    "icon": "😢",
+    "label": {
+     "fr": "Triste",
+     "en": "Sad"
+    }
+   },
+   {
+    "id": "joyeux",
+    "icon": "😄",
+    "label": {
+     "fr": "Joyeux",
+     "en": "Joyful"
+    }
+   },
+   {
+    "id": "exalte",
+    "icon": "🤩",
+    "label": {
+     "fr": "Exalté",
+     "en": "Thrilled"
+    }
+   },
+   {
+    "id": "frissons",
+    "icon": "⚡️",
+    "label": {
+     "fr": "Frissons",
+     "en": "Chills"
+    }
+   },
+   {
+    "id": "inquiet",
+    "icon": "😟",
+    "label": {
+     "fr": "Inquiet",
+     "en": "Uneasy"
+    }
+   },
+   {
+    "id": "nostalgique",
+    "icon": "🌅",
+    "label": {
+     "fr": "Nostalgique",
+     "en": "Nostalgic"
+    }
+   },
+   {
+    "id": "ennuye",
+    "icon": "🥱",
+    "label": {
+     "fr": "Ennuyé",
+     "en": "Bored"
+    }
+   },
+   {
+    "id": "perdu",
+    "icon": "😵‍💫",
+    "label": {
+     "fr": "Perdu",
+     "en": "Lost"
+    }
+   }
+  ],
+  "images": [
+   {
+    "id": "vague",
+    "icon": "🌊",
+    "label": {
+     "fr": "Vagues",
+     "en": "Waves"
+    }
+   },
+   {
+    "id": "orage",
+    "icon": "⛈️",
+    "label": {
+     "fr": "Orage",
+     "en": "Storm"
+    }
+   },
+   {
+    "id": "oiseaux",
+    "icon": "🐦",
+    "label": {
+     "fr": "Oiseaux",
+     "en": "Birds"
+    }
+   },
+   {
+    "id": "foret",
+    "icon": "🌲",
+    "label": {
+     "fr": "Forêt",
+     "en": "Forest"
+    }
+   },
+   {
+    "id": "nuit",
+    "icon": "🌙",
+    "label": {
+     "fr": "Nuit",
+     "en": "Night"
+    }
+   },
+   {
+    "id": "soleil",
+    "icon": "☀️",
+    "label": {
+     "fr": "Soleil",
+     "en": "Sun"
+    }
+   },
+   {
+    "id": "danse",
+    "icon": "💃",
+    "label": {
+     "fr": "Danse",
+     "en": "Dance"
+    }
+   },
+   {
+    "id": "combat",
+    "icon": "⚔️",
+    "label": {
+     "fr": "Combat",
+     "en": "Battle"
+    }
+   },
+   {
+    "id": "priere",
+    "icon": "🕯️",
+    "label": {
+     "fr": "Prière",
+     "en": "Prayer"
+    }
+   },
+   {
+    "id": "voyage",
+    "icon": "🧭",
+    "label": {
+     "fr": "Voyage",
+     "en": "Journey"
+    }
+   },
+   {
+    "id": "reve",
+    "icon": "☁️",
+    "label": {
+     "fr": "Rêve",
+     "en": "Dream"
+    }
+   },
+   {
+    "id": "cinema",
+    "icon": "🎬",
+    "label": {
+     "fr": "Film",
+     "en": "Film"
+    }
+   }
+  ],
+  "instruments": [
+   {
+    "id": "voix",
+    "icon": "🎤",
+    "label": {
+     "fr": "Voix",
+     "en": "Lead vocal"
+    }
+   },
+   {
+    "id": "choeurs",
+    "icon": "🗣️",
+    "label": {
+     "fr": "Chœurs",
+     "en": "Backing vocals"
+    }
+   },
+   {
+    "id": "guitare",
+    "icon": "🎸",
+    "label": {
+     "fr": "Guitare",
+     "en": "Guitar"
+    }
+   },
+   {
+    "id": "basse",
+    "icon": "🔉",
+    "label": {
+     "fr": "Basse",
+     "en": "Bass"
+    }
+   },
+   {
+    "id": "batterie",
+    "icon": "🥁",
+    "label": {
+     "fr": "Batterie",
+     "en": "Drums"
+    }
+   },
+   {
+    "id": "piano",
+    "icon": "🎹",
+    "label": {
+     "fr": "Piano",
+     "en": "Piano"
+    }
+   },
+   {
+    "id": "orgue",
+    "icon": "⛪️",
+    "label": {
+     "fr": "Orgue",
+     "en": "Organ"
+    }
+   },
+   {
+    "id": "synthe",
+    "icon": "🎛️",
+    "label": {
+     "fr": "Synthétiseur",
+     "en": "Synthesizer"
+    }
+   },
+   {
+    "id": "cuivres",
+    "icon": "🎺",
+    "label": {
+     "fr": "Cuivres",
+     "en": "Horns"
+    }
+   },
+   {
+    "id": "saxophone",
+    "icon": "🎷",
+    "label": {
+     "fr": "Saxophone",
+     "en": "Saxophone"
+    }
+   },
+   {
+    "id": "cordes",
+    "icon": "🎻",
+    "label": {
+     "fr": "Cordes",
+     "en": "Strings"
+    }
+   },
+   {
+    "id": "percussions",
+    "icon": "🪘",
+    "label": {
+     "fr": "Percussions",
+     "en": "Percussion"
+    }
+   },
+   {
+    "id": "melodica",
+    "icon": "🌬️",
+    "label": {
+     "fr": "Mélodica",
+     "en": "Melodica"
+    }
+   },
+   {
+    "id": "theremin",
+    "icon": "📡",
+    "label": {
+     "fr": "Thérémine",
+     "en": "Theremin"
+    }
+   }
+  ],
+  "ratings": [
+   {
+    "fr": "Pas pour moi",
+    "en": "Not for me"
+   },
+   {
+    "fr": "Bof",
+    "en": "Meh"
+   },
+   {
+    "fr": "Agréable",
+    "en": "Pleasant"
+   },
+   {
+    "fr": "J'aime beaucoup",
+    "en": "Love it"
+   },
+   {
+    "fr": "Coup de foudre",
+    "en": "Head over heels"
+   }
+  ],
+  "starters": [
+   {
+    "fr": "Ça m'a fait penser à…",
+    "en": "It reminded me of…"
+   },
+   {
+    "fr": "J'ai été surpris par…",
+    "en": "I was surprised by…"
+   },
+   {
+    "fr": "Je réécouterais pour…",
+    "en": "I'd listen again for…"
+   }
+  ]
+ },
+ "history": {
+  "intro": {
+   "fr": "Soixante-dix ans de rock en cinq chapitres. Retenez le son de guitare de chacun.",
+   "en": "Seventy years of rock in five chapters. Remember the guitar sound of each."
+  },
+  "before": {
+   "fr": "Avant 1954 : le blues du Mississippi électrifié à Chicago, la country, le gospel et le rhythm and blues des orchestres de danse.",
+   "en": "Before 1954: Mississippi blues electrified in Chicago, country, gospel and the rhythm and blues of dance bands."
+  },
+  "periods": [
+   {
+    "id": "rocknroll",
+    "title": {
+     "fr": "Rock'n'roll",
+     "en": "Rock'n'roll"
+    },
+    "dates": "1954–1962",
+    "oneLine": {
+     "fr": "Le blues accélère, la guitare passe devant, et les adolescents ont enfin leur musique.",
+     "en": "The blues speeds up, the guitar steps forward, and teenagers finally have their own music."
+    },
+    "world": {
+     "fr": "L'Amérique d'après-guerre découvre le transistor, la voiture et l'adolescence. Des musiciens noirs et blancs mélangent blues, country et gospel.",
+     "en": "Post-war America discovers the transistor radio, the car and the teenager. Black and white musicians mix blues, country and gospel."
+    },
+    "sound": {
+     "fr": "Guitare électrique, piano martelé, contrebasse, batterie, chansons de deux minutes trente.",
+     "en": "Electric guitar, pounding piano, double bass, drums, songs two and a half minutes long."
+    },
+    "people": [
+     "Chuck Berry",
+     "Little Richard",
+     "Elvis Presley",
+     "Buddy Holly",
+     "Jerry Lee Lewis"
+    ],
+    "weeks": [
+     1
+    ]
+   },
+   {
+    "id": "british-invasion",
+    "title": {
+     "fr": "L'invasion britannique",
+     "en": "The British Invasion"
+    },
+    "dates": "1963–1968",
+    "oneLine": {
+     "fr": "De jeunes Anglais renvoient à l'Amérique sa propre musique, plus fort.",
+     "en": "Young Englishmen send America its own music back, louder."
+    },
+    "world": {
+     "fr": "Les Beatles débarquent à New York en 1964. Les groupes écrivent désormais leurs propres chansons.",
+     "en": "The Beatles land in New York in 1964. Bands now write their own songs."
+    },
+    "sound": {
+     "fr": "Deux guitares, basse, batterie ; le riff et la pédale d'effet font leur entrée.",
+     "en": "Two guitars, bass, drums; the riff and the effects pedal make their entrance."
+    },
+    "people": [
+     "The Beatles",
+     "The Rolling Stones",
+     "The Kinks",
+     "The Who",
+     "The Animals"
+    ],
+    "weeks": [
+     2
+    ]
+   },
+   {
+    "id": "hard-rock",
+    "title": {
+     "fr": "Hard rock et rock progressif",
+     "en": "Hard rock and progressive rock"
+    },
+    "dates": "1968–1976",
+    "oneLine": {
+     "fr": "Les amplis grossissent, les morceaux s'allongent, l'album devient une œuvre.",
+     "en": "The amplifiers grow, the tracks lengthen, the album becomes a work of art."
+    },
+    "world": {
+     "fr": "Les grands festivals, les stades, les tournées mondiales : le rock devient une industrie.",
+     "en": "The great festivals, stadiums and world tours: rock becomes an industry."
+    },
+    "sound": {
+     "fr": "Guitare saturée, batterie lourde, voix aiguë, longues parties instrumentales.",
+     "en": "Distorted guitar, heavy drums, high voice, long instrumental passages."
+    },
+    "people": [
+     "Led Zeppelin",
+     "Jimi Hendrix",
+     "Pink Floyd",
+     "Deep Purple",
+     "Black Sabbath"
+    ],
+    "weeks": [
+     3
+    ]
+   },
+   {
+    "id": "punk-new-wave",
+    "title": {
+     "fr": "Punk et new wave",
+     "en": "Punk and new wave"
+    },
+    "dates": "1976–1989",
+    "oneLine": {
+     "fr": "Trois accords, deux minutes, et tout recommence à zéro.",
+     "en": "Three chords, two minutes, and everything starts again from scratch."
+    },
+    "world": {
+     "fr": "Crise économique et chômage des jeunes : une génération rejette les stades et les solos de dix minutes.",
+     "en": "Economic crisis and youth unemployment: a generation rejects stadiums and ten-minute solos."
+    },
+    "sound": {
+     "fr": "Tempo rapide, son brut, puis synthétiseurs et guitares claires.",
+     "en": "Fast tempo, raw sound, then synthesizers and clean guitars."
+    },
+    "people": [
+     "Ramones",
+     "Sex Pistols",
+     "The Clash",
+     "Talking Heads",
+     "U2"
+    ],
+    "weeks": []
+   },
+   {
+    "id": "alternatif",
+    "title": {
+     "fr": "Rock alternatif",
+     "en": "Alternative rock"
+    },
+    "dates": "1990 →",
+    "oneLine": {
+     "fr": "Le rock des marges devient le son d'une génération.",
+     "en": "Rock from the margins becomes the sound of a generation."
+    },
+    "world": {
+     "fr": "Seattle, puis la Britpop à Londres ; internet disperse ensuite le public en mille chapelles.",
+     "en": "Seattle, then Britpop in London; the internet then scatters the audience into a thousand tribes."
+    },
+    "sound": {
+     "fr": "Couplets calmes et refrains explosifs, guitares épaisses, voix écorchée.",
+     "en": "Quiet verses and explosive choruses, thick guitars, raw voice."
+    },
+    "people": [
+     "Nirvana",
+     "Radiohead",
+     "Oasis",
+     "The White Stripes",
+     "Arctic Monkeys"
+    ],
+    "weeks": []
+   }
+  ],
+  "words": [
+   {
+    "term": {
+     "fr": "Riff",
+     "en": "Riff"
+    },
+    "def": {
+     "fr": "Un court motif de guitare, répété, qui sert de colonne vertébrale au morceau.",
+     "en": "A short, repeated guitar figure that serves as the track's backbone."
+    }
+   },
+   {
+    "term": {
+     "fr": "Saturation",
+     "en": "Distortion"
+    },
+    "def": {
+     "fr": "Le son volontairement sali d'une guitare poussée trop fort.",
+     "en": "The deliberately dirty sound of a guitar pushed too hard."
+    }
+   },
+   {
+    "term": {
+     "fr": "Solo",
+     "en": "Solo"
+    },
+    "def": {
+     "fr": "Le moment où un instrument joue seul en avant du groupe.",
+     "en": "The moment when one instrument plays alone in front of the band."
+    }
+   },
+   {
+    "term": {
+     "fr": "Blues",
+     "en": "Blues"
+    },
+    "def": {
+     "fr": "La musique des Noirs du sud des États-Unis, source de presque tout le rock.",
+     "en": "The music of Black Americans from the South, the source of nearly all rock."
+    }
+   },
+   {
+    "term": {
+     "fr": "Power trio",
+     "en": "Power trio"
+    },
+    "def": {
+     "fr": "Guitare, basse, batterie : la formation minimale du rock.",
+     "en": "Guitar, bass, drums: rock's minimal line-up."
+    }
+   },
+   {
+    "term": {
+     "fr": "Larsen",
+     "en": "Feedback"
+    },
+    "def": {
+     "fr": "Le sifflement d'un ampli qui se nourrit de son propre son.",
+     "en": "The howl of an amp feeding on its own sound."
+    }
+   }
+  ]
+ },
+ "skills": [
+  {
+   "id": "instruments",
+   "icon": "🎸",
+   "name": {
+    "fr": "Instruments",
+    "en": "Instruments"
+   }
+  },
+  {
+   "id": "ecoute",
+   "icon": "👂",
+   "name": {
+    "fr": "Écoute active",
+    "en": "Active listening"
+   }
+  },
+  {
+   "id": "artistes",
+   "icon": "🎤",
+   "name": {
+    "fr": "Artistes",
+    "en": "Artists"
+   },
+   "role": "artist",
+   "ask": {
+    "fr": "Qui joue ?",
+    "en": "Who is playing?"
+   }
+  },
+  {
+   "id": "morceaux",
+   "icon": "🎵",
+   "name": {
+    "fr": "Morceaux",
+    "en": "Songs"
+   },
+   "role": "piece",
+   "ask": {
+    "fr": "Quel morceau entendez-vous ?",
+    "en": "Which song do you hear?"
+   }
+  },
+  {
+   "id": "courants",
+   "icon": "🕰️",
+   "name": {
+    "fr": "Époques",
+    "en": "Eras"
+   },
+   "role": "period",
+   "ask": {
+    "fr": "De quelle époque du rock vient ce morceau ?",
+    "en": "Which era of rock is this track from?"
+   }
+  }
+ ]
+}

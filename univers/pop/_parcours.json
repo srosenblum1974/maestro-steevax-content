@@ -1,0 +1,670 @@
+{
+ "title": {
+  "fr": "Steevax Hit Parade",
+  "en": "Steevax Hit Parade"
+ },
+ "tagline": {
+  "fr": "Trois minutes, un refrain, des millions de gens : la pop, tube après tube.",
+  "en": "Three minutes, one chorus, millions of people: pop, one hit at a time."
+ },
+ "ritual": [
+  {
+   "id": "decouvrir",
+   "title": {
+    "fr": "Étape 1 : Découvrir",
+    "en": "Step 1: Discover"
+   },
+   "text": {
+    "fr": "Vous écoutez sans rien chercher, puis vous dites ce que vous avez ressenti en touchant des icônes.",
+    "en": "You listen without looking for anything, then tap icons to say what you felt."
+   }
+  },
+  {
+   "id": "reperer",
+   "title": {
+    "fr": "Étape 2 : Repérer",
+    "en": "Step 2: Spot"
+   },
+   "text": {
+    "fr": "Vous réécoutez avec une mission : reconnaître les moments clés et deviner les instruments.",
+    "en": "You listen again on a mission: recognise the key moments and guess the instruments."
+   }
+  },
+  {
+   "id": "retenir",
+   "title": {
+    "fr": "Étape 3 : Retenir",
+    "en": "Step 3: Remember"
+   },
+   "text": {
+    "fr": "Quelques jours plus tard, un mini-quiz et une dernière écoute. Vous gardez une note et un souvenir.",
+    "en": "A few days later, a mini-quiz and one last listen. You keep a rating and a memory."
+   }
+  }
+ ],
+ "notebook": {
+  "fr": "À chaque œuvre, votre carnet se remplit tout seul : émotions, images, instruments, note. Tout apparaît dans l'onglet Carnet.",
+  "en": "For each work your notebook fills itself: emotions, images, instruments, rating. It all shows up in the Notebook tab."
+ },
+ "signal": {
+  "fr": "Le signal à surveiller : le refrain vous revient-il sous la douche ?",
+  "en": "The signal to watch: does the chorus come back to you in the shower?"
+ },
+ "phases": [
+  {
+   "n": 1,
+   "weeks": "1-3",
+   "title": {
+    "fr": "Accrocher l'oreille",
+    "en": "Hooking the ear"
+   }
+  },
+  {
+   "n": 2,
+   "weeks": "4+",
+   "title": {
+    "fr": "Suivre les fils",
+    "en": "Following the threads"
+   }
+  }
+ ],
+ "periods": {
+  "usines-a-tubes": {
+   "fr": "Les usines à tubes (1958–1969)",
+   "en": "The hit factories (1958–1969)"
+  },
+  "age-du-studio": {
+   "fr": "L'âge du studio (1970–1979)",
+   "en": "The studio age (1970–1979)"
+  },
+  "ere-mtv": {
+   "fr": "L'ère MTV (1980–1995)",
+   "en": "The MTV era (1980–1995)"
+  },
+  "pop-numerique": {
+   "fr": "La pop numérique (1996 →)",
+   "en": "Digital pop (1996 →)"
+  }
+ },
+ "palette": {
+  "emotions": [
+   {
+    "id": "apaise",
+    "icon": "😌",
+    "label": {
+     "fr": "Apaisé",
+     "en": "Soothed"
+    }
+   },
+   {
+    "id": "emu",
+    "icon": "🥹",
+    "label": {
+     "fr": "Ému",
+     "en": "Moved"
+    }
+   },
+   {
+    "id": "triste",
+    "icon": "😢",
+    "label": {
+     "fr": "Triste",
+     "en": "Sad"
+    }
+   },
+   {
+    "id": "joyeux",
+    "icon": "😄",
+    "label": {
+     "fr": "Joyeux",
+     "en": "Joyful"
+    }
+   },
+   {
+    "id": "exalte",
+    "icon": "🤩",
+    "label": {
+     "fr": "Exalté",
+     "en": "Thrilled"
+    }
+   },
+   {
+    "id": "frissons",
+    "icon": "⚡️",
+    "label": {
+     "fr": "Frissons",
+     "en": "Chills"
+    }
+   },
+   {
+    "id": "inquiet",
+    "icon": "😟",
+    "label": {
+     "fr": "Inquiet",
+     "en": "Uneasy"
+    }
+   },
+   {
+    "id": "nostalgique",
+    "icon": "🌅",
+    "label": {
+     "fr": "Nostalgique",
+     "en": "Nostalgic"
+    }
+   },
+   {
+    "id": "ennuye",
+    "icon": "🥱",
+    "label": {
+     "fr": "Ennuyé",
+     "en": "Bored"
+    }
+   },
+   {
+    "id": "perdu",
+    "icon": "😵‍💫",
+    "label": {
+     "fr": "Perdu",
+     "en": "Lost"
+    }
+   }
+  ],
+  "images": [
+   {
+    "id": "vague",
+    "icon": "🌊",
+    "label": {
+     "fr": "Vagues",
+     "en": "Waves"
+    }
+   },
+   {
+    "id": "orage",
+    "icon": "⛈️",
+    "label": {
+     "fr": "Orage",
+     "en": "Storm"
+    }
+   },
+   {
+    "id": "oiseaux",
+    "icon": "🐦",
+    "label": {
+     "fr": "Oiseaux",
+     "en": "Birds"
+    }
+   },
+   {
+    "id": "foret",
+    "icon": "🌲",
+    "label": {
+     "fr": "Forêt",
+     "en": "Forest"
+    }
+   },
+   {
+    "id": "nuit",
+    "icon": "🌙",
+    "label": {
+     "fr": "Nuit",
+     "en": "Night"
+    }
+   },
+   {
+    "id": "soleil",
+    "icon": "☀️",
+    "label": {
+     "fr": "Soleil",
+     "en": "Sun"
+    }
+   },
+   {
+    "id": "danse",
+    "icon": "💃",
+    "label": {
+     "fr": "Danse",
+     "en": "Dance"
+    }
+   },
+   {
+    "id": "combat",
+    "icon": "⚔️",
+    "label": {
+     "fr": "Combat",
+     "en": "Battle"
+    }
+   },
+   {
+    "id": "priere",
+    "icon": "🕯️",
+    "label": {
+     "fr": "Prière",
+     "en": "Prayer"
+    }
+   },
+   {
+    "id": "voyage",
+    "icon": "🧭",
+    "label": {
+     "fr": "Voyage",
+     "en": "Journey"
+    }
+   },
+   {
+    "id": "reve",
+    "icon": "☁️",
+    "label": {
+     "fr": "Rêve",
+     "en": "Dream"
+    }
+   },
+   {
+    "id": "cinema",
+    "icon": "🎬",
+    "label": {
+     "fr": "Film",
+     "en": "Film"
+    }
+   }
+  ],
+  "instruments": [
+   {
+    "id": "voix",
+    "icon": "🎤",
+    "label": {
+     "fr": "Voix",
+     "en": "Lead vocal"
+    }
+   },
+   {
+    "id": "choeurs",
+    "icon": "🗣️",
+    "label": {
+     "fr": "Chœurs",
+     "en": "Backing vocals"
+    }
+   },
+   {
+    "id": "guitare",
+    "icon": "🎸",
+    "label": {
+     "fr": "Guitare",
+     "en": "Guitar"
+    }
+   },
+   {
+    "id": "basse",
+    "icon": "🔉",
+    "label": {
+     "fr": "Basse",
+     "en": "Bass"
+    }
+   },
+   {
+    "id": "batterie",
+    "icon": "🥁",
+    "label": {
+     "fr": "Batterie",
+     "en": "Drums"
+    }
+   },
+   {
+    "id": "piano",
+    "icon": "🎹",
+    "label": {
+     "fr": "Piano",
+     "en": "Piano"
+    }
+   },
+   {
+    "id": "orgue",
+    "icon": "⛪️",
+    "label": {
+     "fr": "Orgue",
+     "en": "Organ"
+    }
+   },
+   {
+    "id": "synthe",
+    "icon": "🎛️",
+    "label": {
+     "fr": "Synthétiseur",
+     "en": "Synthesizer"
+    }
+   },
+   {
+    "id": "cuivres",
+    "icon": "🎺",
+    "label": {
+     "fr": "Cuivres",
+     "en": "Horns"
+    }
+   },
+   {
+    "id": "saxophone",
+    "icon": "🎷",
+    "label": {
+     "fr": "Saxophone",
+     "en": "Saxophone"
+    }
+   },
+   {
+    "id": "cordes",
+    "icon": "🎻",
+    "label": {
+     "fr": "Cordes",
+     "en": "Strings"
+    }
+   },
+   {
+    "id": "percussions",
+    "icon": "🪘",
+    "label": {
+     "fr": "Percussions",
+     "en": "Percussion"
+    }
+   },
+   {
+    "id": "melodica",
+    "icon": "🌬️",
+    "label": {
+     "fr": "Mélodica",
+     "en": "Melodica"
+    }
+   },
+   {
+    "id": "theremin",
+    "icon": "📡",
+    "label": {
+     "fr": "Thérémine",
+     "en": "Theremin"
+    }
+   }
+  ],
+  "ratings": [
+   {
+    "fr": "Pas pour moi",
+    "en": "Not for me"
+   },
+   {
+    "fr": "Bof",
+    "en": "Meh"
+   },
+   {
+    "fr": "Agréable",
+    "en": "Pleasant"
+   },
+   {
+    "fr": "J'aime beaucoup",
+    "en": "Love it"
+   },
+   {
+    "fr": "Coup de foudre",
+    "en": "Head over heels"
+   }
+  ],
+  "starters": [
+   {
+    "fr": "Ça m'a fait penser à…",
+    "en": "It reminded me of…"
+   },
+   {
+    "fr": "J'ai été surpris par…",
+    "en": "I was surprised by…"
+   },
+   {
+    "fr": "Je réécouterais pour…",
+    "en": "I'd listen again for…"
+   }
+  ]
+ },
+ "history": {
+  "intro": {
+   "fr": "Soixante ans de tubes en quatre chapitres. Retenez comment chaque époque fabrique ses chansons.",
+   "en": "Sixty years of hits in four chapters. Remember how each era builds its songs."
+  },
+  "before": {
+   "fr": "Avant 1958 : les crooners, les comédies musicales de Broadway et le rock'n'roll naissant, qui vient de donner une musique aux adolescents.",
+   "en": "Before 1958: the crooners, Broadway musicals and newborn rock'n'roll, which has just given teenagers a music of their own."
+  },
+  "periods": [
+   {
+    "id": "usines-a-tubes",
+    "title": {
+     "fr": "Les usines à tubes",
+     "en": "The hit factories"
+    },
+    "dates": "1958–1969",
+    "oneLine": {
+     "fr": "Des équipes d'auteurs et de producteurs fabriquent des chansons de trois minutes pour la radio.",
+     "en": "Teams of writers and producers build three-minute songs for the radio."
+    },
+    "world": {
+     "fr": "Le transistor et le 45 tours donnent une musique à la jeunesse. À New York, le Brill Building ; à Detroit, Motown.",
+     "en": "The transistor radio and the 45 give young people a music of their own. In New York, the Brill Building; in Detroit, Motown."
+    },
+    "sound": {
+     "fr": "Mélodie immédiate, refrain répété, chœurs, tambourin, orchestre de studio.",
+     "en": "An instant tune, a repeated chorus, backing vocals, tambourine, a studio band."
+    },
+    "people": [
+     "The Supremes",
+     "The Beach Boys",
+     "The Ronettes",
+     "Dusty Springfield",
+     "Stevie Wonder"
+    ],
+    "weeks": [
+     1
+    ]
+   },
+   {
+    "id": "age-du-studio",
+    "title": {
+     "fr": "L'âge du studio",
+     "en": "The studio age"
+    },
+    "dates": "1970–1979",
+    "oneLine": {
+     "fr": "Le studio devient un atelier : on empile les pistes jusqu'à la perfection.",
+     "en": "The studio becomes a workshop: tracks are layered until they are perfect."
+    },
+    "world": {
+     "fr": "Les magnétophones multipistes se généralisent, le disco remplit les pistes de danse, la pop devient mondiale.",
+     "en": "Multitrack tape recorders become standard, disco fills the dance floors, pop goes global."
+    },
+    "sound": {
+     "fr": "Voix doublées, cordes, piano, basse dansante, production très soignée.",
+     "en": "Doubled vocals, strings, piano, dancing bass, highly polished production."
+    },
+    "people": [
+     "ABBA",
+     "Elton John",
+     "Bee Gees",
+     "Fleetwood Mac",
+     "Donna Summer"
+    ],
+    "weeks": [
+     2
+    ]
+   },
+   {
+    "id": "ere-mtv",
+    "title": {
+     "fr": "L'ère MTV",
+     "en": "The MTV era"
+    },
+    "dates": "1980–1995",
+    "oneLine": {
+     "fr": "La chanson se regarde autant qu'elle s'écoute.",
+     "en": "A song is now watched as much as it is heard."
+    },
+    "world": {
+     "fr": "MTV naît en 1981, le CD en 1982. Synthétiseurs et boîtes à rythmes entrent dans tous les studios.",
+     "en": "MTV is born in 1981, the CD in 1982. Synthesizers and drum machines enter every studio."
+    },
+    "sound": {
+     "fr": "Batterie sèche, basse au synthétiseur, refrains géants, clips chorégraphiés.",
+     "en": "Dry drums, synth bass, giant choruses, choreographed videos."
+    },
+    "people": [
+     "Michael Jackson",
+     "Madonna",
+     "Prince",
+     "Whitney Houston",
+     "George Michael"
+    ],
+    "weeks": [
+     3
+    ]
+   },
+   {
+    "id": "pop-numerique",
+    "title": {
+     "fr": "La pop numérique",
+     "en": "Digital pop"
+    },
+    "dates": "1996 →",
+    "oneLine": {
+     "fr": "L'ordinateur remplace le studio, et le streaming remplace le disque.",
+     "en": "The computer replaces the studio, and streaming replaces the record."
+    },
+    "world": {
+     "fr": "Internet, le MP3 puis les plateformes changent la façon d'écouter ; des producteurs suédois écrivent pour le monde entier.",
+     "en": "The internet, MP3 and then streaming change how we listen; Swedish producers write for the whole world."
+    },
+    "sound": {
+     "fr": "Voix retouchées, sons électroniques, couplets courts, refrain dès les premières secondes.",
+     "en": "Tuned vocals, electronic sounds, short verses, the chorus within seconds."
+    },
+    "people": [
+     "Britney Spears",
+     "Beyoncé",
+     "Rihanna",
+     "Taylor Swift",
+     "Dua Lipa"
+    ],
+    "weeks": []
+   }
+  ],
+  "words": [
+   {
+    "term": {
+     "fr": "Refrain",
+     "en": "Chorus"
+    },
+    "def": {
+     "fr": "La partie qui revient à l'identique et que tout le monde retient.",
+     "en": "The part that returns unchanged and that everyone remembers."
+    }
+   },
+   {
+    "term": {
+     "fr": "Couplet",
+     "en": "Verse"
+    },
+    "def": {
+     "fr": "La partie qui raconte, avec des paroles différentes à chaque fois.",
+     "en": "The part that tells the story, with different words each time."
+    }
+   },
+   {
+    "term": {
+     "fr": "Pont",
+     "en": "Bridge"
+    },
+    "def": {
+     "fr": "Un passage différent, vers la fin, qui relance l'intérêt avant le dernier refrain.",
+     "en": "A contrasting passage, near the end, that renews interest before the last chorus."
+    }
+   },
+   {
+    "term": {
+     "fr": "Accroche",
+     "en": "Hook"
+    },
+    "def": {
+     "fr": "Le petit motif, chanté ou joué, impossible à oublier.",
+     "en": "The small figure, sung or played, that is impossible to forget."
+    }
+   },
+   {
+    "term": {
+     "fr": "Producteur",
+     "en": "Producer"
+    },
+    "def": {
+     "fr": "Celui qui décide du son du disque, comme un réalisateur pour un film.",
+     "en": "The person who decides how the record sounds, like a director for a film."
+    }
+   },
+   {
+    "term": {
+     "fr": "Arrangement",
+     "en": "Arrangement"
+    },
+    "def": {
+     "fr": "Le choix des instruments et de ce que chacun joue.",
+     "en": "The choice of instruments and of what each one plays."
+    }
+   }
+  ]
+ },
+ "skills": [
+  {
+   "id": "instruments",
+   "icon": "🎸",
+   "name": {
+    "fr": "Instruments",
+    "en": "Instruments"
+   }
+  },
+  {
+   "id": "ecoute",
+   "icon": "👂",
+   "name": {
+    "fr": "Écoute active",
+    "en": "Active listening"
+   }
+  },
+  {
+   "id": "artistes",
+   "icon": "🎤",
+   "name": {
+    "fr": "Artistes",
+    "en": "Artists"
+   },
+   "role": "artist",
+   "ask": {
+    "fr": "Qui chante ?",
+    "en": "Who is singing?"
+   }
+  },
+  {
+   "id": "morceaux",
+   "icon": "🎵",
+   "name": {
+    "fr": "Morceaux",
+    "en": "Songs"
+   },
+   "role": "piece",
+   "ask": {
+    "fr": "Quel morceau entendez-vous ?",
+    "en": "Which song do you hear?"
+   }
+  },
+  {
+   "id": "courants",
+   "icon": "🕰️",
+   "name": {
+    "fr": "Époques",
+    "en": "Eras"
+   },
+   "role": "period",
+   "ask": {
+    "fr": "De quelle époque de la pop vient cette chanson ?",
+    "en": "Which era of pop is this song from?"
+   }
+  }
+ ]
+}
