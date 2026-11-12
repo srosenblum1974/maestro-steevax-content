@@ -724,5 +724,12 @@
     "en": "Which style is this music from?"
    }
   }
- ]
+ ],
+ "heroImage": {
+  "path": "illus/accueil-reggae.jpg",
+  "credit": "Frederic Edwin Church, 1867",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Frederic_Edwin_Church_-_Vale_of_St_Thomas,_Jamaica.jpg",
+  "focus": "50% 45%"
+ }
 }

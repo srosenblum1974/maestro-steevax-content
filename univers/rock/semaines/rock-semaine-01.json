@@ -43,7 +43,7 @@
     "en": "The first seconds of guitar, alone: all of rock is in there."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Chuck%20Berry%20Johnny%20B.%20Goode",
+    "appleMusic": "https://music.apple.com/fr/album/johnny-b-goode/1425230909?i=1425230917&uo=4",
     "spotify": "https://open.spotify.com/search/Chuck%20Berry%20Johnny%20B.%20Goode",
     "youtube": "https://www.youtube.com/results?search_query=Chuck%20Berry%20Johnny%20B.%20Goode"
    },
@@ -254,7 +254,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Johnny B. Goode (1958)",
+      "en": "Johnny B. Goode (1958)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1425230917",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/e3/7d/e5e37d79-825b-5412-c7d3-17e0c0858e97/mzaf_2407643628638675650.plus.aac.p.m4a",
+     "performer": "Chuck Berry",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/johnny-b-goode/1425230909?i=1425230917&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/rock-semaine-01.jpg",
+  "credit": "Didier Descouens",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Rain,_Steam,and_Speed_After_William_Truner_-_1856-61_-_R.Brandard_-_Tate_Britain.jpg",
+  "focus": "55% 50%"
+ }
 }

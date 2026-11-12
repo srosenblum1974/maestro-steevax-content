@@ -43,7 +43,7 @@
     "en": "The piano tumbling down at the very start, then the two voices singing together as one."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=ABBA%20Dancing%20Queen",
+    "appleMusic": "https://music.apple.com/fr/album/dancing-queen/1440820126?i=1440820267&uo=4",
     "spotify": "https://open.spotify.com/search/ABBA%20Dancing%20Queen",
     "youtube": "https://www.youtube.com/results?search_query=ABBA%20Dancing%20Queen"
    },
@@ -244,7 +244,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Dancing Queen (Arrival, 1976)",
+      "en": "Dancing Queen (Arrival, 1976)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1440820267",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/9d/e3/d29de3af-c080-8558-6c41-823b9ab5bb6b/mzaf_18371402234402526781.plus.aac.p.m4a",
+     "performer": "ABBA",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/dancing-queen/1440820126?i=1440820267&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/pop-semaine-02.jpg",
+  "credit": "Robert Delaunay, 1930",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Robert_Delaunay_-_Rythme,_Joie_de_vivre.jpg",
+  "focus": "50% 50%"
+ }
 }

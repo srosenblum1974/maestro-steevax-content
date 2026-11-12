@@ -43,7 +43,7 @@
     "en": "The guitar hitting between the beats, and Toots's voice, closer to gospel than to pop."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Toots%20and%20the%20Maytals%20Pressure%20Drop",
+    "appleMusic": "https://music.apple.com/fr/album/pressure-drop/1535475638?i=1535475657&uo=4",
     "spotify": "https://open.spotify.com/search/Toots%20and%20the%20Maytals%20Pressure%20Drop",
     "youtube": "https://www.youtube.com/results?search_query=Toots%20and%20the%20Maytals%20Pressure%20Drop"
    },
@@ -235,7 +235,21 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Pressure Drop (1969)",
+      "en": "Pressure Drop (1969)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1535475657",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/1d/0a/101d0ade-c279-9630-de61-fceac8959d7b/mzaf_16241456194934424464.plus.aac.p.m4a",
+     "performer": "Toots & The Maytals",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/pressure-drop/1535475638?i=1535475657&uo=4"
+    }
+   ]
   }
  ]
 }

@@ -47,7 +47,7 @@
     "en": "The instruments entering one by one: drums alone, then the bass, then the chords, then the voice."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Michael%20Jackson%20Billie%20Jean%20Thriller",
+    "appleMusic": "https://music.apple.com/fr/album/billie-jean/269572838?i=269573364&uo=4",
     "spotify": "https://open.spotify.com/search/Michael%20Jackson%20Billie%20Jean%20Thriller",
     "youtube": "https://www.youtube.com/results?search_query=Michael%20Jackson%20Billie%20Jean%20Thriller"
    },
@@ -258,7 +258,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Billie Jean (Thriller, 1982)",
+      "en": "Billie Jean (Thriller, 1982)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "269573364",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/bc/8a/dcbc8a3e-4ce1-c00d-cc02-eda2212053c7/mzaf_8347559338388601510.plus.aac.p.m4a",
+     "performer": "Michael Jackson",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/billie-jean/269572838?i=269573364&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/pop-semaine-03.jpg",
+  "credit": "Sailko",
+  "license": "CC BY 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Piet_mondrian,_victory_boogie_woogie,_1942-44,_03.jpg",
+  "focus": "50% 50%"
+ }
 }

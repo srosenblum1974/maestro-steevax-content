@@ -666,5 +666,12 @@
     "en": "Which era of pop is this song from?"
    }
   }
- ]
+ ],
+ "heroImage": {
+  "path": "illus/accueil-pop.jpg",
+  "credit": "Xyxyzyz",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Kandinsky_-_Composition_8,_July_1923.jpg",
+  "focus": "50% 50%"
+ }
 }

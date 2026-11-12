@@ -43,7 +43,7 @@
     "en": "The guitar riff at the start: three notes, a dirty sound, and it keeps coming back."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Rolling%20Stones%20Satisfaction",
+    "appleMusic": "https://music.apple.com/fr/album/i-cant-get-no-satisfaction/1440743344?i=1440743544&uo=4",
     "spotify": "https://open.spotify.com/search/Rolling%20Stones%20Satisfaction",
     "youtube": "https://www.youtube.com/results?search_query=Rolling%20Stones%20Satisfaction"
    },
@@ -254,7 +254,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "(I Can't Get No) Satisfaction (1965)",
+      "en": "(I Can't Get No) Satisfaction (1965)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1440743544",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/4d/28/ee4d28cd-a465-1334-2863-efda9ea9669b/mzaf_8440807812349084607.plus.aac.p.m4a",
+     "performer": "The Rolling Stones",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/i-cant-get-no-satisfaction/1440743344?i=1440743544&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/rock-semaine-02.jpg",
+  "credit": "Ernst Ludwig Kirchner, 1914",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Ernst_Ludwig_Kirchner_-_Potsdamer_Platz.jpg",
+  "focus": "50% 35%"
+ }
 }

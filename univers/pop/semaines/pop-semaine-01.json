@@ -47,7 +47,7 @@
     "en": "The beat at the start, Diana Ross's soft voice, and a chorus that almost never stops."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=The%20Supremes%20Where%20Did%20Our%20Love%20Go",
+    "appleMusic": "https://music.apple.com/fr/album/where-did-our-love-go/1443150912?i=1443150931&uo=4",
     "spotify": "https://open.spotify.com/search/The%20Supremes%20Where%20Did%20Our%20Love%20Go",
     "youtube": "https://www.youtube.com/results?search_query=The%20Supremes%20Where%20Did%20Our%20Love%20Go"
    },
@@ -248,7 +248,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Where Did Our Love Go (1964)",
+      "en": "Where Did Our Love Go (1964)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1443150931",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/80/a7/d580a739-e524-989c-768c-cff5972e4bc6/mzaf_15755444933100972375.plus.aac.p.m4a",
+     "performer": "The Supremes",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/where-did-our-love-go/1443150912?i=1443150931&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/pop-semaine-01.jpg",
+  "credit": "Wassily Kandinsky, 1926",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Vassily_Kandinsky,_1926_-_Several_Circles,_Gugg_0910_25.jpg",
+  "focus": "50% 50%"
+ }
 }

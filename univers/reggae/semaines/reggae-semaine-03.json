@@ -47,7 +47,7 @@
     "en": "What disappears: the voice, the guitar, sometimes everything but the bass. And what stays hanging in the echo."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Augustus%20Pablo%20King%20Tubby%20Meets%20Rockers%20Uptown",
+    "appleMusic": "https://music.apple.com/fr/album/king-tubbys-meets-rockers-uptown/1533707240?i=1533707872&uo=4",
     "spotify": "https://open.spotify.com/search/Augustus%20Pablo%20King%20Tubby%20Meets%20Rockers%20Uptown",
     "youtube": "https://www.youtube.com/results?search_query=Augustus%20Pablo%20King%20Tubby%20Meets%20Rockers%20Uptown"
    },
@@ -245,7 +245,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "King Tubby Meets Rockers Uptown",
+      "en": "King Tubby Meets Rockers Uptown"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1533707872",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c5/1e/74/c51e74a1-3b4f-7540-a0f6-f3e0c58a46bf/mzaf_2616642467459351748.plus.aac.p.m4a",
+     "performer": "Augustus Pablo",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/king-tubbys-meets-rockers-uptown/1533707240?i=1533707872&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/reggae-semaine-03.jpg",
+  "credit": "Frederic Edwin Church, 1873",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Frederic_Edwin_Church_-_Tropical_Scenery_-_Google_Art_Project.jpg",
+  "focus": "50% 50%"
+ }
 }

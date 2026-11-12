@@ -43,7 +43,7 @@
     "en": "The riff at the start, then the middle of the track, where everything comes apart and sounds travel from one ear to the other."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Led%20Zeppelin%20Whole%20Lotta%20Love",
+    "appleMusic": "https://music.apple.com/fr/album/whole-lotta-love/836967288?i=836967297&uo=4",
     "spotify": "https://open.spotify.com/search/Led%20Zeppelin%20Whole%20Lotta%20Love",
     "youtube": "https://www.youtube.com/results?search_query=Led%20Zeppelin%20Whole%20Lotta%20Love"
    },
@@ -254,7 +254,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Whole Lotta Love (Led Zeppelin II, 1969)",
+      "en": "Whole Lotta Love (Led Zeppelin II, 1969)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "836967297",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/e0/4d/a3e04df1-cb28-8505-7557-cd19430b0a00/mzaf_8453176796272910147.plus.aac.p.m4a",
+     "performer": "Led Zeppelin",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/whole-lotta-love/836967288?i=836967297&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/rock-semaine-03.jpg",
+  "credit": "John Martin, c. 1851",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:John_Martin_-_The_Great_Day_of_His_Wrath_-_Google_Art_Project.jpg",
+  "focus": "50% 50%"
+ }
 }

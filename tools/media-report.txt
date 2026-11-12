@@ -1,5 +1,8 @@
 IMAGE accueil: File:Caspar David Friedrich - Wanderer above the sea of fog.jpg — Caspar David Friedrich — Public domain
 IMAGE accueil-jazz: File:Jimmy Ryan’s (jazz club) Harry the Hipster and Tony's in 1948 NYC, from- Joe Marsala, Adele Girard, and Toots Thielemans, 52nd Street, New York, N.Y., ca. 1948 (William P. Gottlieb 11411) (cropped).jpg — William P. Gottlieb — Public domain
+IMAGE accueil-reggae: File:Frederic Edwin Church - Vale of St Thomas, Jamaica.jpg — Frederic Edwin Church — Public domain
+IMAGE accueil-pop: File:Kandinsky - Composition 8, July 1923.jpg — Xyxyzyz — CC0
+IMAGE accueil-rock: File:The City Rises by Umberto Boccioni 1910.jpg — Umberto Boccioni — Public domain
 IMAGE semaine-01: File:Johann Sebastian Bach.jpg — Elias Gottlob Haussmann — Public domain
 AUDIO semaine-01/bach-suites-violoncelle: File:JOHN MICHEL CELLO-J S BACH CELLO SUITE 1 in G Prelude.ogg — Johann Sebastian Bach — CC BY-SA 3.0
 IMAGE semaine-02: File:Il Ritorno del Bucintoro al molo nel giorno dell'Ascensione (c.1738) Canaletto - Wells-Next-The-Sea, The Earl of Leicester and Trustees of the Holkham Estate.jpg — Didier Descouens — CC BY-SA 4.0
@@ -29,7 +32,25 @@ IMAGE jazz-semaine-02: File:Miles Davis (Three Deuces, New York, N.Y. 1947).jpg 
 APPLE MUSIC jazz-semaine-02/jazz-so-what: So What — Miles Davis — Kind of Blue (Legacy Edition) (300865220)
 IMAGE jazz-semaine-03: File:Dave Brubeck (1964).jpg — Jack de Nijs for Anefo  / Anefo — CC BY-SA 3.0
 APPLE MUSIC jazz-semaine-03/jazz-take-five: Take Five — Dave Brubeck — Time Out (635125276)
+APPLE MUSIC reggae-semaine-01/reggae-pressure-drop: Pressure Drop — Toots & The Maytals — The Harder They Come (Original Motion Picture Soundtrack) (1535475657)
+IMAGE reggae-semaine-02: File:Drawing, Nature Studies, Blue Mountains, Jamaica, July 1865 (CH 18193503).jpg — Frederic Edwin Church — Public domain
+APPLE MUSIC reggae-semaine-02/reggae-get-up-stand-up: Get Up, Stand Up (Remastered 2001) — The Wailers — Burnin' (Remastered 2001) (1440821915)
+IMAGE reggae-semaine-03: File:Frederic Edwin Church - Tropical Scenery - Google Art Project.jpg — Frederic Edwin Church — Public domain
+APPLE MUSIC reggae-semaine-03/reggae-king-tubby-meets-rockers-uptown: King Tubby's Meets Rockers Uptown — Augustus Pablo — King Tubbys Meets Rockers Uptown (1533707872)
+IMAGE pop-semaine-01: File:Vassily Kandinsky, 1926 - Several Circles, Gugg 0910 25.jpg — Wassily Kandinsky — Public domain
+APPLE MUSIC pop-semaine-01/pop-where-did-our-love-go: Where Did Our Love Go — The Supremes — Where Did Our Love Go (1443150931)
+IMAGE pop-semaine-02: File:Robert Delaunay - Rythme, Joie de vivre.jpg — Robert Delaunay — Public domain
+APPLE MUSIC pop-semaine-02/pop-dancing-queen: Dancing Queen — ABBA — Arrival (Bonus Track Version) (1440820267)
+IMAGE pop-semaine-03: File:Piet mondrian, victory boogie woogie, 1942-44, 03.jpg — Sailko — CC BY 3.0
+APPLE MUSIC pop-semaine-03/pop-billie-jean: Billie Jean — Michael Jackson — Thriller (269573364)
+IMAGE rock-semaine-01: File:(Barcelona) Rain, Steam,and Speed After William Truner - 1856-61 - R.Brandard - Tate Britain.jpg — Didier Descouens — Public domain
+APPLE MUSIC rock-semaine-01/rock-johnny-b-goode: Johnny B. Goode — Chuck Berry — Berry Is On Top (1425230917)
+IMAGE rock-semaine-02: File:Ernst Ludwig Kirchner - Potsdamer Platz.jpg — Ernst Ludwig Kirchner — Public domain
+APPLE MUSIC rock-semaine-02/rock-satisfaction: (I Can't Get No) Satisfaction — The Rolling Stones — Out of Our Heads (1440743544)
+IMAGE rock-semaine-03: File:John Martin - The Great Day of His Wrath - Google Art Project.jpg — John Martin — Public domain
+APPLE MUSIC rock-semaine-03/rock-whole-lotta-love: Whole Lotta Love — Led Zeppelin — Led Zeppelin II (Deluxe Edition) (836967297)
 
 NOT FOUND:
 audio semaine-04/beethoven-symphonies-5-7: Symphony No. 7 — Allegretto
 audio semaine-07/debussy-faune: Prelude to the Afternoon of a Faun
+image reggae-semaine-01: {'search': ['Joseph Bartholomew Kidd Kingston Jamaica', 'Kidd Views of Jamaica', 'Kingston Jamaica 19th century lithograph'], 'require': 'jamaica|kingston', 'exclude': 'map|flag|coat', 'focus': '50% 50%'}

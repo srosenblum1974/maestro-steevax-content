@@ -47,7 +47,7 @@
     "en": "Two very different voices for one message: Marley, supple and warm; Tosh, deep and cutting."
    },
    "links": {
-    "appleMusic": "https://music.apple.com/search?term=Bob%20Marley%20Wailers%20Get%20Up%20Stand%20Up%20Burnin",
+    "appleMusic": "https://music.apple.com/fr/album/get-up-stand-up-remastered-2001/1440821911?i=1440821915&uo=4",
     "spotify": "https://open.spotify.com/search/Bob%20Marley%20Wailers%20Get%20Up%20Stand%20Up%20Burnin",
     "youtube": "https://www.youtube.com/results?search_query=Bob%20Marley%20Wailers%20Get%20Up%20Stand%20Up%20Burnin"
    },
@@ -247,7 +247,28 @@
       }
      }
     ]
-   }
+   },
+   "audio": [
+    {
+     "label": {
+      "fr": "Get Up, Stand Up (Burnin', 1973)",
+      "en": "Get Up, Stand Up (Burnin', 1973)"
+     },
+     "kind": "appleMusic",
+     "appleMusicId": "1440821915",
+     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/33/31/13333132-7081-52e3-878a-64e180a5d844/mzaf_13558175285379031813.plus.aac.p.m4a",
+     "performer": "The Wailers",
+     "license": "Apple Music",
+     "source": "https://music.apple.com/fr/album/get-up-stand-up-remastered-2001/1440821911?i=1440821915&uo=4"
+    }
+   ]
   }
- ]
+ ],
+ "image": {
+  "path": "illus/reggae-semaine-02.jpg",
+  "credit": "Frederic Edwin Church, 1865",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Drawing,_Nature_Studies,_Blue_Mountains,_Jamaica,_July_1865_(CH_18193503).jpg",
+  "focus": "50% 50%"
+ }
 }

@@ -698,5 +698,12 @@
     "en": "Which era of rock is this track from?"
    }
   }
- ]
+ ],
+ "heroImage": {
+  "path": "illus/accueil-rock.jpg",
+  "credit": "Umberto Boccioni, 1910",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:The_City_Rises_by_Umberto_Boccioni_1910.jpg",
+  "focus": "50% 45%"
+ }
 }
