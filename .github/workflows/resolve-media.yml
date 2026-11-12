@@ -21,7 +21,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install Pillow
         run: pip install pillow
-      - name: Find recordings and paintings on Wikimedia Commons
+      - name: Find recordings and images (Wikimedia Commons, Pixabay when its key is set)
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: python3 tools/resolve_media.py
       - name: Rebuild index and manifest
         run: python3 tools/build.py

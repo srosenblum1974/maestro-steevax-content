@@ -1,0 +1,371 @@
+{
+ "id": "reggae-semaine-04",
+ "n": 4,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "ska",
+ "title": {
+  "fr": "Le ska, la fête de l'indépendance",
+  "en": "Ska, the independence party"
+ },
+ "world": {
+  "fr": "1962-1965 : la Jamaïque devient indépendante, les sound systems règnent sur les rues de Kingston, et les Beatles conquièrent le monde.",
+  "en": "1962–1965: Jamaica becomes independent, sound systems rule the streets of Kingston, and the Beatles conquer the world."
+ },
+ "works": [
+  {
+   "id": "reggae-my-boy-lollipop",
+   "people": [
+    {
+     "name": "Millie Small",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "My Boy Lollipop",
+    "en": "My Boy Lollipop"
+   },
+   "year": "1964",
+   "recording": {
+    "performers": "Millie Small (chant), Ernest Ranglin (arrangement, guitare)",
+    "label": "Island / Fontana",
+    "year": 1964
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Le rythme qui sautille : la guitare frappe déjà entre les temps, mais deux fois plus vite que dans le reggae.",
+    "en": "The bouncing beat: the guitar already hits between the beats, but twice as fast as in reggae."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Millie%20Small%20My%20Boy%20Lollipop",
+    "spotify": "https://open.spotify.com/search/Millie%20Small%20My%20Boy%20Lollipop",
+    "youtube": "https://www.youtube.com/results?search_query=Millie%20Small%20My%20Boy%20Lollipop"
+   },
+   "threads": [
+    {
+     "to": "reggae-pressure-drop",
+     "kind": "influence",
+     "why": {
+      "fr": "Cinq ans plus tard, le même contretemps, ralenti : le reggae.",
+      "en": "Five years later, the same off-beat, slowed down: reggae."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Deux minutes de joie, et le premier tube mondial venu de Jamaïque.",
+     "en": "Two minutes of joy, and the first worldwide hit from Jamaica."
+    },
+    "context": {
+     "fr": "Londres, 1964. Millie Small a seize ans. Le producteur Chris Blackwell, fondateur du label Island, l'a fait venir de Jamaïque ; le guitariste Ernest Ranglin arrange pour elle une vieille chanson américaine sur un rythme de ska. Le disque se classe deuxième en Angleterre et aux États-Unis et se vend par millions.",
+     "en": "London, 1964. Millie Small is sixteen. Producer Chris Blackwell, founder of the Island label, has brought her over from Jamaica; guitarist Ernest Ranglin arranges an old American song for her on a ska beat. The record reaches number two in Britain and the United States and sells in the millions."
+    },
+    "why": {
+     "fr": "Le monde découvre qu'il existe une musique jamaïcaine. L'argent du disque permettra à Island de produire, dix ans plus tard, Bob Marley.",
+     "en": "The world discovers that Jamaican music exists. The money from the record will let Island produce Bob Marley ten years later."
+    },
+    "how": {
+     "fr": "Comparez avec « Pressure Drop » : le contretemps est le même, mais le tempo est bien plus rapide. C'est toute la différence entre ska et reggae.",
+     "en": "Compare with “Pressure Drop”: the off-beat is the same, but the tempo is far faster. That is the whole difference between ska and reggae."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Le rythme démarre d'un coup, vif et sautillant.",
+       "en": "The beat starts at once, lively and bouncing."
+      }
+     },
+     {
+      "when": {
+       "fr": "La voix",
+       "en": "The voice"
+      },
+      "what": {
+       "fr": "Une voix d'adolescente, très aiguë, presque espiègle.",
+       "en": "A teenager's voice, very high, almost mischievous."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le milieu",
+       "en": "The middle"
+      },
+      "what": {
+       "fr": "Un court solo d'harmonica.",
+       "en": "A short harmonica solo."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie",
+      "cordes",
+      "synthe",
+      "theremin",
+      "melodica",
+      "orgue"
+     ],
+     "answer": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel âge a Millie Small quand elle enregistre ce tube ?",
+       "en": "How old is Millie Small when she records this hit?"
+      },
+      "options": [
+       {
+        "fr": "Seize ans",
+        "en": "Sixteen"
+       },
+       {
+        "fr": "Trente ans",
+        "en": "Thirty"
+       },
+       {
+        "fr": "Cinquante ans",
+        "en": "Fifty"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Seize ans, et une voix qu'on n'oublie pas.",
+       "en": "Sixteen, with a voice you do not forget."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qu'est-ce qui distingue le ska du reggae ?",
+       "en": "What sets ska apart from reggae?"
+      },
+      "options": [
+       {
+        "fr": "Le ska est plus rapide",
+        "en": "Ska is faster"
+       },
+       {
+        "fr": "Le ska n'a pas de contretemps",
+        "en": "Ska has no off-beat"
+       },
+       {
+        "fr": "Le ska n'a pas de batterie",
+        "en": "Ska has no drums"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Même contretemps, tempo bien plus vif.",
+       "en": "The same off-beat, a much livelier tempo."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Ska",
+       "en": "Ska"
+      },
+      "def": {
+       "fr": "La première musique populaire jamaïcaine, rapide et dansante.",
+       "en": "Jamaica's first popular music, fast and danceable."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "reggae-guns-of-navarone",
+   "people": [
+    {
+     "name": "The Skatalites",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "Guns of Navarone",
+    "en": "Guns of Navarone"
+   },
+   "year": "1965",
+   "recording": {
+    "performers": "Don Drummond (trombone), Tommy McCook et Roland Alphonso (saxophones), Lloyd Brevett (contrebasse), Lloyd Knibb (batterie)",
+    "label": "Island",
+    "year": 1965
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les cuivres qui jouent le thème tous ensemble, comme une fanfare, sur un rythme qui ne tient pas en place.",
+    "en": "The horns playing the theme all together, like a marching band, over a beat that cannot keep still."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=The%20Skatalites%20Guns%20of%20Navarone",
+    "spotify": "https://open.spotify.com/search/The%20Skatalites%20Guns%20of%20Navarone",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Skatalites%20Guns%20of%20Navarone"
+   },
+   "threads": [
+    {
+     "to": "jazz-take-the-a-train",
+     "kind": "influence",
+     "why": {
+      "fr": "Les orchestres de swing américains, que ces musiciens écoutaient à la radio.",
+      "en": "The American swing bands these musicians listened to on the radio."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une musique de film de guerre transformée en fête de rue.",
+     "en": "A war-film theme turned into a street party."
+    },
+    "context": {
+     "fr": "Kingston, 1965. Les Skatalites sont l'orchestre des studios de l'île : des musiciens de jazz, formés pour beaucoup dans la même école, qui accompagnent tous les chanteurs. Ils reprennent le thème d'un film hollywoodien et en font un instrumental de ska. Le groupe ne dure qu'un peu plus d'un an, mais il a fixé le son d'une époque.",
+     "en": "Kingston, 1965. The Skatalites are the island's studio band: jazz musicians, many trained at the same school, who back every singer. They take the theme of a Hollywood film and make it a ska instrumental. The band lasts little more than a year, but it has fixed the sound of an era."
+    },
+    "why": {
+     "fr": "Tout le reggae vient de ces musiciens. Le contretemps, la basse en avant, les cuivres : c'est ici que la grammaire s'écrit.",
+     "en": "All of reggae comes from these musicians. The off-beat, the bass up front, the horns: this is where the grammar is written."
+    },
+    "how": {
+     "fr": "Écoutez les cuivres comme une seule voix, puis repérez le moment où l'un d'eux se détache pour un solo.",
+     "en": "Hear the horns as one voice, then spot the moment when one of them steps out for a solo."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le thème",
+       "en": "The theme"
+      },
+      "what": {
+       "fr": "Trombone et saxophones jouent la mélodie ensemble.",
+       "en": "Trombone and saxophones play the melody together."
+      }
+     },
+     {
+      "when": {
+       "fr": "Dessous",
+       "en": "Underneath"
+      },
+      "what": {
+       "fr": "La guitare et le piano hachent le contretemps sans relâche.",
+       "en": "Guitar and piano chop the off-beat without a break."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les solos",
+       "en": "The solos"
+      },
+      "what": {
+       "fr": "Un instrument à vent improvise, comme dans le jazz.",
+       "en": "A horn improvises, as in jazz."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "cuivres",
+      "saxophone",
+      "guitare",
+      "basse",
+      "batterie",
+      "cordes",
+      "synthe",
+      "theremin",
+      "melodica"
+     ],
+     "answer": [
+      "cuivres",
+      "saxophone",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "D'où vient le thème de ce morceau ?",
+       "en": "Where does this tune's theme come from?"
+      },
+      "options": [
+       {
+        "fr": "D'un film",
+        "en": "A film"
+       },
+       {
+        "fr": "D'un opéra",
+        "en": "An opera"
+       },
+       {
+        "fr": "D'un cantique",
+        "en": "A hymn"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Du film Les Canons de Navarone (1961).",
+       "en": "From the film The Guns of Navarone (1961)."
+      }
+     },
+     {
+      "q": {
+       "fr": "De quelle musique viennent les Skatalites ?",
+       "en": "Which music do the Skatalites come from?"
+      },
+      "options": [
+       {
+        "fr": "Du jazz",
+        "en": "Jazz"
+       },
+       {
+        "fr": "Du rock",
+        "en": "Du rock"
+       },
+       {
+        "fr": "De la musique classique",
+        "en": "Classical music"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Ce sont des jazzmen, d'où les solos improvisés.",
+       "en": "They are jazzmen, hence the improvised solos."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Instrumental",
+       "en": "Instrumental"
+      },
+      "def": {
+       "fr": "Un morceau sans chant.",
+       "en": "A piece with no singing."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

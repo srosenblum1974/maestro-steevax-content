@@ -59,6 +59,98 @@
      }
     }
    ]
+  },
+  {
+   "id": "reggae-semaine-04",
+   "n": 4,
+   "phase": 1,
+   "period": "ska",
+   "title": {
+    "fr": "Le ska, la fête de l'indépendance",
+    "en": "Ska, the independence party"
+   },
+   "works": [
+    {
+     "id": "reggae-my-boy-lollipop",
+     "composer": "Millie Small",
+     "title": {
+      "fr": "My Boy Lollipop",
+      "en": "My Boy Lollipop"
+     }
+    },
+    {
+     "id": "reggae-guns-of-navarone",
+     "composer": "The Skatalites",
+     "title": {
+      "fr": "Guns of Navarone",
+      "en": "Guns of Navarone"
+     }
+    }
+   ]
+  },
+  {
+   "id": "reggae-semaine-05",
+   "n": 5,
+   "phase": 1,
+   "period": "roots",
+   "title": {
+    "fr": "L'âge d'or du roots",
+    "en": "The golden age of roots"
+   },
+   "works": [
+    {
+     "id": "reggae-the-harder-they-come",
+     "composer": "Jimmy Cliff",
+     "title": {
+      "fr": "The Harder They Come",
+      "en": "The Harder They Come"
+     }
+    },
+    {
+     "id": "reggae-marcus-garvey",
+     "composer": "Burning Spear",
+     "title": {
+      "fr": "Marcus Garvey",
+      "en": "Marcus Garvey"
+     }
+    },
+    {
+     "id": "reggae-police-and-thieves",
+     "composer": "Junior Murvin, Lee « Scratch » Perry",
+     "title": {
+      "fr": "Police and Thieves",
+      "en": "Police and Thieves"
+     }
+    }
+   ]
+  },
+  {
+   "id": "reggae-semaine-06",
+   "n": 6,
+   "phase": 1,
+   "period": "dancehall",
+   "title": {
+    "fr": "Dancehall, le rythme passe au numérique",
+    "en": "Dancehall, the beat goes digital"
+   },
+   "works": [
+    {
+     "id": "reggae-bam-bam",
+     "composer": "Sister Nancy",
+     "title": {
+      "fr": "Bam Bam",
+      "en": "Bam Bam"
+     }
+    },
+    {
+     "id": "reggae-under-mi-sleng-teng",
+     "composer": "Wayne Smith, King Jammy",
+     "title": {
+      "fr": "Under Mi Sleng Teng",
+      "en": "Under Mi Sleng Teng"
+     }
+    }
+   ]
   }
  ]
 }

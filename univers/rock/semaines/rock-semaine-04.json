@@ -1,0 +1,383 @@
+{
+ "id": "rock-semaine-04",
+ "n": 4,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "hard-rock",
+ "title": {
+  "fr": "Le rock des géants",
+  "en": "The rock of giants"
+ },
+ "world": {
+  "fr": "1972-1975 : dernières missions sur la Lune, choc pétrolier, fin de la guerre du Vietnam. Les groupes remplissent des stades.",
+  "en": "1972–1975: the last Moon missions, the oil shock, the end of the Vietnam war. Bands fill stadiums."
+ },
+ "works": [
+  {
+   "id": "rock-smoke-on-the-water",
+   "people": [
+    {
+     "name": "Deep Purple",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "Smoke on the Water",
+    "en": "Smoke on the Water"
+   },
+   "year": "1972",
+   "recording": {
+    "performers": "Ian Gillan (chant), Ritchie Blackmore (guitare), Jon Lord (orgue), Roger Glover (basse), Ian Paice (batterie)",
+    "label": "Purple / EMI",
+    "year": 1972
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "L'entrée des instruments un par un : guitare, cymbale, orgue, batterie, basse.",
+    "en": "The instruments entering one by one: guitar, cymbal, organ, drums, bass."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Deep%20Purple%20Smoke%20on%20the%20Water",
+    "spotify": "https://open.spotify.com/search/Deep%20Purple%20Smoke%20on%20the%20Water",
+    "youtube": "https://www.youtube.com/results?search_query=Deep%20Purple%20Smoke%20on%20the%20Water"
+   },
+   "threads": [
+    {
+     "to": "rock-whole-lotta-love",
+     "kind": "same-era",
+     "why": {
+      "fr": "Le même hard rock anglais, trois ans plus tôt.",
+      "en": "The same English hard rock, three years earlier."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Le premier riff qu'apprend tout guitariste, né d'un incendie.",
+     "en": "The first riff every guitarist learns, born from a fire."
+    },
+    "context": {
+     "fr": "Montreux, Suisse, décembre 1971. Deep Purple vient enregistrer au casino. La veille, pendant un concert, quelqu'un tire une fusée et le bâtiment brûle. Le groupe regarde la fumée s'étendre sur le lac Léman, puis enregistre dans les couloirs d'un hôtel vide. La chanson raconte l'histoire telle quelle.",
+     "en": "Montreux, Switzerland, December 1971. Deep Purple arrives to record at the casino. The night before, during a concert, someone fires a flare and the building burns down. The band watches the smoke spread over Lake Geneva, then records in the corridors of an empty hotel. The song tells the story as it happened."
+    },
+    "why": {
+     "fr": "Quatre notes suffisent à faire un monument. Le hard rock trouve ici sa forme la plus simple et la plus efficace.",
+     "en": "Four notes are enough to build a monument. Hard rock finds its simplest and most effective form here."
+    },
+    "how": {
+     "fr": "Au début, levez un doigt à chaque instrument qui entre. Remarquez que l'orgue double la guitare et l'épaissit.",
+     "en": "At the start, raise a finger for each instrument that enters. Notice that the organ doubles the guitar and thickens it."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "La guitare joue le riff seule.",
+       "en": "The guitar plays the riff alone."
+      }
+     },
+     {
+      "when": {
+       "fr": "Peu à peu",
+       "en": "Bit by bit"
+      },
+      "what": {
+       "fr": "La cymbale, puis l'orgue, la batterie et enfin la basse la rejoignent.",
+       "en": "The cymbal, then the organ, the drums and finally the bass join in."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les couplets",
+       "en": "The verses"
+      },
+      "what": {
+       "fr": "Le chanteur raconte l'incendie, presque comme un reportage.",
+       "en": "The singer tells of the fire, almost like a news report."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "guitare",
+      "orgue",
+      "basse",
+      "batterie",
+      "piano",
+      "cuivres",
+      "cordes",
+      "synthe",
+      "saxophone"
+     ],
+     "answer": [
+      "voix",
+      "guitare",
+      "orgue",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Que raconte la chanson ?",
+       "en": "What does the song tell?"
+      },
+      "options": [
+       {
+        "fr": "Un incendie réel, à Montreux",
+        "en": "A real fire, in Montreux"
+       },
+       {
+        "fr": "Une légende médiévale",
+        "en": "A medieval legend"
+       },
+       {
+        "fr": "Une histoire d'amour",
+        "en": "A love story"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "L'incendie du casino de Montreux, en décembre 1971.",
+       "en": "The Montreux casino fire, in December 1971."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel instrument double la guitare ?",
+       "en": "Which instrument doubles the guitar?"
+      },
+      "options": [
+       {
+        "fr": "L'orgue",
+        "en": "The organ"
+       },
+       {
+        "fr": "Le violon",
+        "en": "The violin"
+       },
+       {
+        "fr": "La trompette",
+        "en": "The trumpet"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "L'orgue de Jon Lord, branché sur un ampli de guitare.",
+       "en": "Jon Lord's organ, plugged into a guitar amp."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Riff",
+       "en": "Riff"
+      },
+      "def": {
+       "fr": "Un court motif de guitare répété.",
+       "en": "A short repeated guitar figure."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "rock-bohemian-rhapsody",
+   "people": [
+    {
+     "name": "Queen",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "Bohemian Rhapsody",
+    "en": "Bohemian Rhapsody"
+   },
+   "year": "1975",
+   "recording": {
+    "performers": "Freddie Mercury (chant, piano), Brian May (guitare), John Deacon (basse), Roger Taylor (batterie)",
+    "label": "EMI",
+    "year": 1975
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les changements de genre : ballade, opéra, hard rock. Il n'y a pas de refrain.",
+    "en": "The changes of genre: ballad, opera, hard rock. There is no chorus."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Queen%20Bohemian%20Rhapsody",
+    "spotify": "https://open.spotify.com/search/Queen%20Bohemian%20Rhapsody",
+    "youtube": "https://www.youtube.com/results?search_query=Queen%20Bohemian%20Rhapsody"
+   },
+   "threads": [
+    {
+     "to": "mozart-requiem",
+     "kind": "influence",
+     "why": {
+      "fr": "Le goût de Freddie Mercury pour l'opéra et les grands chœurs.",
+      "en": "Freddie Mercury's taste for opera and great choruses."
+     }
+    },
+    {
+     "to": "pop-good-vibrations",
+     "kind": "same-idea",
+     "why": {
+      "fr": "Une chanson montée par sections, comme un film.",
+      "en": "A song assembled in sections, like a film."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Six minutes, six parties, aucun refrain : la chanson que personne ne voulait diffuser.",
+     "en": "Six minutes, six parts, no chorus: the song nobody wanted to broadcast."
+    },
+    "context": {
+     "fr": "Angleterre, 1975. Freddie Mercury a toute la chanson en tête. Le groupe passe des semaines en studio ; pour la partie d'opéra, les trois chanteurs superposent leurs voix des dizaines de fois, jusqu'à user la bande. La maison de disques juge le titre trop long pour la radio. Il reste neuf semaines numéro un en Angleterre.",
+     "en": "England, 1975. Freddie Mercury has the whole song in his head. The band spends weeks in the studio; for the opera section the three singers layer their voices dozens of times, until the tape wears thin. The record company finds the track too long for radio. It stays nine weeks at number one in Britain."
+    },
+    "why": {
+     "fr": "Le rock ose tout : il emprunte à l'opéra et abandonne la forme couplet-refrain. Le clip tourné pour l'occasion annonce l'ère de la vidéo.",
+     "en": "Rock dares everything: it borrows from opera and drops the verse-chorus form. The video shot for it heralds the video age."
+    },
+    "how": {
+     "fr": "Notez chaque changement de décor. Remarquez qu'aucune partie ne revient, sauf la toute fin, qui rappelle le début.",
+     "en": "Note each change of scenery. Notice that no section returns, except the very end, which recalls the beginning."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Des voix seules, sans instrument, puis un piano.",
+       "en": "Voices alone, with no instrument, then a piano."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le milieu",
+       "en": "The middle"
+      },
+      "what": {
+       "fr": "Un solo de guitare, puis l'opéra : des voix qui se répondent du grave à l'aigu.",
+       "en": "A guitar solo, then the opera: voices answering each other from low to high."
+      }
+     },
+     {
+      "when": {
+       "fr": "Ensuite",
+       "en": "Next"
+      },
+      "what": {
+       "fr": "Le hard rock éclate, avant un retour au calme.",
+       "en": "Hard rock bursts in, before calm returns."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "piano",
+      "guitare",
+      "basse",
+      "batterie",
+      "synthe",
+      "saxophone",
+      "orgue",
+      "cuivres"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "piano",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Que manque-t-il à cette chanson ?",
+       "en": "What is missing from this song?"
+      },
+      "options": [
+       {
+        "fr": "Un refrain",
+        "en": "A chorus"
+       },
+       {
+        "fr": "Une guitare",
+        "en": "A guitar"
+       },
+       {
+        "fr": "Un chanteur",
+        "en": "A singer"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Aucune partie ne revient comme un refrain.",
+       "en": "No section returns as a chorus would."
+      }
+     },
+     {
+      "q": {
+       "fr": "Comment la partie d'opéra a-t-elle été faite ?",
+       "en": "How was the opera section made?"
+      },
+      "options": [
+       {
+        "fr": "En superposant les voix du groupe des dizaines de fois",
+        "en": "By layering the band's voices dozens of times"
+       },
+       {
+        "fr": "Avec un chœur d'opéra",
+        "en": "With an opera chorus"
+       },
+       {
+        "fr": "Avec un synthétiseur",
+        "en": "With a synthesizer"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Trois chanteurs, enregistrés encore et encore.",
+       "en": "Three singers, recorded again and again."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "A cappella",
+       "en": "A cappella"
+      },
+      "def": {
+       "fr": "Chanté sans instrument.",
+       "en": "Sung with no instruments."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

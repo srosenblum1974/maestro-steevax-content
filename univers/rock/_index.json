@@ -59,6 +59,98 @@
      }
     }
    ]
+  },
+  {
+   "id": "rock-semaine-04",
+   "n": 4,
+   "phase": 1,
+   "period": "hard-rock",
+   "title": {
+    "fr": "Le rock des géants",
+    "en": "The rock of giants"
+   },
+   "works": [
+    {
+     "id": "rock-smoke-on-the-water",
+     "composer": "Deep Purple",
+     "title": {
+      "fr": "Smoke on the Water",
+      "en": "Smoke on the Water"
+     }
+    },
+    {
+     "id": "rock-bohemian-rhapsody",
+     "composer": "Queen",
+     "title": {
+      "fr": "Bohemian Rhapsody",
+      "en": "Bohemian Rhapsody"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rock-semaine-05",
+   "n": 5,
+   "phase": 1,
+   "period": "punk-new-wave",
+   "title": {
+    "fr": "Le punk remet les compteurs à zéro",
+    "en": "Punk resets the clock"
+   },
+   "works": [
+    {
+     "id": "rock-blitzkrieg-bop",
+     "composer": "Ramones",
+     "title": {
+      "fr": "Blitzkrieg Bop",
+      "en": "Blitzkrieg Bop"
+     }
+    },
+    {
+     "id": "rock-london-calling",
+     "composer": "The Clash",
+     "title": {
+      "fr": "London Calling",
+      "en": "London Calling"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rock-semaine-06",
+   "n": 6,
+   "phase": 1,
+   "period": "alternatif",
+   "title": {
+    "fr": "Le rock alternatif",
+    "en": "Alternative rock"
+   },
+   "works": [
+    {
+     "id": "rock-smells-like-teen-spirit",
+     "composer": "Nirvana",
+     "title": {
+      "fr": "Smells Like Teen Spirit",
+      "en": "Smells Like Teen Spirit"
+     }
+    },
+    {
+     "id": "rock-creep",
+     "composer": "Radiohead",
+     "title": {
+      "fr": "Creep",
+      "en": "Creep"
+     }
+    },
+    {
+     "id": "rock-seven-nation-army",
+     "composer": "The White Stripes",
+     "title": {
+      "fr": "Seven Nation Army",
+      "en": "Seven Nation Army"
+     }
+    }
+   ]
   }
  ]
 }

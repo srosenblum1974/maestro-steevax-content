@@ -59,6 +59,98 @@
      }
     }
    ]
+  },
+  {
+   "id": "jazz-semaine-04",
+   "n": 4,
+   "phase": 1,
+   "period": "swing",
+   "title": {
+    "fr": "Le swing, quand le jazz fait danser l'Amérique",
+    "en": "Swing, when jazz makes America dance"
+   },
+   "works": [
+    {
+     "id": "jazz-sing-sing-sing",
+     "composer": "Benny Goodman and His Orchestra, Louis Prima",
+     "title": {
+      "fr": "Sing, Sing, Sing",
+      "en": "Sing, Sing, Sing"
+     }
+    },
+    {
+     "id": "jazz-take-the-a-train",
+     "composer": "Duke Ellington and His Orchestra, Billy Strayhorn",
+     "title": {
+      "fr": "Take the “A” Train",
+      "en": "Take the “A” Train"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jazz-semaine-05",
+   "n": 5,
+   "phase": 1,
+   "period": "bebop",
+   "title": {
+    "fr": "Le bebop, la révolution à toute vitesse",
+    "en": "Bebop, the revolution at full speed"
+   },
+   "works": [
+    {
+     "id": "jazz-ko-ko",
+     "composer": "Charlie Parker",
+     "title": {
+      "fr": "Ko-Ko",
+      "en": "Ko-Ko"
+     }
+    },
+    {
+     "id": "jazz-round-midnight",
+     "composer": "Thelonious Monk",
+     "title": {
+      "fr": "’Round Midnight",
+      "en": "’Round Midnight"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jazz-semaine-06",
+   "n": 6,
+   "phase": 1,
+   "period": "free-fusion",
+   "title": {
+    "fr": "Libérer le jazz, puis le brancher",
+    "en": "Freeing jazz, then plugging it in"
+   },
+   "works": [
+    {
+     "id": "jazz-lonely-woman",
+     "composer": "Ornette Coleman",
+     "title": {
+      "fr": "Lonely Woman",
+      "en": "Lonely Woman"
+     }
+    },
+    {
+     "id": "jazz-a-love-supreme-acknowledgement",
+     "composer": "John Coltrane",
+     "title": {
+      "fr": "A Love Supreme, Part I: Acknowledgement",
+      "en": "A Love Supreme, Part I: Acknowledgement"
+     }
+    },
+    {
+     "id": "jazz-chameleon",
+     "composer": "Herbie Hancock",
+     "title": {
+      "fr": "Chameleon",
+      "en": "Chameleon"
+     }
+    }
+   ]
   }
  ]
 }

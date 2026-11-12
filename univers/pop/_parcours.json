@@ -455,7 +455,8 @@
      "Stevie Wonder"
     ],
     "weeks": [
-     1
+     1,
+     4
     ]
    },
    {
@@ -515,7 +516,8 @@
      "George Michael"
     ],
     "weeks": [
-     3
+     3,
+     5
     ]
    },
    {
@@ -544,7 +546,9 @@
      "Taylor Swift",
      "Dua Lipa"
     ],
-    "weeks": []
+    "weeks": [
+     6
+    ]
    }
   ],
   "words": [

@@ -1,0 +1,380 @@
+{
+ "id": "rock-semaine-05",
+ "n": 5,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "punk-new-wave",
+ "title": {
+  "fr": "Le punk remet les compteurs à zéro",
+  "en": "Punk resets the clock"
+ },
+ "world": {
+  "fr": "1976-1979 : chômage de masse, crise à New York et à Londres, Margaret Thatcher arrive au pouvoir en 1979.",
+  "en": "1976–1979: mass unemployment, crisis in New York and London, Margaret Thatcher comes to power in 1979."
+ },
+ "works": [
+  {
+   "id": "rock-blitzkrieg-bop",
+   "people": [
+    {
+     "name": "Ramones",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "Blitzkrieg Bop",
+    "en": "Blitzkrieg Bop"
+   },
+   "year": "1976",
+   "recording": {
+    "performers": "Joey Ramone (chant), Johnny Ramone (guitare), Dee Dee Ramone (basse), Tommy Ramone (batterie)",
+    "label": "Sire",
+    "year": 1976
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "La vitesse et la simplicité : pas de solo, pas de fioriture, tout le monde joue la même chose.",
+    "en": "The speed and the simplicity: no solo, no frills, everyone plays the same thing."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Ramones%20Blitzkrieg%20Bop",
+    "spotify": "https://open.spotify.com/search/Ramones%20Blitzkrieg%20Bop",
+    "youtube": "https://www.youtube.com/results?search_query=Ramones%20Blitzkrieg%20Bop"
+   },
+   "threads": [
+    {
+     "to": "rock-johnny-b-goode",
+     "kind": "influence",
+     "why": {
+      "fr": "Le retour au rock'n'roll des débuts : court, rapide, direct.",
+      "en": "A return to early rock'n'roll: short, fast, direct."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Deux minutes douze, trois accords, un cri : le punk est né.",
+     "en": "Two minutes twelve, three chords, one shout: punk is born."
+    },
+    "context": {
+     "fr": "New York, 1976. Quatre garçons du Queens, en blouson de cuir, prennent le même nom de famille et jouent dans un petit club, le CBGB. Leur premier album est enregistré en quelques jours pour une somme dérisoire. Aucune chanson ne dépasse trois minutes.",
+     "en": "New York, 1976. Four boys from Queens, in leather jackets, take the same surname and play in a small club, CBGB. Their first album is recorded in a few days for next to nothing. No song runs over three minutes."
+    },
+    "why": {
+     "fr": "Après les solos de dix minutes et les stades, le punk remet les compteurs à zéro : n'importe qui peut monter un groupe.",
+     "en": "After ten-minute solos and stadiums, punk resets the clock: anyone can start a band."
+    },
+    "how": {
+     "fr": "Comparez avec « Whole Lotta Love » : même formation, guitare, basse, batterie, mais l'intention est inverse.",
+     "en": "Compare with “Whole Lotta Love”: the same line-up, guitar, bass, drums, but the opposite intention."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Guitare et batterie démarrent ensemble, à fond.",
+       "en": "Guitar and drums start together, flat out."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le cri",
+       "en": "The shout"
+      },
+      "what": {
+       "fr": "Le groupe scande un cri de ralliement, sans instruments ou presque.",
+       "en": "The band chants a rallying cry, with almost no instruments."
+      }
+     },
+     {
+      "when": {
+       "fr": "La suite",
+       "en": "After that"
+      },
+      "what": {
+       "fr": "Couplets et refrains s'enchaînent sans une seconde de répit.",
+       "en": "Verses and choruses follow without a second's rest."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie",
+      "piano",
+      "orgue",
+      "synthe",
+      "cuivres",
+      "cordes",
+      "saxophone"
+     ],
+     "answer": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Combien de temps dure le morceau ?",
+       "en": "How long does the track last?"
+      },
+      "options": [
+       {
+        "fr": "Un peu plus de deux minutes",
+        "en": "A little over two minutes"
+       },
+       {
+        "fr": "Six minutes",
+        "en": "Six minutes"
+       },
+       {
+        "fr": "Dix minutes",
+        "en": "Ten minutes"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Deux minutes douze : le punk va vite.",
+       "en": "Two minutes twelve: punk is fast."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qu'est-ce que le punk rejette ?",
+       "en": "What does punk reject?"
+      },
+      "options": [
+       {
+        "fr": "Les longs solos et la virtuosité",
+        "en": "Long solos and virtuosity"
+       },
+       {
+        "fr": "Les guitares",
+        "en": "Guitars"
+       },
+       {
+        "fr": "Le chant",
+        "en": "Singing"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Tout ce qui complique : trois accords suffisent.",
+       "en": "Anything that complicates: three chords are enough."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Punk",
+       "en": "Punk"
+      },
+      "def": {
+       "fr": "Un rock rapide, brut et volontairement simple, né au milieu des années 1970.",
+       "en": "A fast, raw and deliberately simple rock, born in the mid-1970s."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "rock-london-calling",
+   "people": [
+    {
+     "name": "The Clash",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "London Calling",
+    "en": "London Calling"
+   },
+   "year": "1979",
+   "recording": {
+    "performers": "Joe Strummer (chant, guitare), Mick Jones (guitare), Paul Simonon (basse), Topper Headon (batterie)",
+    "label": "CBS",
+    "year": 1979
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "La basse, qui descend comme une menace, et les guitares qui frappent comme une alarme.",
+    "en": "The bass, descending like a threat, and the guitars striking like an alarm."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=The%20Clash%20London%20Calling",
+    "spotify": "https://open.spotify.com/search/The%20Clash%20London%20Calling",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Clash%20London%20Calling"
+   },
+   "threads": [
+    {
+     "to": "reggae-police-and-thieves",
+     "kind": "influence",
+     "why": {
+      "fr": "La chanson de reggae que The Clash a reprise deux ans plus tôt.",
+      "en": "The reggae song The Clash covered two years earlier."
+     }
+    },
+    {
+     "to": "rock-blitzkrieg-bop",
+     "kind": "same-era",
+     "why": {
+      "fr": "Le punk à son point de départ, à New York.",
+      "en": "Punk at its starting point, in New York."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Un bulletin d'alerte en forme de chanson.",
+     "en": "A warning bulletin in the shape of a song."
+    },
+    "context": {
+     "fr": "Londres, 1979. Chômage, grèves, peur du nucléaire : Joe Strummer écrit une chanson de fin du monde. Le titre reprend la formule par laquelle la radio britannique ouvrait ses émissions pendant la guerre. Le groupe, né du punk, écoute alors beaucoup de reggae.",
+     "en": "London, 1979. Unemployment, strikes, nuclear fear: Joe Strummer writes an end-of-the-world song. The title takes up the phrase with which British radio opened its broadcasts during the war. The band, born of punk, is listening to a great deal of reggae at the time."
+    },
+    "why": {
+     "fr": "Le punk grandit : il garde sa colère mais s'ouvre au reggae, au rock'n'roll, au monde. C'est le début de ce qu'on appellera la new wave.",
+     "en": "Punk grows up: it keeps its anger but opens up to reggae, to rock'n'roll, to the world. This is the start of what will be called new wave."
+    },
+    "how": {
+     "fr": "Suivez la basse du début à la fin : elle porte la chanson, comme dans le reggae. Puis écoutez la toute fin.",
+     "en": "Follow the bass from start to finish: it carries the song, as in reggae. Then listen to the very end."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Les guitares frappent à coups réguliers, la basse descend.",
+       "en": "The guitars strike in steady blows, the bass descends."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Le titre est lancé comme un appel radio.",
+       "en": "The title is thrown out like a radio call."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "La guitare émet des signaux brefs, comme du morse.",
+       "en": "The guitar sends out short signals, like Morse code."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "guitare",
+      "basse",
+      "batterie",
+      "synthe",
+      "cordes",
+      "saxophone",
+      "theremin"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "D'où vient le titre ?",
+       "en": "Where does the title come from?"
+      },
+      "options": [
+       {
+        "fr": "D'une formule de la radio britannique",
+        "en": "A British radio phrase"
+       },
+       {
+        "fr": "D'un roman",
+        "en": "A novel"
+       },
+       {
+        "fr": "D'une publicité",
+        "en": "An advert"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "L'indicatif des émissions vers l'étranger pendant la guerre.",
+       "en": "The call sign of wartime overseas broadcasts."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quelle musique jamaïcaine influence le groupe ?",
+       "en": "Which Jamaican music influences the band?"
+      },
+      "options": [
+       {
+        "fr": "Le reggae",
+        "en": "Le reggae"
+       },
+       {
+        "fr": "Le calypso",
+        "en": "Le calypso"
+       },
+       {
+        "fr": "Le mento",
+        "en": "Le mento"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le reggae, que le groupe reprenait dès son premier album.",
+       "en": "Reggae, which the band covered from its first album."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "New wave",
+       "en": "New wave"
+      },
+      "def": {
+       "fr": "Le rock d'après le punk, plus ouvert et plus varié.",
+       "en": "Rock after punk, more open and more varied."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

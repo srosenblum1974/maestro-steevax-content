@@ -1,0 +1,382 @@
+{
+ "id": "jazz-semaine-05",
+ "n": 5,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "bebop",
+ "title": {
+  "fr": "Le bebop, la révolution à toute vitesse",
+  "en": "Bebop, the revolution at full speed"
+ },
+ "world": {
+  "fr": "1945-1947 : la guerre s'achève, les grands orchestres coûtent trop cher, et de jeunes musiciens se retrouvent la nuit dans les clubs de la 52e Rue, à New York.",
+  "en": "1945–1947: the war ends, big bands cost too much, and young musicians gather at night in the clubs of 52nd Street, New York."
+ },
+ "works": [
+  {
+   "id": "jazz-ko-ko",
+   "people": [
+    {
+     "name": "Charlie Parker",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "Ko-Ko",
+    "en": "Ko-Ko"
+   },
+   "year": "1945",
+   "recording": {
+    "performers": "Charlie Parker (saxophone alto), Dizzy Gillespie (trompette), Curley Russell (contrebasse), Max Roach (batterie)",
+    "label": "Savoy",
+    "year": 1945
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "La vitesse. Ne cherchez pas à tout suivre : laissez passer les notes et sentez l'élan.",
+    "en": "The speed. Do not try to follow everything: let the notes go by and feel the drive."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Charlie%20Parker%20Ko-Ko",
+    "spotify": "https://open.spotify.com/search/Charlie%20Parker%20Ko-Ko",
+    "youtube": "https://www.youtube.com/results?search_query=Charlie%20Parker%20Ko-Ko"
+   },
+   "threads": [
+    {
+     "to": "jazz-so-what",
+     "kind": "influence",
+     "why": {
+      "fr": "Miles Davis était dans le studio ce jour-là ; quatorze ans plus tard, il prend le chemin inverse : la lenteur.",
+      "en": "Miles Davis was in the studio that day; fourteen years later he takes the opposite path: slowness."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Moins de trois minutes qui ont changé le jazz pour toujours.",
+     "en": "Less than three minutes that changed jazz for ever."
+    },
+    "context": {
+     "fr": "New York, novembre 1945. Charlie Parker, dit « Bird », enregistre son premier disque sous son nom. Il prend les accords d'un vieux succès, « Cherokee », jette la mélodie et improvise à une vitesse que personne n'avait entendue. Dizzy Gillespie est à la trompette ; le jeune Miles Davis, présent ce jour-là, ne joue pas sur ce titre.",
+     "en": "New York, November 1945. Charlie Parker, known as “Bird”, records his first disc under his own name. He takes the chords of an old hit, “Cherokee”, throws the melody away and improvises at a speed nobody had ever heard. Dizzy Gillespie is on trumpet; young Miles Davis, present that day, does not play on this title."
+    },
+    "why": {
+     "fr": "C'est la naissance du bebop : le jazz cesse d'être une musique de danse et devient une musique d'écoute, virtuose, jouée en petit groupe.",
+     "en": "This is the birth of bebop: jazz stops being dance music and becomes listening music, virtuosic, played by a small group."
+    },
+    "how": {
+     "fr": "Repérez d'abord le début, où saxophone et trompette jouent ensemble. Ensuite, suivez seulement le saxophone, comme on suit un oiseau.",
+     "en": "First spot the opening, where saxophone and trumpet play together. Then follow only the saxophone, as you would follow a bird."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Saxophone et trompette à l'unisson, puis chacun quelques mesures seul.",
+       "en": "Saxophone and trumpet in unison, then each a few bars alone."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le solo",
+       "en": "The solo"
+      },
+      "what": {
+       "fr": "Parker improvise longuement, sans reprendre son souffle, semble-t-il.",
+       "en": "Parker improvises at length, seemingly without taking a breath."
+      }
+     },
+     {
+      "when": {
+       "fr": "Vers la fin",
+       "en": "Towards the end"
+      },
+      "what": {
+       "fr": "Max Roach prend un court solo de batterie.",
+       "en": "Max Roach takes a short drum solo."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "saxophone",
+      "trompette",
+      "batterie",
+      "contrebasse",
+      "banjo",
+      "clarinette",
+      "trombone",
+      "voix",
+      "guitare"
+     ],
+     "answer": [
+      "saxophone",
+      "trompette",
+      "batterie",
+      "contrebasse"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel était le surnom de Charlie Parker ?",
+       "en": "What was Charlie Parker's nickname?"
+      },
+      "options": [
+       {
+        "fr": "Bird",
+        "en": "Bird"
+       },
+       {
+        "fr": "Duke",
+        "en": "Duke"
+       },
+       {
+        "fr": "Satchmo",
+        "en": "Satchmo"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "« Bird », l'oiseau.",
+       "en": "“Bird”."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qu'est-ce qui distingue le bebop du swing ?",
+       "en": "What sets bebop apart from swing?"
+      },
+      "options": [
+       {
+        "fr": "Un grand orchestre et un tempo de danse",
+        "en": "A big band and a dance tempo"
+       },
+       {
+        "fr": "Un petit groupe, très rapide, fait pour l'écoute",
+        "en": "A small group, very fast, made for listening"
+       },
+       {
+        "fr": "L'absence de solos",
+        "en": "No solos"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Quatre ou cinq musiciens, des tempos fulgurants, de longs solos.",
+       "en": "Four or five musicians, lightning tempos, long solos."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Bebop",
+       "en": "Bebop"
+      },
+      "def": {
+       "fr": "Le jazz moderne des années 1940 : rapide, complexe, en petit groupe.",
+       "en": "The modern jazz of the 1940s: fast, complex, in a small group."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "jazz-round-midnight",
+   "people": [
+    {
+     "name": "Thelonious Monk",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "’Round Midnight",
+    "en": "’Round Midnight"
+   },
+   "year": "1947",
+   "recording": {
+    "performers": "Thelonious Monk (piano), George Taitt (trompette), Sahib Shihab (saxophone alto), Bob Paige (contrebasse), Art Blakey (batterie)",
+    "label": "Blue Note",
+    "year": 1947
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les notes « à côté » du piano : elles sonnent fausses une seconde, puis évidentes.",
+    "en": "The piano's “wrong” notes: they sound off for a second, then obvious."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Thelonious%20Monk%20%E2%80%99Round%20Midnight",
+    "spotify": "https://open.spotify.com/search/Thelonious%20Monk%20%E2%80%99Round%20Midnight",
+    "youtube": "https://www.youtube.com/results?search_query=Thelonious%20Monk%20%E2%80%99Round%20Midnight"
+   },
+   "threads": [
+    {
+     "to": "jazz-ko-ko",
+     "kind": "same-era",
+     "why": {
+      "fr": "Le même bebop, côté vitesse.",
+      "en": "The same bebop, on the fast side."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "La ballade la plus enregistrée du jazz, écrite par son pianiste le plus étrange.",
+     "en": "The most recorded ballad in jazz, written by its strangest pianist."
+    },
+    "context": {
+     "fr": "New York, 1947. Thelonious Monk a composé cette ballade quelques années plus tôt ; le trompettiste Cootie Williams l'a enregistrée le premier. Monk la grave enfin lui-même pour le label Blue Note. Son jeu déroute : silences, accords qui frottent, doigts à plat.",
+     "en": "New York, 1947. Thelonious Monk composed this ballad a few years earlier; trumpeter Cootie Williams recorded it first. Monk finally cuts it himself for the Blue Note label. His playing is disconcerting: silences, clashing chords, flat fingers."
+    },
+    "why": {
+     "fr": "Monk prouve que le jazz moderne peut être lent et tendre. Sa mélodie est devenue un passage obligé : presque tous les grands l'ont jouée.",
+     "en": "Monk proves that modern jazz can be slow and tender. His melody has become a rite of passage: nearly all the greats have played it."
+    },
+    "how": {
+     "fr": "Laissez-vous porter par la mélodie, puis écoutez la main gauche du piano : chaque accord est une petite surprise.",
+     "en": "Let the melody carry you, then listen to the piano's left hand: every chord is a small surprise."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Une introduction sombre, trompette et saxophone ensemble.",
+       "en": "A dark introduction, trumpet and saxophone together."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le thème",
+       "en": "The theme"
+      },
+      "what": {
+       "fr": "Le piano expose la mélodie, lentement, avec des silences.",
+       "en": "The piano states the melody, slowly, with silences."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "Les instruments à vent reviennent pour conclure.",
+       "en": "The horns return to conclude."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "piano",
+      "trompette",
+      "saxophone",
+      "contrebasse",
+      "batterie",
+      "banjo",
+      "clarinette",
+      "voix",
+      "guitare",
+      "trombone"
+     ],
+     "answer": [
+      "piano",
+      "trompette",
+      "saxophone",
+      "contrebasse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "De quel instrument joue Thelonious Monk ?",
+       "en": "Which instrument does Thelonious Monk play?"
+      },
+      "options": [
+       {
+        "fr": "Du saxophone",
+        "en": "Saxophone"
+       },
+       {
+        "fr": "Du piano",
+        "en": "Piano"
+       },
+       {
+        "fr": "De la trompette",
+        "en": "Trumpet"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Un pianiste au toucher immédiatement reconnaissable.",
+       "en": "A pianist with an instantly recognisable touch."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qu'est-ce qu'un standard ?",
+       "en": "What is a standard?"
+      },
+      "options": [
+       {
+        "fr": "Un morceau que tous les musiciens de jazz connaissent et reprennent",
+        "en": "A tune every jazz musician knows and plays"
+       },
+       {
+        "fr": "Un instrument",
+        "en": "An instrument"
+       },
+       {
+        "fr": "Un type de disque",
+        "en": "A kind of record"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le répertoire commun du jazz ; celui-ci en est l'un des plus joués.",
+       "en": "The shared repertoire of jazz; this is one of the most played."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Ballade",
+       "en": "Ballad"
+      },
+      "def": {
+       "fr": "Un morceau lent et chantant.",
+       "en": "A slow, singing piece."
+      }
+     },
+     {
+      "term": {
+       "fr": "Standard",
+       "en": "Standard"
+      },
+      "def": {
+       "fr": "Un morceau entré dans le répertoire commun.",
+       "en": "A tune that has entered the common repertoire."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

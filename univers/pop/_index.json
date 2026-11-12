@@ -59,6 +59,98 @@
      }
     }
    ]
+  },
+  {
+   "id": "pop-semaine-04",
+   "n": 4,
+   "phase": 1,
+   "period": "usines-a-tubes",
+   "title": {
+    "fr": "Beatles et Beach Boys, la course au chef-d'œuvre",
+    "en": "Beatles and Beach Boys, the race for the masterpiece"
+   },
+   "works": [
+    {
+     "id": "pop-i-want-to-hold-your-hand",
+     "composer": "The Beatles",
+     "title": {
+      "fr": "I Want to Hold Your Hand",
+      "en": "I Want to Hold Your Hand"
+     }
+    },
+    {
+     "id": "pop-good-vibrations",
+     "composer": "The Beach Boys, Brian Wilson",
+     "title": {
+      "fr": "Good Vibrations",
+      "en": "Good Vibrations"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pop-semaine-05",
+   "n": 5,
+   "phase": 1,
+   "period": "ere-mtv",
+   "title": {
+    "fr": "Prince, Madonna, Whitney : les années MTV",
+    "en": "Prince, Madonna, Whitney: the MTV years"
+   },
+   "works": [
+    {
+     "id": "pop-when-doves-cry",
+     "composer": "Prince",
+     "title": {
+      "fr": "When Doves Cry",
+      "en": "When Doves Cry"
+     }
+    },
+    {
+     "id": "pop-like-a-prayer",
+     "composer": "Madonna",
+     "title": {
+      "fr": "Like a Prayer",
+      "en": "Like a Prayer"
+     }
+    },
+    {
+     "id": "pop-i-wanna-dance-with-somebody",
+     "composer": "Whitney Houston",
+     "title": {
+      "fr": "I Wanna Dance with Somebody (Who Loves Me)",
+      "en": "I Wanna Dance with Somebody (Who Loves Me)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "pop-semaine-06",
+   "n": 6,
+   "phase": 1,
+   "period": "pop-numerique",
+   "title": {
+    "fr": "La pop du nouveau millénaire",
+    "en": "Pop for the new millennium"
+   },
+   "works": [
+    {
+     "id": "pop-baby-one-more-time",
+     "composer": "Britney Spears, Max Martin",
+     "title": {
+      "fr": "...Baby One More Time",
+      "en": "...Baby One More Time"
+     }
+    },
+    {
+     "id": "pop-crazy-in-love",
+     "composer": "Beyoncé, Jay-Z",
+     "title": {
+      "fr": "Crazy in Love",
+      "en": "Crazy in Love"
+     }
+    }
+   ]
   }
  ]
 }

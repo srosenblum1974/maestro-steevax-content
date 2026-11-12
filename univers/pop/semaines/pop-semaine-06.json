@@ -1,0 +1,381 @@
+{
+ "id": "pop-semaine-06",
+ "n": 6,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "pop-numerique",
+ "title": {
+  "fr": "La pop du nouveau millénaire",
+  "en": "Pop for the new millennium"
+ },
+ "world": {
+  "fr": "1998-2003 : Google est fondé, l'euro arrive dans les poches, l'iPod sort en 2001. La musique se télécharge.",
+  "en": "1998–2003: Google is founded, the euro reaches people's pockets, the iPod comes out in 2001. Music is now downloaded."
+ },
+ "works": [
+  {
+   "id": "pop-baby-one-more-time",
+   "people": [
+    {
+     "name": "Britney Spears",
+     "role": "leader"
+    },
+    {
+     "name": "Max Martin",
+     "role": "producer"
+    }
+   ],
+   "title": {
+    "fr": "...Baby One More Time",
+    "en": "...Baby One More Time"
+   },
+   "year": "1998",
+   "recording": {
+    "performers": "Britney Spears (chant) ; écriture et production Max Martin",
+    "label": "Jive",
+    "year": 1998
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les trois notes de piano du tout début : on reconnaît la chanson avant la première seconde écoulée.",
+    "en": "The three piano notes at the very start: you know the song before the first second is over."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Britney%20Spears%20...Baby%20One%20More%20Time",
+    "spotify": "https://open.spotify.com/search/Britney%20Spears%20...Baby%20One%20More%20Time",
+    "youtube": "https://www.youtube.com/results?search_query=Britney%20Spears%20...Baby%20One%20More%20Time"
+   },
+   "threads": [
+    {
+     "to": "pop-dancing-queen",
+     "kind": "influence",
+     "why": {
+      "fr": "Vingt ans plus tôt, déjà Stockholm, déjà l'obsession du refrain parfait.",
+      "en": "Twenty years earlier, Stockholm already, and already the obsession with the perfect chorus."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Trois notes de piano, et la pop entre dans une nouvelle ère.",
+     "en": "Three piano notes, and pop enters a new era."
+    },
+    "context": {
+     "fr": "Stockholm, 1998. Le Suédois Max Martin écrit cette chanson dans son studio. Un groupe américain la refuse ; elle revient à une inconnue de seize ans, Britney Spears. Le disque est numéro un dans le monde entier.",
+     "en": "Stockholm, 1998. The Swede Max Martin writes this song in his studio. An American group turns it down; it goes to an unknown sixteen-year-old, Britney Spears. The record is number one all over the world."
+    },
+    "why": {
+     "fr": "C'est le début du règne des producteurs suédois, qui écriront une grande part des tubes des vingt-cinq années suivantes. Leur méthode : une accroche dès la première seconde, puis une autre toutes les quelques mesures.",
+     "en": "This is the start of the reign of Swedish producers, who will write a large share of the hits of the next twenty-five years. Their method: a hook in the first second, then another every few bars."
+    },
+    "how": {
+     "fr": "Comptez les accroches : le piano, le premier mot, le refrain, les chœurs. Il y en a une toutes les quelques secondes.",
+     "en": "Count the hooks: the piano, the first words, the chorus, the backing vocals. There is one every few seconds."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Trois notes de piano, graves et sèches.",
+       "en": "Three piano notes, low and dry."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les couplets",
+       "en": "The verses"
+      },
+      "what": {
+       "fr": "Une voix basse, presque parlée, sur une guitare qui ondule.",
+       "en": "A low voice, almost spoken, over a wavering guitar."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Tout s'ouvre, et des chœurs doublent la voix.",
+       "en": "Everything opens up, and backing vocals double the voice."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "piano",
+      "basse",
+      "batterie",
+      "guitare",
+      "saxophone",
+      "cuivres",
+      "theremin",
+      "melodica",
+      "orgue"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "piano",
+      "basse",
+      "batterie",
+      "guitare"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "D'où vient l'auteur de la chanson ?",
+       "en": "Where is the song's writer from?"
+      },
+      "options": [
+       {
+        "fr": "De Suède",
+        "en": "Sweden"
+       },
+       {
+        "fr": "Des États-Unis",
+        "en": "The United States"
+       },
+       {
+        "fr": "D'Angleterre",
+        "en": "England"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Max Martin, de Stockholm.",
+       "en": "Max Martin, from Stockholm."
+      }
+     },
+     {
+      "q": {
+       "fr": "Par quoi la chanson commence-t-elle ?",
+       "en": "How does the song start?"
+      },
+      "options": [
+       {
+        "fr": "Trois notes de piano",
+        "en": "Three piano notes"
+       },
+       {
+        "fr": "Un solo de batterie",
+        "en": "A drum solo"
+       },
+       {
+        "fr": "Un chœur",
+        "en": "A choir"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Trois notes devenues une signature.",
+       "en": "Three notes that became a signature."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Producteur",
+       "en": "Producer"
+      },
+      "def": {
+       "fr": "Celui qui décide du son d'un disque, et souvent l'écrit.",
+       "en": "The person who decides how a record sounds, and often writes it."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "pop-crazy-in-love",
+   "people": [
+    {
+     "name": "Beyoncé",
+     "role": "leader"
+    },
+    {
+     "name": "Jay-Z",
+     "role": "guest"
+    }
+   ],
+   "title": {
+    "fr": "Crazy in Love",
+    "en": "Crazy in Love"
+   },
+   "year": "2003",
+   "recording": {
+    "performers": "Beyoncé (chant), Jay-Z (rap) ; production Rich Harrison",
+    "label": "Columbia",
+    "year": 2003
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les cuivres du début : ils viennent d'un disque de 1970, découpé et rejoué en boucle.",
+    "en": "The horns at the start: they come from a 1970 record, cut up and looped."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Beyonc%C3%A9%20Crazy%20in%20Love",
+    "spotify": "https://open.spotify.com/search/Beyonc%C3%A9%20Crazy%20in%20Love",
+    "youtube": "https://www.youtube.com/results?search_query=Beyonc%C3%A9%20Crazy%20in%20Love"
+   },
+   "threads": [
+    {
+     "to": "reggae-bam-bam",
+     "kind": "same-idea",
+     "why": {
+      "fr": "Réutiliser un instrumental existant : une idée née en Jamaïque.",
+      "en": "Reusing an existing instrumental: an idea born in Jamaica."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une fanfare de 1970 remise en boucle, et la naissance d'une star en solo.",
+     "en": "A 1970 fanfare put on a loop, and the birth of a solo star."
+    },
+    "context": {
+     "fr": "New York, 2003. Beyoncé quitte son groupe pour un premier album seule. Le producteur Rich Harrison lui propose une boucle de cuivres prise sur un disque de soul de 1970. Le rappeur Jay-Z ajoute son couplet en fin de séance.",
+     "en": "New York, 2003. Beyoncé leaves her group for a first album on her own. Producer Rich Harrison offers her a horn loop taken from a 1970 soul record. Rapper Jay-Z adds his verse at the end of the session."
+    },
+    "why": {
+     "fr": "La pop des années 2000 mêle chant, rap et échantillons de vieux disques. Les frontières entre pop, R&B et hip-hop disparaissent.",
+     "en": "The pop of the 2000s blends singing, rap and samples of old records. The borders between pop, R&B and hip-hop vanish."
+    },
+    "how": {
+     "fr": "Repérez la boucle de cuivres, puis comptez combien de fois elle revient. Notez le moment où la voix chantée laisse place au rap.",
+     "en": "Spot the horn loop, then count how many times it returns. Note the moment when the sung voice gives way to rap."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Des cuivres éclatants, en boucle, sur une batterie qui claque.",
+       "en": "Blazing horns, looped, over snapping drums."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les couplets",
+       "en": "The verses"
+      },
+      "what": {
+       "fr": "Beyoncé chante vite, presque sans respirer.",
+       "en": "Beyoncé sings fast, almost without breathing."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le milieu",
+       "en": "The middle"
+      },
+      "what": {
+       "fr": "Le chant s'arrête et le rap prend le relais.",
+       "en": "The singing stops and rap takes over."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "cuivres",
+      "batterie",
+      "basse",
+      "orgue",
+      "cordes",
+      "melodica",
+      "theremin"
+     ],
+     "answer": [
+      "voix",
+      "cuivres",
+      "batterie",
+      "basse"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "D'où viennent les cuivres du début ?",
+       "en": "Where do the opening horns come from?"
+      },
+      "options": [
+       {
+        "fr": "D'un disque de 1970, échantillonné",
+        "en": "A sampled 1970 record"
+       },
+       {
+        "fr": "D'un orchestre en studio",
+        "en": "An orchestra in the studio"
+       },
+       {
+        "fr": "D'un synthétiseur",
+        "en": "A synthesizer"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Un échantillon d'un groupe de soul de Chicago.",
+       "en": "A sample from a Chicago soul group."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel genre s'invite au milieu de la chanson ?",
+       "en": "Which genre drops in mid-song?"
+      },
+      "options": [
+       {
+        "fr": "Le rap",
+        "en": "Le rap"
+       },
+       {
+        "fr": "Le reggae",
+        "en": "Le reggae"
+       },
+       {
+        "fr": "La valse",
+        "en": "The waltz"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Un couplet de rap, par Jay-Z.",
+       "en": "A rap verse, by Jay-Z."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Sample",
+       "en": "Sample"
+      },
+      "def": {
+       "fr": "Un extrait d'un ancien disque, réutilisé dans un nouveau.",
+       "en": "A piece of an old record, reused in a new one."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -351,6 +351,22 @@
      "fr": "Voix",
      "en": "Voice"
     }
+   },
+   {
+    "id": "synthe",
+    "icon": "🎛️",
+    "label": {
+     "fr": "Synthétiseur",
+     "en": "Synthesizer"
+    }
+   },
+   {
+    "id": "percussions",
+    "icon": "🪘",
+    "label": {
+     "fr": "Percussions",
+     "en": "Percussion"
+    }
    }
   ],
   "ratings": [
@@ -455,7 +471,9 @@
      "Billie Holiday",
      "Ella Fitzgerald"
     ],
-    "weeks": []
+    "weeks": [
+     4
+    ]
    },
    {
     "id": "bebop",
@@ -482,7 +500,9 @@
      "Thelonious Monk",
      "Bud Powell"
     ],
-    "weeks": []
+    "weeks": [
+     5
+    ]
    },
    {
     "id": "cool-modal",
@@ -540,7 +560,9 @@
      "Herbie Hancock",
      "Weather Report"
     ],
-    "weeks": []
+    "weeks": [
+     6
+    ]
    }
   ],
   "words": [

@@ -461,7 +461,9 @@
      "Desmond Dekker",
      "Millie Small"
     ],
-    "weeks": []
+    "weeks": [
+     4
+    ]
    },
    {
     "id": "rocksteady",
@@ -545,7 +547,8 @@
      "Culture"
     ],
     "weeks": [
-     2
+     2,
+     5
     ]
    },
    {
@@ -602,7 +605,9 @@
      "Buju Banton",
      "Sean Paul"
     ],
-    "weeks": []
+    "weeks": [
+     6
+    ]
    }
   ],
   "words": [

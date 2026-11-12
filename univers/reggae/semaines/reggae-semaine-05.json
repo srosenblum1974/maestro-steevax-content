@@ -1,0 +1,561 @@
+{
+ "id": "reggae-semaine-05",
+ "n": 5,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "roots",
+ "title": {
+  "fr": "L'âge d'or du roots",
+  "en": "The golden age of roots"
+ },
+ "world": {
+  "fr": "1972-1976 : choc pétrolier, élections violentes en Jamaïque, et le reggae devient la voix de l'île dans le monde.",
+  "en": "1972–1976: the oil shock, violent elections in Jamaica, and reggae becomes the island's voice in the world."
+ },
+ "works": [
+  {
+   "id": "reggae-the-harder-they-come",
+   "people": [
+    {
+     "name": "Jimmy Cliff",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "The Harder They Come",
+    "en": "The Harder They Come"
+   },
+   "year": "1972",
+   "recording": {
+    "performers": "Jimmy Cliff (chant)",
+    "label": "Island",
+    "year": 1972
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "L'orgue qui sautille derrière la voix, et l'énergie d'un chanteur qui joue sa vie.",
+    "en": "The organ bubbling behind the voice, and the energy of a singer staking everything."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Jimmy%20Cliff%20The%20Harder%20They%20Come",
+    "spotify": "https://open.spotify.com/search/Jimmy%20Cliff%20The%20Harder%20They%20Come",
+    "youtube": "https://www.youtube.com/results?search_query=Jimmy%20Cliff%20The%20Harder%20They%20Come"
+   },
+   "threads": [
+    {
+     "to": "reggae-pressure-drop",
+     "kind": "same-era",
+     "why": {
+      "fr": "Sur la même bande originale.",
+      "en": "On the same soundtrack."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "La chanson d'un film qui a fait découvrir la Jamaïque au monde entier.",
+     "en": "The song of a film that showed Jamaica to the whole world."
+    },
+    "context": {
+     "fr": "Kingston, 1972. Le réalisateur Perry Henzell tourne le premier long métrage jamaïcain. Jimmy Cliff y joue Ivan, un jeune chanteur de la campagne qui se heurte aux producteurs, puis à la police. Cliff écrit et enregistre la chanson-titre pour le film.",
+     "en": "Kingston, 1972. Director Perry Henzell shoots the first Jamaican feature film. Jimmy Cliff plays Ivan, a young country singer who clashes with producers, then with the police. Cliff writes and records the title song for the film."
+    },
+    "why": {
+     "fr": "La bande originale, où figure aussi « Pressure Drop », est pour beaucoup d'Européens et d'Américains le premier disque de reggae. Elle ouvre la voie à Bob Marley.",
+     "en": "The soundtrack, which also includes “Pressure Drop”, is for many Europeans and Americans their first reggae record. It opens the way for Bob Marley."
+    },
+    "how": {
+     "fr": "Suivez l'orgue : il joue le contretemps à la place de la guitare. Puis écoutez comme la voix monte au refrain.",
+     "en": "Follow the organ: it plays the off-beat instead of the guitar. Then hear how the voice rises in the chorus."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "L'orgue installe le rythme, sautillant.",
+       "en": "The organ sets up the bouncing beat."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les couplets",
+       "en": "The verses"
+      },
+      "what": {
+       "fr": "Cliff chante la révolte d'un homme qui refuse de plier.",
+       "en": "Cliff sings the revolt of a man who refuses to bend."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "La voix grimpe et le titre revient comme un proverbe.",
+       "en": "The voice climbs and the title returns like a proverb."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "orgue",
+      "guitare",
+      "basse",
+      "batterie",
+      "cordes",
+      "theremin",
+      "melodica",
+      "synthe"
+     ],
+     "answer": [
+      "voix",
+      "orgue",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Pour quoi cette chanson a-t-elle été écrite ?",
+       "en": "What was this song written for?"
+      },
+      "options": [
+       {
+        "fr": "Un film",
+        "en": "A film"
+       },
+       {
+        "fr": "Une publicité",
+        "en": "An advert"
+       },
+       {
+        "fr": "Un mariage",
+        "en": "A wedding"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le film du même nom, où Jimmy Cliff tient le rôle principal.",
+       "en": "The film of the same name, with Jimmy Cliff in the lead."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel instrument joue le contretemps ici ?",
+       "en": "Which instrument plays the off-beat here?"
+      },
+      "options": [
+       {
+        "fr": "L'orgue",
+        "en": "The organ"
+       },
+       {
+        "fr": "La trompette",
+        "en": "The trumpet"
+       },
+       {
+        "fr": "Le violon",
+        "en": "The violin"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "L'orgue, typique du reggae du début des années 1970.",
+       "en": "The organ, typical of early-1970s reggae."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Bande originale",
+       "en": "Soundtrack"
+      },
+      "def": {
+       "fr": "La musique d'un film, publiée en disque.",
+       "en": "A film's music, released as a record."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "reggae-marcus-garvey",
+   "people": [
+    {
+     "name": "Burning Spear",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "Marcus Garvey",
+    "en": "Marcus Garvey"
+   },
+   "year": "1975",
+   "recording": {
+    "performers": "Winston Rodney (chant), Rupert Willington, Delroy Hinds ; The Black Disciples",
+    "label": "Island / Fox",
+    "year": 1975
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les cuivres graves du début, solennels, et une voix qui psalmodie plus qu'elle ne chante.",
+    "en": "The low horns at the start, solemn, and a voice that chants more than it sings."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Burning%20Spear%20Marcus%20Garvey",
+    "spotify": "https://open.spotify.com/search/Burning%20Spear%20Marcus%20Garvey",
+    "youtube": "https://www.youtube.com/results?search_query=Burning%20Spear%20Marcus%20Garvey"
+   },
+   "threads": [
+    {
+     "to": "reggae-get-up-stand-up",
+     "kind": "same-era",
+     "why": {
+      "fr": "Le même reggae roots, côté Wailers.",
+      "en": "The same roots reggae, on the Wailers' side."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une leçon d'histoire chantée comme une incantation.",
+     "en": "A history lesson sung like an incantation."
+    },
+    "context": {
+     "fr": "Jamaïque, 1975. Winston Rodney, dit Burning Spear, vient de la même paroisse que Marcus Garvey, le penseur jamaïcain qui appelait dans les années 1920 les Noirs du monde entier à la fierté et au retour vers l'Afrique. Avec le producteur Jack Ruby, il lui consacre une chanson, puis un album entier.",
+     "en": "Jamaica, 1975. Winston Rodney, known as Burning Spear, comes from the same parish as Marcus Garvey, the Jamaican thinker who in the 1920s called on Black people everywhere to take pride and look back to Africa. With producer Jack Ruby he devotes a song to him, then a whole album."
+    },
+    "why": {
+     "fr": "C'est le roots dans sa forme la plus pure : lent, hypnotique, tourné vers la mémoire et l'Afrique.",
+     "en": "This is roots in its purest form: slow, hypnotic, turned towards memory and Africa."
+    },
+    "how": {
+     "fr": "Laissez le rythme vous ralentir. Remarquez comme la mélodie de la voix tient en quelques notes, répétées.",
+     "en": "Let the rhythm slow you down. Notice how the vocal melody holds within a few notes, repeated."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Les cuivres jouent un motif grave, comme un appel.",
+       "en": "The horns play a low figure, like a summons."
+      }
+     },
+     {
+      "when": {
+       "fr": "La voix",
+       "en": "The voice"
+      },
+      "what": {
+       "fr": "Rodney répète le nom de Garvey ; deux voix lui répondent.",
+       "en": "Rodney repeats Garvey's name; two voices answer him."
+      }
+     },
+     {
+      "when": {
+       "fr": "Tout du long",
+       "en": "Throughout"
+      },
+      "what": {
+       "fr": "La basse et la batterie avancent sans jamais presser.",
+       "en": "Bass and drums move forward without ever hurrying."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "cuivres",
+      "guitare",
+      "basse",
+      "batterie",
+      "cordes",
+      "theremin",
+      "synthe",
+      "melodica"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "cuivres",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Qui était Marcus Garvey ?",
+       "en": "Who was Marcus Garvey?"
+      },
+      "options": [
+       {
+        "fr": "Un penseur jamaïcain de la fierté noire",
+        "en": "A Jamaican thinker of Black pride"
+       },
+       {
+        "fr": "Un chanteur de ska",
+        "en": "A ska singer"
+       },
+       {
+        "fr": "Un producteur de disques",
+        "en": "A record producer"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Né en Jamaïque en 1887, figure majeure pour les rastas.",
+       "en": "Born in Jamaica in 1887, a major figure for Rastas."
+      }
+     },
+     {
+      "q": {
+       "fr": "Comment décrire le tempo du roots ?",
+       "en": "How would you describe the tempo of roots?"
+      },
+      "options": [
+       {
+        "fr": "Lent et posé",
+        "en": "Slow and steady"
+       },
+       {
+        "fr": "Très rapide",
+        "en": "Very fast"
+       },
+       {
+        "fr": "Changeant sans cesse",
+        "en": "Constantly changing"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Lent : la musique prend son temps.",
+       "en": "Slow: the music takes its time."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Roots",
+       "en": "Roots"
+      },
+      "def": {
+       "fr": "Le reggae spirituel et militant des années 1970.",
+       "en": "The spiritual, militant reggae of the 1970s."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "reggae-police-and-thieves",
+   "people": [
+    {
+     "name": "Junior Murvin",
+     "role": "leader"
+    },
+    {
+     "name": "Lee « Scratch » Perry",
+     "role": "producer"
+    }
+   ],
+   "title": {
+    "fr": "Police and Thieves",
+    "en": "Police and Thieves"
+   },
+   "year": "1976",
+   "recording": {
+    "performers": "Junior Murvin (chant), The Upsetters ; production Lee « Scratch » Perry",
+    "label": "Island",
+    "year": 1976
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "La voix de tête, très haute et très douce, sur un sujet qui ne l'est pas du tout.",
+    "en": "The falsetto voice, very high and very gentle, on a subject that is anything but."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Junior%20Murvin%20Police%20and%20Thieves",
+    "spotify": "https://open.spotify.com/search/Junior%20Murvin%20Police%20and%20Thieves",
+    "youtube": "https://www.youtube.com/results?search_query=Junior%20Murvin%20Police%20and%20Thieves"
+   },
+   "threads": [
+    {
+     "to": "rock-london-calling",
+     "kind": "influence",
+     "why": {
+      "fr": "The Clash, qui ont repris cette chanson, mêleront toujours punk et reggae.",
+      "en": "The Clash, who covered this song, will always mix punk and reggae."
+     }
+    },
+    {
+     "to": "reggae-king-tubby-meets-rockers-uptown",
+     "kind": "same-era",
+     "why": {
+      "fr": "L'autre grand studio de Kingston, celui de King Tubby.",
+      "en": "Kingston's other great studio, King Tubby's."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une voix d'ange pour raconter la violence des rues.",
+     "en": "An angel's voice to tell of violence in the streets."
+    },
+    "context": {
+     "fr": "Kingston, 1976. Junior Murvin se présente au Black Ark, le studio de Lee « Scratch » Perry, avec une chanson sur les affrontements entre police et gangs. Perry l'enregistre aussitôt. À Londres, le disque devient l'hymne d'un été d'émeutes ; l'année suivante, le groupe punk The Clash le reprend.",
+     "en": "Kingston, 1976. Junior Murvin turns up at the Black Ark, Lee “Scratch” Perry's studio, with a song about clashes between police and gangs. Perry records it at once. In London the record becomes the anthem of a summer of riots; the following year the punk band The Clash covers it."
+    },
+    "why": {
+     "fr": "Le son du Black Ark est unique : chaud, flou, comme entendu sous l'eau. Et la chanson fait le pont entre le reggae et le punk anglais.",
+     "en": "The Black Ark sound is unique: warm, hazy, as if heard under water. And the song bridges reggae and English punk."
+    },
+    "how": {
+     "fr": "Écoutez d'abord seulement la voix, si haute qu'on la prendrait pour celle d'une femme. Puis le son d'ensemble, volontairement brumeux.",
+     "en": "First listen only to the voice, so high you might take it for a woman's. Then the overall sound, deliberately misty."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "La guitare pose le contretemps, la voix entre très haut.",
+       "en": "The guitar sets the off-beat, the voice enters very high."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Le titre revient, doublé par des chœurs.",
+       "en": "The title returns, doubled by backing vocals."
+      }
+     },
+     {
+      "when": {
+       "fr": "Tout du long",
+       "en": "Throughout"
+      },
+      "what": {
+       "fr": "Le son semble flotter : c'est la marque du studio.",
+       "en": "The sound seems to float: the studio's trademark."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "guitare",
+      "basse",
+      "batterie",
+      "cordes",
+      "theremin",
+      "melodica"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Comment appelle-t-on cette voix très aiguë chez un homme ?",
+       "en": "What is this very high male voice called?"
+      },
+      "options": [
+       {
+        "fr": "La voix de tête",
+        "en": "Falsetto"
+       },
+       {
+        "fr": "La voix de basse",
+        "en": "Bass voice"
+       },
+       {
+        "fr": "Le parlé-chanté",
+        "en": "Speech-song"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "La voix de tête, ou falsetto.",
+       "en": "Falsetto, or head voice."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel groupe punk a repris cette chanson ?",
+       "en": "Which punk band covered this song?"
+      },
+      "options": [
+       {
+        "fr": "The Clash",
+        "en": "The Clash"
+       },
+       {
+        "fr": "Ramones",
+        "en": "Ramones"
+       },
+       {
+        "fr": "Nirvana",
+        "en": "Nirvana"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "The Clash, sur leur premier album, en 1977.",
+       "en": "The Clash, on their first album, in 1977."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Voix de tête",
+       "en": "Falsetto"
+      },
+      "def": {
+       "fr": "Une voix d'homme poussée très haut, légère.",
+       "en": "A man's voice pushed very high, light in tone."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

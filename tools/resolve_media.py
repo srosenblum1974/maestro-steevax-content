@@ -6,9 +6,13 @@
   Apple Music link, found with the public iTunes Search API
 and prints a report. Only files whose licence is public domain or Creative Commons are accepted.
 
+Images can also come from Pixabay (free to use under the Pixabay Content License): give an image a "pixabay" list of
+search phrases. It is used when the PIXABAY_API_KEY secret is set in the repository; otherwise, or when nothing fits,
+the Wikimedia Commons "search"/"file" of the same image is used. The key never goes into the repository.
+
 Runs in GitHub Actions (resolve-media.yml), where the network is open:  python3 tools/resolve_media.py
 """
-import json, pathlib, re, sys, time, urllib.parse, urllib.request
+import json, os, pathlib, re, sys, time, urllib.parse, urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 API = "https://commons.wikimedia.org/w/api.php"
@@ -96,6 +100,34 @@ def pick(spec, kind, width=None):
 
 
 ITUNES = "https://itunes.apple.com/search"
+PIXABAY = "https://pixabay.com/api/"
+PIXABAY_KEY = os.environ.get("PIXABAY_API_KEY", "").strip()
+
+
+def pixabay(spec):
+    """The first wide Pixabay photo or illustration matching one of the phrases (tags filtered by require/exclude)."""
+    if not PIXABAY_KEY or not spec.get("pixabay"):
+        return None
+    req_re = re.compile(spec["pixabay_require"], re.I) if spec.get("pixabay_require") else None
+    exc_re = re.compile(spec["pixabay_exclude"], re.I) if spec.get("pixabay_exclude") else None
+    phrases = spec["pixabay"] if isinstance(spec["pixabay"], list) else [spec["pixabay"]]
+    for phrase in phrases:
+        q = urllib.parse.urlencode({"key": PIXABAY_KEY, "q": phrase, "image_type": spec.get("pixabay_type", "photo"),
+                                    "orientation": "horizontal", "safesearch": "true", "min_width": 1600, "per_page": 30,
+                                    "order": "popular", "lang": "en"})
+        try:
+            with urllib.request.urlopen(urllib.request.Request(f"{PIXABAY}?{q}", headers={"User-Agent": UA}), timeout=30) as r:
+                hits = json.load(r).get("hits", [])
+        except Exception as e:  # never print the URL: it carries the key
+            report.append(f"  - pixabay '{phrase}': {type(e).__name__}")
+            continue
+        for h in hits:
+            tags = h.get("tags", "")
+            if (req_re and not req_re.search(tags)) or (exc_re and exc_re.search(tags)):
+                continue
+            return {"title": f"Pixabay {h['id']} ({tags})", "license": "Pixabay Content License", "artist": f"{h.get('user', '?')} / Pixabay",
+                    "date": "", "thumb": h.get("largeImageURL") or h.get("webformatURL"), "url": h.get("largeImageURL"), "page": h.get("pageURL")}
+    return None
 
 
 def itunes(spec):
@@ -132,7 +164,7 @@ def main():
     (ROOT / "illus").mkdir(exist_ok=True)
 
     def image(spec, name):
-        i = pick(spec, "bitmap", width=2000)
+        i = pixabay(spec) or (pick(spec, "bitmap", width=2000) if ("search" in spec or "file" in spec) else None)
         if not i:
             failures.append(f"image {name}: {spec}")
             return None

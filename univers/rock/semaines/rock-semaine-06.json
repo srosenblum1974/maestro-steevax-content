@@ -1,0 +1,553 @@
+{
+ "id": "rock-semaine-06",
+ "n": 6,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "alternatif",
+ "title": {
+  "fr": "Le rock alternatif",
+  "en": "Alternative rock"
+ },
+ "world": {
+  "fr": "1991-2003 : fin de l'URSS, naissance du web, puis du téléchargement. Le rock indépendant devient le rock tout court.",
+  "en": "1991–2003: the end of the USSR, the birth of the web, then of downloading. Independent rock simply becomes rock."
+ },
+ "works": [
+  {
+   "id": "rock-smells-like-teen-spirit",
+   "people": [
+    {
+     "name": "Nirvana",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "Smells Like Teen Spirit",
+    "en": "Smells Like Teen Spirit"
+   },
+   "year": "1991",
+   "recording": {
+    "performers": "Kurt Cobain (chant, guitare), Krist Novoselic (basse), Dave Grohl (batterie) ; production Butch Vig",
+    "label": "DGC",
+    "year": 1991
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Le contraste : des couplets presque murmurés, des refrains hurlés.",
+    "en": "The contrast: verses almost murmured, choruses screamed."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Nirvana%20Smells%20Like%20Teen%20Spirit",
+    "spotify": "https://open.spotify.com/search/Nirvana%20Smells%20Like%20Teen%20Spirit",
+    "youtube": "https://www.youtube.com/results?search_query=Nirvana%20Smells%20Like%20Teen%20Spirit"
+   },
+   "threads": [
+    {
+     "to": "pop-billie-jean",
+     "kind": "same-era",
+     "why": {
+      "fr": "L'artiste que cet album a délogé de la première place.",
+      "en": "The artist this album knocked off the top spot."
+     }
+    },
+    {
+     "to": "rock-blitzkrieg-bop",
+     "kind": "influence",
+     "why": {
+      "fr": "L'héritage du punk : peu d'accords, beaucoup d'énergie.",
+      "en": "Punk's legacy: few chords, a lot of energy."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Quatre accords, et le rock des marges devient la musique d'une génération.",
+     "en": "Four chords, and rock from the margins becomes a generation's music."
+    },
+    "context": {
+     "fr": "Seattle, 1991. Kurt Cobain veut écrire « la chanson pop ultime » en imitant un groupe qu'il admire, qui alterne passages calmes et passages violents. Le titre vient d'une phrase écrite sur son mur par une amie. Personne n'attend rien de l'album ; en janvier 1992, il détrône Michael Jackson en tête des ventes américaines.",
+     "en": "Seattle, 1991. Kurt Cobain wants to write “the ultimate pop song” by imitating a band he admires, one that alternates quiet and violent passages. The title comes from a phrase a friend wrote on his wall. Nobody expects anything of the album; in January 1992 it knocks Michael Jackson off the top of the American charts."
+    },
+    "why": {
+     "fr": "En quelques semaines, le rock dit « alternatif » passe des petits clubs aux radios du monde entier.",
+     "en": "Within weeks, so-called “alternative” rock moves from small clubs to radio stations worldwide."
+    },
+    "how": {
+     "fr": "Écoutez la guitare seule au début, puis l'arrivée de la batterie. Ensuite, suivez le volume : calme, fort, calme, fort.",
+     "en": "Listen to the guitar alone at the start, then the drums crashing in. After that, follow the volume: quiet, loud, quiet, loud."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "La guitare joue seule quatre accords, puis la batterie fait tout exploser.",
+       "en": "The guitar alone plays four chords, then the drums blow everything open."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les couplets",
+       "en": "The verses"
+      },
+      "what": {
+       "fr": "Tout retombe : basse, batterie légère, voix traînante.",
+       "en": "Everything drops: bass, light drums, a drawling voice."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Les guitares saturées reviennent et la voix se déchire.",
+       "en": "The distorted guitars return and the voice tears."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie",
+      "piano",
+      "synthe",
+      "cuivres",
+      "cordes",
+      "orgue"
+     ],
+     "answer": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Comment la chanson est-elle construite ?",
+       "en": "How is the song built?"
+      },
+      "options": [
+       {
+        "fr": "Couplets calmes, refrains violents",
+        "en": "Quiet verses, violent choruses"
+       },
+       {
+        "fr": "Tout au même volume",
+        "en": "All at one volume"
+       },
+       {
+        "fr": "De plus en plus lente",
+        "en": "Slower and slower"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le contraste calme-fort, signature du rock des années 1990.",
+       "en": "The quiet-loud contrast, a signature of 1990s rock."
+      }
+     },
+     {
+      "q": {
+       "fr": "De quelle ville vient Nirvana ?",
+       "en": "Which city does Nirvana come from?"
+      },
+      "options": [
+       {
+        "fr": "Seattle",
+        "en": "Seattle"
+       },
+       {
+        "fr": "Londres",
+        "en": "London"
+       },
+       {
+        "fr": "New York",
+        "en": "New York"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "La région de Seattle, berceau de ce qu'on a appelé le grunge.",
+       "en": "The Seattle area, cradle of what was called grunge."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Grunge",
+       "en": "Grunge"
+      },
+      "def": {
+       "fr": "Le rock de Seattle : guitares épaisses, voix écorchée.",
+       "en": "Seattle rock: thick guitars, raw voice."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "rock-creep",
+   "people": [
+    {
+     "name": "Radiohead",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "Creep",
+    "en": "Creep"
+   },
+   "year": "1992",
+   "recording": {
+    "performers": "Thom Yorke (chant), Jonny Greenwood et Ed O'Brien (guitares), Colin Greenwood (basse), Philip Selway (batterie)",
+    "label": "Parlophone",
+    "year": 1992
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les coups de guitare rageurs juste avant le refrain : on dirait que le guitariste veut casser la chanson.",
+    "en": "The furious guitar stabs just before the chorus: the guitarist seems to want to break the song."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Radiohead%20Creep",
+    "spotify": "https://open.spotify.com/search/Radiohead%20Creep",
+    "youtube": "https://www.youtube.com/results?search_query=Radiohead%20Creep"
+   },
+   "threads": [
+    {
+     "to": "rock-smells-like-teen-spirit",
+     "kind": "same-era",
+     "why": {
+      "fr": "Le même contraste calme-fort, un an plus tôt.",
+      "en": "The same quiet-loud contrast, a year earlier."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une chanson douce sabotée par son propre guitariste, et c'est ce qui l'a rendue célèbre.",
+     "en": "A gentle song sabotaged by its own guitarist, which is what made it famous."
+    },
+    "context": {
+     "fr": "Oxford, 1992. Radiohead enregistre une ballade sur un garçon qui ne se sent pas à sa place. Le guitariste Jonny Greenwood, qui la trouve trop sage, frappe ses cordes de toutes ses forces avant le refrain. Le producteur garde la prise. La radio anglaise juge d'abord le titre trop déprimant ; un an plus tard, c'est un succès mondial.",
+     "en": "Oxford, 1992. Radiohead records a ballad about a boy who feels out of place. Guitarist Jonny Greenwood, who finds it too tame, hits his strings as hard as he can before the chorus. The producer keeps the take. British radio first finds the track too depressing; a year later it is a worldwide hit."
+    },
+    "why": {
+     "fr": "Le rock alternatif sait aussi être fragile. Le groupe passera ensuite trente ans à fuir cette chanson et à se réinventer.",
+     "en": "Alternative rock can also be fragile. The band will then spend thirty years running from this song and reinventing itself."
+    },
+    "how": {
+     "fr": "Attendez les coups de guitare : ils arrivent deux fois, juste avant que tout devienne fort. Puis écoutez la voix monter très haut.",
+     "en": "Wait for the guitar stabs: they come twice, just before everything gets loud. Then hear the voice climb very high."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Une guitare égrène quatre accords, doucement.",
+       "en": "A guitar picks out four chords, gently."
+      }
+     },
+     {
+      "when": {
+       "fr": "Avant le refrain",
+       "en": "Before the chorus"
+      },
+      "what": {
+       "fr": "Deux coups de guitare saturée, comme des portes qui claquent.",
+       "en": "Two stabs of distorted guitar, like doors slamming."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "Tout se calme, et un piano accompagne les dernières mesures.",
+       "en": "Everything calms down, and a piano accompanies the last bars."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie",
+      "piano",
+      "synthe",
+      "cuivres",
+      "saxophone",
+      "orgue",
+      "cordes"
+     ],
+     "answer": [
+      "voix",
+      "guitare",
+      "basse",
+      "batterie",
+      "piano"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Pourquoi le guitariste frappe-t-il si fort avant le refrain ?",
+       "en": "Why does the guitarist hit so hard before the chorus?"
+      },
+      "options": [
+       {
+        "fr": "Il trouvait la chanson trop sage",
+        "en": "He found the song too tame"
+       },
+       {
+        "fr": "C'était écrit sur la partition",
+        "en": "It was written in the score"
+       },
+       {
+        "fr": "Son ampli était cassé",
+        "en": "His amp was broken"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Un geste d'agacement, gardé au mixage.",
+       "en": "A gesture of irritation, kept in the mix."
+      }
+     },
+     {
+      "q": {
+       "fr": "Combien d'accords tournent du début à la fin ?",
+       "en": "How many chords loop from start to finish?"
+      },
+      "options": [
+       {
+        "fr": "Quatre",
+        "en": "Four"
+       },
+       {
+        "fr": "Douze",
+        "en": "Twelve"
+       },
+       {
+        "fr": "Un seul",
+        "en": "Just one"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Quatre accords, toujours dans le même ordre.",
+       "en": "Four chords, always in the same order."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Accord",
+       "en": "Chord"
+      },
+      "def": {
+       "fr": "Plusieurs notes jouées en même temps.",
+       "en": "Several notes played at once."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "rock-seven-nation-army",
+   "people": [
+    {
+     "name": "The White Stripes",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "Seven Nation Army",
+    "en": "Seven Nation Army"
+   },
+   "year": "2003",
+   "recording": {
+    "performers": "Jack White (chant, guitare), Meg White (batterie)",
+    "label": "XL / V2",
+    "year": 2003
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Le riff du début : il sonne comme une basse, mais c'est une guitare. Le groupe n'a pas de bassiste.",
+    "en": "The riff at the start: it sounds like a bass, but it is a guitar. The band has no bassist."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=The%20White%20Stripes%20Seven%20Nation%20Army",
+    "spotify": "https://open.spotify.com/search/The%20White%20Stripes%20Seven%20Nation%20Army",
+    "youtube": "https://www.youtube.com/results?search_query=The%20White%20Stripes%20Seven%20Nation%20Army"
+   },
+   "threads": [
+    {
+     "to": "rock-satisfaction",
+     "kind": "influence",
+     "why": {
+      "fr": "Un riff et une pédale d'effet : la recette a quarante ans.",
+      "en": "A riff and an effects pedal: the recipe is forty years old."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Sept notes devenues le chant des stades du monde entier.",
+     "en": "Seven notes that became the chant of stadiums worldwide."
+    },
+    "context": {
+     "fr": "Londres, 2002. Les White Stripes sont deux : une guitare, une batterie. Dans un studio équipé de vieilles machines, Jack White joue un riff qu'il avait d'abord mis de côté, en passant sa guitare dans une pédale qui la fait sonner une octave plus bas. À partir de 2006, les supporters de football le reprennent en chœur.",
+     "en": "London, 2002. The White Stripes are two people: one guitar, one drum kit. In a studio fitted with old machines, Jack White plays a riff he had first set aside, running his guitar through a pedal that makes it sound an octave lower. From 2006 onwards, football fans take it up as a chant."
+    },
+    "why": {
+     "fr": "En plein âge numérique, le rock revient à l'essentiel : deux musiciens, un riff, pas d'ordinateur.",
+     "en": "In the middle of the digital age, rock returns to essentials: two musicians, one riff, no computer."
+    },
+    "how": {
+     "fr": "Chantez le riff avec la guitare. Puis écoutez la batterie : presque rien, un battement de cœur.",
+     "en": "Sing the riff along with the guitar. Then listen to the drums: almost nothing, a heartbeat."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Le riff, grave, seul, sur un battement de grosse caisse.",
+       "en": "The riff, low, alone, over a bass-drum pulse."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les couplets",
+       "en": "The verses"
+      },
+      "what": {
+       "fr": "La voix entre, tendue, sur le même motif.",
+       "en": "The voice comes in, tense, over the same figure."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Pas de paroles : la guitare saturée rejoue le riff, plus fort.",
+       "en": "No words: the distorted guitar replays the riff, louder."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "guitare",
+      "batterie",
+      "basse",
+      "piano",
+      "synthe",
+      "cuivres",
+      "orgue"
+     ],
+     "answer": [
+      "voix",
+      "guitare",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel instrument joue le riff grave du début ?",
+       "en": "Which instrument plays the low riff at the start?"
+      },
+      "options": [
+       {
+        "fr": "Une guitare",
+        "en": "A guitar"
+       },
+       {
+        "fr": "Une basse",
+        "en": "A bass"
+       },
+       {
+        "fr": "Un synthétiseur",
+        "en": "A synthesizer"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Une guitare, abaissée d'une octave par une pédale d'effet.",
+       "en": "A guitar, dropped an octave by an effects pedal."
+      }
+     },
+     {
+      "q": {
+       "fr": "Combien de musiciens compte le groupe ?",
+       "en": "How many musicians are in the band?"
+      },
+      "options": [
+       {
+        "fr": "Deux",
+        "en": "Two"
+       },
+       {
+        "fr": "Quatre",
+        "en": "Four"
+       },
+       {
+        "fr": "Six",
+        "en": "Six"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Deux : une guitare et une batterie.",
+       "en": "Two: a guitar and a drum kit."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Octave",
+       "en": "Octave"
+      },
+      "def": {
+       "fr": "La même note, plus grave ou plus aiguë.",
+       "en": "The same note, lower or higher."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

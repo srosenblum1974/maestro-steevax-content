@@ -1,0 +1,378 @@
+{
+ "id": "reggae-semaine-06",
+ "n": 6,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "dancehall",
+ "title": {
+  "fr": "Dancehall, le rythme passe au numérique",
+  "en": "Dancehall, the beat goes digital"
+ },
+ "world": {
+  "fr": "Années 1980 : Bob Marley meurt en 1981, le premier Macintosh sort en 1984, et les boîtes à rythmes entrent dans les studios.",
+  "en": "The 1980s: Bob Marley dies in 1981, the first Macintosh comes out in 1984, and drum machines enter the studios."
+ },
+ "works": [
+  {
+   "id": "reggae-bam-bam",
+   "people": [
+    {
+     "name": "Sister Nancy",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "Bam Bam",
+    "en": "Bam Bam"
+   },
+   "year": "1982",
+   "recording": {
+    "performers": "Sister Nancy (voix) ; production Winston Riley",
+    "label": "Techniques",
+    "year": 1982
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "La voix qui parle autant qu'elle chante, posée sur un instrumental qui existait déjà.",
+    "en": "The voice that talks as much as it sings, laid over an instrumental that already existed."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Sister%20Nancy%20Bam%20Bam",
+    "spotify": "https://open.spotify.com/search/Sister%20Nancy%20Bam%20Bam",
+    "youtube": "https://www.youtube.com/results?search_query=Sister%20Nancy%20Bam%20Bam"
+   },
+   "threads": [
+    {
+     "to": "reggae-king-tubby-meets-rockers-uptown",
+     "kind": "influence",
+     "why": {
+      "fr": "Du dub au dancehall : réutiliser un instrumental est un art jamaïcain.",
+      "en": "From dub to dancehall: reusing an instrumental is a Jamaican art."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "L'un des morceaux de reggae les plus samplés, par la première grande voix féminine du dancehall.",
+     "en": "One of the most sampled reggae tracks, by dancehall's first great female voice."
+    },
+    "context": {
+     "fr": "Kingston, 1982. Sister Nancy s'est imposée dans les sound systems, un monde d'hommes, en improvisant au micro. Pour finir son album, elle pose sa voix sur un instrumental de 1973 que tout le monde connaît. Le morceau passe inaperçu, puis fait le tour du monde : le hip-hop le reprend sans cesse. Elle n'en touchera les droits que trente ans plus tard.",
+     "en": "Kingston, 1982. Sister Nancy has made her name in the sound systems, a man's world, improvising on the microphone. To finish her album she lays her voice over a 1973 instrumental everyone knows. The track goes unnoticed, then travels the world: hip-hop borrows it again and again. She will only receive royalties thirty years later."
+    },
+    "why": {
+     "fr": "C'est le principe du dancehall : un instrumental commun, et des voix qui se succèdent dessus. Le rap fonctionne de la même façon.",
+     "en": "This is the principle of dancehall: a shared instrumental, and voices taking turns over it. Rap works the same way."
+    },
+    "how": {
+     "fr": "Écoutez le phrasé : ni tout à fait parlé, ni tout à fait chanté. Puis repérez les cuivres de l'instrumental, derrière.",
+     "en": "Listen to the phrasing: not quite spoken, not quite sung. Then spot the horns of the instrumental, behind."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "L'instrumental démarre, avec ses cuivres.",
+       "en": "The instrumental starts, with its horns."
+      }
+     },
+     {
+      "when": {
+       "fr": "La voix",
+       "en": "The voice"
+      },
+      "what": {
+       "fr": "Sister Nancy scande son texte, entre parole et chant.",
+       "en": "Sister Nancy chants her words, between speech and song."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Le titre, deux syllabes répétées, facile à reprendre.",
+       "en": "The title, two repeated syllables, easy to join in."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "basse",
+      "batterie",
+      "cuivres",
+      "cordes",
+      "theremin",
+      "melodica"
+     ],
+     "answer": [
+      "voix",
+      "basse",
+      "batterie",
+      "cuivres"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Sur quoi Sister Nancy pose-t-elle sa voix ?",
+       "en": "What does Sister Nancy lay her voice over?"
+      },
+      "options": [
+       {
+        "fr": "Un instrumental déjà existant",
+        "en": "An existing instrumental"
+       },
+       {
+        "fr": "Un orchestre symphonique",
+        "en": "A symphony orchestra"
+       },
+       {
+        "fr": "Rien, elle chante seule",
+        "en": "Nothing, she sings alone"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Un riddim de 1973, réutilisé par des dizaines d'artistes.",
+       "en": "A 1973 riddim, reused by dozens of artists."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quelle musique a beaucoup repris ce morceau ?",
+       "en": "Which music has borrowed this track a great deal?"
+      },
+      "options": [
+       {
+        "fr": "Le hip-hop",
+        "en": "Le hip-hop"
+       },
+       {
+        "fr": "L'opéra",
+        "en": "Opera"
+       },
+       {
+        "fr": "La country",
+        "en": "La country"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le hip-hop américain, qui en a fait l'un de ses échantillons favoris.",
+       "en": "American hip-hop, which made it one of its favourite samples."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Riddim",
+       "en": "Riddim"
+      },
+      "def": {
+       "fr": "Un instrumental réutilisé pour plusieurs chansons.",
+       "en": "An instrumental reused for several songs."
+      }
+     },
+     {
+      "term": {
+       "fr": "Sample",
+       "en": "Sample"
+      },
+      "def": {
+       "fr": "Un extrait d'un disque réutilisé dans un autre.",
+       "en": "A piece of one record reused in another."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "reggae-under-mi-sleng-teng",
+   "people": [
+    {
+     "name": "Wayne Smith",
+     "role": "leader"
+    },
+    {
+     "name": "King Jammy",
+     "role": "producer"
+    }
+   ],
+   "title": {
+    "fr": "Under Mi Sleng Teng",
+    "en": "Under Mi Sleng Teng"
+   },
+   "year": "1985",
+   "recording": {
+    "performers": "Wayne Smith (voix) ; production King Jammy",
+    "label": "Jammy's",
+    "year": 1985
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Le son : plus de vrais instruments, seulement un petit clavier électronique et sa boîte à rythmes.",
+    "en": "The sound: no real instruments any more, only a small electronic keyboard and its drum machine."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Wayne%20Smith%20Under%20Mi%20Sleng%20Teng",
+    "spotify": "https://open.spotify.com/search/Wayne%20Smith%20Under%20Mi%20Sleng%20Teng",
+    "youtube": "https://www.youtube.com/results?search_query=Wayne%20Smith%20Under%20Mi%20Sleng%20Teng"
+   },
+   "threads": [
+    {
+     "to": "reggae-bam-bam",
+     "kind": "same-era",
+     "why": {
+      "fr": "Trois ans plus tôt, le dancehall jouait encore avec de vrais instruments.",
+      "en": "Three years earlier, dancehall still used real instruments."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Un rythme trouvé dans un clavier bon marché, et toute la musique jamaïcaine bascule.",
+     "en": "A rhythm found in a cheap keyboard, and all Jamaican music tips over."
+    },
+    "context": {
+     "fr": "Kingston, 1985. Wayne Smith et son ami Noel Davey découvrent un rythme préenregistré dans un petit clavier Casio. Ils l'apportent au producteur King Jammy, ancien élève de King Tubby, qui le ralentit et l'enregistre. Le soir où le disque passe pour la première fois dans un sound system, la foule exige qu'on le rejoue sans fin.",
+     "en": "Kingston, 1985. Wayne Smith and his friend Noel Davey find a preset rhythm in a small Casio keyboard. They take it to producer King Jammy, a former pupil of King Tubby, who slows it down and records it. The night the record is first played at a sound system, the crowd demands it again and again."
+    },
+    "why": {
+     "fr": "C'est le premier instrumental jamaïcain entièrement numérique. En quelques mois, les studios abandonnent les musiciens pour les machines.",
+     "en": "This is the first fully digital Jamaican instrumental. Within months the studios drop musicians for machines."
+    },
+    "how": {
+     "fr": "Comparez avec « Pressure Drop » : le contretemps est toujours là, mais chaque son est électronique.",
+     "en": "Compare with “Pressure Drop”: the off-beat is still there, but every sound is electronic."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Une basse électronique, raide et entêtante.",
+       "en": "An electronic bass, stiff and insistent."
+      }
+     },
+     {
+      "when": {
+       "fr": "La voix",
+       "en": "The voice"
+      },
+      "what": {
+       "fr": "Wayne Smith chante d'une voix nasale et détachée.",
+       "en": "Wayne Smith sings in a nasal, detached voice."
+      }
+     },
+     {
+      "when": {
+       "fr": "Tout du long",
+       "en": "Throughout"
+      },
+      "what": {
+       "fr": "Le même motif tourne sans jamais changer.",
+       "en": "The same figure loops without ever changing."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "synthe",
+      "guitare",
+      "cuivres",
+      "cordes",
+      "saxophone",
+      "melodica"
+     ],
+     "answer": [
+      "voix",
+      "synthe"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "D'où vient le rythme de ce morceau ?",
+       "en": "Where does this track's rhythm come from?"
+      },
+      "options": [
+       {
+        "fr": "D'un petit clavier électronique",
+        "en": "A small electronic keyboard"
+       },
+       {
+        "fr": "D'un orchestre de cuivres",
+        "en": "A brass band"
+       },
+       {
+        "fr": "D'un tambour africain",
+        "en": "An African drum"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Un rythme préenregistré dans un clavier Casio.",
+       "en": "A preset rhythm in a Casio keyboard."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qu'est-ce qui change après ce disque ?",
+       "en": "What changes after this record?"
+      },
+      "options": [
+       {
+        "fr": "Les machines remplacent les musiciens en studio",
+        "en": "Machines replace musicians in the studio"
+       },
+       {
+        "fr": "Le reggae disparaît",
+        "en": "Reggae disappears"
+       },
+       {
+        "fr": "Les chanteurs arrêtent de chanter",
+        "en": "Singers stop singing"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le dancehall devient numérique.",
+       "en": "Dancehall goes digital."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Boîte à rythmes",
+       "en": "Drum machine"
+      },
+      "def": {
+       "fr": "Une machine qui joue la batterie.",
+       "en": "A machine that plays the drums."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

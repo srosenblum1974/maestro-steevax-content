@@ -1,0 +1,546 @@
+{
+ "id": "pop-semaine-05",
+ "n": 5,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "ere-mtv",
+ "title": {
+  "fr": "Prince, Madonna, Whitney : les années MTV",
+  "en": "Prince, Madonna, Whitney: the MTV years"
+ },
+ "world": {
+  "fr": "1984-1989 : le premier Macintosh, la catastrophe de Tchernobyl, la chute du mur de Berlin. Le clip devient aussi important que le disque.",
+  "en": "1984–1989: the first Macintosh, the Chernobyl disaster, the fall of the Berlin Wall. The video becomes as important as the record."
+ },
+ "works": [
+  {
+   "id": "pop-when-doves-cry",
+   "people": [
+    {
+     "name": "Prince",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "When Doves Cry",
+    "en": "When Doves Cry"
+   },
+   "year": "1984",
+   "recording": {
+    "performers": "Prince (tous les instruments et les voix)",
+    "label": "Warner Bros.",
+    "year": 1984
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Ce qui manque : il n'y a pas de basse. Écoutez le vide qu'elle laisse.",
+    "en": "What is missing: there is no bass. Listen to the gap it leaves."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Prince%20When%20Doves%20Cry",
+    "spotify": "https://open.spotify.com/search/Prince%20When%20Doves%20Cry",
+    "youtube": "https://www.youtube.com/results?search_query=Prince%20When%20Doves%20Cry"
+   },
+   "threads": [
+    {
+     "to": "pop-billie-jean",
+     "kind": "same-era",
+     "why": {
+      "fr": "Deux ans plus tôt, un tube entièrement bâti sur sa basse.",
+      "en": "Two years earlier, a hit built entirely on its bass."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Le tube de l'année 1984, auquel son auteur a retiré la basse au dernier moment.",
+     "en": "The hit of 1984, from which its author removed the bass at the last moment."
+    },
+    "context": {
+     "fr": "Los Angeles, 1984. Prince écrit, joue et enregistre seul cette chanson pour son film Purple Rain. Au mixage, il trouve le résultat trop conventionnel et supprime la ligne de basse. Ses proches sont inquiets ; la chanson reste cinq semaines en tête aux États-Unis.",
+     "en": "Los Angeles, 1984. Prince writes, plays and records this song alone for his film Purple Rain. At the mixing stage he finds the result too conventional and removes the bass line. Those around him are worried; the song stays five weeks at number one in the United States."
+    },
+    "why": {
+     "fr": "Une leçon de production : enlever peut être plus fort qu'ajouter. Et la preuve qu'un seul musicien, avec une boîte à rythmes, peut tout faire.",
+     "en": "A lesson in production: taking away can hit harder than adding. And proof that one musician, with a drum machine, can do everything."
+    },
+    "how": {
+     "fr": "Comparez avec « Billie Jean », bâtie sur sa basse. Ici, cherchez-la : vous ne la trouverez pas.",
+     "en": "Compare with “Billie Jean”, built on its bass. Here, look for it: you will not find it."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Une guitare électrique seule, en furie, pendant quelques secondes.",
+       "en": "An electric guitar alone, raging, for a few seconds."
+      }
+     },
+     {
+      "when": {
+       "fr": "Ensuite",
+       "en": "Next"
+      },
+      "what": {
+       "fr": "La boîte à rythmes entre, sèche, puis la voix.",
+       "en": "The drum machine comes in, dry, then the voice."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Les voix de Prince se superposent, graves et aiguës.",
+       "en": "Prince's voices are layered, low and high."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "guitare",
+      "synthe",
+      "batterie",
+      "basse",
+      "cuivres",
+      "saxophone",
+      "melodica"
+     ],
+     "answer": [
+      "voix",
+      "guitare",
+      "synthe",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel instrument Prince a-t-il retiré ?",
+       "en": "Which instrument did Prince remove?"
+      },
+      "options": [
+       {
+        "fr": "La basse",
+        "en": "The bass"
+       },
+       {
+        "fr": "La batterie",
+        "en": "The drums"
+       },
+       {
+        "fr": "La guitare",
+        "en": "The guitar"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Aucune ligne de basse : un choix rarissime dans un morceau de danse.",
+       "en": "No bass line at all: a very rare choice in a dance track."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qui joue les instruments ?",
+       "en": "Who plays the instruments?"
+      },
+      "options": [
+       {
+        "fr": "Prince, seul",
+        "en": "Prince, alone"
+       },
+       {
+        "fr": "Un orchestre",
+        "en": "An orchestra"
+       },
+       {
+        "fr": "Les Funk Brothers",
+        "en": "The Funk Brothers"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Il joue tout et chante toutes les voix.",
+       "en": "He plays everything and sings every voice."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Boîte à rythmes",
+       "en": "Drum machine"
+      },
+      "def": {
+       "fr": "Une machine qui joue la batterie.",
+       "en": "A machine that plays the drums."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "pop-like-a-prayer",
+   "people": [
+    {
+     "name": "Madonna",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "Like a Prayer",
+    "en": "Like a Prayer"
+   },
+   "year": "1989",
+   "recording": {
+    "performers": "Madonna (chant), chœur gospel dirigé par Andraé Crouch ; coproduction Patrick Leonard",
+    "label": "Sire",
+    "year": 1989
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "L'entrée du chœur gospel : la chanson pop devient une célébration.",
+    "en": "The entrance of the gospel choir: the pop song becomes a celebration."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Madonna%20Like%20a%20Prayer",
+    "spotify": "https://open.spotify.com/search/Madonna%20Like%20a%20Prayer",
+    "youtube": "https://www.youtube.com/results?search_query=Madonna%20Like%20a%20Prayer"
+   },
+   "threads": [
+    {
+     "to": "reggae-pressure-drop",
+     "kind": "same-idea",
+     "why": {
+      "fr": "Une autre voix nourrie par l'église, à Kingston.",
+      "en": "Another voice fed by the church, in Kingston."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une chanson pop qui commence comme une prière et finit comme une messe gospel.",
+     "en": "A pop song that begins like a prayer and ends like a gospel service."
+    },
+    "context": {
+     "fr": "Los Angeles, 1989. Madonna écrit la chanson avec Patrick Leonard et fait venir un vrai chœur gospel. Le clip, qui mêle images religieuses et dénonciation du racisme, déclenche un scandale ; une grande marque de soda, qui venait de l'engager, retire sa publicité.",
+     "en": "Los Angeles, 1989. Madonna writes the song with Patrick Leonard and brings in a real gospel choir. The video, mixing religious imagery with a denunciation of racism, causes a scandal; a major soft-drink brand that had just hired her withdraws its advertisement."
+    },
+    "why": {
+     "fr": "À l'ère MTV, une chanson est aussi une image et un débat public. Et la pop puise ouvertement dans la musique d'église noire américaine.",
+     "en": "In the MTV era a song is also an image and a public debate. And pop draws openly on Black American church music."
+    },
+    "how": {
+     "fr": "Notez le contraste : des passages presque nus, voix et orgue, puis l'explosion avec le chœur et la batterie.",
+     "en": "Note the contrast: almost bare passages, voice and organ, then the explosion with choir and drums."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Un éclat de guitare, puis le silence : voix et orgue seuls.",
+       "en": "A burst of guitar, then silence: voice and organ alone."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "La batterie et la basse entrent, la chanson se met à danser.",
+       "en": "Drums and bass come in, the song starts to dance."
+      }
+     },
+     {
+      "when": {
+       "fr": "La fin",
+       "en": "The end"
+      },
+      "what": {
+       "fr": "Le chœur prend toute la place et répond à Madonna.",
+       "en": "The choir takes over and answers Madonna."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "orgue",
+      "guitare",
+      "basse",
+      "batterie",
+      "saxophone",
+      "theremin",
+      "melodica",
+      "cuivres"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "orgue",
+      "guitare",
+      "basse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel type de chœur chante avec Madonna ?",
+       "en": "What kind of choir sings with Madonna?"
+      },
+      "options": [
+       {
+        "fr": "Un chœur gospel",
+        "en": "A gospel choir"
+       },
+       {
+        "fr": "Un chœur d'opéra",
+        "en": "An opera chorus"
+       },
+       {
+        "fr": "Un chœur d'enfants",
+        "en": "A children's choir"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Un chœur gospel, venu de la musique d'église noire américaine.",
+       "en": "A gospel choir, from Black American church music."
+      }
+     },
+     {
+      "q": {
+       "fr": "Pourquoi la chanson a-t-elle fait scandale ?",
+       "en": "Why did the song cause a scandal?"
+      },
+      "options": [
+       {
+        "fr": "À cause de son clip",
+        "en": "Because of its video"
+       },
+       {
+        "fr": "À cause de sa durée",
+        "en": "Because of its length"
+       },
+       {
+        "fr": "À cause de son tempo",
+        "en": "Because of its tempo"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le clip mêlait symboles religieux et sujets de société.",
+       "en": "The video mixed religious symbols with social issues."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Gospel",
+       "en": "Gospel"
+      },
+      "def": {
+       "fr": "Le chant religieux des églises noires américaines.",
+       "en": "The religious singing of Black American churches."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "pop-i-wanna-dance-with-somebody",
+   "people": [
+    {
+     "name": "Whitney Houston",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "I Wanna Dance with Somebody (Who Loves Me)",
+    "en": "I Wanna Dance with Somebody (Who Loves Me)"
+   },
+   "year": "1987",
+   "recording": {
+    "performers": "Whitney Houston (chant) ; production Narada Michael Walden",
+    "label": "Arista",
+    "year": 1987
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "La voix : sa puissance, et la façon dont elle monte encore d'un cran vers la fin.",
+    "en": "The voice: its power, and the way it climbs one more notch towards the end."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Whitney%20Houston%20I%20Wanna%20Dance%20with%20Somebody%20%28Who%20Loves%20Me%29",
+    "spotify": "https://open.spotify.com/search/Whitney%20Houston%20I%20Wanna%20Dance%20with%20Somebody%20%28Who%20Loves%20Me%29",
+    "youtube": "https://www.youtube.com/results?search_query=Whitney%20Houston%20I%20Wanna%20Dance%20with%20Somebody%20%28Who%20Loves%20Me%29"
+   },
+   "threads": [
+    {
+     "to": "pop-like-a-prayer",
+     "kind": "same-era",
+     "why": {
+      "fr": "Deux ans plus tard, le gospel entre directement dans la chanson.",
+      "en": "Two years later, gospel walks straight into the song."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une chanson joyeuse sur la solitude, portée par l'une des plus grandes voix de la pop.",
+     "en": "A joyful song about loneliness, carried by one of the greatest voices in pop."
+    },
+    "context": {
+     "fr": "Californie, 1987. Whitney Houston a grandi en chantant à l'église ; sa mère et sa cousine sont chanteuses. Le producteur Narada Michael Walden habille la chanson de synthétiseurs et de boîtes à rythmes. Elle se classe première dans une douzaine de pays.",
+     "en": "California, 1987. Whitney Houston grew up singing in church; her mother and her cousin are singers. Producer Narada Michael Walden dresses the song in synthesizers and drum machines. It reaches number one in a dozen countries."
+    },
+    "why": {
+     "fr": "Le son des années 1980 dans toute sa netteté : tout est électronique, sauf la voix, qui n'en paraît que plus humaine.",
+     "en": "The sound of the 1980s at its crispest: everything is electronic except the voice, which seems all the more human."
+    },
+    "how": {
+     "fr": "Écoutez les paroles derrière la fête : elle cherche quelqu'un. Puis guettez le moment où toute la chanson monte d'un ton.",
+     "en": "Hear the words behind the party: she is looking for someone. Then watch for the moment when the whole song shifts up a key."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Des percussions électroniques et des cris de joie.",
+       "en": "Electronic percussion and whoops of joy."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "La voix s'élance, soutenue par des chœurs.",
+       "en": "The voice soars, supported by backing vocals."
+      }
+     },
+     {
+      "when": {
+       "fr": "Vers la fin",
+       "en": "Towards the end"
+      },
+      "what": {
+       "fr": "Tout monte d'un cran : la chanson change de tonalité.",
+       "en": "Everything rises a notch: the song changes key."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "synthe",
+      "batterie",
+      "orgue",
+      "cordes",
+      "melodica",
+      "theremin"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "synthe",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Où Whitney Houston a-t-elle appris à chanter ?",
+       "en": "Where did Whitney Houston learn to sing?"
+      },
+      "options": [
+       {
+        "fr": "À l'église",
+        "en": "In church"
+       },
+       {
+        "fr": "À l'opéra",
+        "en": "At the opera"
+       },
+       {
+        "fr": "Dans un groupe de rock",
+        "en": "In a rock band"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Dans le chœur gospel de son église.",
+       "en": "In her church's gospel choir."
+      }
+     },
+     {
+      "q": {
+       "fr": "Que se passe-t-il vers la fin ?",
+       "en": "What happens towards the end?"
+      },
+      "options": [
+       {
+        "fr": "La chanson monte d'un ton",
+        "en": "The song moves up a key"
+       },
+       {
+        "fr": "Le tempo ralentit",
+        "en": "The tempo slows"
+       },
+       {
+        "fr": "La voix s'arrête",
+        "en": "The voice stops"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Un changement de tonalité, pour relancer l'énergie.",
+       "en": "A key change, to lift the energy again."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Changement de tonalité",
+       "en": "Key change"
+      },
+      "def": {
+       "fr": "Toute la chanson se déplace vers le haut, pour un effet d'élan.",
+       "en": "The whole song shifts upwards, for a lifting effect."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

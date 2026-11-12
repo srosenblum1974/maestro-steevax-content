@@ -670,6 +670,748 @@
      }
     ]
    }
+  },
+  "jazz-semaine-04": {
+   "image": {
+    "search": [
+     "Piet Mondrian Broadway Boogie Woogie",
+     "Mondrian Broadway Boogie-Woogie 1942"
+    ],
+    "require": "broadway",
+    "exclude": "photo|detail|sketch",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "jazz-sing-sing-sing": [
+     {
+      "label": {
+       "fr": "Sing, Sing, Sing (1937)",
+       "en": "Sing, Sing, Sing (1937)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Benny Goodman and His Orchestra Sing Sing Sing",
+       "artist": "Benny Goodman",
+       "title": "Sing, Sing",
+       "albums": [],
+       "seconds": [
+        300,
+        780
+       ]
+      }
+     }
+    ],
+    "jazz-take-the-a-train": [
+     {
+      "label": {
+       "fr": "Take the “A” Train (1941)",
+       "en": "Take the “A” Train (1941)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Duke Ellington and His Orchestra Take the A Train",
+       "artist": "Duke Ellington",
+       "title": "Train",
+       "albums": [],
+       "seconds": [
+        165,
+        195
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "jazz-semaine-05": {
+   "image": {
+    "search": [
+     "Kandinsky Improvisation 28",
+     "Kandinsky Improvisation 26"
+    ],
+    "require": "improvisation",
+    "exclude": "photo|sketch|study",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "jazz-ko-ko": [
+     {
+      "label": {
+       "fr": "Ko-Ko (1945)",
+       "en": "Ko-Ko (1945)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Charlie Parker Ko Ko",
+       "artist": "Charlie Parker",
+       "title": "Ko",
+       "albums": [],
+       "seconds": [
+        165,
+        185
+       ]
+      }
+     }
+    ],
+    "jazz-round-midnight": [
+     {
+      "label": {
+       "fr": "’Round Midnight (1947)",
+       "en": "’Round Midnight (1947)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Thelonious Monk Round Midnight",
+       "artist": "Thelonious Monk",
+       "title": "Midnight",
+       "albums": [
+        "Genius of Modern Music"
+       ],
+       "seconds": [
+        180,
+        400
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "jazz-semaine-06": {
+   "image": {
+    "search": [
+     "Theo van Doesburg Rhythm of a Russian Dance",
+     "Theo van Doesburg Counter-Composition"
+    ],
+    "require": "doesburg",
+    "exclude": "photo|portrait|sketch",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "jazz-lonely-woman": [
+     {
+      "label": {
+       "fr": "Lonely Woman (1959)",
+       "en": "Lonely Woman (1959)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Ornette Coleman Lonely Woman",
+       "artist": "Ornette Coleman",
+       "title": "Lonely Woman",
+       "albums": [
+        "Shape of Jazz"
+       ],
+       "seconds": [
+        285,
+        315
+       ]
+      }
+     }
+    ],
+    "jazz-a-love-supreme-acknowledgement": [
+     {
+      "label": {
+       "fr": "A Love Supreme, Part I: Acknowledgement (1965)",
+       "en": "A Love Supreme, Part I: Acknowledgement (1965)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "John Coltrane A Love Supreme Acknowledgement",
+       "artist": "John Coltrane",
+       "title": "Acknowledgement",
+       "albums": [
+        "A Love Supreme"
+       ],
+       "seconds": [
+        440,
+        480
+       ]
+      }
+     }
+    ],
+    "jazz-chameleon": [
+     {
+      "label": {
+       "fr": "Chameleon (1973)",
+       "en": "Chameleon (1973)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Herbie Hancock Chameleon",
+       "artist": "Herbie Hancock",
+       "title": "Chameleon",
+       "albums": [
+        "Head Hunters"
+       ],
+       "seconds": [
+        400,
+        960
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "reggae-semaine-04": {
+   "image": {
+    "search": [
+     "Winslow Homer Palm Tree Nassau",
+     "Winslow Homer Nassau watercolor"
+    ],
+    "require": "homer",
+    "exclude": "photo|portrait|sketch",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "reggae-my-boy-lollipop": [
+     {
+      "label": {
+       "fr": "My Boy Lollipop (1964)",
+       "en": "My Boy Lollipop (1964)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Millie Small My Boy Lollipop",
+       "artist": "Millie",
+       "title": "My Boy Lollipop",
+       "albums": [],
+       "seconds": [
+        105,
+        140
+       ]
+      }
+     }
+    ],
+    "reggae-guns-of-navarone": [
+     {
+      "label": {
+       "fr": "Guns of Navarone (1965)",
+       "en": "Guns of Navarone (1965)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "The Skatalites Guns of Navarone",
+       "artist": "Skatalites",
+       "title": "Guns of Navarone",
+       "albums": [
+        "Foundation Ska",
+        "Guns of Navarone",
+        "Ska Authentic",
+        "Best"
+       ],
+       "seconds": [
+        140,
+        420
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "reggae-semaine-05": {
+   "image": {
+    "search": [
+     "Martin Johnson Heade Cattleya Orchid and Three Hummingbirds",
+     "Martin Johnson Heade orchid hummingbird"
+    ],
+    "require": "heade",
+    "exclude": "photo|portrait|sketch",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "reggae-the-harder-they-come": [
+     {
+      "label": {
+       "fr": "The Harder They Come (1972)",
+       "en": "The Harder They Come (1972)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Jimmy Cliff The Harder They Come",
+       "artist": "Jimmy Cliff",
+       "title": "The Harder They Come",
+       "albums": [
+        "Harder They Come"
+       ],
+       "seconds": [
+        200,
+        240
+       ]
+      }
+     }
+    ],
+    "reggae-marcus-garvey": [
+     {
+      "label": {
+       "fr": "Marcus Garvey (1975)",
+       "en": "Marcus Garvey (1975)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Burning Spear Marcus Garvey",
+       "artist": "Burning Spear",
+       "title": "Marcus Garvey",
+       "albums": [
+        "Marcus Garvey"
+       ],
+       "seconds": [
+        190,
+        220
+       ]
+      }
+     }
+    ],
+    "reggae-police-and-thieves": [
+     {
+      "label": {
+       "fr": "Police and Thieves (1976)",
+       "en": "Police and Thieves (1976)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Junior Murvin Police and Thieves",
+       "artist": "Junior Murvin",
+       "title": "Thieves",
+       "albums": [
+        "Police"
+       ],
+       "seconds": [
+        195,
+        420
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "reggae-semaine-06": {
+   "image": {
+    "search": [
+     "Henri Rousseau Surprised Tiger in a Tropical Storm",
+     "Henri Rousseau The Dream 1910"
+    ],
+    "require": "rousseau",
+    "exclude": "photo|portrait|sketch|detail",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "reggae-bam-bam": [
+     {
+      "label": {
+       "fr": "Bam Bam (1982)",
+       "en": "Bam Bam (1982)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Sister Nancy Bam Bam",
+       "artist": "Sister Nancy",
+       "title": "Bam Bam",
+       "albums": [
+        "One, Two",
+        "One Two"
+       ],
+       "seconds": [
+        175,
+        220
+       ]
+      }
+     }
+    ],
+    "reggae-under-mi-sleng-teng": [
+     {
+      "label": {
+       "fr": "Under Mi Sleng Teng (1985)",
+       "en": "Under Mi Sleng Teng (1985)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Wayne Smith Under Mi Sleng Teng",
+       "artist": "Wayne Smith",
+       "title": "Sleng Teng",
+       "albums": [],
+       "seconds": [
+        170,
+        270
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "pop-semaine-04": {
+   "image": {
+    "search": [
+     "Kandinsky Color Study Squares with Concentric Circles",
+     "Kandinsky Farbstudie Quadrate"
+    ],
+    "require": "kandinsky",
+    "exclude": "photo|sketch",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "pop-i-want-to-hold-your-hand": [
+     {
+      "label": {
+       "fr": "I Want to Hold Your Hand (1963)",
+       "en": "I Want to Hold Your Hand (1963)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "The Beatles I Want to Hold Your Hand",
+       "artist": "Beatles",
+       "title": "I Want to Hold Your Hand",
+       "albums": [
+        "1 (",
+        "Past Masters",
+        "1962"
+       ],
+       "seconds": [
+        140,
+        156
+       ]
+      }
+     }
+    ],
+    "pop-good-vibrations": [
+     {
+      "label": {
+       "fr": "Good Vibrations (1966)",
+       "en": "Good Vibrations (1966)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "The Beach Boys Good Vibrations",
+       "artist": "Beach Boys",
+       "title": "Good Vibrations",
+       "albums": [
+        "Smiley Smile",
+        "Sounds of Summer",
+        "Greatest"
+       ],
+       "seconds": [
+        205,
+        228
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "pop-semaine-05": {
+   "image": {
+    "search": [
+     "Paul Klee Castle and Sun",
+     "Paul Klee Burg und Sonne"
+    ],
+    "require": "klee",
+    "exclude": "photo|sketch",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "pop-when-doves-cry": [
+     {
+      "label": {
+       "fr": "When Doves Cry (1984)",
+       "en": "When Doves Cry (1984)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Prince When Doves Cry",
+       "artist": "Prince",
+       "title": "When Doves Cry",
+       "albums": [
+        "Purple Rain"
+       ],
+       "seconds": [
+        215,
+        365
+       ]
+      }
+     }
+    ],
+    "pop-like-a-prayer": [
+     {
+      "label": {
+       "fr": "Like a Prayer (1989)",
+       "en": "Like a Prayer (1989)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Madonna Like a Prayer",
+       "artist": "Madonna",
+       "title": "Like a Prayer",
+       "albums": [
+        "Like a Prayer"
+       ],
+       "seconds": [
+        325,
+        350
+       ]
+      }
+     }
+    ],
+    "pop-i-wanna-dance-with-somebody": [
+     {
+      "label": {
+       "fr": "I Wanna Dance with Somebody (Who Loves Me) (1987)",
+       "en": "I Wanna Dance with Somebody (Who Loves Me) (1987)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Whitney Houston I Wanna Dance with Somebody (Who Loves Me)",
+       "artist": "Whitney Houston",
+       "title": "I Wanna Dance with Somebody",
+       "albums": [
+        "Whitney"
+       ],
+       "seconds": [
+        280,
+        300
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "pop-semaine-06": {
+   "image": {
+    "search": [
+     "Franz Marc Kämpfende Formen",
+     "Franz Marc Fighting Forms"
+    ],
+    "require": "marc",
+    "exclude": "photo|sketch|portrait",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "pop-baby-one-more-time": [
+     {
+      "label": {
+       "fr": "...Baby One More Time (1998)",
+       "en": "...Baby One More Time (1998)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Britney Spears ...Baby One More Time",
+       "artist": "Britney Spears",
+       "title": "Baby One More Time",
+       "albums": [
+        "Baby One More Time"
+       ],
+       "seconds": [
+        203,
+        216
+       ]
+      }
+     }
+    ],
+    "pop-crazy-in-love": [
+     {
+      "label": {
+       "fr": "Crazy in Love (2003)",
+       "en": "Crazy in Love (2003)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Beyoncé Crazy in Love",
+       "artist": "Beyonc",
+       "title": "Crazy in Love",
+       "albums": [
+        "Dangerously in Love"
+       ],
+       "seconds": [
+        228,
+        242
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "rock-semaine-04": {
+   "image": {
+    "search": [
+     "Turner The Burning of the Houses of Lords and Commons",
+     "Turner Burning of the Houses of Parliament"
+    ],
+    "require": "burning",
+    "exclude": "photo|sketch|study|watercolou?r",
+    "focus": "50% 50%"
+   },
+   "audio": {
+    "rock-smoke-on-the-water": [
+     {
+      "label": {
+       "fr": "Smoke on the Water (1972)",
+       "en": "Smoke on the Water (1972)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Deep Purple Smoke on the Water",
+       "artist": "Deep Purple",
+       "title": "Smoke on the Water",
+       "albums": [
+        "Machine Head"
+       ],
+       "seconds": [
+        325,
+        350
+       ]
+      }
+     }
+    ],
+    "rock-bohemian-rhapsody": [
+     {
+      "label": {
+       "fr": "Bohemian Rhapsody (1975)",
+       "en": "Bohemian Rhapsody (1975)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Queen Bohemian Rhapsody",
+       "artist": "Queen",
+       "title": "Bohemian Rhapsody",
+       "albums": [
+        "A Night at the Opera"
+       ],
+       "seconds": [
+        345,
+        362
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "rock-semaine-05": {
+   "image": {
+    "search": [
+     "George Bellows Stag at Sharkey's",
+     "George Bellows Both Members of This Club"
+    ],
+    "require": "bellows",
+    "exclude": "photo|portrait|lithograph|print",
+    "focus": "50% 45%"
+   },
+   "audio": {
+    "rock-blitzkrieg-bop": [
+     {
+      "label": {
+       "fr": "Blitzkrieg Bop (1976)",
+       "en": "Blitzkrieg Bop (1976)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Ramones Blitzkrieg Bop",
+       "artist": "Ramones",
+       "title": "Blitzkrieg Bop",
+       "albums": [
+        "Ramones"
+       ],
+       "seconds": [
+        125,
+        142
+       ]
+      }
+     }
+    ],
+    "rock-london-calling": [
+     {
+      "label": {
+       "fr": "London Calling (1979)",
+       "en": "London Calling (1979)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "The Clash London Calling",
+       "artist": "Clash",
+       "title": "London Calling",
+       "albums": [
+        "London Calling"
+       ],
+       "seconds": [
+        190,
+        208
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "rock-semaine-06": {
+   "image": {
+    "search": [
+     "Edvard Munch The Scream 1893 National Gallery",
+     "Edvard Munch Skrik 1893"
+    ],
+    "require": "scream|skrik",
+    "exclude": "photo|lithograph|pastel|detail|stamp",
+    "focus": "50% 60%"
+   },
+   "audio": {
+    "rock-smells-like-teen-spirit": [
+     {
+      "label": {
+       "fr": "Smells Like Teen Spirit (1991)",
+       "en": "Smells Like Teen Spirit (1991)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Nirvana Smells Like Teen Spirit",
+       "artist": "Nirvana",
+       "title": "Smells Like Teen Spirit",
+       "albums": [
+        "Nevermind"
+       ],
+       "seconds": [
+        295,
+        306
+       ]
+      }
+     }
+    ],
+    "rock-creep": [
+     {
+      "label": {
+       "fr": "Creep (1992)",
+       "en": "Creep (1992)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "Radiohead Creep",
+       "artist": "Radiohead",
+       "title": "Creep",
+       "albums": [
+        "Pablo Honey"
+       ],
+       "seconds": [
+        230,
+        242
+       ]
+      }
+     }
+    ],
+    "rock-seven-nation-army": [
+     {
+      "label": {
+       "fr": "Seven Nation Army (2003)",
+       "en": "Seven Nation Army (2003)"
+      },
+      "kind": "appleMusic",
+      "itunes": {
+       "term": "The White Stripes Seven Nation Army",
+       "artist": "White Stripes",
+       "title": "Seven Nation Army",
+       "albums": [
+        "Elephant"
+       ],
+       "seconds": [
+        225,
+        238
+       ]
+      }
+     }
+    ]
+   }
   }
  },
  "heroes": {

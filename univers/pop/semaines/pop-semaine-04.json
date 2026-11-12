@@ -1,0 +1,388 @@
+{
+ "id": "pop-semaine-04",
+ "n": 4,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "usines-a-tubes",
+ "title": {
+  "fr": "Beatles et Beach Boys, la course au chef-d'œuvre",
+  "en": "Beatles and Beach Boys, the race for the masterpiece"
+ },
+ "world": {
+  "fr": "1963-1966 : Kennedy est assassiné, la jeunesse du baby-boom a vingt ans, et l'Angleterre et la Californie se disputent les ondes.",
+  "en": "1963–1966: Kennedy is assassinated, the baby-boom generation turns twenty, and England and California fight over the airwaves."
+ },
+ "works": [
+  {
+   "id": "pop-i-want-to-hold-your-hand",
+   "people": [
+    {
+     "name": "The Beatles",
+     "role": "band"
+    }
+   ],
+   "title": {
+    "fr": "I Want to Hold Your Hand",
+    "en": "I Want to Hold Your Hand"
+   },
+   "year": "1963",
+   "recording": {
+    "performers": "John Lennon, Paul McCartney, George Harrison, Ringo Starr ; production George Martin",
+    "label": "Parlophone",
+    "year": 1963
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les deux voix de Lennon et McCartney, collées l'une à l'autre, et les claquements de mains.",
+    "en": "Lennon's and McCartney's two voices, glued together, and the handclaps."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=The%20Beatles%20I%20Want%20to%20Hold%20Your%20Hand",
+    "spotify": "https://open.spotify.com/search/The%20Beatles%20I%20Want%20to%20Hold%20Your%20Hand",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Beatles%20I%20Want%20to%20Hold%20Your%20Hand"
+   },
+   "threads": [
+    {
+     "to": "pop-where-did-our-love-go",
+     "kind": "same-era",
+     "why": {
+      "fr": "La même année 1964, Detroit répond avec les Supremes.",
+      "en": "The same year, 1964, Detroit answers with the Supremes."
+     }
+    },
+    {
+     "to": "rock-satisfaction",
+     "kind": "same-era",
+     "why": {
+      "fr": "L'autre grand groupe anglais, plus rugueux.",
+      "en": "The other great English band, rougher."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Deux minutes vingt-cinq qui ont fait basculer l'Amérique.",
+     "en": "Two minutes twenty-five that tipped America over."
+    },
+    "context": {
+     "fr": "Londres, octobre 1963. John Lennon et Paul McCartney écrivent la chanson ensemble, au piano, dans un sous-sol. Elle sort aux États-Unis fin décembre et atteint la première place en quelques semaines. Le 9 février 1964, 73 millions d'Américains regardent les Beatles à la télévision.",
+     "en": "London, October 1963. John Lennon and Paul McCartney write the song together, at a piano, in a basement. It comes out in the United States in late December and reaches number one within weeks. On 9 February 1964, 73 million Americans watch the Beatles on television."
+    },
+    "why": {
+     "fr": "Pour la première fois, un groupe écrit, chante et joue lui-même ses tubes. Après eux, tous les groupes voudront faire de même.",
+     "en": "For the first time a band writes, sings and plays its own hits. After them, every band will want to do the same."
+    },
+    "how": {
+     "fr": "Repérez le moment où la voix saute soudain très haut : c'est l'accroche de la chanson. Puis le passage plus calme, au milieu.",
+     "en": "Spot the moment when the voice suddenly leaps very high: that is the song's hook. Then the calmer passage in the middle."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Les guitares attaquent sans introduction, par à-coups.",
+       "en": "The guitars attack with no introduction, in jolts."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les couplets",
+       "en": "The verses"
+      },
+      "what": {
+       "fr": "Deux voix chantent ensemble, puis l'une s'envole.",
+       "en": "Two voices sing together, then one takes off."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le milieu",
+       "en": "The middle"
+      },
+      "what": {
+       "fr": "La chanson se calme un instant avant de repartir.",
+       "en": "The song calms for a moment before setting off again."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "guitare",
+      "basse",
+      "batterie",
+      "percussions",
+      "piano",
+      "cordes",
+      "cuivres",
+      "synthe",
+      "saxophone"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "guitare",
+      "basse",
+      "batterie",
+      "percussions"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Qui a écrit la chanson ?",
+       "en": "Who wrote the song?"
+      },
+      "options": [
+       {
+        "fr": "Lennon et McCartney, ensemble",
+        "en": "Lennon and McCartney, together"
+       },
+       {
+        "fr": "Leur producteur",
+        "en": "Their producer"
+       },
+       {
+        "fr": "Une équipe d'auteurs américains",
+        "en": "A team of American writers"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Les deux Beatles, face à face au piano.",
+       "en": "The two Beatles, face to face at the piano."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel bruit de mains entend-on ?",
+       "en": "Which hand sound do you hear?"
+      },
+      "options": [
+       {
+        "fr": "Des claquements de mains",
+        "en": "Handclaps"
+       },
+       {
+        "fr": "Des doigts sur une table",
+        "en": "Fingers on a table"
+       },
+       {
+        "fr": "Aucun",
+        "en": "None"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Des claquements de mains, sur les temps.",
+       "en": "Handclaps, on the beats."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Accroche",
+       "en": "Hook"
+      },
+      "def": {
+       "fr": "Le moment d'une chanson qu'on retient tout de suite.",
+       "en": "The moment of a song you remember at once."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "pop-good-vibrations",
+   "people": [
+    {
+     "name": "The Beach Boys",
+     "role": "band"
+    },
+    {
+     "name": "Brian Wilson",
+     "role": "producer"
+    }
+   ],
+   "title": {
+    "fr": "Good Vibrations",
+    "en": "Good Vibrations"
+   },
+   "year": "1966",
+   "recording": {
+    "performers": "Carl Wilson (chant), Brian Wilson (production), Mike Love (paroles)",
+    "label": "Capitol",
+    "year": 1966
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les changements de décor : la chanson passe d'une ambiance à l'autre comme un film change de scène.",
+    "en": "The changes of scenery: the song moves from one mood to another as a film changes scene."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=The%20Beach%20Boys%20Good%20Vibrations",
+    "spotify": "https://open.spotify.com/search/The%20Beach%20Boys%20Good%20Vibrations",
+    "youtube": "https://www.youtube.com/results?search_query=The%20Beach%20Boys%20Good%20Vibrations"
+   },
+   "threads": [
+    {
+     "to": "rock-whole-lotta-love",
+     "kind": "same-idea",
+     "why": {
+      "fr": "Trois ans plus tard, un autre morceau fait entendre un instrument électronique sans clavier.",
+      "en": "Three years later another track features an electronic instrument with no keyboard."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une « symphonie de poche » de trois minutes trente-cinq, montée comme un film.",
+     "en": "A three-and-a-half-minute “pocket symphony”, edited like a film."
+    },
+    "context": {
+     "fr": "Los Angeles, 1966. Brian Wilson a cessé les tournées pour se consacrer au studio. Pendant des mois, il enregistre des fragments dans plusieurs studios, puis les assemble au montage. C'est, à l'époque, le 45 tours le plus cher jamais produit. On y entend un violoncelle, un orgue et un instrument électronique au son de film de science-fiction.",
+     "en": "Los Angeles, 1966. Brian Wilson has stopped touring to devote himself to the studio. For months he records fragments in several studios, then assembles them by editing tape. It is, at the time, the most expensive single ever produced. It features a cello, an organ and an electronic instrument that sounds like a science-fiction film."
+    },
+    "why": {
+     "fr": "La pop montre qu'elle peut être aussi ambitieuse que la musique savante. Les Beatles, piqués au vif, répondront avec Sgt. Pepper.",
+     "en": "Pop shows it can be as ambitious as art music. The Beatles, stung, will answer with Sgt. Pepper."
+    },
+    "how": {
+     "fr": "Comptez les sections différentes : chaque fois que le décor change, levez un doigt.",
+     "en": "Count the different sections: each time the scenery changes, raise a finger."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Une voix douce, un orgue, presque une berceuse.",
+       "en": "A soft voice, an organ, almost a lullaby."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le refrain",
+       "en": "The chorus"
+      },
+      "what": {
+       "fr": "Les voix s'empilent et un sifflement électronique ondule au-dessus.",
+       "en": "The voices pile up and an electronic whistle wavers above."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le milieu",
+       "en": "The middle"
+      },
+      "what": {
+       "fr": "Tout ralentit : un passage recueilli, comme dans une église.",
+       "en": "Everything slows: a hushed passage, as if in a church."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "voix",
+      "choeurs",
+      "orgue",
+      "cordes",
+      "theremin",
+      "basse",
+      "saxophone",
+      "melodica",
+      "synthe"
+     ],
+     "answer": [
+      "voix",
+      "choeurs",
+      "orgue",
+      "cordes",
+      "theremin",
+      "basse"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Comment la chanson a-t-elle été construite ?",
+       "en": "How was the song built?"
+      },
+      "options": [
+       {
+        "fr": "En une seule prise",
+        "en": "In a single take"
+       },
+       {
+        "fr": "Par fragments assemblés au montage",
+        "en": "From fragments joined by editing"
+       },
+       {
+        "fr": "En concert",
+        "en": "Live in concert"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Des mois de séances, puis un montage de bandes.",
+       "en": "Months of sessions, then a tape edit."
+      }
+     },
+     {
+      "q": {
+       "fr": "Qui a produit le disque ?",
+       "en": "Who produced the record?"
+      },
+      "options": [
+       {
+        "fr": "Brian Wilson",
+        "en": "Brian Wilson"
+       },
+       {
+        "fr": "George Martin",
+        "en": "George Martin"
+       },
+       {
+        "fr": "Quincy Jones",
+        "en": "Quincy Jones"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Brian Wilson, compositeur et producteur du groupe.",
+       "en": "Brian Wilson, the band's composer and producer."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Harmonies vocales",
+       "en": "Vocal harmonies"
+      },
+      "def": {
+       "fr": "Plusieurs voix qui chantent des notes différentes en même temps.",
+       "en": "Several voices singing different notes at once."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "id": "jazz-semaine-04",
+ "n": 4,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "swing",
+ "title": {
+  "fr": "Le swing, quand le jazz fait danser l'Amérique",
+  "en": "Swing, when jazz makes America dance"
+ },
+ "world": {
+  "fr": "Années 1930 : la Grande Dépression, puis la guerre. La radio entre dans chaque foyer, et les grands orchestres jouent chaque soir dans les salles de bal.",
+  "en": "The 1930s: the Great Depression, then the war. Radio enters every home, and big bands play every night in the ballrooms."
+ },
+ "works": [
+  {
+   "id": "jazz-sing-sing-sing",
+   "people": [
+    {
+     "name": "Benny Goodman and His Orchestra",
+     "role": "band"
+    },
+    {
+     "name": "Louis Prima",
+     "role": "composer"
+    }
+   ],
+   "title": {
+    "fr": "Sing, Sing, Sing",
+    "en": "Sing, Sing, Sing"
+   },
+   "year": "1937",
+   "recording": {
+    "performers": "Benny Goodman (clarinette), Gene Krupa (batterie), Harry James (trompette)",
+    "label": "Victor",
+    "year": 1937
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les tambours graves de Gene Krupa, qui ne s'arrêtent jamais, et la clarinette qui plane au-dessus.",
+    "en": "Gene Krupa's low drums, which never stop, and the clarinet soaring above."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Benny%20Goodman%20and%20His%20Orchestra%20Sing%2C%20Sing%2C%20Sing",
+    "spotify": "https://open.spotify.com/search/Benny%20Goodman%20and%20His%20Orchestra%20Sing%2C%20Sing%2C%20Sing",
+    "youtube": "https://www.youtube.com/results?search_query=Benny%20Goodman%20and%20His%20Orchestra%20Sing%2C%20Sing%2C%20Sing"
+   },
+   "threads": [
+    {
+     "to": "jazz-west-end-blues",
+     "kind": "influence",
+     "why": {
+      "fr": "Dix ans plus tôt, Armstrong inventait le soliste ; ici, c'est tout un orchestre qui swingue.",
+      "en": "Ten years earlier Armstrong invented the soloist; here a whole orchestra swings."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Le morceau qui a fait de la batterie une vedette.",
+     "en": "The track that turned the drums into a star."
+    },
+    "context": {
+     "fr": "Hollywood, 1937. Benny Goodman, clarinettiste et « roi du swing », dirige l'orchestre de danse le plus populaire d'Amérique. Son batteur Gene Krupa martèle ses toms d'un bout à l'autre. En janvier 1938, l'orchestre le joue au Carnegie Hall : le jazz entre dans le temple de la musique classique.",
+     "en": "Hollywood, 1937. Benny Goodman, clarinettist and “King of Swing”, leads America's most popular dance band. His drummer Gene Krupa pounds his tom-toms from start to finish. In January 1938 the band plays it at Carnegie Hall: jazz enters the temple of classical music."
+    },
+    "why": {
+     "fr": "Le swing est la pop des années 1930 : des orchestres de quinze musiciens font danser tout un pays. Ici, pour la première fois, le batteur n'accompagne plus, il mène.",
+     "en": "Swing is the pop of the 1930s: fifteen-piece bands make a whole country dance. Here, for the first time, the drummer no longer accompanies, he leads."
+    },
+    "how": {
+     "fr": "Suivez les tambours, puis repérez les sections qui se répondent : les trompettes d'un côté, les saxophones de l'autre.",
+     "en": "Follow the drums, then spot the sections answering each other: trumpets on one side, saxophones on the other."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Les tambours seuls, graves, comme un signal.",
+       "en": "The drums alone, low, like a signal."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le thème",
+       "en": "The theme"
+      },
+      "what": {
+       "fr": "Les cuivres lancent le thème, les saxophones leur répondent.",
+       "en": "The brass launch the theme, the saxophones answer."
+      }
+     },
+     {
+      "when": {
+       "fr": "Les solos",
+       "en": "The solos"
+      },
+      "what": {
+       "fr": "La clarinette de Goodman s'envole au-dessus des tambours.",
+       "en": "Goodman's clarinet takes off above the drums."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "batterie",
+      "clarinette",
+      "trompette",
+      "saxophone",
+      "trombone",
+      "banjo",
+      "voix"
+     ],
+     "answer": [
+      "batterie",
+      "clarinette",
+      "trompette",
+      "saxophone",
+      "trombone"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel instrument mène ce morceau ?",
+       "en": "Which instrument leads this track?"
+      },
+      "options": [
+       {
+        "fr": "La batterie",
+        "en": "The drums"
+       },
+       {
+        "fr": "Le piano",
+        "en": "The piano"
+       },
+       {
+        "fr": "La guitare",
+        "en": "The guitar"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Les toms de Gene Krupa portent tout le morceau.",
+       "en": "Gene Krupa's tom-toms carry the whole track."
+      }
+     },
+     {
+      "q": {
+       "fr": "Où l'orchestre joue-t-il en janvier 1938 ?",
+       "en": "Where does the band play in January 1938?"
+      },
+      "options": [
+       {
+        "fr": "Au Carnegie Hall",
+        "en": "At Carnegie Hall"
+       },
+       {
+        "fr": "À l'Olympia",
+        "en": "At the Olympia"
+       },
+       {
+        "fr": "Au Cotton Club",
+        "en": "At the Cotton Club"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Un concert historique : le jazz dans la grande salle classique de New York.",
+       "en": "A historic concert: jazz in New York's great classical hall."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Big band",
+       "en": "Big band"
+      },
+      "def": {
+       "fr": "Un grand orchestre de jazz, par sections : trompettes, trombones, saxophones, rythmique.",
+       "en": "A large jazz orchestra, in sections: trumpets, trombones, saxophones, rhythm."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "jazz-take-the-a-train",
+   "people": [
+    {
+     "name": "Duke Ellington and His Orchestra",
+     "role": "band"
+    },
+    {
+     "name": "Billy Strayhorn",
+     "role": "composer"
+    }
+   ],
+   "title": {
+    "fr": "Take the “A” Train",
+    "en": "Take the “A” Train"
+   },
+   "year": "1941",
+   "recording": {
+    "performers": "Duke Ellington (piano), Ray Nance (trompette), Billy Strayhorn (composition)",
+    "label": "Victor",
+    "year": 1941
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les quelques notes de piano du début, puis les saxophones qui chantent le thème d'une seule voix.",
+    "en": "The few piano notes at the start, then the saxophones singing the theme as one voice."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Duke%20Ellington%20and%20His%20Orchestra%20Take%20the%20%E2%80%9CA%E2%80%9D%20Train",
+    "spotify": "https://open.spotify.com/search/Duke%20Ellington%20and%20His%20Orchestra%20Take%20the%20%E2%80%9CA%E2%80%9D%20Train",
+    "youtube": "https://www.youtube.com/results?search_query=Duke%20Ellington%20and%20His%20Orchestra%20Take%20the%20%E2%80%9CA%E2%80%9D%20Train"
+   },
+   "threads": [
+    {
+     "to": "jazz-sing-sing-sing",
+     "kind": "same-era",
+     "why": {
+      "fr": "L'autre visage du swing : la danse et les tambours.",
+      "en": "The other face of swing: dance and drums."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "L'indicatif du plus grand orchestre de jazz, né d'un itinéraire de métro.",
+     "en": "The signature tune of the greatest jazz orchestra, born from subway directions."
+    },
+    "context": {
+     "fr": "New York, 1941. Duke Ellington engage un jeune arrangeur, Billy Strayhorn, et lui explique comment venir chez lui à Harlem : prendre la ligne A du métro. Strayhorn en fait une chanson. Il l'aurait d'abord jetée, la trouvant trop banale. Elle devient l'indicatif de l'orchestre pour trente ans.",
+     "en": "New York, 1941. Duke Ellington hires a young arranger, Billy Strayhorn, and tells him how to reach his home in Harlem: take the A line of the subway. Strayhorn turns it into a tune. He is said to have thrown it away at first, finding it too ordinary. It becomes the band's signature for thirty years."
+    },
+    "why": {
+     "fr": "Ellington traite l'orchestre comme un seul instrument aux couleurs infinies. C'est le swing à son plus élégant.",
+     "en": "Ellington treats the orchestra as one instrument with endless colours. This is swing at its most elegant."
+    },
+    "how": {
+     "fr": "Écoutez comment les saxophones jouent ensemble, puis la trompette qui prend la parole, d'abord étouffée, ensuite éclatante.",
+     "en": "Hear how the saxophones play together, then the trumpet speaking up, first muted, then bright."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Quatre mesures de piano, signées Ellington.",
+       "en": "Four bars of piano, Ellington's signature."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le thème",
+       "en": "The theme"
+      },
+      "what": {
+       "fr": "Les saxophones à l'unisson, ponctués par les cuivres.",
+       "en": "The saxophones in unison, punctuated by the brass."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le solo",
+       "en": "The solo"
+      },
+      "what": {
+       "fr": "La trompette de Ray Nance, l'un des solos les plus copiés du jazz.",
+       "en": "Ray Nance's trumpet, one of the most copied solos in jazz."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "piano",
+      "trompette",
+      "saxophone",
+      "trombone",
+      "contrebasse",
+      "batterie",
+      "banjo",
+      "voix"
+     ],
+     "answer": [
+      "piano",
+      "trompette",
+      "saxophone",
+      "trombone",
+      "contrebasse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Qui a composé ce morceau ?",
+       "en": "Who composed this tune?"
+      },
+      "options": [
+       {
+        "fr": "Duke Ellington",
+        "en": "Duke Ellington"
+       },
+       {
+        "fr": "Billy Strayhorn",
+        "en": "Billy Strayhorn"
+       },
+       {
+        "fr": "Louis Armstrong",
+        "en": "Louis Armstrong"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Billy Strayhorn, le bras droit d'Ellington pendant près de trente ans.",
+       "en": "Billy Strayhorn, Ellington's right-hand man for nearly thirty years."
+      }
+     },
+     {
+      "q": {
+       "fr": "Que désigne le « A » du titre ?",
+       "en": "What does the “A” in the title refer to?"
+      },
+      "options": [
+       {
+        "fr": "Une ligne de métro de New York",
+        "en": "A New York subway line"
+       },
+       {
+        "fr": "La note la",
+        "en": "The note A"
+       },
+       {
+        "fr": "Le premier wagon",
+        "en": "The first carriage"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "La ligne A, qui monte vers Harlem.",
+       "en": "The A line, running up to Harlem."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Arrangeur",
+       "en": "Arranger"
+      },
+      "def": {
+       "fr": "Celui qui décide quel instrument joue quoi.",
+       "en": "The person who decides which instrument plays what."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

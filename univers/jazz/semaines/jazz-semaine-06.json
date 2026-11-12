@@ -1,0 +1,555 @@
+{
+ "id": "jazz-semaine-06",
+ "n": 6,
+ "phase": 1,
+ "phaseTitle": {
+  "fr": "Accrocher l'oreille",
+  "en": "Hooking the ear"
+ },
+ "period": "free-fusion",
+ "title": {
+  "fr": "Libérer le jazz, puis le brancher",
+  "en": "Freeing jazz, then plugging it in"
+ },
+ "world": {
+  "fr": "Années 1960 et 1970 : droits civiques, guerre du Vietnam, premiers synthétiseurs. Le jazz cherche la liberté, puis l'électricité.",
+  "en": "The 1960s and 1970s: civil rights, the Vietnam war, the first synthesizers. Jazz looks for freedom, then for electricity."
+ },
+ "works": [
+  {
+   "id": "jazz-lonely-woman",
+   "people": [
+    {
+     "name": "Ornette Coleman",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "Lonely Woman",
+    "en": "Lonely Woman"
+   },
+   "year": "1959",
+   "recording": {
+    "performers": "Ornette Coleman (saxophone alto), Don Cherry (cornet), Charlie Haden (contrebasse), Billy Higgins (batterie)",
+    "label": "Atlantic",
+    "year": 1959
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Ce qui manque : il n'y a pas de piano, donc pas d'accords pour guider les solistes.",
+    "en": "What is missing: there is no piano, so no chords to guide the soloists."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Ornette%20Coleman%20Lonely%20Woman",
+    "spotify": "https://open.spotify.com/search/Ornette%20Coleman%20Lonely%20Woman",
+    "youtube": "https://www.youtube.com/results?search_query=Ornette%20Coleman%20Lonely%20Woman"
+   },
+   "threads": [
+    {
+     "to": "jazz-so-what",
+     "kind": "same-era",
+     "why": {
+      "fr": "La même année 1959, l'autre révolution : peu d'accords plutôt que pas d'accords.",
+      "en": "The same year, 1959, the other revolution: few chords rather than none."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une plainte au saxophone, sur une batterie qui court : deux vitesses en même temps.",
+     "en": "A lament on saxophone, over racing drums: two speeds at once."
+    },
+    "context": {
+     "fr": "Los Angeles, mai 1959. Ornette Coleman joue d'un saxophone en plastique et refuse les règles : pas de piano, pas de grille d'accords, chacun suit la mélodie et son instinct. L'album s'appelle The Shape of Jazz to Come, « la forme du jazz à venir ». Il déclenche une bagarre entre musiciens.",
+     "en": "Los Angeles, May 1959. Ornette Coleman plays a plastic saxophone and rejects the rules: no piano, no chord chart, each player follows the melody and his instinct. The album is called The Shape of Jazz to Come. It starts a fight among musicians."
+    },
+    "why": {
+     "fr": "C'est la porte du free jazz. La même année que Kind of Blue, Coleman propose une autre liberté : jouer sans filet.",
+     "en": "This is the door to free jazz. In the same year as Kind of Blue, Coleman offers another freedom: playing without a net."
+    },
+    "how": {
+     "fr": "Écoutez séparément : d'abord la batterie, très rapide ; puis la mélodie, très lente. Ensuite, essayez d'entendre les deux à la fois.",
+     "en": "Listen separately: first the drums, very fast; then the melody, very slow. Then try to hear both at once."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "La contrebasse et la batterie, pressées, installent une tension.",
+       "en": "Bass and drums, hurried, set up a tension."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le thème",
+       "en": "The theme"
+      },
+      "what": {
+       "fr": "Saxophone et cornet jouent la plainte ensemble, sans se soucier du tempo.",
+       "en": "Saxophone and cornet play the lament together, ignoring the tempo."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le solo",
+       "en": "The solo"
+      },
+      "what": {
+       "fr": "Coleman improvise sur la mélodie seule, comme un chanteur.",
+       "en": "Coleman improvises on the melody alone, like a singer."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "saxophone",
+      "contrebasse",
+      "batterie",
+      "piano",
+      "guitare",
+      "banjo",
+      "clarinette",
+      "trombone",
+      "voix"
+     ],
+     "answer": [
+      "saxophone",
+      "contrebasse",
+      "batterie"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Quel instrument Coleman a-t-il écarté de son groupe ?",
+       "en": "Which instrument did Coleman leave out of his group?"
+      },
+      "options": [
+       {
+        "fr": "Le piano",
+        "en": "The piano"
+       },
+       {
+        "fr": "La batterie",
+        "en": "The drums"
+       },
+       {
+        "fr": "La contrebasse",
+        "en": "The bass"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Sans piano, plus d'accords imposés : les solistes sont libres.",
+       "en": "Without a piano there are no imposed chords: the soloists are free."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quel courant ce disque annonce-t-il ?",
+       "en": "Which movement does this record announce?"
+      },
+      "options": [
+       {
+        "fr": "Le swing",
+        "en": "Le swing"
+       },
+       {
+        "fr": "Le free jazz",
+        "en": "Le free jazz"
+       },
+       {
+        "fr": "Le bebop",
+        "en": "Le bebop"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Le free jazz, qui explosera dans les années 1960.",
+       "en": "Free jazz, which will explode in the 1960s."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Free jazz",
+       "en": "Free jazz"
+      },
+      "def": {
+       "fr": "Un jazz libéré des accords et parfois du tempo.",
+       "en": "A jazz freed from chords and sometimes from tempo."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "jazz-a-love-supreme-acknowledgement",
+   "people": [
+    {
+     "name": "John Coltrane",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "A Love Supreme, Part I: Acknowledgement",
+    "en": "A Love Supreme, Part I: Acknowledgement"
+   },
+   "year": "1965",
+   "recording": {
+    "performers": "John Coltrane (saxophone ténor), McCoy Tyner (piano), Jimmy Garrison (contrebasse), Elvin Jones (batterie)",
+    "label": "Impulse!",
+    "year": 1965
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "Les quatre notes de la contrebasse, au début : tout le morceau en sort.",
+    "en": "The four notes of the bass, near the start: the whole piece grows from them."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=John%20Coltrane%20A%20Love%20Supreme%2C%20Part%20I%3A%20Acknowledgement",
+    "spotify": "https://open.spotify.com/search/John%20Coltrane%20A%20Love%20Supreme%2C%20Part%20I%3A%20Acknowledgement",
+    "youtube": "https://www.youtube.com/results?search_query=John%20Coltrane%20A%20Love%20Supreme%2C%20Part%20I%3A%20Acknowledgement"
+   },
+   "threads": [
+    {
+     "to": "jazz-so-what",
+     "kind": "same-artist",
+     "why": {
+      "fr": "Coltrane était le saxophoniste de Miles Davis sur ce disque, six ans plus tôt.",
+      "en": "Coltrane was Miles Davis's saxophonist on that record, six years earlier."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Une prière en musique, par le saxophoniste le plus intense du jazz.",
+     "en": "A prayer in music, by the most intense saxophonist in jazz."
+    },
+    "context": {
+     "fr": "New Jersey, 9 décembre 1964. En une seule soirée, John Coltrane enregistre avec son quartette une suite en quatre parties. Il la présente comme une offrande : sept ans plus tôt, il s'est libéré de la drogue et a retrouvé la foi. L'album paraît en 1965.",
+     "en": "New Jersey, 9 December 1964. In a single evening John Coltrane records a four-part suite with his quartet. He presents it as an offering: seven years earlier he freed himself from drugs and found faith again. The album appears in 1965."
+    },
+    "why": {
+     "fr": "Le jazz devient une quête spirituelle. Le disque touche bien au-delà du jazz, des musiciens de rock aux compositeurs contemporains.",
+     "en": "Jazz becomes a spiritual quest. The record reaches far beyond jazz, from rock musicians to contemporary composers."
+    },
+    "how": {
+     "fr": "Repérez le motif de quatre notes à la contrebasse, puis suivez-le : le saxophone le reprend, le déplace, et à la fin les musiciens le chantent.",
+     "en": "Spot the four-note figure on the bass, then follow it: the saxophone takes it up, moves it around, and at the end the musicians chant it."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Un coup de gong, puis le saxophone lance un appel.",
+       "en": "A gong stroke, then the saxophone sounds a call."
+      }
+     },
+     {
+      "when": {
+       "fr": "Peu après",
+       "en": "Soon after"
+      },
+      "what": {
+       "fr": "La contrebasse joue seule un motif de quatre notes.",
+       "en": "The bass plays a four-note figure alone."
+      }
+     },
+     {
+      "when": {
+       "fr": "Vers la fin",
+       "en": "Towards the end"
+      },
+      "what": {
+       "fr": "Des voix graves répètent le titre sur ces quatre notes.",
+       "en": "Low voices repeat the title on those four notes."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "saxophone",
+      "piano",
+      "contrebasse",
+      "batterie",
+      "voix",
+      "trompette",
+      "trombone",
+      "guitare",
+      "banjo",
+      "clarinette"
+     ],
+     "answer": [
+      "saxophone",
+      "piano",
+      "contrebasse",
+      "batterie",
+      "voix"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Combien de notes compte le motif principal ?",
+       "en": "How many notes are in the main figure?"
+      },
+      "options": [
+       {
+        "fr": "Deux",
+        "en": "Two"
+       },
+       {
+        "fr": "Quatre",
+        "en": "Four"
+       },
+       {
+        "fr": "Douze",
+        "en": "Twelve"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Quatre notes, qui portent les quatre syllabes du titre.",
+       "en": "Four notes, carrying the four syllables of the title."
+      }
+     },
+     {
+      "q": {
+       "fr": "De quel instrument joue Coltrane ici ?",
+       "en": "Which instrument does Coltrane play here?"
+      },
+      "options": [
+       {
+        "fr": "Du saxophone ténor",
+        "en": "Tenor saxophone"
+       },
+       {
+        "fr": "De la trompette",
+        "en": "Trumpet"
+       },
+       {
+        "fr": "Du piano",
+        "en": "Piano"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "Le saxophone ténor, plus grave que l'alto de Parker.",
+       "en": "The tenor saxophone, lower than Parker's alto."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Suite",
+       "en": "Suite"
+      },
+      "def": {
+       "fr": "Une œuvre en plusieurs parties qui s'enchaînent.",
+       "en": "A work in several linked parts."
+      }
+     },
+     {
+      "term": {
+       "fr": "Quartette",
+       "en": "Quartet"
+      },
+      "def": {
+       "fr": "Un groupe de quatre musiciens.",
+       "en": "A group of four musicians."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "jazz-chameleon",
+   "people": [
+    {
+     "name": "Herbie Hancock",
+     "role": "leader"
+    }
+   ],
+   "title": {
+    "fr": "Chameleon",
+    "en": "Chameleon"
+   },
+   "year": "1973",
+   "recording": {
+    "performers": "Herbie Hancock (claviers), Bennie Maupin (saxophone), Paul Jackson (basse), Harvey Mason (batterie), Bill Summers (percussions)",
+    "label": "Columbia",
+    "year": 1973
+   },
+   "startWith": {
+    "fr": "En entier",
+    "en": "The whole track"
+   },
+   "listenFor": {
+    "fr": "La ligne de basse du début, jouée sur un synthétiseur : elle tourne en boucle et ne vous lâche plus.",
+    "en": "The bass line at the start, played on a synthesizer: it loops round and never lets you go."
+   },
+   "links": {
+    "appleMusic": "https://music.apple.com/search?term=Herbie%20Hancock%20Chameleon",
+    "spotify": "https://open.spotify.com/search/Herbie%20Hancock%20Chameleon",
+    "youtube": "https://www.youtube.com/results?search_query=Herbie%20Hancock%20Chameleon"
+   },
+   "threads": [
+    {
+     "to": "pop-billie-jean",
+     "kind": "influence",
+     "why": {
+      "fr": "La basse au synthétiseur qui fait danser : la pop s'en souviendra.",
+      "en": "The synth bass that makes people dance: pop will remember it."
+     }
+    }
+   ],
+   "guide": {
+    "hook": {
+     "fr": "Le jazz se branche sur le secteur et descend sur la piste de danse.",
+     "en": "Jazz plugs into the mains and steps onto the dance floor."
+    },
+    "context": {
+     "fr": "San Francisco, 1973. Herbie Hancock, ancien pianiste de Miles Davis, veut une musique qui fasse bouger. Il s'entoure de musiciens de funk et de synthétiseurs. L'album Head Hunters devient l'un des disques de jazz les plus vendus de l'histoire.",
+     "en": "San Francisco, 1973. Herbie Hancock, Miles Davis's former pianist, wants music that makes people move. He surrounds himself with funk musicians and synthesizers. The album Head Hunters becomes one of the best-selling jazz records in history."
+    },
+    "why": {
+     "fr": "C'est la fusion : l'improvisation du jazz sur le rythme du funk, avec des instruments électriques. Le hip-hop y puisera abondamment.",
+     "en": "This is fusion: jazz improvisation over a funk beat, with electric instruments. Hip-hop will draw on it heavily."
+    },
+    "how": {
+     "fr": "Comptez les couches qui s'ajoutent une à une au début : la basse, la batterie, la guitare basse, puis le thème.",
+     "en": "Count the layers added one by one at the start: the bass line, the drums, the bass guitar, then the theme."
+    },
+    "moments": [
+     {
+      "when": {
+       "fr": "Le début",
+       "en": "The start"
+      },
+      "what": {
+       "fr": "Un synthétiseur joue seul une ligne de basse élastique.",
+       "en": "A synthesizer alone plays a rubbery bass line."
+      }
+     },
+     {
+      "when": {
+       "fr": "Ensuite",
+       "en": "Next"
+      },
+      "what": {
+       "fr": "La batterie entre, puis les instruments s'empilent.",
+       "en": "The drums come in, then the instruments pile up."
+      }
+     },
+     {
+      "when": {
+       "fr": "Le thème",
+       "en": "The theme"
+      },
+      "what": {
+       "fr": "Le saxophone et les claviers jouent une mélodie courte et nerveuse.",
+       "en": "Saxophone and keyboards play a short, jumpy tune."
+      }
+     }
+    ],
+    "ear": {
+     "options": [
+      "synthe",
+      "saxophone",
+      "batterie",
+      "percussions",
+      "banjo",
+      "clarinette",
+      "trombone",
+      "voix"
+     ],
+     "answer": [
+      "synthe",
+      "saxophone",
+      "batterie",
+      "percussions"
+     ]
+    },
+    "quiz": [
+     {
+      "q": {
+       "fr": "Sur quel instrument est jouée la basse du début ?",
+       "en": "Which instrument plays the opening bass line?"
+      },
+      "options": [
+       {
+        "fr": "Une contrebasse",
+        "en": "A double bass"
+       },
+       {
+        "fr": "Un synthétiseur",
+        "en": "A synthesizer"
+       },
+       {
+        "fr": "Un tuba",
+        "en": "A tuba"
+       }
+      ],
+      "answer": 1,
+      "why": {
+       "fr": "Un synthétiseur, joué par Hancock lui-même.",
+       "en": "A synthesizer, played by Hancock himself."
+      }
+     },
+     {
+      "q": {
+       "fr": "Quels genres la fusion mélange-t-elle ici ?",
+       "en": "Which genres does fusion blend here?"
+      },
+      "options": [
+       {
+        "fr": "Jazz et funk",
+        "en": "Jazz and funk"
+       },
+       {
+        "fr": "Jazz et valse",
+        "en": "Jazz and waltz"
+       },
+       {
+        "fr": "Jazz et opéra",
+        "en": "Jazz and opera"
+       }
+      ],
+      "answer": 0,
+      "why": {
+       "fr": "L'improvisation du jazz sur le rythme du funk.",
+       "en": "Jazz improvisation over a funk beat."
+      }
+     }
+    ],
+    "glossary": [
+     {
+      "term": {
+       "fr": "Fusion",
+       "en": "Fusion"
+      },
+      "def": {
+       "fr": "Le jazz électrique des années 1970, mêlé de rock ou de funk.",
+       "en": "The electric jazz of the 1970s, mixed with rock or funk."
+      }
+     }
+    ]
+   }
+  }
+ ]
+}
