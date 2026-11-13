@@ -188,6 +188,9 @@
       }
      }
     ]
+   },
+   "narration": {
+    "fr": "voix/debussy-faune-fr.mp3"
    }
   },
   {
@@ -375,6 +378,9 @@
       }
      }
     ]
+   },
+   "narration": {
+    "fr": "voix/rachmaninov-concerto-2-fr.mp3"
    }
   }
  ],

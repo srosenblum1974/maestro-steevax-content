@@ -197,6 +197,9 @@
       }
      }
     ]
+   },
+   "narration": {
+    "fr": "voix/dvorak-nouveau-monde-fr.mp3"
    }
   },
   {
@@ -386,6 +389,9 @@
       }
      }
     ]
+   },
+   "narration": {
+    "fr": "voix/tchaikovski-concerto-piano-1-fr.mp3"
    }
   }
  ],

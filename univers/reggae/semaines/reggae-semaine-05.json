@@ -204,7 +204,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/the-harder-they-come/1535475638?i=1535475648&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/reggae-the-harder-they-come-fr.mp3"
+   }
   },
   {
    "id": "reggae-marcus-garvey",
@@ -396,7 +399,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/marcus-garvey/1436091420?i=1436091624&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/reggae-marcus-garvey-fr.mp3"
+   }
   },
   {
    "id": "reggae-police-and-thieves",
@@ -597,7 +603,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/police-and-thieves/1824001172?i=1824001173&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/reggae-police-and-thieves-fr.mp3"
+   }
   }
  ],
  "image": {

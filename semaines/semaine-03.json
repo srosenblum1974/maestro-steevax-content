@@ -211,6 +211,9 @@
       }
      }
     ]
+   },
+   "narration": {
+    "fr": "voix/mozart-symphonie-40-fr.mp3"
    }
   },
   {
@@ -397,6 +400,9 @@
       }
      }
     ]
+   },
+   "narration": {
+    "fr": "voix/mozart-requiem-fr.mp3"
    }
   }
  ],

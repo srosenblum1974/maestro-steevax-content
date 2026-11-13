@@ -203,7 +203,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/ko-ko/1491386851?i=1491387110&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/jazz-ko-ko-fr.mp3"
+   }
   },
   {
    "id": "jazz-round-midnight",
@@ -404,7 +407,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/round-midnight/1459444209?i=1459444213&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/jazz-round-midnight-fr.mp3"
+   }
   }
  ],
  "image": {

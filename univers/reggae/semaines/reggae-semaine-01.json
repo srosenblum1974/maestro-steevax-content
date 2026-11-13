@@ -249,7 +249,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/pressure-drop/1535475638?i=1535475657&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/reggae-pressure-drop-fr.mp3"
+   }
   }
  ],
  "image": {

@@ -272,7 +272,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/billie-jean/269572838?i=269573364&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/pop-billie-jean-fr.mp3"
+   }
   }
  ],
  "image": {

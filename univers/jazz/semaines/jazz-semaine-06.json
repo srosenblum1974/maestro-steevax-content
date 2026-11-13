@@ -202,7 +202,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/lonely-woman-remastered/896564052?i=896564104&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/jazz-lonely-woman-fr.mp3"
+   }
   },
   {
    "id": "jazz-a-love-supreme-acknowledgement",
@@ -403,7 +406,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/a-love-supreme-pt-1-acknowledgement/1440713018?i=1440713020&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/jazz-a-love-supreme-acknowledgement-fr.mp3"
+   }
   },
   {
    "id": "jazz-chameleon",
@@ -591,7 +597,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/chameleon/158571524?i=158571527&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/jazz-chameleon-fr.mp3"
+   }
   }
  ],
  "image": {

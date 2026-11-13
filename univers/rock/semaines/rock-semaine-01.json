@@ -268,7 +268,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/johnny-b-goode/1425230909?i=1425230917&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/rock-johnny-b-goode-fr.mp3"
+   }
   }
  ],
  "image": {

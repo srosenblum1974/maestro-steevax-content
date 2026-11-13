@@ -206,7 +206,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/sing-sing-sing-from-new-york-stories/644319371?i=644319379&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/jazz-sing-sing-sing-fr.mp3"
+   }
   },
   {
    "id": "jazz-take-the-a-train",
@@ -400,7 +403,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/take-the-a-train/908039200?i=908039206&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/jazz-take-the-a-train-fr.mp3"
+   }
   }
  ],
  "image": {

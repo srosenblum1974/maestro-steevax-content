@@ -261,7 +261,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/get-up-stand-up-remastered-2001/1440821911?i=1440821915&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/reggae-get-up-stand-up-fr.mp3"
+   }
   }
  ],
  "image": {

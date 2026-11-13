@@ -259,7 +259,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/king-tubbys-meets-rockers-uptown/1533707240?i=1533707872&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/reggae-king-tubby-meets-rockers-uptown-fr.mp3"
+   }
   }
  ],
  "image": {

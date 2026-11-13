@@ -258,7 +258,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/dancing-queen/1440820126?i=1440820267&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/pop-dancing-queen-fr.mp3"
+   }
   }
  ],
  "image": {

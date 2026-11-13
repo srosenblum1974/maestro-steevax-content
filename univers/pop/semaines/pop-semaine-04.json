@@ -215,7 +215,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/i-want-to-hold-your-hand/1441133181?i=1441133632&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/pop-i-want-to-hold-your-hand-fr.mp3"
+   }
   },
   {
    "id": "pop-good-vibrations",
@@ -410,7 +413,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/good-vibrations/1442864862?i=1442865074&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/pop-good-vibrations-fr.mp3"
+   }
   }
  ],
  "image": {

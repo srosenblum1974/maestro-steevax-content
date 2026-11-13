@@ -268,7 +268,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/i-cant-get-no-satisfaction/1440743344?i=1440743544&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/rock-satisfaction-fr.mp3"
+   }
   }
  ],
  "image": {

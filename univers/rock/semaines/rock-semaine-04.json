@@ -205,7 +205,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/smoke-on-the-water-remastered/1440787519?i=1440787908&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/rock-smoke-on-the-water-fr.mp3"
+   }
   },
   {
    "id": "rock-bohemian-rhapsody",
@@ -405,7 +408,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/bohemian-rhapsody/6781024026?i=6781024437&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/rock-bohemian-rhapsody-fr.mp3"
+   }
   }
  ],
  "image": {

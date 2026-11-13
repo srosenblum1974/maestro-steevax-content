@@ -202,7 +202,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/when-doves-cry/1229320468?i=1229320475&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/pop-when-doves-cry-fr.mp3"
+   }
   },
   {
    "id": "pop-like-a-prayer",
@@ -394,7 +397,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/like-a-prayer/83448003?i=83445997&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/pop-like-a-prayer-fr.mp3"
+   }
   },
   {
    "id": "pop-i-wanna-dance-with-somebody",
@@ -582,7 +588,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/i-wanna-dance-with-somebody-who-loves-me/840431884?i=840431935&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/pop-i-wanna-dance-with-somebody-fr.mp3"
+   }
   }
  ],
  "image": {

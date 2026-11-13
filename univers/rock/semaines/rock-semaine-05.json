@@ -204,7 +204,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/blitzkrieg-bop-40th-anniversary-mono-mix/1127410202?i=1127410290&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/rock-blitzkrieg-bop-fr.mp3"
+   }
   },
   {
    "id": "rock-london-calling",
@@ -402,7 +405,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/london-calling/684811762?i=684811768&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/rock-london-calling-fr.mp3"
+   }
   }
  ],
  "image": {

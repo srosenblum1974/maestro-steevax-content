@@ -268,7 +268,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/whole-lotta-love/836967288?i=836967297&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/rock-whole-lotta-love-fr.mp3"
+   }
   }
  ],
  "image": {

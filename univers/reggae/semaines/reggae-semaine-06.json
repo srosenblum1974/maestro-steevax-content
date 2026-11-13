@@ -211,7 +211,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/bam-bam/1799637929?i=1799638137&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/reggae-bam-bam-fr.mp3"
+   }
   },
   {
    "id": "reggae-under-mi-sleng-teng",
@@ -400,7 +403,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/under-mi-sleng-teng/309436284?i=309436367&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/reggae-under-mi-sleng-teng-fr.mp3"
+   }
   }
  ],
  "image": {

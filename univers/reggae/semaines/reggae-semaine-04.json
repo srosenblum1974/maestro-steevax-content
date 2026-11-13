@@ -203,7 +203,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/my-boy-lollipop/1443334799?i=1443334806&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/reggae-my-boy-lollipop-fr.mp3"
+   }
   },
   {
    "id": "reggae-guns-of-navarone",
@@ -393,7 +396,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/guns-of-navarone/1687260922?i=1687260930&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/reggae-guns-of-navarone-fr.mp3"
+   }
   }
  ],
  "image": {

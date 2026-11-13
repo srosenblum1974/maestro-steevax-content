@@ -262,7 +262,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/where-did-our-love-go/1443150912?i=1443150931&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/pop-where-did-our-love-go-fr.mp3"
+   }
   }
  ],
  "image": {

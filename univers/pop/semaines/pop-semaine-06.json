@@ -211,7 +211,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/baby-one-more-time/273143723?i=273143820&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/pop-baby-one-more-time-fr.mp3"
+   }
   },
   {
    "id": "pop-crazy-in-love",
@@ -403,7 +406,10 @@
      "license": "Apple Music",
      "source": "https://music.apple.com/fr/album/crazy-in-love-feat-ja%C3%BF-z/201274359?i=201274644&uo=4"
     }
-   ]
+   ],
+   "narration": {
+    "fr": "voix/pop-crazy-in-love-fr.mp3"
+   }
   }
  ],
  "image": {
