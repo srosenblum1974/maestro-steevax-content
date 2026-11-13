@@ -246,10 +246,12 @@
     ],
     "focus": "50% 50%",
     "pixabay": [
-     "trumpet",
-     "trumpet brass"
+     "trumpet instrument",
+     "trumpet brass",
+     "trumpet"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "trumpet"
    },
    "audio": {
     "jazz-west-end-blues": [
@@ -287,9 +289,10 @@
     "focus": "50% 50%",
     "pixabay": [
      "double bass",
-     "contrabass instrument"
+     "contrabass"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "double bass|contrabass"
    },
    "audio": {
     "jazz-so-what": [
@@ -324,10 +327,12 @@
     ],
     "focus": "50% 50%",
     "pixabay": [
-     "drum cymbal",
-     "drum kit"
+     "drum kit",
+     "cymbal",
+     "drums"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "drum|cymbal"
    },
    "audio": {
     "jazz-take-five": [
@@ -365,9 +370,11 @@
     "focus": "50% 50%",
     "pixabay": [
      "jamaica",
-     "caribbean village colorful"
+     "caribbean village",
+     "caribbean houses colorful"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "jamaica|caribbean"
    },
    "audio": {
     "reggae-pressure-drop": [
@@ -408,9 +415,11 @@
     "focus": "50% 50%",
     "pixabay": [
      "jamaica mountains",
-     "tropical mountains mist"
+     "jamaica landscape",
+     "tropical mountains"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "jamaica|tropical|mountain"
    },
    "audio": {
     "reggae-get-up-stand-up": [
@@ -450,9 +459,10 @@
     "focus": "50% 50%",
     "pixabay": [
      "mixing console",
-     "audio mixer knobs"
+     "audio mixer"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "mixer|mixing"
    },
    "audio": {
     "reggae-king-tubby-meets-rockers-uptown": [
@@ -491,9 +501,10 @@
     "focus": "50% 50%",
     "pixabay": [
      "vinyl record player",
-     "vintage microphone"
+     "vinyl"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "vinyl|record player"
    },
    "audio": {
     "pop-where-did-our-love-go": [
@@ -537,7 +548,8 @@
      "disco ball",
      "mirror ball"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "disco ball|mirror ball"
    },
    "audio": {
     "pop-dancing-queen": [
@@ -575,10 +587,12 @@
     "exclude": "photo|portrait|sketch",
     "focus": "50% 50%",
     "pixabay": [
-     "stage spotlight",
-     "spotlight stage dark"
+     "spotlight stage",
+     "spotlights",
+     "stage lights"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "spotlight|stage"
    },
    "audio": {
     "pop-billie-jean": [
@@ -616,9 +630,10 @@
     "focus": "50% 50%",
     "pixabay": [
      "electric guitar vintage",
-     "electric guitar red"
+     "electric guitar"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "guitar"
    },
    "audio": {
     "rock-johnny-b-goode": [
@@ -661,9 +676,11 @@
     "focus": "50% 50%",
     "pixabay": [
      "guitar amplifier",
+     "amplifier marshall",
      "amplifier"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "amplifier|amp"
    },
    "audio": {
     "rock-satisfaction": [
@@ -702,10 +719,11 @@
     "exclude": "engraving|mezzotint|print",
     "focus": "50% 50%",
     "pixabay": [
-     "concert stage lights smoke",
-     "stage lights"
+     "stage lights",
+     "concert lights"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "stage|concert|spotlight"
    },
    "audio": {
     "rock-whole-lotta-love": [
@@ -741,10 +759,10 @@
     "exclude": "photo|detail|sketch",
     "focus": "50% 50%",
     "pixabay": [
-     "clarinet",
-     "big band brass instruments"
+     "clarinet"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "clarinet"
    },
    "audio": {
     "jazz-sing-sing-sing": [
@@ -797,10 +815,10 @@
     "exclude": "photo|sketch|study",
     "focus": "50% 50%",
     "pixabay": [
-     "saxophone",
-     "saxophone keys"
+     "saxophone"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "sax"
    },
    "audio": {
     "jazz-ko-ko": [
@@ -855,10 +873,10 @@
     "exclude": "photo|portrait|sketch",
     "focus": "50% 50%",
     "pixabay": [
-     "synthesizer",
-     "electric piano keyboard"
+     "synthesizer"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "synthesizer"
    },
    "audio": {
     "jazz-lonely-woman": [
@@ -936,10 +954,10 @@
     "exclude": "photo|portrait|sketch",
     "focus": "50% 50%",
     "pixabay": [
-     "trombone",
-     "brass instrument"
+     "trombone"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "trombone"
    },
    "audio": {
     "reggae-my-boy-lollipop": [
@@ -997,10 +1015,12 @@
     "exclude": "photo|portrait|sketch",
     "focus": "50% 50%",
     "pixabay": [
-     "tropical forest mist",
-     "jungle sunrise"
+     "tropical forest",
+     "jungle",
+     "rainforest"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "tropical|jungle|rainforest"
    },
    "audio": {
     "reggae-the-harder-they-come": [
@@ -1079,9 +1099,11 @@
     "focus": "50% 50%",
     "pixabay": [
      "loudspeaker",
-     "speakers stack"
+     "speakers",
+     "boombox"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "speaker|boombox"
    },
    "audio": {
     "reggae-bam-bam": [
@@ -1138,9 +1160,11 @@
     "focus": "50% 50%",
     "pixabay": [
      "vintage radio",
-     "surfboard beach"
+     "transistor radio",
+     "jukebox"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "radio|jukebox"
    },
    "audio": {
     "pop-i-want-to-hold-your-hand": [
@@ -1202,9 +1226,11 @@
     "focus": "50% 50%",
     "pixabay": [
      "retro television",
+     "old tv",
      "cassette tape"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "television|tv|cassette"
    },
    "audio": {
     "pop-when-doves-cry": [
@@ -1282,10 +1308,11 @@
     "exclude": "photo|sketch|portrait",
     "focus": "50% 50%",
     "pixabay": [
-     "headphones neon",
-     "smartphone music neon"
+     "headphones",
+     "earphones smartphone"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "headphone|earphone"
    },
    "audio": {
     "pop-baby-one-more-time": [
@@ -1342,10 +1369,12 @@
     "exclude": "photo|sketch|study|watercolou?r",
     "focus": "50% 50%",
     "pixabay": [
-     "stadium lights night",
-     "concert lights"
+     "concert crowd lights",
+     "concert stage",
+     "rock concert"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "portrait|model|face|singer|monkey|animal",
+    "pixabay_require": "concert"
    },
    "audio": {
     "rock-smoke-on-the-water": [
@@ -1402,10 +1431,11 @@
     "exclude": "photo|portrait|lithograph|print",
     "focus": "50% 50%",
     "pixabay": [
-     "graffiti brick wall",
-     "graffiti wall"
+     "graffiti wall",
+     "graffiti"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "graffiti"
    },
    "audio": {
     "rock-blitzkrieg-bop": [
@@ -1462,10 +1492,11 @@
     "exclude": "photo|lithograph|pastel|detail|stamp",
     "focus": "50% 50%",
     "pixabay": [
-     "guitar pedals",
-     "garage drum kit"
+     "guitar pedal",
+     "drum kit garage"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_require": "pedal|drum"
    },
    "audio": {
     "rock-smells-like-teen-spirit": [
@@ -1542,10 +1573,12 @@
    ],
    "focus": "50% 50%",
    "pixabay": [
-    "jazz club stage",
-    "saxophone dark"
+    "jazz club",
+    "jazz stage",
+    "saxophone"
    ],
-   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+   "pixabay_require": "jazz|saxophone"
   },
   "reggae": {
    "search": [
@@ -1558,7 +1591,8 @@
     "jamaica beach",
     "caribbean beach palm"
    ],
-   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+   "pixabay_require": "jamaica|caribbean"
   },
   "pop": {
    "search": [
@@ -1569,10 +1603,12 @@
    "exclude": "sketch|study|photo",
    "focus": "50% 50%",
    "pixabay": [
-    "neon lights colorful",
-    "disco lights"
+    "neon lights",
+    "disco lights",
+    "bokeh colorful lights"
    ],
-   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+   "pixabay_require": "neon|disco|bokeh"
   },
   "rock": {
    "search": [
@@ -1586,7 +1622,8 @@
     "electric guitar stage",
     "electric guitar"
    ],
-   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+   "pixabay_require": "electric guitar"
   }
  }
 }
