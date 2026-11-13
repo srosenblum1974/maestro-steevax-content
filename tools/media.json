@@ -244,7 +244,12 @@
      "Louis Armstrong Aquarium New York Gottlieb",
      "Louis Armstrong Gottlieb"
     ],
-    "focus": "50% 25%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "trumpet",
+     "trumpet brass"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "jazz-west-end-blues": [
@@ -279,7 +284,12 @@
      "Miles Davis Three Deuces Gottlieb",
      "Miles Davis Gottlieb 1947"
     ],
-    "focus": "50% 30%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "double bass",
+     "contrabass instrument"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "jazz-so-what": [
@@ -312,7 +322,12 @@
      "Dave Brubeck 1967",
      "Dave Brubeck"
     ],
-    "focus": "50% 30%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "drum cymbal",
+     "drum kit"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "jazz-take-five": [
@@ -347,7 +362,12 @@
     ],
     "require": "morning in the tropics|homer",
     "exclude": "photo|portrait|sketch|drawing",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "jamaica",
+     "caribbean village colorful"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "reggae-pressure-drop": [
@@ -385,7 +405,12 @@
     ],
     "require": "rainy season",
     "exclude": "photo|sketch|drawing|detail",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "jamaica mountains",
+     "tropical mountains mist"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "reggae-get-up-stand-up": [
@@ -422,7 +447,12 @@
     ],
     "require": "church|heade",
     "exclude": "vale of st|portrait|photo",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "mixing console",
+     "audio mixer knobs"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "reggae-king-tubby-meets-rockers-uptown": [
@@ -458,7 +488,12 @@
     ],
     "require": "kandinsky",
     "exclude": "photo|sketch",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "vinyl record player",
+     "vintage microphone"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "pop-where-did-our-love-go": [
@@ -497,7 +532,12 @@
     ],
     "require": "delaunay",
     "exclude": "sonia|photo|portrait",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "disco ball",
+     "mirror ball"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "pop-dancing-queen": [
@@ -533,7 +573,12 @@
     ],
     "require": "kandinsky.*(yellow|gelb|jaune)|(yellow|gelb|jaune).*kandinsky",
     "exclude": "photo|portrait|sketch",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "stage spotlight",
+     "spotlight stage dark"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "pop-billie-jean": [
@@ -568,7 +613,12 @@
     ],
     "require": "rain",
     "exclude": "detail|photo|after|brandard|engrav|barcelona|print",
-    "focus": "55% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "electric guitar vintage",
+     "electric guitar red"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "rock-johnny-b-goode": [
@@ -608,7 +658,12 @@
     ],
     "require": "kirchner",
     "exclude": "photo|sketch|woodcut|holzschnitt",
-    "focus": "50% 35%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "guitar amplifier",
+     "amplifier"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "rock-satisfaction": [
@@ -645,7 +700,12 @@
     ],
     "require": "wrath",
     "exclude": "engraving|mezzotint|print",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "concert stage lights smoke",
+     "stage lights"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "rock-whole-lotta-love": [
@@ -679,7 +739,12 @@
     ],
     "require": "broadway",
     "exclude": "photo|detail|sketch",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "clarinet",
+     "big band brass instruments"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "jazz-sing-sing-sing": [
@@ -730,7 +795,12 @@
     ],
     "require": "improvisation",
     "exclude": "photo|sketch|study",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "saxophone",
+     "saxophone keys"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "jazz-ko-ko": [
@@ -783,7 +853,12 @@
     ],
     "require": "doesburg",
     "exclude": "photo|portrait|sketch",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "synthesizer",
+     "electric piano keyboard"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "jazz-lonely-woman": [
@@ -859,7 +934,12 @@
     ],
     "require": "homer",
     "exclude": "photo|portrait|sketch",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "trombone",
+     "brass instrument"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "reggae-my-boy-lollipop": [
@@ -915,7 +995,12 @@
     ],
     "require": "heade",
     "exclude": "photo|portrait|sketch",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "tropical forest mist",
+     "jungle sunrise"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "reggae-the-harder-they-come": [
@@ -991,7 +1076,12 @@
     ],
     "require": "rousseau",
     "exclude": "photo|portrait|sketch|detail",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "loudspeaker",
+     "speakers stack"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "reggae-bam-bam": [
@@ -1045,7 +1135,12 @@
     ],
     "require": "kandinsky",
     "exclude": "photo|sketch",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "vintage radio",
+     "surfboard beach"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "pop-i-want-to-hold-your-hand": [
@@ -1104,7 +1199,12 @@
     ],
     "require": "klee",
     "exclude": "photo|sketch",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "retro television",
+     "cassette tape"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "pop-when-doves-cry": [
@@ -1180,7 +1280,12 @@
     ],
     "require": "marc",
     "exclude": "photo|sketch|portrait",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "headphones neon",
+     "smartphone music neon"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "pop-baby-one-more-time": [
@@ -1235,7 +1340,12 @@
     ],
     "require": "burning",
     "exclude": "photo|sketch|study|watercolou?r",
-    "focus": "50% 50%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "stadium lights night",
+     "concert lights"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "rock-smoke-on-the-water": [
@@ -1290,7 +1400,12 @@
     ],
     "require": "bellows",
     "exclude": "photo|portrait|lithograph|print",
-    "focus": "50% 45%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "graffiti brick wall",
+     "graffiti wall"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "rock-blitzkrieg-bop": [
@@ -1345,7 +1460,12 @@
     ],
     "require": "scream|skrik",
     "exclude": "photo|lithograph|pastel|detail|stamp",
-    "focus": "50% 60%"
+    "focus": "50% 50%",
+    "pixabay": [
+     "guitar pedals",
+     "garage drum kit"
+    ],
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
    },
    "audio": {
     "rock-smells-like-teen-spirit": [
@@ -1420,7 +1540,12 @@
     "William P. Gottlieb 52nd Street New York 1948",
     "52nd Street New York Gottlieb"
    ],
-   "focus": "50% 45%"
+   "focus": "50% 50%",
+   "pixabay": [
+    "jazz club stage",
+    "saxophone dark"
+   ],
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
   },
   "reggae": {
    "search": [
@@ -1428,7 +1553,12 @@
     "Frederic Edwin Church Jamaica"
    ],
    "require": "jamaica",
-   "focus": "50% 45%"
+   "focus": "50% 50%",
+   "pixabay": [
+    "jamaica beach",
+    "caribbean beach palm"
+   ],
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
   },
   "pop": {
    "search": [
@@ -1437,7 +1567,12 @@
    ],
    "require": "kandinsky",
    "exclude": "sketch|study|photo",
-   "focus": "50% 50%"
+   "focus": "50% 50%",
+   "pixabay": [
+    "neon lights colorful",
+    "disco lights"
+   ],
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
   },
   "rock": {
    "search": [
@@ -1446,7 +1581,12 @@
    ],
    "require": "boccioni",
    "exclude": "sketch|study|studio|photo",
-   "focus": "50% 45%"
+   "focus": "50% 50%",
+   "pixabay": [
+    "electric guitar stage",
+    "electric guitar"
+   ],
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band"
   }
  }
 }
