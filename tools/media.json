@@ -288,11 +288,12 @@
     ],
     "focus": "50% 50%",
     "pixabay": [
-     "double bass",
-     "contrabass"
+     "contrabass",
+     "double bass strings",
+     "cello strings"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
-    "pixabay_require": "double bass|contrabass"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|concert|drums|lectern",
+    "pixabay_require": "bass|cello"
    },
    "audio": {
     "jazz-so-what": [
@@ -369,11 +370,12 @@
     "exclude": "photo|portrait|sketch|drawing",
     "focus": "50% 50%",
     "pixabay": [
-     "jamaica",
-     "caribbean village",
-     "caribbean houses colorful"
+     "jamaica street",
+     "caribbean houses",
+     "caribbean colorful",
+     "jamaica"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|beach hut|ship|cruise",
     "pixabay_require": "jamaica|caribbean"
    },
    "audio": {
@@ -587,12 +589,12 @@
     "exclude": "photo|portrait|sketch",
     "focus": "50% 50%",
     "pixabay": [
-     "spotlight stage",
      "spotlights",
-     "stage lights"
+     "stage spotlight beam",
+     "headlights stage"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
-    "pixabay_require": "spotlight|stage"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|ballet|dancer|ballerina|microphone",
+    "pixabay_require": "spotlight|beam of light"
    },
    "audio": {
     "pop-billie-jean": [
@@ -1098,12 +1100,13 @@
     "exclude": "photo|portrait|sketch|detail",
     "focus": "50% 50%",
     "pixabay": [
-     "loudspeaker",
-     "speakers",
-     "boombox"
+     "loudspeakers",
+     "subwoofer",
+     "boombox",
+     "speakers"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
-    "pixabay_require": "speaker|boombox"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|megaphone|announcement|voice|speech",
+    "pixabay_require": "loudspeakers|subwoofer|boombox|speakers|boxes"
    },
    "audio": {
     "reggae-bam-bam": [
@@ -1160,10 +1163,11 @@
     "focus": "50% 50%",
     "pixabay": [
      "vintage radio",
+     "old radio",
      "transistor radio",
      "jukebox"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|podcast|microphone|studio",
     "pixabay_require": "radio|jukebox"
    },
    "audio": {
@@ -1573,12 +1577,12 @@
    ],
    "focus": "50% 50%",
    "pixabay": [
-    "jazz club",
-    "jazz stage",
+    "piano keys dark",
+    "grand piano",
     "saxophone"
    ],
-   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
-   "pixabay_require": "jazz|saxophone"
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|concert|drums",
+   "pixabay_require": "piano|sax"
   },
   "reggae": {
    "search": [
@@ -1603,12 +1607,12 @@
    "exclude": "sketch|study|photo",
    "focus": "50% 50%",
    "pixabay": [
-    "neon lights",
+    "bokeh lights colorful",
     "disco lights",
-    "bokeh colorful lights"
+    "colorful lights night"
    ],
-   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
-   "pixabay_require": "neon|disco|bokeh"
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|thank|sign|font|letters|christmas",
+   "pixabay_require": "bokeh|disco"
   },
   "rock": {
    "search": [
