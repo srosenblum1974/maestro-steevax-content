@@ -210,7 +210,16 @@ def main():
             tracks = []
             for t in spec.get("audio", {}).get(work["id"], []):
                 if t.get("kind") == "appleMusic":
-                    x = itunes(t["itunes"])
+                    # A track already found is kept as it is: the catalogue refuses too many searches in a row.
+                    known = next((k for k in work.get("audio", []) if k.get("kind") == "appleMusic" and k.get("label") == t["label"]), None)
+                    if known:
+                        tracks.append(known)
+                        continue
+                    try:
+                        x = itunes(t["itunes"])
+                    except Exception as e:
+                        failures.append(f"apple music {wid}/{work['id']}: {type(e).__name__}")
+                        continue
                     if not x:
                         failures.append(f"apple music {wid}/{work['id']}: {t['label']['en']}")
                         continue
