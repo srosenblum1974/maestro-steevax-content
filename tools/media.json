@@ -370,13 +370,13 @@
     "exclude": "photo|portrait|sketch|drawing",
     "focus": "50% 50%",
     "pixabay": [
-     "jamaica street",
-     "caribbean houses",
-     "caribbean colorful",
+     "jamaica coast",
+     "jamaica sea",
+     "jamaica palm",
      "jamaica"
     ],
-    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|beach hut|ship|cruise",
-    "pixabay_require": "jamaica|caribbean"
+    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|beach hut|ship|cruise|tourism|montego|flag",
+    "pixabay_require": "jamaica"
    },
    "audio": {
     "reggae-pressure-drop": [
@@ -1607,12 +1607,12 @@
    "exclude": "sketch|study|photo",
    "focus": "50% 50%",
    "pixabay": [
-    "bokeh lights colorful",
+    "confetti",
     "disco lights",
-    "colorful lights night"
+    "neon colorful"
    ],
-   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|thank|sign|font|letters|christmas",
-   "pixabay_require": "bokeh|disco"
+   "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|thank|sign|font|letters|christmas|ball|birthday|cake|wedding",
+   "pixabay_require": "confetti|disco|neon"
   },
   "rock": {
    "search": [
