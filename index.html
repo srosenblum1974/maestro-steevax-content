@@ -39,7 +39,7 @@ button{font:inherit;color:inherit}
 
 /* Full-bleed painting with text over it */
 .bleed{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
-.bleed img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transform:scale(1.02)}
+.bleed img.bg,.bleed video.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transform:scale(1.02)}
 .bleed::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,8,7,.15) 0%,rgba(10,8,7,.05) 35%,rgba(10,8,7,.82) 78%,rgba(10,8,7,.96) 100%)}
 .bleed .inner{width:100%;max-width:860px;margin:0 auto;padding:0 22px calc(36px + env(safe-area-inset-bottom))}
 .kicker{font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:var(--gold);font-weight:600}
@@ -177,6 +177,7 @@ footer{padding:28px 20px calc(40px + env(safe-area-inset-bottom));text-align:cen
 <main id="home">
   <section class="bleed" id="hero">
     <img class="bg" id="heroImg" alt="">
+    <video class="bg" id="heroVid" muted loop playsinline preload="none" hidden></video>
     <div class="inner">
       <div class="kicker" data-t="heroKicker"></div>
       <h1 data-t="heroTitle"></h1>
@@ -324,6 +325,8 @@ function renderHome(){
   document.querySelectorAll("[data-t]").forEach(el=>el.textContent=t(el.dataset.t));
   document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on",b.dataset.l===lang));
   $("tagline").textContent=L(parcours.tagline);
+  {const v=$("heroVid"),calm=window.matchMedia("(prefers-reduced-motion: reduce)").matches||(navigator.connection&&navigator.connection.saveData);
+   if(parcours.heroVideo&&!calm){if(v.getAttribute("src")!==parcours.heroVideo.path){v.src=parcours.heroVideo.path}v.hidden=false;v.play().catch(()=>{v.hidden=true})}else{v.pause();v.removeAttribute("src");v.hidden=true}}
   if(parcours.heroImage){$("heroImg").src=parcours.heroImage.path;$("heroImg").style.objectPosition=parcours.heroImage.focus||"50% 40%";$("heroCredit").innerHTML=credit(parcours.heroImage)}
   const c=current();
   $("tiles").innerHTML=weeks.map(w=>`
