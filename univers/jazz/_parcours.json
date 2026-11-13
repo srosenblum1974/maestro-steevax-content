@@ -855,5 +855,11 @@
     "en": "Which style of jazz is this?"
    }
   }
- ]
+ ],
+ "heroVideo": {
+  "path": "video/accueil-jazz.mp4",
+  "credit": "PascalBeckmann / Pixabay",
+  "license": "Pixabay Content License",
+  "source": "https://pixabay.com/videos/id-13042/"
+ }
 }

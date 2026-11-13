@@ -829,5 +829,11 @@
   "license": "Pixabay Content License",
   "source": "https://pixabay.com/photos/streamer-carnival-multicoloured-3088458/",
   "focus": "50% 50%"
+ },
+ "heroVideo": {
+  "path": "video/accueil-pop.mp4",
+  "credit": "Engin_Akyurt / Pixabay",
+  "license": "Pixabay Content License",
+  "source": "https://pixabay.com/videos/id-24452/"
  }
 }

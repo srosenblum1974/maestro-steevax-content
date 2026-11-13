@@ -862,5 +862,11 @@
   "license": "Pixabay Content License",
   "source": "https://pixabay.com/photos/electric-guitar-guitar-1846583/",
   "focus": "50% 50%"
+ },
+ "heroVideo": {
+  "path": "video/accueil-rock.mp4",
+  "credit": "Frabull / Pixabay",
+  "license": "Pixabay Content License",
+  "source": "https://pixabay.com/videos/id-213953/"
  }
 }

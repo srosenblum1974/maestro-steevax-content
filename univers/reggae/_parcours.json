@@ -868,5 +868,11 @@
   "license": "Pixabay Content License",
   "source": "https://pixabay.com/photos/jamaica-beach-hut-caribbean-palm-2128147/",
   "focus": "50% 50%"
+ },
+ "heroVideo": {
+  "path": "video/accueil-reggae.mp4",
+  "credit": "geronimovlogs4u / Pixabay",
+  "license": "Pixabay Content License",
+  "source": "https://pixabay.com/videos/id-173725/"
  }
 }
