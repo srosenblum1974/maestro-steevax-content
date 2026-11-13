@@ -130,6 +130,51 @@ def pixabay(spec):
     return None
 
 
+def pixabay_video(spec, name):
+    """A short silent loop from Pixabay (free under the Pixabay Content License) for a universe's cover: the first
+    clip matching one of the "pixabay_video" phrases, cut to 8 seconds, 720 px high, without sound. Needs ffmpeg."""
+    import shutil, subprocess, tempfile
+    if not PIXABAY_KEY or not spec.get("pixabay_video") or not shutil.which("ffmpeg"):
+        return None
+    req_re = re.compile(spec["pixabay_video_require"], re.I) if spec.get("pixabay_video_require") else None
+    exc_re = re.compile(spec["pixabay_video_exclude"], re.I) if spec.get("pixabay_video_exclude") else None
+    for phrase in spec["pixabay_video"]:
+        q = urllib.parse.urlencode({"key": PIXABAY_KEY, "q": phrase, "video_type": "film", "safesearch": "true",
+                                    "per_page": 30, "order": "popular", "lang": "en"})
+        try:
+            with urllib.request.urlopen(urllib.request.Request(f"{PIXABAY}videos/?{q}", headers={"User-Agent": UA}), timeout=30) as r:
+                hits = json.load(r).get("hits", [])
+        except Exception as e:  # never print the URL: it carries the key
+            report.append(f"  - pixabay video '{phrase}': {type(e).__name__}")
+            continue
+        for h in hits:
+            tags = h.get("tags", "")
+            if (req_re and not req_re.search(tags)) or (exc_re and exc_re.search(tags)) or not 6 <= h.get("duration", 0) <= 60:
+                continue
+            files = h.get("videos", {})
+            src = next((files[k]["url"] for k in ("medium", "small", "large") if files.get(k, {}).get("url")
+                        and files[k].get("width", 0) >= files[k].get("height", 1)), None)
+            if not src:
+                continue
+            (ROOT / "video").mkdir(exist_ok=True)
+            out = ROOT / f"video/{name}.mp4"
+            with tempfile.NamedTemporaryFile(suffix=".mp4") as tmp:
+                with urllib.request.urlopen(urllib.request.Request(src, headers={"User-Agent": UA}), timeout=120) as r:
+                    tmp.write(r.read())
+                tmp.flush()
+                start = str(spec.get("pixabay_video_start", 0))
+                done = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", start, "-i", tmp.name, "-t", "8", "-an",
+                                       "-vf", "scale=-2:720,fps=25", "-c:v", "libx264", "-preset", "slow", "-crf", "27",
+                                       "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(out)])
+            if done.returncode != 0 or not out.exists():
+                continue
+            report.append(f"VIDEO {name}: Pixabay {h['id']} ({tags}) — {h.get('user', '?')} / Pixabay — {out.stat().st_size // 1024} Ko")
+            return {"path": f"video/{name}.mp4", "credit": f"{h.get('user', '?')} / Pixabay", "license": "Pixabay Content License",
+                    "source": h.get("pageURL")}
+    failures.append(f"video {name}: {spec['pixabay_video']}")
+    return None
+
+
 def itunes(spec):
     """The catalogue entry matching artist, title, album (tried in order) and length; None if nothing fits."""
     q = urllib.parse.urlencode({"term": spec["term"], "entity": "song", "limit": 100, "country": spec.get("country", "fr")})
@@ -195,6 +240,11 @@ def main():
         if hero and uid in parcours_files:
             p = json.loads(parcours_files[uid].read_text())
             p["heroImage"] = hero
+            clip = pixabay_video(spec, name)
+            if clip:
+                p["heroVideo"] = clip
+            elif "pixabay_video" not in spec:
+                p.pop("heroVideo", None)
             parcours_files[uid].write_text(json.dumps(p, ensure_ascii=False, indent=1) + "\n")
 
     for wid, spec in media["weeks"].items():

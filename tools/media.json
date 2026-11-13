@@ -1582,7 +1582,14 @@
     "saxophone"
    ],
    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|concert|drums",
-   "pixabay_require": "piano|sax"
+   "pixabay_require": "piano|sax",
+   "pixabay_video": [
+    "piano keys",
+    "saxophone",
+    "trumpet"
+   ],
+   "pixabay_video_require": "piano|sax|trumpet",
+   "pixabay_video_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|animal|business|hands"
   },
   "reggae": {
    "search": [
@@ -1596,7 +1603,14 @@
     "caribbean beach palm"
    ],
    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
-   "pixabay_require": "jamaica|caribbean"
+   "pixabay_require": "jamaica|caribbean",
+   "pixabay_video": [
+    "palm trees",
+    "tropical beach waves",
+    "caribbean sea"
+   ],
+   "pixabay_video_require": "palm|tropical|caribbean",
+   "pixabay_video_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|animal|business|hands"
   },
   "pop": {
    "search": [
@@ -1612,7 +1626,13 @@
     "neon colorful"
    ],
    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business|thank|sign|font|letters|christmas|ball|birthday|cake|wedding",
-   "pixabay_require": "confetti|disco|neon"
+   "pixabay_require": "confetti|disco|neon",
+   "pixabay_video": [
+    "disco ball",
+    "disco lights"
+   ],
+   "pixabay_video_require": "disco",
+   "pixabay_video_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|animal|business|hands"
   },
   "rock": {
    "search": [
@@ -1627,7 +1647,14 @@
     "electric guitar"
    ],
    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
-   "pixabay_require": "electric guitar"
+   "pixabay_require": "electric guitar",
+   "pixabay_video": [
+    "concert lights",
+    "stage lights",
+    "electric guitar"
+   ],
+   "pixabay_video_require": "concert|stage|guitar",
+   "pixabay_video_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|animal|business|hands"
   }
  }
 }
