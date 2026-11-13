@@ -164,7 +164,7 @@ def pixabay_video(spec, name):
                 tmp.flush()
                 start = str(spec.get("pixabay_video_start", 0))
                 done = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", start, "-i", tmp.name, "-t", "8", "-an",
-                                       "-vf", "scale=-2:720,fps=25", "-c:v", "libx264", "-preset", "slow", "-crf", "27",
+                                       "-vf", "scale=-2:720,fps=25", "-c:v", "libx264", "-preset", "slow", "-crf", "27", "-maxrate", "1600k", "-bufsize", "3200k",
                                        "-pix_fmt", "yuv420p", "-movflags", "+faststart", str(out)])
             if done.returncode != 0 or not out.exists():
                 continue

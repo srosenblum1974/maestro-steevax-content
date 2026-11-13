@@ -1649,12 +1649,13 @@
    "pixabay_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|monkey|animal|elvis|presley|office|developer|business",
    "pixabay_require": "electric guitar",
    "pixabay_video": [
-    "concert lights",
     "stage lights",
-    "electric guitar"
+    "spotlights smoke",
+    "electric guitar strings",
+    "guitar amplifier"
    ],
-   "pixabay_video_require": "concert|stage|guitar",
-   "pixabay_video_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|animal|business|hands"
+   "pixabay_video_require": "stage|spotlight|guitar|amplifier",
+   "pixabay_video_exclude": "man|woman|girl|boy|portrait|people|person|model|child|face|singer|musician|band|animal|business|hands|city|drone|holiday|vacations|ballet|dancer|theater|curtain"
   }
  }
 }
