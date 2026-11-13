@@ -1,8 +1,8 @@
 IMAGE accueil: File:Caspar David Friedrich - Wanderer above the sea of fog.jpg — Caspar David Friedrich — Public domain
-IMAGE accueil-jazz: File:Jimmy Ryan’s (jazz club) Harry the Hipster and Tony's in 1948 NYC, from- Joe Marsala, Adele Girard, and Toots Thielemans, 52nd Street, New York, N.Y., ca. 1948 (William P. Gottlieb 11411) (cropped).jpg — William P. Gottlieb — Public domain
-IMAGE accueil-reggae: File:Frederic Edwin Church - Vale of St Thomas, Jamaica.jpg — Frederic Edwin Church — Public domain
-IMAGE accueil-pop: File:Kandinsky - Composition 8, July 1923.jpg — Xyxyzyz — CC0
-IMAGE accueil-rock: File:The City Rises by Umberto Boccioni 1910.jpg — Umberto Boccioni — Public domain
+IMAGE accueil-jazz: Pixabay 199546 (jazz, double bass, music, concert, musical instrument, drums, lectern, jazz, jazz, jazz, jazz, jazz) — tatlin / Pixabay — Pixabay Content License
+IMAGE accueil-reggae: Pixabay 2128147 (jamaica, beach hut, caribbean, palm, nature, sea, St.Bran's Burg, St. James Parish, Jamaica) — woodypino / Pixabay — Pixabay Content License
+IMAGE accueil-pop: Pixabay 3894871 (crystal ball-photography, bullet, lights, multicoloured, magic, reflection, magic, magic, magic, magic, magic) — Alexas_Fotos / Pixabay — Pixabay Content License
+IMAGE accueil-rock: Pixabay 3507317 (monkey, music, concert, guitar, stage, amplifier, electric guitar, animal, mammal, primate, nature, chimpanzee) — Papafox / Pixabay — Pixabay Content License
 IMAGE semaine-01: File:Johann Sebastian Bach.jpg — Elias Gottlob Haussmann — Public domain
 AUDIO semaine-01/bach-suites-violoncelle: File:JOHN MICHEL CELLO-J S BACH CELLO SUITE 1 in G Prelude.ogg — Johann Sebastian Bach — CC BY-SA 3.0
 IMAGE semaine-02: File:Il Ritorno del Bucintoro al molo nel giorno dell'Ascensione (c.1738) Canaletto - Wells-Next-The-Sea, The Earl of Leicester and Trustees of the Holkham Estate.jpg — Didier Descouens — CC BY-SA 4.0
@@ -26,70 +26,30 @@ IMAGE semaine-07: File:Monet - Impression, Sunrise.jpg — Claude Monet — Publ
 AUDIO semaine-07/rachmaninov-concerto-2: File:Sergei Rachmaninoff - piano concerto no. 2 in c minor, op. 18 - i. moderato.ogg — Sergei Rachmaninoff — Public domain
 IMAGE semaine-08: File:Adam August Müller - Udsigt over Prag med Karlsbroen krydser Moldau-floden.jpg — Adam August Müller — Public domain
 AUDIO semaine-08/smetana-moldau: File:Smetana - Má Vlast - Vltava (Musopen Symphony).flac — Bedřich Smetana — Public domain
-IMAGE jazz-semaine-01: File:Louis Armstrong, Aquarium, New York, N.Y., ca. July 1946 (William P. Gottlieb 00231) - Cropped.jpg — William P. Gotlieb — Public domain
-APPLE MUSIC jazz-semaine-01/jazz-west-end-blues: West End Blues — Louis Armstrong and His Hot Five — The Complete Hot Five and Hot Seven Recordings, Vol. 3 (293785633)
-IMAGE jazz-semaine-02: File:Miles Davis (Three Deuces, New York, N.Y. 1947).jpg — William P. Gottlieb — Public domain
-APPLE MUSIC jazz-semaine-02/jazz-so-what: So What — Miles Davis — Kind of Blue (Legacy Edition) (300865220)
-IMAGE jazz-semaine-03: File:Dave Brubeck (1964).jpg — Jack de Nijs for Anefo  / Anefo — CC BY-SA 3.0
-APPLE MUSIC jazz-semaine-03/jazz-take-five: Take Five — Dave Brubeck — Time Out (635125276)
-IMAGE reggae-semaine-01: File:Frederick Edwin Church - Morning in the Tropics - Walters 37147.jpg — Frederic Edwin Church — Public domain
-APPLE MUSIC reggae-semaine-01/reggae-pressure-drop: Pressure Drop — Toots & The Maytals — The Harder They Come (Original Motion Picture Soundtrack) (1535475657)
-IMAGE reggae-semaine-02: File:Frederic Edwin Church - Rainy Season in the Tropics - Google Art Project.jpg — Frederic Edwin Church — Public domain
-APPLE MUSIC reggae-semaine-02/reggae-get-up-stand-up: Get Up, Stand Up (Remastered 2001) — The Wailers — Burnin' (Remastered 2001) (1440821915)
-IMAGE reggae-semaine-03: File:Frederic Edwin Church - Tropical Scenery - Google Art Project.jpg — Frederic Edwin Church — Public domain
-APPLE MUSIC reggae-semaine-03/reggae-king-tubby-meets-rockers-uptown: King Tubby's Meets Rockers Uptown — Augustus Pablo — King Tubbys Meets Rockers Uptown (1533707872)
-IMAGE pop-semaine-01: File:Vassily Kandinsky, 1926 - Several Circles, Gugg 0910 25.jpg — Wassily Kandinsky — Public domain
-APPLE MUSIC pop-semaine-01/pop-where-did-our-love-go: Where Did Our Love Go — The Supremes — Where Did Our Love Go (1443150931)
-IMAGE pop-semaine-02: File:Robert Delaunay - Rythme, Joie de vivre.jpg — Robert Delaunay — Public domain
-APPLE MUSIC pop-semaine-02/pop-dancing-queen: Dancing Queen — ABBA — Arrival (Bonus Track Version) (1440820267)
-IMAGE pop-semaine-03: File:Kandinsky - Jaune Rouge Bleu.jpg — Wassily Kandinsky — Public domain
-APPLE MUSIC pop-semaine-03/pop-billie-jean: Billie Jean — Michael Jackson — Thriller (269573364)
-IMAGE rock-semaine-01: File:Turner - Rain, Steam and Speed - National Gallery file.jpg — J. M. W. Turner — Public domain
-APPLE MUSIC rock-semaine-01/rock-johnny-b-goode: Johnny B. Goode — Chuck Berry — Berry Is On Top (1425230917)
-IMAGE rock-semaine-02: File:Ernst Ludwig Kirchner - Potsdamer Platz.jpg — Ernst Ludwig Kirchner — Public domain
-APPLE MUSIC rock-semaine-02/rock-satisfaction: (I Can't Get No) Satisfaction — The Rolling Stones — Out of Our Heads (1440743544)
-IMAGE rock-semaine-03: File:John Martin - The Great Day of His Wrath - Google Art Project.jpg — John Martin — Public domain
-APPLE MUSIC rock-semaine-03/rock-whole-lotta-love: Whole Lotta Love — Led Zeppelin — Led Zeppelin II (Deluxe Edition) (836967297)
-IMAGE jazz-semaine-04: File:Piet Mondrian, 1942 - Broadway Boogie Woogie.jpg — Piet Mondrian — Public domain
-APPLE MUSIC jazz-semaine-04/jazz-sing-sing-sing: Sing, Sing, Sing (from "New-York Stories") — Benny Goodman and His Orchestra — Woody Allen en musique (Remastered) (644319379)
-APPLE MUSIC jazz-semaine-04/jazz-take-the-a-train: Take the 'A' Train — Duke Ellington and His Orchestra — Take the 'A' Train (908039206)
-IMAGE jazz-semaine-05: File:Vasily Kandinsky Improvisation 28 (second version).jpg — Wassily Kandinsky — Public domain
-APPLE MUSIC jazz-semaine-05/jazz-ko-ko: Ko-Ko — Charlie Parker — The Savoy 10-inch LP Collection (1491387110)
-APPLE MUSIC jazz-semaine-05/jazz-round-midnight: 'Round Midnight — Thelonious Monk — Genius of Modern Music, Vol. 1 (1459444213)
-IMAGE jazz-semaine-06: File:Theo van Doesburg-Rhythmus eines russischen Tanzes.jpg — Theo van Doesburg — Public domain
-APPLE MUSIC jazz-semaine-06/jazz-lonely-woman: Lonely Woman (Remastered) — Ornette Coleman — The Shape of Jazz to Come (Remastered 2014) (896564104)
-APPLE MUSIC jazz-semaine-06/jazz-a-love-supreme-acknowledgement: A Love Supreme, Pt. 1: Acknowledgement — John Coltrane — A Love Supreme (1440713020)
-APPLE MUSIC jazz-semaine-06/jazz-chameleon: Chameleon — Herbie Hancock — Head Hunters (158571527)
-IMAGE reggae-semaine-04: File:Winslow Homer - Palm Tree, Nassau.jpg — Winslow Homer — Public domain
-APPLE MUSIC reggae-semaine-04/reggae-my-boy-lollipop: My Boy Lollipop — Millie Small — My Boy Lollipop: The Best of Millie Small (1443334806)
-APPLE MUSIC reggae-semaine-04/reggae-guns-of-navarone: Guns of Navarone — The Skatalites — Guns Of Navarone - Single (1687260930)
-IMAGE reggae-semaine-05: File:Martin Johnson Heade-Cattleya Orchid and Three Brazilian Hummingbirds.jpg — Martin Johnson Heade — Public domain
-APPLE MUSIC reggae-semaine-05/reggae-the-harder-they-come: The Harder They Come — Jimmy Cliff — The Harder They Come (Original Motion Picture Soundtrack) (1535475648)
-APPLE MUSIC reggae-semaine-05/reggae-marcus-garvey: Marcus Garvey — Burning Spear — Marcus Garvey (1436091624)
-APPLE MUSIC reggae-semaine-05/reggae-police-and-thieves: Police And Thieves — Junior Murvin — Police And Thieves - Single (1824001173)
-IMAGE reggae-semaine-06: File:Surprised-Rousseau.jpg — Henri Rousseau — Public domain
-APPLE MUSIC reggae-semaine-06/reggae-bam-bam: Bam Bam — Sister Nancy — One Two (1799638137)
-APPLE MUSIC reggae-semaine-06/reggae-under-mi-sleng-teng: Under Mi Sleng Teng — Wayne Smith — King Jammy's - Selector's Choice, Vol. 1 (309436367)
-IMAGE pop-semaine-04: File:Vassily Kandinsky, 1913 - Color Study, Squares with Concentric Circles.jpg — Wassily Kandinsky — Public domain
-APPLE MUSIC pop-semaine-04/pop-i-want-to-hold-your-hand: I Want to Hold Your Hand — The Beatles — Past Masters, Vols. 1 & 2 (1441133632)
-APPLE MUSIC pop-semaine-04/pop-good-vibrations: Good Vibrations — The Beach Boys — Smiley Smile (Mono & Stereo) (1442865074)
-IMAGE pop-semaine-05: File:Burg und Sonne - Klee.jpg — Paul Klee — Public domain
-APPLE MUSIC pop-semaine-05/pop-when-doves-cry: When Doves Cry — Prince & The Revolution — Purple Rain (Deluxe Expanded Edition) [2015 Paisley Park Remaster] (1229320475)
-APPLE MUSIC pop-semaine-05/pop-like-a-prayer: Like a Prayer — Madonna — Like a Prayer (83445997)
-APPLE MUSIC pop-semaine-05/pop-i-wanna-dance-with-somebody: I Wanna Dance with Somebody (Who Loves Me) — Whitney Houston — Whitney (840431935)
-IMAGE pop-semaine-06: File:Marc - Kämpfende Formen PA291382.jpg — Franz Marc — Public domain
-APPLE MUSIC pop-semaine-06/pop-baby-one-more-time: ...Baby One More Time — Britney Spears — ...Baby One More Time (Deluxe Version) (273143820)
-APPLE MUSIC pop-semaine-06/pop-crazy-in-love: Crazy in Love (feat. JAŸ-Z) — Beyoncé — Dangerously in Love (201274644)
-IMAGE rock-semaine-04: File:Joseph Mallord William Turner - The Burning of the Houses of Lords and Commons, 16 October 1834 - 1942.647 - Cleveland Museum of Art.jpg — J. M. W. Turner — Public domain
-APPLE MUSIC rock-semaine-04/rock-smoke-on-the-water: Smoke on the Water (Remastered) — Deep Purple — Machine Head (Remastered) (1440787908)
-APPLE MUSIC rock-semaine-04/rock-bohemian-rhapsody: Bohemian Rhapsody — Queen — A Night At The Opera (Deluxe Edition) (6781024437)
-IMAGE rock-semaine-05: File:George Wesley Bellows Stag at Sharkey (Cropped).jpg — George Bellows — Public domain
-APPLE MUSIC rock-semaine-05/rock-blitzkrieg-bop: Blitzkrieg Bop (40th Anniversary Mono Mix) — Ramones — Ramones (40th Anniversary Deluxe Edition) (1127410290)
-APPLE MUSIC rock-semaine-05/rock-london-calling: London Calling — The Clash — London Calling (684811768)
-IMAGE rock-semaine-06: File:Edvard Munch, The Scream, 1893, National Gallery, Oslo (1) (35658212823).jpg — Richard Mortel from Riyadh, Saudi Arabia — CC BY 2.0
-APPLE MUSIC rock-semaine-06/rock-smells-like-teen-spirit: Smells Like Teen Spirit (Remastered) — Nirvana — Nevermind (30th Anniversary Super Deluxe) (1586410661)
-APPLE MUSIC rock-semaine-06/rock-creep: Creep — Radiohead — Halloween (922360286)
-APPLE MUSIC rock-semaine-06/rock-seven-nation-army: Seven Nation Army — The White Stripes — Elephant (Deluxe) (1675379764)
+IMAGE jazz-semaine-01: Pixabay 8598191 (narzissen, osterglocken, zwiebelblumen, gelbe blüte, blütenblätter, blütenkelche, zierpflanzen, schnittblumen) — Nennieinszweidrei / Pixabay — Pixabay Content License
+IMAGE jazz-semaine-02: Pixabay 199547 (jazz, double bass, music, concert, musical instrument, drums, lectern, jazz, jazz, jazz, jazz, jazz) — tatlin / Pixabay — Pixabay Content License
+IMAGE jazz-semaine-03: Pixabay 801271 (instruments, music, drums, guitar, musical instrument, shine, concert, entertainment, detail shot, drums, drums, drums, drums, drums, guitar, concert, concert, concert, concert, concert) — congerdesign / Pixabay — Pixabay Content License
+IMAGE reggae-semaine-01: Pixabay 2128147 (jamaica, beach hut, caribbean, palm, nature, sea, St.Bran's Burg, St. James Parish, Jamaica) — woodypino / Pixabay — Pixabay Content License
+IMAGE reggae-semaine-02: Pixabay 1618628 (cafe, coffee, aroma, beverage, cup, coffee cup, brown coffee, brown cafe, brown cup) — zooocoo / Pixabay — Pixabay Content License
+IMAGE reggae-semaine-03: Pixabay 1284507 (mixer, table, music, sound, audio, mixing panel, dj, turn, turntable, mix, mixing board, audio equipment, monochrome, black and white, music, music, music, music, music) — Pexels / Pixabay — Pixabay Content License
+IMAGE pop-semaine-01: Pixabay 7792956 (music player, record player, vinyl record, music, vinyl, black, orange, retro, music, music, music, music, music) — chienba / Pixabay — Pixabay Content License
+IMAGE pop-semaine-02: Pixabay 5663393 (disco, disco ball, party, to dance, glitter ball, club, dance club, mirror ball, light effect, mood, disco ball, disco ball, disco ball, disco ball, disco ball) — JUVO_Des / Pixabay — Pixabay Content License
+IMAGE pop-semaine-03: Pixabay 3507317 (monkey, music, concert, guitar, stage, amplifier, electric guitar, animal, mammal, primate, nature, chimpanzee) — Papafox / Pixabay — Pixabay Content License
+IMAGE rock-semaine-01: Pixabay 6606248 (music, guitar, instrument, vintage, strings, guitar, guitar, guitar, guitar, guitar) — NiklasErnst / Pixabay — Pixabay Content License
+IMAGE rock-semaine-02: Pixabay 3507317 (monkey, music, concert, guitar, stage, amplifier, electric guitar, animal, mammal, primate, nature, chimpanzee) — Papafox / Pixabay — Pixabay Content License
+IMAGE rock-semaine-03: Pixabay 802634 (headlights, fog, stage, technology, shining, event, lamp, lighting, spotlights, light, multicoloured, beam of light, stage, stage, stage, stage, stage) — Sweetaholic / Pixabay — Pixabay Content License
+IMAGE jazz-semaine-04: Pixabay 4118588 (instrument, clarinet, music, jazz, musical, sound, woodwind, classic, classical, clarinet, clarinet, clarinet, music, music, music, music, music, jazz, jazz) — BobMcEvoy / Pixabay — Pixabay Content License
+IMAGE jazz-semaine-05: Pixabay 6624725 (tenor saxophone, musical instrument, sax, music, entertainment, sax, music, music, music, music, music) — EdgarSax / Pixabay — Pixabay Content License
+IMAGE jazz-semaine-06: Pixabay 908298 (synthesizer, instrument, music, sound, musical, piano, musical instruments, play, audio, electric, keyboard, digital, music studio, equipment, studio, concert, electronic, synthesizer, synthesizer, synthesizer, piano, music studio, music studio, music studio, music studio, music studio, studio) — ClickerHappy / Pixabay — Pixabay Content License
+IMAGE reggae-semaine-04: Pixabay 4584320 (trombone, bus game, mouthpiece, yamaha, instrument, brass, bass trombone, trombone, trombone, trombone, trombone, trombone) — kkkk18 / Pixabay — Pixabay Content License
+IMAGE reggae-semaine-05: Pixabay 802019 (palm trees, grass, field, nature, tropical, exotic, forest, foliage, environment, ecology, summer, landscape, island, tropic, paradise, palm trees, palm trees, palm trees, palm trees, palm trees, tropical, tropical, tropical, forest, environment, island, island, paradise) — M71 / Pixabay — Pixabay Content License
+IMAGE reggae-semaine-06: Pixabay 2463928 (office, feedback, exchange of ideas, business, meeting, debate, discussion, entertainment, parley, conversation, interview, speech and conversational exchange, consultation, dispute, change speech, dialogue, opinion, megaphone, speaker, design, web design, webdesign, button, stylish, computer, at the beginning, beginning, getting started, to open, feedback, feedback, feedback, feedback, feedback) — geralt / Pixabay — Pixabay Content License
+IMAGE pop-semaine-04: Pixabay 413705 (bookshelf, library, literature, books, knowledge, information, bookstore, shelf, cupboard, reading, interior, shelves, equipment, wood, tumblr wallpaper, bookshelf, bookshelf, bookshelf, library, library, library, library, library, books, books, books, books) — JayMantri / Pixabay — Pixabay Content License
+IMAGE pop-semaine-05: Pixabay 1482026 (elvis presley, music, retro, studio, pop, sound, recording, equipment, audio, entertainment, artist, records, acoustic, amplifier, vinyl, classic, media, speaker, vintage, 1950, 1960, rock and roll, music, music, music, music, music, retro, studio, studio, entertainment, media, media, media) — VariousPhotography / Pixabay — Pixabay Content License
+IMAGE pop-semaine-06: Pixabay 6521720 (software developer, web developer, programmer, software engineer, technology, tech, web developer, programmer, programmer, software engineer, technology, technology, technology, tech, tech, tech, tech, tech) — Innovalabs / Pixabay — Pixabay Content License
+IMAGE rock-semaine-04: Pixabay 3404535 (football stadium, highway, night, taillights, car lights, speed, driving a car, stadium, light strips, night shot, dark, long time exposure, long term, football stadium, highway, speed, speed, speed, speed, speed, stadium, stadium, stadium, stadium) — jplenio / Pixabay — Pixabay Content License
+IMAGE rock-semaine-05: Pixabay 3839139 (ally, street, urban, city, rubbish, street, street, street, street, street, city) — Squirrel_photos / Pixabay — Pixabay Content License
+IMAGE rock-semaine-06: Pixabay 1595862 (guitar, pedal, electric, equipment, instrument, studio, music, technology, effect, amplifier, rock, sound, accessory, distortion, box, stomp, processor, device, plug, gear, stompbox, musical, overdrive, electronic, volume, audio, blues, concert, amp, input, guitar, guitar, guitar, pedal, pedal, pedal, pedal, pedal, amplifier, amplifier, stomp, stomp, processor, electronic, volume) — akd835 / Pixabay — Pixabay Content License
 
 NOT FOUND:
 audio semaine-04/beethoven-symphonies-5-7: Symphony No. 7 — Allegretto
