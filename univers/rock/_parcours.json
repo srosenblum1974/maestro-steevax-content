@@ -98,7 +98,11 @@
     "label": {
      "fr": "Apaisé",
      "en": "Soothed"
-    }
+    },
+    "at": [
+     0.5,
+     -0.7
+    ]
    },
    {
     "id": "emu",
@@ -106,7 +110,11 @@
     "label": {
      "fr": "Ému",
      "en": "Moved"
-    }
+    },
+    "at": [
+     0.2,
+     -0.2
+    ]
    },
    {
     "id": "triste",
@@ -114,7 +122,11 @@
     "label": {
      "fr": "Triste",
      "en": "Sad"
-    }
+    },
+    "at": [
+     -0.7,
+     -0.5
+    ]
    },
    {
     "id": "joyeux",
@@ -122,15 +134,23 @@
     "label": {
      "fr": "Joyeux",
      "en": "Joyful"
-    }
+    },
+    "at": [
+     0.8,
+     0.4
+    ]
    },
    {
     "id": "exalte",
     "icon": "🤩",
     "label": {
      "fr": "Exalté",
-     "en": "Thrilled"
-    }
+     "en": "Elated"
+    },
+    "at": [
+     0.7,
+     0.9
+    ]
    },
    {
     "id": "frissons",
@@ -138,7 +158,11 @@
     "label": {
      "fr": "Frissons",
      "en": "Chills"
-    }
+    },
+    "at": [
+     0.1,
+     0.7
+    ]
    },
    {
     "id": "inquiet",
@@ -146,7 +170,11 @@
     "label": {
      "fr": "Inquiet",
      "en": "Uneasy"
-    }
+    },
+    "at": [
+     -0.6,
+     0.3
+    ]
    },
    {
     "id": "nostalgique",
@@ -154,80 +182,216 @@
     "label": {
      "fr": "Nostalgique",
      "en": "Nostalgic"
-    }
+    },
+    "at": [
+     -0.2,
+     -0.4
+    ]
    },
    {
-    "id": "ennuye",
-    "icon": "🥱",
+    "id": "rage",
+    "icon": "😡",
     "label": {
-     "fr": "Ennuyé",
-     "en": "Bored"
-    }
+     "fr": "En rage",
+     "en": "Furious"
+    },
+    "at": [
+     -0.85,
+     0.9
+    ]
    },
    {
-    "id": "perdu",
-    "icon": "😵‍💫",
+    "id": "puissant",
+    "icon": "💪",
     "label": {
-     "fr": "Perdu",
-     "en": "Lost"
-    }
+     "fr": "Puissant",
+     "en": "Powerful"
+    },
+    "at": [
+     0.5,
+     0.85
+    ]
+   },
+   {
+    "id": "defoule",
+    "icon": "💥",
+    "label": {
+     "fr": "Défoulé",
+     "en": "Let loose"
+    },
+    "at": [
+     0.15,
+     0.95
+    ]
+   },
+   {
+    "id": "rebelle",
+    "icon": "🤘",
+    "label": {
+     "fr": "Rebelle",
+     "en": "Rebellious"
+    },
+    "at": [
+     -0.3,
+     0.7
+    ]
+   },
+   {
+    "id": "libre",
+    "icon": "🕊️",
+    "label": {
+     "fr": "Libre",
+     "en": "Free"
+    },
+    "at": [
+     0.7,
+     0.2
+    ]
+   },
+   {
+    "id": "melancolique",
+    "icon": "🍂",
+    "label": {
+     "fr": "Mélancolique",
+     "en": "Melancholy"
+    },
+    "at": [
+     -0.5,
+     -0.8
+    ]
+   },
+   {
+    "id": "las",
+    "icon": "😮‍💨",
+    "label": {
+     "fr": "Las",
+     "en": "Weary"
+    },
+    "at": [
+     -0.75,
+     -0.75
+    ]
+   },
+   {
+    "id": "ecorche",
+    "icon": "🩹",
+    "label": {
+     "fr": "Écorché",
+     "en": "Raw"
+    },
+    "at": [
+     -0.85,
+     -0.1
+    ]
+   },
+   {
+    "id": "invincible",
+    "icon": "🦁",
+    "label": {
+     "fr": "Invincible",
+     "en": "Invincible"
+    },
+    "at": [
+     0.95,
+     0.75
+    ]
+   },
+   {
+    "id": "planant",
+    "icon": "🌌",
+    "label": {
+     "fr": "Planant",
+     "en": "Floating"
+    },
+    "at": [
+     0.25,
+     -0.6
+    ]
+   },
+   {
+    "id": "tendu",
+    "icon": "😬",
+    "label": {
+     "fr": "Tendu",
+     "en": "Tense"
+    },
+    "at": [
+     -0.5,
+     0.6
+    ]
    }
   ],
   "images": [
    {
-    "id": "vague",
-    "icon": "🌊",
+    "id": "stade",
+    "icon": "🏟️",
     "label": {
-     "fr": "Vagues",
-     "en": "Waves"
+     "fr": "Stade",
+     "en": "Stadium"
     }
    },
    {
-    "id": "orage",
-    "icon": "⛈️",
+    "id": "route",
+    "icon": "🛣️",
     "label": {
-     "fr": "Orage",
-     "en": "Storm"
+     "fr": "Route",
+     "en": "Open road"
     }
    },
    {
-    "id": "oiseaux",
-    "icon": "🐦",
+    "id": "garage",
+    "icon": "🎸",
     "label": {
-     "fr": "Oiseaux",
-     "en": "Birds"
+     "fr": "Garage",
+     "en": "Garage"
     }
    },
    {
-    "id": "foret",
-    "icon": "🌲",
+    "id": "bar",
+    "icon": "🍺",
     "label": {
-     "fr": "Forêt",
-     "en": "Forest"
+     "fr": "Bar",
+     "en": "Bar"
     }
    },
    {
-    "id": "nuit",
-    "icon": "🌙",
+    "id": "ville-nuit",
+    "icon": "🌃",
     "label": {
-     "fr": "Nuit",
-     "en": "Night"
+     "fr": "Ville la nuit",
+     "en": "City at night"
     }
    },
    {
-    "id": "soleil",
-    "icon": "☀️",
+    "id": "chambre",
+    "icon": "🛏️",
     "label": {
-     "fr": "Soleil",
-     "en": "Sun"
+     "fr": "Chambre d'ado",
+     "en": "Teenage bedroom"
     }
    },
    {
-    "id": "danse",
-    "icon": "💃",
+    "id": "desert",
+    "icon": "🏜️",
     "label": {
-     "fr": "Danse",
-     "en": "Dance"
+     "fr": "Désert",
+     "en": "Desert"
+    }
+   },
+   {
+    "id": "feu",
+    "icon": "🔥",
+    "label": {
+     "fr": "Feu",
+     "en": "Fire"
+    }
+   },
+   {
+    "id": "casque",
+    "icon": "🎧",
+    "label": {
+     "fr": "Seul au casque",
+     "en": "Alone with headphones"
     }
    },
    {
@@ -239,27 +403,11 @@
     }
    },
    {
-    "id": "priere",
-    "icon": "🕯️",
+    "id": "orage",
+    "icon": "⛈️",
     "label": {
-     "fr": "Prière",
-     "en": "Prayer"
-    }
-   },
-   {
-    "id": "voyage",
-    "icon": "🧭",
-    "label": {
-     "fr": "Voyage",
-     "en": "Journey"
-    }
-   },
-   {
-    "id": "reve",
-    "icon": "☁️",
-    "label": {
-     "fr": "Rêve",
-     "en": "Dream"
+     "fr": "Orage",
+     "en": "Storm"
     }
    },
    {
@@ -420,7 +568,11 @@
     "fr": "Je réécouterais pour…",
     "en": "I'd listen again for…"
    }
-  ]
+  ],
+  "imagesAsk": {
+   "fr": "Où ce morceau vous emmène-t-il ?",
+   "en": "Where does this piece take you?"
+  }
  },
  "history": {
   "intro": {

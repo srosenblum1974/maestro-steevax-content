@@ -397,7 +397,7 @@ function workHTML(x){
   const step=[
    ()=>`<div class="step"><h4>${t("s1")}</h4><p>${t("m1")}</p>${g?`<span class="lab">${t("howL")}</span><p style="margin-top:4px">${esc(L(g.how))}</p>`:""}
      <p class="ask">${t("feel")}</p><div class="chips">${parcours.palette.emotions.map(e=>chip("emotions",e.id,s.emotions)).join("")}</div>
-     <p class="ask">${t("see")}</p><div class="chips">${parcours.palette.images.map(e=>chip("images",e.id,s.images)).join("")}</div>
+     <p class="ask">${parcours.palette.imagesAsk?esc(L(parcours.palette.imagesAsk)):t("see")}</p><div class="chips">${parcours.palette.images.map(e=>chip("images",e.id,s.images)).join("")}</div>
      <button class="go" data-val="0" ${s.emotions.length?"":"disabled"}>${t("val1")}</button>${s.emotions.length?"":`<p class="hint">${t("h1")}</p>`}</div>`,
    ()=>`<div class="step"><h4>${t("s2")}</h4><p>${t("m2")}</p><span class="lab">${t("listen")}</span><p style="margin-top:4px">${esc(L(x.listenFor))}</p>
      ${g?`<p class="ask">${t("moments")}</p>${g.moments.map((m,i)=>`<button class="moment ${s.moments.includes(i)?"on":""}" data-m="${i}"><u>✓</u><span><small>${esc(L(m.when))}</small>${esc(L(m.what))}</span></button>`).join("")}

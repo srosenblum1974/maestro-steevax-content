@@ -121,7 +121,11 @@
     "label": {
      "fr": "Apaisé",
      "en": "Soothed"
-    }
+    },
+    "at": [
+     0.5,
+     -0.7
+    ]
    },
    {
     "id": "emu",
@@ -129,7 +133,11 @@
     "label": {
      "fr": "Ému",
      "en": "Moved"
-    }
+    },
+    "at": [
+     0.2,
+     -0.2
+    ]
    },
    {
     "id": "triste",
@@ -137,7 +145,11 @@
     "label": {
      "fr": "Triste",
      "en": "Sad"
-    }
+    },
+    "at": [
+     -0.7,
+     -0.5
+    ]
    },
    {
     "id": "joyeux",
@@ -145,15 +157,23 @@
     "label": {
      "fr": "Joyeux",
      "en": "Joyful"
-    }
+    },
+    "at": [
+     0.8,
+     0.4
+    ]
    },
    {
     "id": "exalte",
     "icon": "🤩",
     "label": {
      "fr": "Exalté",
-     "en": "Thrilled"
-    }
+     "en": "Elated"
+    },
+    "at": [
+     0.7,
+     0.9
+    ]
    },
    {
     "id": "frissons",
@@ -161,7 +181,11 @@
     "label": {
      "fr": "Frissons",
      "en": "Chills"
-    }
+    },
+    "at": [
+     0.1,
+     0.7
+    ]
    },
    {
     "id": "inquiet",
@@ -169,7 +193,11 @@
     "label": {
      "fr": "Inquiet",
      "en": "Uneasy"
-    }
+    },
+    "at": [
+     -0.6,
+     0.3
+    ]
    },
    {
     "id": "nostalgique",
@@ -177,23 +205,119 @@
     "label": {
      "fr": "Nostalgique",
      "en": "Nostalgic"
-    }
+    },
+    "at": [
+     -0.2,
+     -0.4
+    ]
    },
    {
-    "id": "ennuye",
-    "icon": "🥱",
+    "id": "grandiose",
+    "icon": "🏔️",
     "label": {
-     "fr": "Ennuyé",
-     "en": "Bored"
-    }
+     "fr": "Grandiose",
+     "en": "Awestruck"
+    },
+    "at": [
+     0.4,
+     0.8
+    ]
    },
    {
-    "id": "perdu",
-    "icon": "😵‍💫",
+    "id": "tourmente",
+    "icon": "🌪️",
     "label": {
-     "fr": "Perdu",
-     "en": "Lost"
-    }
+     "fr": "Tourmenté",
+     "en": "Tormented"
+    },
+    "at": [
+     -0.8,
+     0.8
+    ]
+   },
+   {
+    "id": "recueilli",
+    "icon": "🕯️",
+    "label": {
+     "fr": "Recueilli",
+     "en": "Contemplative"
+    },
+    "at": [
+     0,
+     -0.9
+    ]
+   },
+   {
+    "id": "tendre",
+    "icon": "🤍",
+    "label": {
+     "fr": "Tendre",
+     "en": "Tender"
+    },
+    "at": [
+     0.7,
+     -0.3
+    ]
+   },
+   {
+    "id": "melancolique",
+    "icon": "🍂",
+    "label": {
+     "fr": "Mélancolique",
+     "en": "Melancholy"
+    },
+    "at": [
+     -0.5,
+     -0.8
+    ]
+   },
+   {
+    "id": "triomphant",
+    "icon": "🏆",
+    "label": {
+     "fr": "Triomphant",
+     "en": "Triumphant"
+    },
+    "at": [
+     0.95,
+     0.65
+    ]
+   },
+   {
+    "id": "sombre",
+    "icon": "🌑",
+    "label": {
+     "fr": "Sombre",
+     "en": "Dark"
+    },
+    "at": [
+     -0.9,
+     0
+    ]
+   },
+   {
+    "id": "leger",
+    "icon": "🪶",
+    "label": {
+     "fr": "Léger",
+     "en": "Light"
+    },
+    "at": [
+     0.6,
+     0.05
+    ]
+   },
+   {
+    "id": "mysterieux",
+    "icon": "🌫️",
+    "label": {
+     "fr": "Mystérieux",
+     "en": "Mysterious"
+    },
+    "at": [
+     -0.3,
+     0
+    ]
    }
   ],
   "images": [
